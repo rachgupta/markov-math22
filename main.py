@@ -3,7 +3,7 @@ import re
 import nltk
 from nltk import tokenize
 from collections import Counter
-
+import random
 # Initialize an dictionary for arg inputs
 texts = {}
 
@@ -45,4 +45,32 @@ for word in matrix:
             matrix[word][key] = instances/len(following_words)
         else:
             matrix[word][key] = 0
-print(matrix)
+
+def validate_rows(matrix):
+    numRight = 0
+    numWrong = 0
+    for i in matrix:
+        count = 0
+        for j in matrix[i]:
+            count = count + matrix[i][j]
+        if round(count,4) == 1:
+            numRight = numRight + 1
+        else:
+            print(count)
+            numWrong = numWrong + 1
+    print("right: " + str(numRight))
+    print("wrong: " + str(numWrong))
+validate_rows(matrix)
+
+def roulette(matrix):
+    random.seed()
+    selection = random.random() #floating between 0 and 1
+    for candidate in matrix.keys:
+        probability = matrix[candidate]
+        selection = selection - probability
+        if selection < 0:
+            return candidate
+def generate_next_token (matrix, token):
+    return roulette(matrix[token])
+
+#print(generate_next_token(matrix, 'natura'))
