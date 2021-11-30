@@ -1,11 +1,13 @@
 from sys import argv
 import re
+from helpers import matrix_mult
 import nltk
 from nltk import tokenize
 from collections import Counter
 import random
 import glob
 import os
+from helpers import matrix_mult
 
 #expects first command-line argument to be name of dir with files
 current_path = os.getcwd()
@@ -34,7 +36,7 @@ if(len(argv)>4):
 if(len(argv)>5):
     max_words = int(argv[5])
 else:
-    max_words = 100
+    max_words = 500
 
 all_txt_files = glob.glob('*.txt')
 # Initialize an dictionary for all the txts
@@ -96,7 +98,6 @@ def validate_rows(matrix):
 
 def roulette(words):
     random.seed()
-    selection = random.random() #floating between 0 and 1
     #plug weights and candidates into random choice function
     weights = []
     candidates = []
@@ -109,6 +110,20 @@ def roulette(words):
     return choice[0]
 
 
+def markov_chain(stochastic, first_word,max_words):
+    sentence = first_word.capitalize()
+    running_vector = stochastic[first_word]
+    current_word = first_word
+    for i in range(max_words):
+        current_word = roulette(running_vector)
+        if(current_word=="."):
+            return sentence + "."
+        sentence = sentence + " " + current_word
+        running_vector = matrix_mult(stochastic, list(running_vector.values()))
+        #check if word is end of sentence punctuation
+        # if so break loop
+        # if not continue
+    return sentence
 def generate_random_sentence(matrix, first_word,max_words):
     sentence = first_word.capitalize()
     current_word = first_word
@@ -124,5 +139,6 @@ def generate_random_sentence(matrix, first_word,max_words):
     return sentence
 for i in range(num_sentences):
     print(generate_random_sentence(matrix, list_of_first_words[i],max_words))
+    #print(markov_chain(matrix, list_of_first_words[i],max_words))
     print("")
     #print("done")
