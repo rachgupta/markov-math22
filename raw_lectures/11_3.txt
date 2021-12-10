@@ -1,0 +1,1040 @@
+﻿In terms of announcements, I did post the problems at 10:00 as requested, so the main portion of problems at 10:00 is, again, your project proposal.
+0:02
+There are mainly two things that I'll be looking for as a part of your project proposal as we give feedback.
+0:18
+So the first thing is there is genuine evidence of thought that you've put some effort into your final project and what it will be.
+0:24
+The second thing that we'll be looking for is that you have a group of two to three people to work with.
+0:33
+OK, so if you don't yet have a group of people to work with,
+0:40
+a number of your classmates have been emailing me to try to find a group of people that you might work with.
+0:45
+And I will do my best to match people based on the interests that you tell me about.
+0:52
+So if you want to email me over the next few days and just say, oh, I'm just looking for some partners for my project, just feel free to do that.
+1:00
+And I will sort of match people as I have people that seem like they would work well together.
+1:09
+OK, other questions on that. So keep that in mind, that's the largest part of peace at 10.
+1:15
+There is one problem on that 10 that I really quite like, but it's one.
+1:22
+So it's not not a super long problem. That is the microphone going out.
+1:29
+Is it going out again? That's good. OK, so the other announcements.
+1:35
+So Midterm two is, of course, coming up on Monday,
+1:41
+six to eight p.m. you should fill out the out of sequence form if you have an academic conflict with the midterm.
+1:43
+We also have quiz five coming up on Friday. So Quiz five covers a subset of the material for the midterm.
+1:55
+A common question that I've been asked many times is whether the midterm is cumulative.
+2:02
+Again, it sort of has to be cumulative because we we use the beginning of the semester.
+2:07
+That material still much in answering the subsequent material.
+2:13
+So it's not really the case that I can write an exam or you won't use anything but, you know, five or six weeks of the course.
+2:16
+That being said, I won't specifically be asking you lots of questions from that first bit of material.
+2:24
+I could say a little bit more about the midterm as we're still kind of arguing about what questions should appear.
+2:31
+But I think it's probably fair to tell you now that I did post a bunch,
+2:40
+I think 12 or so practice problems for the midterm along with the hand up from Monday's class.
+2:48
+So if you look at the eigenvalues handout from Monday, you'll see a bunch of problems that I quite like on there.
+2:54
+And in fact, you'll notice some problems appear multiple times on their sort of variations on similar problems.
+3:00
+As a hint, I'll say that those problems tend to be important if I ask them multiple times.
+3:06
+So make sure that you're comfortable with those. Those problems are kind of a wide range of difficulty levels.
+3:11
+And from what I would consider to be very straightforward to problems, that would be, I think, a good question.
+3:20
+So on the more difficult side, so don't think that I'm expecting that you would get 12 questions like that and that would be a midterm.
+3:27
+I'm not writing it with the intention that that's a practice midterm. I'm just giving you a bunch of problems that I like.
+3:35
+Look. The same room as last time.
+3:41
+Yeah, so what was that?
+3:47
+See, I was either B or C, I don't remember off the top of my head, does anybody remember it was B, OK, so the same room as last time.
+3:48
+I will post it on the page, but it is the same room as last time.
+3:56
+In terms of preparation for the exam and the quiz, since the quiz is a subset of the material for the exam,
+4:03
+I would spend as much of your time as possible doing math.
+4:11
+OK, it's really tempting to, like,
+4:15
+watch a lot of videos or to spend a lot of time reading books or reading solutions that have been posted to various things.
+4:17
+That's not a very effective way to learn.
+4:26
+I'm not going to assess you on this exam on your, like, retention of like what did I say on the solutions to problems at 2:00 or something?
+4:28
+It's not a memorization course. It's just really not. So you want to practice the things that I'm going to ask you to do.
+4:41
+What am I going to ask you to do? I'm going to ask you to solve new math problems.
+4:47
+So you want to be practice solving new math problems. So the review problems that I posted are all problems that I think for all of them.
+4:52
+They're not problems that I've given you before. So those are, say, 11 or 12 new problems for you to practice with.
+5:00
+But as you're preparing,
+5:07
+I would very strongly recommend that you allocate your time as much as possible towards actually doing math rather than just like watching your
+5:09
+friends do math or watching Khan Academy videos or whatever other thing that you might do that's very passive like to do is they like to recopy.
+5:18
+This is very time consuming, and for most people, including myself, I can shut off my brain and recopy text without thinking about it at all.
+5:31
+So that's not going to be a very effective use of your time if you're worried
+5:38
+about preparing for the definitions question or to be question one on the exam.
+5:42
+It's, again, a nine point question.
+5:48
+So it's not something that you should sleep on, but it's a question that I don't think that you want to spend most of your study time preparing for.
+5:50
+So it's sort of something that you need to know, but not something you should spend hours and hours preparing for.
+5:59
+Quinn. You can I think that's fair.
+6:04
+Oh, I was going to say this, too, I had a question on set cardinality,
+6:11
+which is fair game for this exam on there, but it was killed from the last draft of the exam.
+6:16
+So I thought I would just tell all of you that you don't need to prepare for that topic.
+6:23
+So if that's something that was particularly interesting to you, I did post like I think three review problems on set cardinality,
+6:29
+they're fun to do, but maybe that's kind of leading you away from the questions that are actually on the exam now.
+6:37
+Yeah. You know, it's interesting, one draft of our exam,
+6:43
+there was a long discussion on our team about whether one of the definitions should be to define a vector space.
+6:58
+And the team was very conflicted on this. I'm of the school of thought that asking you to write TMS is not a good use of your time.
+7:04
+It's something you should certainly know, but probably not what I want you to spend 10 minutes writing.
+7:14
+So I don't think it's a very efficient use of our limited time together.
+7:20
+It's the same idea.
+7:26
+I mean, in principle, for question one, I could also ask you to like state major theorems like state the ranked naledi theorem or something like that.
+7:27
+But I'm pretty clearly not going to ask you to state the convertible matrix theorem.
+7:36
+I mean, it's it's just it's too much time to write.
+7:41
+So I don't think that that's, again, a very effective use of my limited time to.
+7:47
+To learn about your understanding, linear algebra, so I'd rather use questions again,
+7:54
+it's going to be seven questions like last time where at a variety of difficulty levels.
+7:59
+So when you're thinking about going through the exam, I would make sure that you allocate your time appropriately.
+8:05
+Don't spend an hour on a single question. OK. Spend your time on the questions that seem most straightforward and easy to you.
+8:12
+And I'm sure that the first question on the exam or the second question on the exam should be or will be very,
+8:20
+very routine now, routine things that I've asked you to do so.
+8:28
+Just like on the last exam, the first question is to solve a system of equations,
+8:37
+that's one of the core things that you've been asked to do this semester.
+8:42
+The first question on this exam, again, will be, two, to work with one of our core computational skills that you need have to come out of this class.
+8:45
+OK, then the questions will sort of build from there.
+8:55
+But again, as we're writing the exam, like the last exam, more than half the points will be from computational questions.
+8:59
+So you should be comfortable with all of the Web work problems.
+9:06
+You should be comfortable with all of the computational questions that I've assigned as recommended problems from the textbook.
+9:09
+And if you can do all of those, you're already setting yourself up for a relatively a pretty good score then going into the
+9:14
+sort of second half of the exam where the questions get a little bit more theoretical.
+9:20
+So I would keep that in mind as you're preparing, what is the list of 10 or 12 reasonable computations I could ask you to do since the last last exam,
+9:25
+there's not that many different computational skills that we have. There are some like variations on how we can ask those questions.
+9:36
+But a part of demonstrating deep understanding is to recognize that that's really the same question.
+9:43
+OK, so that's personally how I would prepare.
+9:48
+But again, I'm happy to talk with anyone.
+9:52
+How you might approach studying for the exam question. I'm sorry, I can't quite hear you.
+9:56
+A very bad hearing, can you say it again? That's a good question.
+10:06
+So the question is, well, I posed solutions to the practice problems that I posted. So why do I hesitate?
+10:13
+In principle, I'm very happy to post the solutions to the problems that I posted there.
+10:25
+They're all questions that I like very much. The reason why I hesitate is because it becomes very tempting when solutions are posted to
+10:29
+just read the solutions and then you'll gain very little to no benefit from those questions.
+10:38
+So. I'm if I post the solutions of those questions, it will be closer to the exam to try to encourage appropriate use of that resource.
+10:43
+Because it really is a poor use of your time to just spend a lot of time just reading solutions over and over again,
+10:56
+because I'm not I'm really not going to ask you to just memorize a bunch of proofs and then reproduce them.
+11:02
+I don't see how that really assesses your understanding of anything other than your ability to memorize things.
+11:08
+So I will post the solutions, but it'll be closer to the exam itself.
+11:13
+So hopefully that doesn't just encourage people to just wait for the solutions.
+11:19
+They were on Monday very lightly so in principle, but I wouldn't expect them to be a very large portion of the exam, so.
+11:29
+Yeah. In terms of the timing.
+11:37
+The timing is always sort of a tricky thing. I suppose what I would try to do with the timing is I would approach the problems,
+11:58
+the review problems that I've posted individually as if they were an exam problem.
+12:08
+So like with the quizzes, give yourself, say, 15 minutes on each question, because on the exam itself,
+12:13
+I'd probably give yourself 15 minutes on a given question before you would move on to other questions.
+12:19
+So just in terms of timing, in terms of strategy, so you make sure that you have time to look at all the questions.
+12:25
+So I would probably use that as a gauge. Some of them will be challenging to do in 15 minutes.
+12:29
+But I would again probably use that as an excuse to practice, like letting a problem go, going on to another problem and then coming back to it.
+12:36
+Because what you will find is that you're you will make progress on a problem when you're working on
+12:44
+other problems to solve a problem that you don't have any idea how to do when you come back to it.
+12:51
+You then might have some more ideas on how to approach that given problem.
+12:56
+So it's usually a very inefficient use of time to spend a lot of time on one question,
+12:59
+unless you've already solved to the best of your abilities every other question on the exam.
+13:05
+OK, so I guarantee for every student in the room, you will see a question early in the exam or you're like, oh, I know how to do that.
+13:11
+So do that. OK, please, please, please. I implore you, don't go to the question you think is the hardest.
+13:18
+Every single time I've given an exam in my life,
+13:24
+there's always a student that goes to the hardest question and tells me I spent an hour and a half on this question.
+13:27
+But then you left all these other questions blank. I mean, I know you know how to do these other questions, so please don't do that.
+13:33
+OK, if there's a question, it's hard on there that you don't know how to do immediately.
+13:40
+Leave it until the end. Come back to it. Don't just sink an hour into it.
+13:45
+I know that's hard, because when you see something like that looks fine, I want to do that one.
+13:51
+It's hard to let it go, but on an exam of two hours, you need to make sure you're prioritizing, telling what you know, OK?
+13:55
+Yes. Oh, yes, they're supposed to be up already.
+14:06
+I think that's just sort of an administrative oversight. I'm happy to post them.
+14:13
+Yeah. If I don't have them posted by the end of the day, just email me and I will post them.
+14:17
+I mean, the case. I'll have the solution. So I don't know why they're not posted, but sorry.
+14:22
+That's my that's my my fault. Other questions.
+14:29
+Any other concerns before we really get going here? So I do very much.
+14:34
+Today, even material is not on the exam, I want to be clear about that,
+14:41
+I was actually just talking to one of my other colleagues who said that at this point in the semester,
+14:46
+they have about twenty five percent of their class regular regularly attends class.
+14:50
+And I was like, no, it's more like 90 percent or 100 percent of my class that attends class.
+14:55
+And so I, I very much appreciate that this this would be a lot less fun if you were like two people here.
+15:00
+So thank you for coming. All right. Let's try to emphasize again some big ideas of what we're doing here and building some intuition.
+15:11
+So if you think about what the goal is and what we're doing,
+15:19
+what we want to do is we want to find a nice coordinate system to work it and we want to think about what that means to be nice.
+15:25
+So if we're given some transformation tea from a vector space V to a vector space W, we want.
+15:33
+To find, quote, nice. Bases for V and W.
+15:43
+V and W. So that The Matrix.
+15:56
+Obce relative to these bases.
+16:06
+Is simple. And again, I've used to undefined terms here, what do I mean by nice and what do I mean by symbol?
+16:17
+So those are of course, great questions, but that will be become more clear as we keep going.
+16:24
+So let's just be a little bit more precise about what we're saying here.
+16:29
+So what do we mean by the Matrix t relative to these bases?
+16:33
+So if we have A bases, B, say B, one through B and it's a basis for V and I have a basis C,
+16:37
+C, one up through C, M, they're not necessarily the same dimension for W.
+16:50
+Well then we introduced this notation. I think we use this notation T and then we put down here the bases that the relative relative to.
+16:58
+So this is supposed to be the matrix of this transformation.
+17:10
+So the way that we found that was we took T and we plugged in the first base vector over my domain B one.
+17:14
+And then I expressed that output relative to the basis on the code.
+17:20
+And then I just did that for every one of my basis vectors.
+17:25
+So this is the thing that I want to be simple.
+17:33
+I want to choose be one through the end and see the the coordinates on my domain so that this matrix would be very easy to analyze.
+17:36
+OK, that's the whole motivation for basically the rest of the semester.
+17:49
+When we think about chapters five, six and seven, is that big question of how do you find a nice basis?
+17:52
+And there will be different uses of the word nice there, depending on what you want to do.
+17:59
+OK, so depending on maybe the application that you have in mind. So I think this was Arjun's question last time.
+18:05
+How can we find. A nice basis, again, where I'm being sort of vague about this use of the word nice.
+18:13
+In the standard basis, seem nice, why am I being so I mean, down on the standard basis that was perfectly nice in chapter one, why now?
+18:24
+Are we not calling that a nice basis?
+18:32
+The reason is because the basis wasn't necessarily reflecting the operation that you wanted to do, it might, but it doesn't necessarily.
+18:36
+So instead, what we want to do is to choose our bases or our bases to be in tailored for the thing you're going to study for your tea.
+18:47
+This is a fundamental thing when you're doing, say, in quantum mechanics and physics.
+18:57
+One forty three is you want to choose a good coordinate system to work and to make your computations tractable.
+19:02
+All right, so let's consider some examples to try to make this point.
+19:11
+All right, so let's suppose again, let's go back to Chapter one for the moment, let's take the transformation from our two to our two.
+19:19
+One of my favorite operations is orthogonal projection.
+19:29
+So let's take with our own projection onto the x axis. So just projection onto the x axis.
+19:33
+X axis, so we can then, of course, we've done this before we think about.
+19:47
+Yeah, I draw a picture.
+19:54
+Yeah, good question. So if we have say, oh, and I should use a color to what it's really fancy here.
+19:58
+Good point, because. So we take our standard basis vectors, say E one and E two, and then I apply it.
+20:13
+So then I say, well, what does orthogonal protection do to these two things?
+20:30
+Well, it sends e one to orthogonal projection onto the x axis.
+20:33
+So it just gives me back the same vector. So I'm just projecting down.
+20:38
+I'm taking only the X coordinate. If I take E two and I project down to the X axis, then I just get the zero vector.
+20:42
+So this is T of E two. So that allowed us to conclude last time that the standard matrix or now the E
+20:50
+matrix of your transformation t will then just be the vector one zero zero zero.
+21:00
+So that seems like a pretty nice representation of our transformation. Right.
+21:11
+How much simpler could your matrix get than just one zero zero zero?
+21:17
+But unfortunately or maybe fortunately, your operations aren't always just defined in terms of your access.
+21:24
+So you can also consider, say, orthogonal projection onto a different line.
+21:31
+So let's consider this other example. Now, t is going to be projection.
+21:35
+Onto the line, why is equal to three X?
+21:46
+So I could do the same thing we did in terms of Chapter one, if I wanted to find the standard matrix,
+21:55
+I'd find what happens to E one and E two with respect to this line.
+21:59
+Let's do something a little bit different. So if I have this line, Y equals three X here.
+22:04
+And I'm projecting onto this line, suppose that I took this vector here.
+22:17
+And maybe I'll take this vector, this red vector, I want it to be on the line, so I'll take this vector V to be equal to then one three.
+22:28
+So now what happens if I compute T a v? If I project onto this line, Jonathan.
+22:45
+It's just going to be V, so that seems like as simple as you could get that it didn't do anything to just give you the exact same thing.
+22:52
+What's another vector that would be easy to describe in terms of this operation?
+23:02
+That seems like a good idea to do what we're doing, orthogonal projection, so if I take a vector that's orthogonal to this line.
+23:15
+What could be a vector that's orthogonal to the line? Could I take for that?
+23:23
+Yeah. Three, negative one.
+23:36
+So that's what I said now, if I compute t of me, I get the exact same vector again,
+23:42
+that will be equal to V and if I compute if W that then gets projected to the zero vector.
+23:50
+So T of w then also seems particularly easy, in fact, zero is just equal to zero times W and V is just equal to one times V.
+23:59
+So now what if I took as my basis? That seems like a bad color scheme.
+24:13
+Basis should be blue, can you see the blue, can you see the bullet in the back is OK?
+24:28
+OK, so now what if I took as my basis these two vectors, V and W, are they linearly independent?
+24:33
+You know that. I'm not parallel,
+24:41
+it's an hour our two we have two vectors in our two is the basis theorem tells us we have a basis for our two because our two is two dimensional.
+24:44
+Now let's compute the B matrix of T.
+24:52
+The matrix of. So in our notation, the B matrix of T.
+25:00
+So we usually write this as t sub, so by definition, this is supposed to be T of your first base is vector B one,
+25:11
+then written relative to kwatinetz B and then T of B to written relative to coordinates B,
+25:21
+I personally find whenever you're doing problems like this, it helps us to write out the general thing for building memory.
+25:30
+So in this case, by first basis vector is V, so maybe let's do this a little bit slowly.
+25:37
+T V relative to base B and then I have T of W relative to Base B.
+25:42
+Well, TV was just equal to V itself, so then I just want to know what is V relative to Base B,
+25:51
+and then I want to know what is zero relative to base B?
+26:00
+OK, well, how could I write V is a linear combination of the basic fact.
+26:05
+What I take. One zero, right, is itself a basis factor, so that makes it kind of nice.
+26:10
+So that means the first column is one zero. If you want to write the zero vector, linear seemed to be just isomorphic, so that has to be zero zero.
+26:19
+So the B matrix to study this transformation in the sort of nice coordinate
+26:29
+system is identical to studying this one in the original coordinate system.
+26:35
+So what's nice about this is that if you choose this basis that reflects the
+26:41
+geometry of the operation or the operator or the function that you're studying,
+26:45
+you can then do a much simpler calculation that you can understand it in an easier way.
+26:49
+So I claim that this is much simpler than if I just tried to compute tee of E one and T of E two,
+26:57
+which would give me the slightly less nice looking matrix.
+27:03
+Yeah. A.
+27:09
+Yes. No, you'd have to describe everything in the B coordinate, so if you want to use this network,
+27:17
+things written relative to W and V, so if you're just given an arbitrary vector in the plane with respect to,
+27:24
+say, the standard coordinates, you then first want to express it with respect to new system, then you can multiply here by this matrix.
+27:32
+This will output something relative to the nice coordinate system.
+27:40
+So if you want your answer in terms of the standard coordinates, then you would need to do that.
+27:44
+So maybe that's a good point to follow up on is how would we then get the standard matrix?
+27:49
+So question, how can we find.
+27:54
+The standard matrix of teh. So remember, the standard matrix in our new notation is T relative to the standard coordinates.
+28:01
+So there are a few ways that you could do this, you could do it just directly by plugging in one and two like we did at the beginning of the semester.
+28:18
+But we can also then think about doing this in terms of a change of coordinates. So t of.
+28:25
+Sub e, the standard matrix, which we are often calling a at the beginning of the semester, well, we want to know how does this relate to T sub?
+28:32
+Well, this thing over here does the same operation, but it does it relative to the B coordinates.
+28:43
+So if I'm inputting, then something relative to the standard coordinates,
+28:50
+I could first transform to this from the standard coordinates to the B coordinates.
+28:53
+So from the standard coordinates. To the coordinates.
+28:58
+And then over here, this outputs something relative to the coordinates, if I want to be,
+29:03
+then relative to the standard coordinates, I then just transform back.
+29:08
+This matrix was particularly easy for us to represent.
+29:16
+This one was just B one and B two. So then in this case we would then have the Matrix going from B to standard.
+29:20
+And I said VW. So this is one three three minus one times, then one zero zero zero times, then one three three minus one inverse.
+29:28
+So another way that you could do this, you could just multiply this out conceptually,
+29:43
+all you're doing is you're taking something relative to the standard coordinates,
+29:47
+transforming to the coordinates, doing your operations and the coordinates, then transforming back to the standard coordinates.
+29:52
+OK. Luke. Yeah, you'd have to use your sea like Euclidian geometry to figure out what the you want to need to adapt to.
+30:01
+So it's a nice exercise and like playing geometry if you want to do that.
+30:18
+So the thing is, I think this goes back to a bit of Arjun's question from the last time, like here,
+30:25
+we used our knowledge of what this operator was doing to really figure out what the nice coordinates are.
+30:31
+So what we want to do have something more precise than that.
+30:36
+So what got us here is we're looking for Vector's particular directions where when you plug them into your function,
+30:41
+to your operator, to your matrix, it outputs a scalar multiple of that.
+30:49
+So it just gives you a scaling of that particular direction. That's sort of the simplest thing that we could hope for to happen.
+30:54
+So those things we define last time, those particular directions as then eigenvectors and eigenvalues Tommy.
+31:02
+But. So I'm being deliberately vague about what I mean by nice,
+31:14
+because there will be different notions of what you want to have happen after you change coordinates,
+31:20
+but typically the first thing we're going to want to do is to express your operator, your matrix in a diagonal form.
+31:25
+That's sort of in some ways the nicest thing you could hope for,
+31:32
+because it's really easy to multiply diagonal matrices together to analyze diagonal matrices.
+31:36
+So, yes, in some sense, our goal will be finding a diagonal basis.
+31:42
+That will be one one way of thinking about the word nice or simple.
+31:47
+And then a follow up question to us is then thinking about like, can you always do this?
+31:53
+Is it always possible to have a nice basis for your operator or for the data that you're studying?
+31:59
+OK, so just to recall then, how do we encode this idea of nice?
+32:07
+Well, it's going to be input factors, specific input factors from the domain that just gets scaled by the function.
+32:13
+So they don't use the complexity of the function. They just are scaling of that particular function.
+32:20
+So that's what we're going to mean by an eigenvector. So an eigenvector.
+32:25
+I should all tell you that I often use this abbreviation because the word eigenvector is too long,
+32:34
+so an eigenvector V of an and by and Matrix A. is a non zero vector.
+32:41
+Such that. A times V is equal to lamda times V for some scalar lambda.
+32:57
+So that's what an eigenvector is. The lamda, the amount you're scaling by, that's called your eigenvalue.
+33:10
+So Lamda is called.
+33:24
+Eigenvalue. Because eigenvalues are such good friends of mine, they don't mind it if I call them values.
+33:31
+Also because it saves some writing. You will be good friends with them, too.
+33:44
+So we call LAMDA the eigenvalue caught the eigenvector of you.
+33:52
+So one thing that seems a little bit interesting and is a common mistake that
+33:57
+often happens when people define eigenvectors is to leave out this word non-zero.
+34:02
+Why is that important? Why would that be important?
+34:09
+Yeah. It's very close, though.
+34:14
+You mean? Any eigenvalue, right, so you're exactly right.
+34:28
+So if I allowed V to be zero, well, then any lambda could work here when I take V to be zero.
+34:35
+That would always be true. So that would mean any real number would be an eigenvalue and that would be silly.
+34:43
+So that's why we can't do that.
+34:48
+So it's really actually important that because otherwise you're just you're just seeing that a linear function, 10 zero zero.
+34:52
+OK, so now the motivation for what we've been doing is thinking about then Eigenvectors and Eigenvalues is trying to give us a nice basis.
+35:01
+So kind of building on Arjun's. So that leads us to say maybe two more follow up questions.
+35:08
+This is becoming a research program, getting our grant ready.
+35:16
+So how can we find. Eigenvectors.
+35:23
+For those of you that are interested in computer science or scientific computing,
+35:30
+you might also be worried about the question of how can you efficiently find them?
+35:33
+Because if you're working with a very large data set, it might not be practical to do this with certain methods.
+35:36
+So if you have a data set that might consist of millions of entries, then you want to have a computational efficient method for doing this.
+35:42
+Not just some method, Luke. The eigenvalue can be zero, the eigenvalue can definitely be zero.
+35:49
+Right, the eigenvector always needs to be non-zero, eigenvalues can be zero if the eigenvalue is zero.
+36:01
+So if LAMDA zero, that's then telling you that there's a non-trivial solution to a V equals zero.
+36:09
+So then what could you tell me about the Matrix? A if you have a zero eigenvalue.
+36:14
+Roy. Yeah, so then that eigenvector would be then an element in the null space of a so then if you have a non-trivial element in the null space,
+36:20
+what can you tell me about The Matrix? Has a determined and then equal to zero, which tells me, what about the Matrix, what else?
+36:33
+Maybe this goes back to your question before about the inverted Matrix Theorem, right.
+36:44
+So one thing you can also observe is that all of the properties of the convertible matrix,
+36:48
+in particular having a zero eigenvalue could be another statement that you could add to the inverted Matrix Theorem.
+36:53
+Your matrix is convertible if and only if you don't have a zero eigenvalue.
+36:59
+The second question here that you might think about is how do I get Vector's?
+37:06
+Help. In finding a nice basis. So this is maybe to Tommy's question.
+37:17
+So, again, kind of thing. But what do you mean by that word nice. What does nice even mean here?
+37:30
+So as Tommy pointed out, one nice thing to have happen would be to get a diagonal representation of your matrix.
+37:35
+So maybe question three hour stretch proposal would be then can we diagonals any matrix?
+37:43
+OK, so now let's do some examples.
+37:52
+So let's just do a quick computational example. This is actually the first one on the handout for today.
+37:58
+So the first bit of today's class was kind of just transitioning us last class.
+38:03
+So if I take the two by two matrix, a one, three, four, two, and V is some given vector one minus one.
+38:09
+The question is then how could I tell if V is and I get. How would I check?
+38:21
+But what I do know. Herbert.
+38:29
+So if I multiply it eight times, V and what would I be looking for? Perfect, right?
+38:35
+So we want to know those eight times we just become some scale multiple of the right, so we just compute it and see what happens.
+38:49
+So if I compute this, this becomes one, three, four, two times one minus one.
+38:55
+So then I say, well, what does this become? I have one minus three, so minus two.
+39:02
+And then I have four. Minus two is two. So how does that compare to be.
+39:07
+How does it compare to the. The.
+39:17
+Tommy. Well, bye bye, negative two. Thank you so negative two times the vector one, minus one.
+39:23
+So what that computation just did for us is we just verified that negative two is eigenvalue and it has eigenvector.
+39:31
+One negative. So thus. V is an eigenvector, we just verified the definition with corresponding eigenvalue.
+39:40
+Negative to. All right.
+39:58
+Well, let's think about this a little bit more generally,
+40:05
+so let's try to extract from this some general way of thinking about getting eigenvalues and eigenvectors.
+40:08
+So if you note, if you start with a V is equal to Lamda V for some non-trivial V, well,
+40:16
+we could manipulate this equation to then get a V minus Lambda V is equal to then zero.
+40:25
+All right, so we have a view on the right, so we might as well factor that out.
+40:33
+So this then becomes a minus lamda times the end by an identity matrix.
+40:37
+Times V is equal to zero. So that means that a V was a non-trivial solution to your first equation.
+40:43
+That also means that V is then in the null space. Of a minus lamda times the identity matrix.
+40:51
+So that's particularly nice because the null space is something that we're very good at computing, especially in preparation for an exam.
+41:01
+The audio just caught up. Is it back? OK.
+41:16
+All right, so. So we're very good at finding a basis for a null space, so we could definitely do that.
+41:20
+So in particular, what this is telling us is that if V is a non-trivial element in the null space, then V is also a solution to B equals Lambda V,
+41:32
+so that tells you that V is an eigenvector if and only if if is an eigenvector, if an only non-trivial element in the null space of a minus lambda.
+41:44
+So that means the null space is then kind of keeping track of the eigenvectors for us.
+41:58
+It's telling us exactly how to find them.
+42:05
+So we're going to give a name then to that space where we put all the eigenvectors together along with the zero vector,
+42:08
+and we're going to call that the Igen space. And again, because we're good friends, they'll say space.
+42:15
+So the set of solutions to the equation, a minus lambda times, the end by an identity matrix, the equals zero is called the Igen space.
+42:29
+So it's the space of eigenvectors corresponding to the eigenvalue of Lamda, the igan space or more space.
+42:49
+Corresponding. To Lamda.
+43:02
+So we often use the notation capital e sub lambda for the space, so then you should note.
+43:10
+If I write E sub lamda, that is the null space of A minus lamda times the end by an identity matrix so that at least in some ways
+43:20
+gives us an answer to the question of how do we find eigenvectors is we compute a particular null space.
+43:33
+Yes, James. Lambdas fixed, yeah, so we're saying the eigenvectors corresponding to a fixed eigenvalue lamda,
+43:46
+so we're going to have an igan space corresponding to each eigenvalue. Good question.
+43:54
+Yeah, it's not an eigenvalue if a minus Lambda Eye has no non-trivial solutions,
+44:10
+so then we just say Lambda is not an eigenvalue because the only thing that would be there would be the zero vector and zero vector.
+44:17
+Can't be an eigenvector. Good questions.
+44:22
+So perhaps worth noting lambdas than an eigenvalue, if and only if so maybe this is worth noting, I'll write it down.
+44:27
+Lamda is an eigenvalue. For a then will be if and only if the null space of a minus Lambda Times, the identity matrix has non-trivial elements.
+44:35
+Non-trivial elements. So as Xavier pointed out, whether or not the null space has non-trivial elements by the inverse of a Matrix theorem,
+44:56
+we're just asking about whether a minus Lambda NT is convertible or not.
+45:09
+So maybe I'll include that statement here. So that's true. If and only if a minus lambda comes in by an identity matrix is not in vertical.
+45:14
+If it were convertible, you'd only have the trivial solution. So you're looking for lambdas where I'm not convertible.
+45:27
+What we how do we have to check we can check that cell.
+45:37
+Yeah, yeah. That's a really great question, and that really gets at what we're going to be thinking about next class.
+45:42
+We know the dimension has to be at least one, but we're going to see that the dimension can be bigger than one.
+45:54
+So it doesn't have to be just one. It could be larger. The examples we've seen so far have only been for two by two matrices.
+45:59
+So it's been exactly one and one, maybe four or five more minutes.
+46:06
+Then I'll give you an example where the dimension of the Eigen space can be bigger than one corresponding to one eigenvalue.
+46:12
+That's a great question. One more step here, though.
+46:17
+I'm just trying to be sort of opportunistic.
+46:23
+This wasn't the direction that I was going to lay out these ideas, but since people brought it up, I might as well do it now.
+46:24
+How what other ways can we think about the testing, the inevitability of this matrix?
+46:30
+James, we can think about the determinant.
+46:36
+So this will be true if and only if the determinant of a minus lambda times, the end by an identity matrix is equal to zero.
+46:39
+So this is a way of finding the eigenvalue, since our first way of finding the eigenvalues,
+46:50
+you can look for the lamda that make this determined and equal to zero.
+46:57
+OK, so this thing we'll call the characteristic polynomial of a.
+47:02
+So this is the characteristic. Polynomial of your matrix.
+47:11
+So the determinant of a minus lambda. So we'll see that coming up again in a moment.
+47:24
+But because. It was right there, I thought I'd mention it.
+47:30
+All right, so now back to Saul's question about the dimension of these Igen spaces,
+47:37
+the dimension of the dimension of an alien space always has to be at least one because, you know, you have a non-zero eigenvector.
+47:42
+That's the whole point. So let's now think about what could happen more generally.
+47:48
+So let's consider this other example. I think this is example to on the hand up for today.
+47:53
+So let's take for a three by three matrix for negative one six two one six two, negative one eight.
+47:58
+And then I'm going to take lambda is equal to two.
+48:08
+And then what I want you to do is I want you to find the Igen space corresponding to the value of two,
+48:12
+because I think this is a good thing for you to know how to do for the exam.
+48:20
+Why don't you take a minute and actually compute a basis for the null space?
+48:25
+So I really find this Igen space.
+48:32
+All right, let's come back together, so just quickly running through this question, so if you want to respond to the eigenvalue two,
+51:24
+by definition, that means that you're trying to find the null space of a minus two times the identity matrix.
+51:32
+If I subtract two from the diagonal of a, then I get this matrix.
+51:40
+Then if I reduce it, I get two rows of zeros. So I get this.
+51:45
+So then that tells me I can then write my best back in terms of a linear system of equations,
+51:50
+what's binding equation to X minus Y plus six equals solve for one of your variables and then say express
+51:57
+your arbitrary element in your Igen space as a linear combination of one two zero and zero six one.
+52:05
+So therefore we know that the igan space corresponding to the Eigenvalue of two is inside the span of these two.
+52:12
+There are linearly independent. So then we know that this is actually a two dimensional Eigen space, Luke.
+52:20
+We got. The vectors you've got here. Yes, that's always the case coming from the properties of the reduced echelon form.
+52:36
+Yep. Where the leading ones are so because what that's telling you is that the number of free variables here exactly corresponds with the dimension.
+52:45
+So this is a good question. So here we're seeing the dimension of the Igen space corresponding to the eigenvalue of two is equal to two.
+52:57
+So this goes back to Saul's question of why can the Igen? More than one doesn't have to be, but it can be.
+53:06
+All right. So we've done a bunch of computations now.
+53:14
+Now, let's actually try to do some theory to make our lives a little bit easier so we don't always have to do these calculations.
+53:17
+Yes. Yep, more than one linearly independent eigenvector, yes.
+53:25
+Yeah, there will be one eigenvalue corresponding to that eigenvector, yeah, so yeah, you can't have one nonzero,
+53:36
+you can't have one eigenvector living in two different eigen spaces corresponding to different eigenvalues.
+53:43
+I think I've actually given that as an example of one before. In the past, I, I won't put that on this exam because it's not a part of that material.
+53:48
+But Tommy. What yeah, the basic factor could be different.
+53:56
+Yeah. Yeah, yeah, I don't have to literally use one to zero, like, for instance, I could have used two four zero.
+54:05
+That would also be an eigenvector then. Yeah. So you're really interested in how many linearly independent ones can we find?
+54:12
+Because it's a subspace we could even add to eigenvectors or scale it and get another eigenvector corresponding to that same eigenvalue.
+54:19
+Good questions. OK, so when The Matrix has a particularly nice form, we can often read off what the eigenvalues are.
+54:27
+So in particular, if your matrix is sort of upper triangular or even more especially diagonal,
+54:37
+then you could immediately say what the eigenvalues will be.
+54:42
+They'll just be the diagonal entries. So let's prove that the eigenvalues.
+54:49
+Of an upper triangular. Matrix, hey.
+54:55
+Are just the diagonal entries. OK, so let's prove this.
+55:07
+All right, so proof, let's start with a being an up or triangular matrix, so let a B an upper triangular matrix.
+55:35
+Remember, this means we just have zeros below the diagonal. Well, then, if I looked at a minus lamda times, the NBN identity matrix, well,
+55:48
+subtracting Lambda Times, the NBN identity matrix only changes the diagonal entries.
+56:02
+So then I can basically say what this thing is going to look like.
+56:07
+It's going to look like a one one minus lambda down to a nd minus lambda and then oops, those are all zero.
+56:10
+And then the entries up here are just what they are.
+56:21
+Because they're unchanged. So that's what my the form of my matrix will look like.
+56:26
+Well, we've already observed in this calculation right over here that we have trivial solutions to the equation.
+56:34
+A minus lambda AI X equals zero if and only if the determinant is equal to zero.
+56:47
+So then I just want to compute the determinant of matrix.
+56:53
+So again, maybe it's important to recall. Lamda is an eigenvalue.
+56:57
+If and only if by the inaudible matrix theorem. That the determinant of a minus lamda times the end by an identity matrix is equal to zero.
+57:05
+So now we just need a computer determinant. Previously we've observed that the determinant of an upper triangular matrix is easy to compute.
+57:19
+So since. A minus lamda times, the lamda times, the identity matrix is still up or triangular.
+57:27
+Then we know the determinant we proved of a minus lamda times the identity matrix.
+57:38
+We'll just be the product of all of these diagonal entries. So then it will just be a nd minus lambda down to a number of these in the right way.
+57:45
+One one minus lambda down to A and minus lambda.
+57:59
+So this maybe more clearly shows how this is a polynomial in LAMDA, so the entries of A are all fixed.
+58:06
+So when you multiply this out, it'll be a degree and polynomial in lambda and you want to find the zeroes of this polynomial.
+58:16
+So the fundamental theorem of algebra, for instance, tells you that they're in Zebra's, which will think about over the next few classes as well with.
+58:26
+So that means the determinant of a minus Lambda I and is equal to zero if and only if one of these factors is equal to zero.
+58:37
+So if and only if Lambda is equal to a one one a two to up to a and and whoops.
+58:49
+Yes. And which was what we set out to prove that those in values.
+58:59
+So just by way of a quick example, if you happen to have a matrix, a with, say,
+59:08
+one two three zero four five zero zero six, you don't even need a computer determinant.
+59:15
+You don't need to do any work by this theorem. The theorem.
+59:23
+Then we know the eigenvalues of a. They are just these diagonal entries are one, four and six, then once we found what the eigenvalues are,
+59:30
+you can compute the corresponding igan spaces for each of those eigenvalues.
+59:44
+James. Oh, that's an interesting question.
+59:49
+So that's a really good question. So I like the idea of synthesizing back with the things we've seen before.
+59:57
+So let's just take a small matrix and in particular, maybe an upper triangular one that see what happens.
+1:00:04
+So suppose I take this matrix A is equal to zero one zero zero.
+1:00:12
+What are the eigenvalues?
+1:00:20
+Just zero, right, just the diagonal entries are just zero, so it also makes sense with this being a matrix that's not inevitable.
+1:00:24
+It's the eigenvalue we just have the eigenvalue of zero repeated twice.
+1:00:31
+The number of times it's repeated as a zero of the characteristic polynomial is called the algebraic multiplicity of that zero.
+1:00:38
+So this is called a zero value with algebraic.
+1:00:45
+Multiplicity to. So we'll introduce that terminology formally next time, but we might as well mention it now.
+1:00:52
+So now to James question. What if we did an elementary operation? One of them is interchanging Rose.
+1:01:00
+So then I could get another matrix. A will be similar to equivalent to the Matrix zero zero zero one.
+1:01:06
+What are the eigenvalues of this matrix? Zero and one, so I have now a different eigenvalue.
+1:01:16
+So the eigenvalues are not preserved under elementary operations.
+1:01:30
+That's an important thing to note. You can also do an elementary.
+1:01:34
+Of scaling their entry, like if you scaled this by anything, then you'd also be scaling the value of that.
+1:01:39
+So only changing things. Good question. I think I have a similar to that as a true or false question later on in here.
+1:01:46
+Oh, OK, we did that. Great. Oh, that's a fun one.
+1:01:57
+Have time for that one.
+1:02:02
+Let me do one more reputational example to finish things off, and I might have time to prove something, but I'll do it next time, so let me know.
+1:02:10
+Previously, when we've computed Igen spaces, the eigenvalues have been given to us.
+1:02:21
+So I just want to give an example of where we also have to do the step of finding the eigenvalues.
+1:02:26
+So I don't know which number this is maybe six or seven on the handout,
+1:02:36
+but a little bit later on in your hand out, you take the Matrix three, two, three, eight.
+1:02:42
+So if there's two by two Matrix and I want to find the eigenvalues and the Igen spaces.
+1:02:49
+So it's a little bit different than what we've done before. And then now I also need to find the eigenvalues first.
+1:02:58
+OK, so the only way we really know to find the eigenvalues if unless the Matrix is in a special form, is to compute the characteristic polynomial.
+1:03:05
+So let's just do that. So the characteristic polynomial.
+1:03:18
+We'll just be equal to the determinant of a minus lamda times, the two by two identity matrix.
+1:03:23
+So that means I'm computing the determinant of three minus lambda to three and eight minus lambda.
+1:03:31
+So it's just a two by two matrix. So we can just multiply this out.
+1:03:41
+This will be three minus lambda times eight minus lambda minus six.
+1:03:44
+So we get a quadratic polynomial so we can then multiply this out and factor.
+1:03:52
+And in the Xeros, so when you multiply this and factor, I get the two eigenvalues of two and nine,
+1:04:02
+so I'm going to get LAMDA minus two and LAMDA minus nine.
+1:04:11
+So those are my two eigenvalues, the zeroes of the characteristic polynomial.
+1:04:16
+So now we can do what we did before the first one.
+1:04:20
+Value two. So that's a minus two times the two by two identity matrix that I take, subtract two from the diagonal.
+1:04:26
+It looks at one two.
+1:04:35
+And then this row reduces to one two zero zero.
+1:04:43
+So now I'm just completing the null space of this particular matrix,
+1:04:49
+so that means the igan space corresponding to the Eigenvalue two is the null space of a minus two times the two by two identity matrix,
+1:04:52
+which will then be the span of what is that, minus two one.
+1:05:01
+So it's a one dimensional igan space. How do I know that I was going to get a row of zeros here?
+1:05:08
+We had to simplify to get a variable, so then we can also do the same thing for nine.
+1:05:30
+So if you do that for nine, maybe just for completeness sake, you'll then have the Igen space corresponding to the eigenvalue of nine.
+1:05:40
+So this is a null space of a minus nine times the two by two identity matrix.
+1:05:49
+And this just comes out to be the span of one three.
+1:05:54
+So, again, we get what the Igen space is in this case, so a fun exercise maybe that I won't do for you right now.
+1:06:02
+But just to check, you understand it's now take this vector in this vector,
+1:06:13
+those two eigenvectors, and write down the B matrix corresponding to that basis.
+1:06:19
+If things are working out well for us, then it should be a nice expression.
+1:06:26
+OK. All right, so I think I have I think I have time to do this.
+1:06:30
+So the very last thing that I'll do today is you might wonder about yes, go ahead.
+1:06:45
+Mm hmm. So I didn't quite hear it was the question to why didn't I just convert this to be an upper triangular matrix?
+1:07:00
+So the reason why is because doing elementary operations changes the eigenvalues.
+1:07:10
+So if I did that, I would have to keep track of how the eigenvalues might have changed by doing those elementary roll operations.
+1:07:15
+So you don't necessarily want to do that just without being careful in your approach.
+1:07:22
+Yeah, good question. Xavier. So, yeah, it's going to it's going to change what the eigenvalues will be.
+1:07:27
+It's going to change the. Yeah, it's going to change things.
+1:07:36
+I mean, this is sort of like when we talking about column spaces, right?
+1:07:41
+When you do elementary row operations on and you look at the column space for your matrix,
+1:07:43
+it's going to change the column space after you've done those elementary operations. Yeah, good questions.
+1:07:50
+Yeah, what does the. It means the number of linearly independent eigenvectors corresponding to that eigenvalue.
+1:07:56
+So what that's telling you is whether or not there's sort of enough independent directions where you behave in a good way.
+1:08:05
+So that eigenvalue is telling you when you move in the direction of that eigenvector, you're just scaling by that eigenvalue.
+1:08:12
+And so if you have a bunch of different independent directions, it's telling you like how much can you move?
+1:08:22
+How much freedom do you have in moving in those spaces? So if you have enough of them, that will then mean that we can find a nice basis.
+1:08:27
+If there's not enough, your matrix, you often call it defective.
+1:08:35
+I don't know why that's not a nice thing to say about a matrix, but that can happen, unfortunately.
+1:08:38
+And then the situation where we can't diagonals is a matrix. And so our grant proposal will probably be rejected.
+1:08:43
+All right, rather than rushing through this proof in the last three minutes, I think that I should probably just end a few minutes early.
+1:08:53
+So we'll continue picking up on the theory of eigenvalues and eigenvectors and specifically how you can use them to give a nice basis next class.
+1:09:01
+So I'll see you on Friday.
+1:09:08

@@ -1,0 +1,414 @@
+﻿All right, let's get started. So we don't have very many announcements today that eight will be due on our normal schedule.
+I'm just encouraging you as though for the last question on peace at eight to lightly start thinking about your final projects.
+I know I haven't given you very many details on exactly what I'm expecting for the final project yet.
+That will be coming shortly. So then you can see, like both how they're evaluated.
+I'm going to post one of the projects from last semester that I think was particularly good.
+So then you can use that to kind of get an idea of what our expectations are like.
+But right now, I think especially if you're maybe done with all of your midterms,
+maybe you have a little bit of a chance to catch your breath in many of your courses, then this is a nice time kind of light.
+Start thinking about what you're interested in. Where might you like to pull this material?
+Where would you like to go next? OK, are there any questions before we really get rolling here today?
+Any concerns that I can help out with? All right, as I was mentioning to many of the students that came early, I was a very good mood today.
+The reason is because I got a bunch of new chalk. So that always means that I it improves my mood drastically.
+So I'm looking forward to a really fun day of math.
+Twenty two. Yeah. All right.
+So I one thing I've also been doing is I've been trying to go to both for the professional development of our series,
+and TFS is attached to this course. I've been going to and observing the problem sessions and some of the office hours
+just to kind of see how they're going for both a broader perspective on the course,
+but also to support the math, 20 to team. And so I went to see office hours yesterday, a problem session, and it was really quite a lot of fun.
+And one question in particular that a student asked there, I thought was really an excellent question.
+And so I thought I would open with that today.
+So last klap, one of the big new objects that we introduced was the idea of a basis for a vector space or subspace.
+And so the student, I think, very correctly asked the following question.
+Truly, I think to deeply understand material, you need to have an answer for who cares about anything we're talking about this semester.
+OK, you need to have an answer to that question of why are we doing this?
+OK, that's one of the big goals when we're coming together. Certainly you can get a lot of the details from just reading the book.
+One of the things we want to be thinking about when we're together is the big picture.
+Who cares? Why would you care about the basis of a vector space?
+Well, seeing did a wonderful job answering this question, too, at that session.
+So I highly recommend going to her problem sessions. The answer that she gave and that I want to really emphasize in today's class is
+because this gives us a way of describing a vector space in sort of a minimal way.
+So if you think back to what we did before with Solutions sets, we're studying the solutions to a system of equations.
+Well, the first thing we did is we said, well, we can write down that as a span of some vectors.
+Well, if that's a minimal spanning set, then we can express everything in that solution set in that set just using two pieces of information,
+just using, say, those two data points for those vectors that we were studying. If it happened to be.
+There's just two free variables coming up. So that gave us an advantage both from sort of a data storage point of view of how much
+information do we need to be able to express everything that we're interested in.
+So that's what we're going for with a basis is we want a minimal collection so that we can describe everything.
+So that's, I think, one answer to who cares? But let's really kind of dig into this idea of how we work with this notion.
+So I want to start with an example today. So here is an example of a vector space that I particularly like are to so inside of our two,
+we have one particularly nice basis that we work with all the time,
+which is just the standard basis we usually reserve the notation script E for that basis, one zero and zero one.
+So if you're thinking about those two vectors here, here is the one on my graph here and here is E two.
+So from one to two, it's sort of generates this grid for the entire plane.
+And then every vector I can express is a linear combination of these two.
+And in fact, more than that, I can express every vector in our two uniquely as a linear combination of these two.
+So we use this all the time. But now what we're doing is we say, well, sometimes this problem in front of us,
+like maybe you're doing something in a physics problem or an engineering problem, there are some natural symmetries in your problem.
+It might not make sense to use the standard basis. It might make sense to use a different basis.
+So, for instance, in this problem,
+you could consider really going to take my new chalk out for a spin today so we could use the basis coming from, say, these two.
+I'll use Script C to denote this other basis and I'll make it and read.
+This will be the vector one one and the vector say one minus one.
+So you can also think about this is then generating some grid,
+this red grid that I've drawn here where it's just kind of here is my first base is Vector in C, which I'll call C one.
+And then my hopes that see to. And then I have to ask one up here, I see one, so this is Vector C, C one and vector C two.
+So we can then think about describing our points in that way as well, so then in this particular problem,
+ultimately what we want to do is we just want to be able to describe all the points in our two.
+So, for instance, suppose I just wanted to describe this green vector. Well, how could I describe this green vector in terms of the white grid?
+What would this be in terms of the white grid, how do you describe getting to this point in terms of the white grid?
+Yes. All right, so that if we take this Vector V, then I just go three units in the one direction,
+so I take three one and then I go one unit in the E two direction.
+So times one times two. So that's how I can then express this vector V in terms of that white grid.
+But you can also ask the same problem and maybe I should write this in White to be consistent with my color choices here.
+Three e one plus one, timezone two.
+We can also do it in terms of the red grid, so if I then thought about this Vector V, well,
+another way that you could describe it is as a linear combination of C one and C two.
+So how could I get there using the red grid system? How would I do that one?
+So want to see one?
+Plus one to. So if we just think about that, I'm going to units in the C one direction,
+so I go one, two along that grid and then I go one unit in the C two direction.
+So that sends me right there.
+So the point is that this gives us another way of representing that same point as a linear combination of these other two basis vectors.
+So the goal here is what will be developing, especially in Chapter five,
+chapters five and six is to find the appropriate basis to find the appropriate coordinate
+system to work in in order to express the problem that you're studying in the most simple way.
+OK, sometimes the standard coordinates are the nicest way to express something, but not always.
+The kind of nice thing that showed up here, though, is that no matter what videos, no matter where I put this green vector in the plane,
+there is a unique way that I can express V in terms of basis E, there's a unique way that I could express it in terms of basis.
+So that's a theorem. So we can do that any time we have a basis and ultimately forms the heart of why we care about having a basis.
+All right, so what now, do the general theorem? So if we have some basis, be.
+You wound up through the end, this will be some basis now for a vector space, not necessarily r n b, a basis for a vector space.
+We now let's give an element in this vector space, so then for each X in my vector space V there exists unique scalars.
+Unique scalars.
+See one up through CNN and ah, so that X is a linear combination using those scalars.
+OK, so it's just saying, just like before, there was a unique way that I could express V as a linear combination if you wanted me to,
+namely using the Scalars three and one, there was no other way to do that.
+Same way here using C one and C two,
+using those as basis factors that were unique scalars two and one that would describe it in that coordinate system.
+Does the foreshadow what we're going to see later? I'm going to call two and one the coordinates of V relative to that basis I'm
+going to call three and one the coordinates relative to the standard basis.
+OK, so it's just like we're trying to describe our space and there are multiple ways that we could do that.
+But we need to agree for the problem that you're working on.
+OK, so I think today's class is especially good for flexing our proof writing muscles.
+So I think this is especially a proof that I think you could do now.
+So it's a nice one for us just to kind of work through together.
+All right, so we want to prove that there exists these unique scalars see one and see two.
+So that means there are two things that we need to do. What are the two things that we need to do as a part of this?
+First thing about the structure, James.
+There exists one first of all, we need to show that is scalars exist at all and then we need to show that they're unique.
+OK. So for the existence part, we can go back to the definition of a basis, what two properties do you have if you're a basis?
+Perfect, right, so particularly that second condition that they span then tells us that they're going to exist, these scalars.
+So let's use that. So sense B one up through Vaun is a basis.
+Then we know. There exist see one up through CNN in our scalars, so that X is a linear combination.
+So since it's a basis we know it's expanding, that since it's expanding.
+We know that it can be written as a linear combination of them so that already established existence.
+So the second thing we need to prove is uniqueness, thinking generally to our proof writing strategies.
+How do we approach proving something is unique? What do we do?
+Xavier? Perfect.
+So let's just do that supposed one through the end or some more scalars so that X is also equal to D one time to be one plus plus D and B,
+so we have some other scalars that potentially do the job.
+Now, what we would like to do is to show that these coefficients, they all have to be equal.
+So we'd like to compare these two things. So it seems like if you want to compare something, why not take their difference?
+So we take if I take X minute X, well, that's going to be equal to zero.
+So we have zero is equal to X minus X. So now I can replace X with this expression and this expression using the vector space axioms,
+I can compute all of these terms involving b one past the other terms and I can factor out the B one
+to then get I have said one minus C one times B one plus DataDot up to the N minus the end times B.
+OK, with that. So I've just used the vector space axioms a bunch of times.
+OK, so we've used that we want to be in on this.
+Right. Right. Perfect, so now stands be one Ben or unrelentingly independent.
+Linearly independent. And we know that the weights to be equal to the zero vector would have to all be equal to zero.
+It gives me a system of equations C one minus D one is equal to zero, down to C and minus the N is equal to zero.
+So that system of equations, if you just solve for C one then gives C one is equal to D,
+one down to C and is equal to D N so hence the coefficients, the weights are unique.
+Waites. Are unique.
+So no matter what vector space we're working in, as long as we have a basis,
+there will be a unique way to express that basis element as a linear combination of those basis vectors.
+And then in particular, the nice thing about that is that means that even though I'm working in maybe a really weird vector space
+involving matrices or functions or something entirely different that we haven't thought about yet,
+I can study those elements in terms of their scalars, which are just real numbers,
+because those are keeping track of how much you use each of those basis vectors.
+Right. That was my basis vectors gesture, so so here, if we're then using B one through Thurbon,
+we don't need to keep track of exactly what Ben went through. An we can instead work with the scalars that are attached to those.
+So we're going to give a name to those call those the coordinates. So let's now that we know they're unique, we can name them.
+So again, suppose we have some basis, B consisting of vectors, B, one up there, Ben.
+And now more specifically, these do not have to be elements in our n they could be in any vector space.
+Basis for some vector space, we should just be independent, spanning set.
+Then if I have some element in my vector space. Then we're going to call the coordinates of X relative to this basis.
+The coordinates. Of X.
+In terms of the basis be. Or relative to be.
+You'll often see this written relative to be, are or is the coordinates are the unique.
+Scalars. See one up through CNN in are so that.
+X is equal to see one, B one plus the data plus can be an.
+So we'll use the notation of brackets around X sub to denote these scalars.
+OK, so we write.
+X in brackets B. So this is supposed to be the coordinates and then I'm just going to make this the tuple of scalars C one down to C at.
+So this notation now, relative to some basis then just means the tuple of scalars,
+such that acts as a linear combination of B one using B one three B, and so if we go back to make this notation, agree.
+So then we have in our first situation we have V relative to the standard coordinates will be three and one.
+We, relative to the coordinate system given by Script C, will be the unique SCALARS two and one.
+So right here I can describe V by going to units in the direction of this first base,
+this vector then going one unit in the direction of the second base vector,
+I can similarly describe by taking three units in the direction of each one and one unit in the direction, one unit step in the direction of E two.
+Questions about that. Yes.
+Replace V with what? Yes, so like here, we could replace me with three one if you rate three one just like this,
+we assume without any other notation that that would just be relative to the standard coordinates.
+Good question. OK. Yep.
+And you can go on. Yeah, that would be like.
+They won by about. That's a really great point.
+So when you want to think about, like, how do we actually change coordinates from one matrix, from one coordinate system to another?
+So we'll do that in just a few minutes. But you're right, it can be given by multiplying by a given matrix.
+So that's a great point.
+Let's leave up who cares in case it reminds people to keep asking that question, hopefully in a kind way, not in a competitive way, but.
+I'm sure in seeings problem session, it was meant in a very genuine way, so the key thing here, though,
+is that what we want to use these coordinates for is to be able to understand abstract vector spaces,
+because if you think about what's happening now is this gives us a way of taking
+an element in an abstract vector space and instead studying its coordinates,
+which is a tuple in our end. So this gives us what we're going to call the coordinate mapping.
+So define. The coordinate mapping, coordinate function, if you want a mapping, is a synonym for function,
+so we'll call it T because it's going to be a linear transformation.
+We'll need to show that and I'll say relative to that basis. So what this does is it eats vectors, so it eats elements in V,
+so that's your domain and it spits out tuples in our N because that's how many basis vectors I had.
+So this gives us this particular map, so we need to say what it does.
+So where T of the well, let me I should say X notation I was using before.
+So what should we do to an element X and we what should I do if I want to get some output, an R and something in R n.
+What should this do? What should this function do? Cameron.
+The span of our end, so if I take the span of our end, that's an interesting idea, but that would be a collection of vectors, right?
+I want a single vector in our end. So how could I get a single vector in our end?
+What could I output? This.
+So I'm going to just send this to see one down to CNN where X is equal to see one,
+B one that I see in the end, we just proved a theorem that said there were unique scalars that did this.
+So use those unique scalars to get a function from your vector space to orient.
+So the key idea here is that this is going to be a way of taking questions, an abstract vector,
+spaces, putting coordinates on your vector space to then answer those questions in art.
+So if you go back to the big theme of what we've been doing is we want to generalize all of the machinery,
+all of the big ideas you've had in our end, and use them in an abstract vector space in a more general setting.
+This gives us a very direct connection between them. Take your function or your polynomial or your and by n matrix,
+apply this coordinate mapping to then get something in our end that you can just study directly using the methods from before.
+OK, um, let's see, let me do a couple of examples to really tighten what we've been talking about.
+Yes. You mean Zibi, this is Zuby.
+So this is Zibi. Well, this is the image, this is just the output and I want to study the function.
+So I want to give a name to the function,
+just like we had matrices and I still defined a linear transformation associated to multiplying by that matrix.
+So, I mean, it is another view of the same thing. So this is just to emphasize the function that does it.
+That's a good question. All right. So let's do a couple of examples here.
+Let's take again we to be are three, so something where we have a lot of intuition.
+Let's take for the moment the standard basis for our theory.
+So one zero zero zero one zero and zero zero one.
+So one way that I could certainly describe an element in our three is just by taking a linear combination of these basic factors.
+So you could say take X. So again, this is certainly notation we've seen before, three times one plus four times two plus five times three.
+So then that tells us that the coordinate mapping T E of X or as Tommy points out,
+just X written relative to the standard coordinates will be equal to, what, three, four, five?
+So it's just kind of pinning down the notation.
+There's nothing particularly fancy about this example other than just noting what the notation is saying to do in this particular case.
+All right. Well, let's make things a little bit more sophisticated by taking a different basis for our three, for instance.
+So let's take B to be the basis one zero zero one one zero one one one.
+How do I know that's a basis, first of all? How do I know it's a basis?
+Jonathan. All right,
+so we could form a matrix where these are the three columns and then what
+would you be looking at in terms of that matrix to know whether it's a basis?
+The columns are linearly independent, so whether that that matrix will be convertible.
+So we have the convertible matrix theorem gives us a lot of different ways of thinking about that.
+As Jonathan points out, we can think about the number of pivots, we can think about whether the columns are linearly independent,
+we about any of the conditions in the convertible matrix theorem.
+So in terms of deciding whether or not you have a basis for our NP, we have many ways of answering that question.
+OK, well, what I really like to know is what is X this X written relative to this is.
+That's what I'd like to know. So what does that really asking?
+James. Yeah, exactly, we're then just trying to write this vector three, four or five as a linear combination of these three vectors, right.
+So we want so this will be equal to say see one.
+See to see three. Where. The vector three, four, five is equal to one times this first coordinate, the first base is vector one zero zero,
+let's see two times the second one one one zero times the third one, one one one.
+So how do I find those again? It's been a while. Maybe it's not been that long.
+How do we do this? What I find those coefficients, those weights you want, see two and three that do that.
+Perfect, augment the Matrix, compute the reduced echelon form,
+we can then solve for the coefficients so we form the augmented matrix one zero zero one one zero one one one augmented by three four five.
+We then can reduce we will get one zero zero zero one zero zero zero one and then I get minus one minus one in five.
+So that then tells me that X written relative to this B coordinate system is the vector minus one minus one five.
+So this notation is equivalent to writing X as a linear combination using these three weights.
+So minus one times first basis, vector one zero zero plus minus one times.
+My second base is vector one one zero plus five. My third scalar is my third base, this vector.
+So if we just want to check that this actually works well, then you notice you get five then minus one, minus one is indeed three.
+So that's a good sign. We have five minus one minus zero.
+So that's four. So that's a good sign. And then finally we just have five minus zero zero, which is what we're hoping for.
+This also goes back to Xavier's question of converting coordinates is essentially just
+solving a Matrix equation so we can certainly use matrices to work to convert coordinates.
+So in particular. Question.
+We got. I feel embarrassed at how much I give thumbs up now with wearing masks all the time,
+because normally people would smile at me or give some kind of indication that they're following along or are happy.
+And now I can't tell. Sometimes you can tell by people's eyes whether they're smiling, but I don't think anybody's smiling.
+It's concerning. OK.
+All right. Yes, Arjun.
+No, we don't have to. That certainly is a way that we could do it right now, but we definitely don't have to.
+So that's a great point and I'm glad you're thinking about that question.
+So the basic the big question that Arjun is pointing out now is how could we convert from an arbitrary basis to some other arbitrary basis?
+The idea that should first occur to you is that we could convert through the standard Kwatinetz, at least in our end.
+OK, but we would like to know whether we could do that sort of directly.
+So that's a question that I'm going to do on Monday.
+So we'll have a whole day talking about change of coordinates, actually, maybe Monday and Wednesday.
+But so we'll come back to that. That's a good point. Maybe to do a little bit in that direction in case it's not completely clear yet.
+Let's think about how we can really make precise that idea of Xavier's point and Arjun's point of changing coordinates to the standard coordinates,
+first of all. So maybe let's just do one more example. It's a Friday after all.
+The weather's nice. Let's just go a little bit more slowly. Everyone says they don't want me to go slower.
+OK, I'll do it anyway. So we take a vector basis be.
+And let's take just two basic factors, so if I want a basis for, say, are two.
+Let's try to pin this down really clearly an hour or two for the moment, and then I promise I'll I'll make sure that through the material.
+So here, if I just need two basis factors, what are to what do I need to know about these two vectors?
+How could I quickly get two basis factors? We could take the standard basis, certainly.
+So what if I wanted a different basis, what would I be looking for with two vectors in our two, Anthony?
+As long as there are multiples of each other, right, we've seen that geometrically before, we can see linear independence very quickly in order to.
+So, for instance, you could take the vectors one one and two one.
+For instance, there are lots of vectors you could choose.
+Well, now, before we were thinking about, like converting something to be relative to the standard coordinates,
+let's take one of the standard coordinates and write it relative to this basis.
+So now let's suppose. X is the vector one zero.
+So it is E one in order to. So now what I want to do is I want to just find X relative to be.
+So let's just take a minute, let's take a minute, try to do it yourself.
+Let's not let's not try to collaborate with anyone. Let's try to see if you can actually do this computation.
+So if I wanted to find X relative to be and then we'll do it together in just a minute or so.
+So how would we do that, what do we even need to do? Just try individually as a quick check.
+And Caleb, you're going to wave at me when I'm getting close to time, right? Thanks.
+Change of coordinates is always the topic. Students tell tell us every semester, and we teach linear algebra as one of the trickiest concepts.
+All right, why don't we come back together even if you haven't necessarily had time to finish this?
+That's OK. When we pause to do these things, I'm really mostly looking for you to just give it some honest thought.
+Like how would you try to do this? What is the definition tell us to do? Well, in this case, what do we want?
+So we want to scalars see one and C two.
+So there should be elements in are so that whatever this thing X is, it should be equal to one times B one plus C, two times B two.
+So there is the general vector equation that you need to solve to do this for any X whatsoever.
+So if we're doing this for any X whatsoever, I mean this equation would be true even if you're working at an abstract vector space.
+But now you can plug in what you have. So you have the vector one zero six to see one times the vector one one.
+Let's see two times the vector. What, the two. One. So, again, this is the same thing,
+solving a vector equation is the same thing as finding the augmented matrix one one two one augmented by one zero and reducing.
+So finding coordinates at its heart, again, it is just solving a system of equations,
+which is good because that's something we've done a lot and we're very good at.
+So if I do just reduce these two equations, then I would just get one zero zero one minus one one.
+So that tells me that C one and that C two. So my coordinates for X. the standard unit vector in our two relative to this new basis.
+So X relative to this arbitrarily chosen basis, this happened to be this one one one two one is just equal to minus one one.
+So this notation, again, is telling you that one zero is negative,
+one times the first base is vector B one plus one times the second base is vector B two.
+So this is telling you how much do you need to go in the direction of the first base factor,
+how much you need to go in the direction of your second base factor in order to express X.
+OK, so just making sure the notation is really clear. All right.
+So the thing to note here is that this equation we can, of course, think about is solving a particular matrix equation.
+So this is the Matrix equation B one B two times C one, C two is equal to X or one zero.
+So now we're making I hope I'm trying to make really precise this connection to Xavier's question at the beginning of when he
+observed that it seemed like we were getting this other coordinate system or changing coordinates by multiplying by a matrix.
+Well, you'll note see one and see two. Those are your scalars over there.
+So you then have written as a matrix equation one one one one two one multiplied by minus one.
+One is equal to one zero. So multiplying, let's write this out, maybe in notation, I'm going to call this matrix P B,
+so it'll be a change of coordinates matrix where when I multiply by X written in the B coordinate system, it gives me X.
+OK, so this matrix piece of B, what is it exactly in terms of an arbitrary basis in terms of this one.
+What are the columns. But according to this, Jonathan.
+We want to be to. So if you just form the Matrix, where you take your basis factors as your columns,
+that is going to be the the matrix that changes from the B coordinates to the standard coordinates.
+OK, so sometimes to really emphasize this, that your book will use this really awkward notation,
+peace be with an arrow to script E, you'll sometimes see this terrible notation.
+It's just representing the exact same thing. It's taking the B coordinates, something written relative to the B coordinate system,
+and it's outputting something relative to the standard coordinate system.
+OK, so if I knew this relationship here, which I'll highlight in green because I can.
+I'm just bragging.
+So if I knew where there to go from the B coordinates to the standard coordinates, how could I go from the standard coordinates to the coordinates?
+Gwen. We could do the inverse one first question, how do I know that this Matrix P is convertible Cameron?
+Call them vectors have to be linearly independent because they're coming from a basis, right?
+That was one of our conditions of being a basis. That's exactly right. So then we know that that's convertible.
+So that tells me that if I wanted to find X written relative to the B coordinates, I could take X written in the standard coordinates,
+form this matrix from all these basis vectors and invert that matrix, which if you go back to this problem over here,
+well, we know we can solve a matrix equation by inverting a matrix as well.
+So that's just saying if I multiply on the left by the inverse of B one, B two, I would then be solving for those scalars that I want.
+Arjun. Yep.
+That's a great question. That's a great question.
+Let me come back to that question in just a second. So peace would be inverse.
+What basis does that go from and to again? Of be inverse, where does that go from into?
+Take something relative to the what coordinate system.
+Standard coordinate system, so we start out with standard coordinate system and then it goes to the new coordinate system.
+OK, so just to connect back to this awkward bit of notation, again,
+the Arrow is telling you how you're starting with something in the B coordinates, getting something in the standard coordinates.
+If you invert that matrix,
+you're then getting something that takes something relative to the standard coordinates and gives you something relative to the B coordinates.
+So then to go to Arjun's observation is that we can put together these two observations, then change between an arbitrary coordinate system.
+But again, I will come back to that next week. All right, so great questions today.
+Yes, so. What is the heart of this?
+That's a great point. That's a great point.
+I think that was what Arjuna was just asking about, too.
+So maybe maybe it makes more sense for me to do a quick example of that and then come back to what I wanted to do next.
+So since we're thinking about that now, why don't we skip to my last example and we can do one of these.
+All right, um, let's suppose we take this example, let's take.
+B, to be these three vectors, one plus T squared, T plus T squared and one plus two T plus T squared.
+So this is a basis for the space of polynomials of degree two or less.
+So this is a basis we have not checked that, but we can have a basis for the space of polynomials, a degree too or less.
+So I claim that any polynomial degree, too or less, can be written as a linear combination of these three polynomials.
+I also claim that these three polynomials will be linearly independent.
+OK, so the question that I think that Arjun and Xavier are asking about, though, is what about putting coordinates on this space?
+So the coordinates then should be telling us how if I take an arbitrary element in two,
+how could I express it relative to these vectors and then keep track of those scalars?
+So let's suppose we take well, what do I want to do first?
+Well, let me do this first, so let me take another basis as well, so one T and T squared, so this is the standard basis.
+So one thing that I could do is I could ask how I could write each of these polynomials relative to this basis.
+So this is a little bit of a master problem. So that's why I want to do this one first.
+So if I take this polynomial one and I wanted to rather let me take this polynomial
+one plus T squared and I want to write it relative to these three vectors,
+what scalars do I multiply by in order to get this one? One zero one, right, so written relative to the script, see the standard coordinates?
+This is one zero one. So that's saying that if I take one plus T squared, that's supposed to be equal to one times my first basis vector here,
+which is one plus zero times my second base is vector here, which is just T plus one times.
+My third base is Vector, which is T squared. So this polynomial one plus T squared written relative to the standard coordinates
+can be represented as this three tuple this element in our three one zero one.
+Similarly, if I take T plus T squared written relative to this coordinate system,
+the standard coordinates, how would I represent this one as a linear combination of these three?
+Zero one one. And finally, for the last one, what would the last one be?
+So one plus two T plus T squared, then written relative to the standard coordinates, will then be one to one.
+So now the upshot of this is that I can take any question about these three polynomials.
+And I can answer it about the using these three vectors, so, for instance,
+if I wanted to know whether these three polynomials were linearly independent over two, which I just sort of told you as a fact to accept,
+you could instead prove that these three vectors in our three are linearly independent and then
+translate that question back into a statement about polynomials to answer the original question.
+So if you're thinking about the question that I sort of opened the day with of who cares?
+Well, in this case, who cares? It gives us this really powerful idea.
+So the idea that I want to highlight is that we can take questions.
+Take problems. In an abstract vector space V and instead study.
+The corresponding problems. Corresponding problems in our.
+Using coordinate mappings. So if you're thinking about one big idea to take away from today's class,
+this is the big idea that we want to take questions in an abstract vector space,
+use a basis to get a coordinate, mapping, a mapping into our plan, and then study that corresponding mapping there in the last, say, five minutes.
+Want to prove something about that coordinate mapping. So hopefully that example helped with Xavier in our zone.
+And we'll come back to that point next class. But just to finish up today, this coordinate mapping t is a very nice function.
+It's actually going to be a linear bijection. And so that requires some proof.
+So let's prove it. So theorem.
+If I have to be, this is a linear bijection, so the linear part means that it preserves the structure of the vector spaces that you're studying.
+So this will be going from V into our NP and it's also objective function.
+OK, so the key idea here is that now this is going to give us the bridge to then say that every problem in V has a corresponding problem in our NP.
+You can answer the question in R n then go back its objective function.
+So there's an inverse to go back to your abstract vector space to give an answer.
+So again, this is a proof that I'm sure that you can all do, but let's do it together anyway because it's fun.
+So here. There are then three things that I need to prove, I need to prove that it's linear,
+I need to prove that it's interactive and I can prove that subjective. So let's prove those things.
+So claim one. T is linera.
+So this is saying that it preserves the vector space structure,
+so meaning that if I take a question about linear combinations in our N has the same sort of question in V.
+OK, so again, we just use the definition. So we take some arbitrary elements.
+So let. X and Y, the arbitrary elements, and we were given this basis, B, so then since B as a basis,
+we know that there exists scalars well right this way X is equal to see one,
+the one that I see and the end Y is equal to D one, the one plus that at the end, the end or some scalars.
+Do you one up to the end and see, one up to see?
+So now, if I just want to check linnear independent or sorry, check linearity, I would T of X plus Y, well, add these two things together.
+So that's then T of using the vector space axium C one plus D one times B one plus C and put that down below C and plus D N ISBN.
+Well now you've just expressed X plus Y as a linear combination of B wanted B and you know that there's a unique way to do that.
+So then the coordinate mapping will just be these coefficients.
+So then we know that G of X plus Y will be equal to the vector C one plus one down to C.N. plus DNA.
+Well, this is now in our NP, so we can just use the ordinary operations in our N.
+So this is then C nd down to C, C one sorry, down to see N plus D one down to D n.
+Well, by definition, this was two X and this one was T of Y.
+So we've just established that this function, this map respects linear vector addition, scalar multiplication is similar.
+So I'm not going to do it.
+It's a good one to ask about an office hours, or you can certainly consult the solutions if you want to see that one then being objective.
+So being inductive and subjective, if you want to disprove injectivity, you'd suppose that T of X is equal to t y?
+Well then because you have a unique representation,
+you'd know that the coefficients would have to be the same from our first theorem of the day and from subjectivity if I took an arbitrary element.
+So I took an arbitrary element C one through the end of our NP.
+How could I find something in V that would map to it? How could I do that?
+So here t of what is equal to see one down to court to prove subjectivity, what could I put in the parentheses to make that true, Arjun?
+Exactly, so because this will be an element in our vector space,
+we then know that then there is something that maps to this arbitrary element in the code domain, so therefore it's subjective.
+So we now have that this coordinate mapping is a linear bijection.
+OK, so that will be the fundamental thing that we use.
+Next class will pick up with the idea of what it means to have a linear bijection between two vector spaces.
+This is what we'll call to be an isomorphic. So I'll pick up right where I'm leaving off today.
+Next class. All right. So please put away your notes and Thomas and Caleb can help me pay for this time.

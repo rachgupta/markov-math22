@@ -1,0 +1,1121 @@
+﻿Why don't we go ahead and get started? So welcome.
+0:01
+It's our last class today, so it's a little a little sad, but we have a lot in front of us too to look forward to.
+0:07
+So. In terms of the projects, I'm getting excited to read the drafts, so hopefully you've already turned in your draft, if you haven't yet, that's OK.
+0:21
+But make sure that you turn it in very soon. I think I've changed the peer reviews to now go out this evening.
+0:32
+Yes. If you click on the canvas page under assignments, there should be an item there.
+0:40
+Project Draft And then I think there there's like probably submit or upload or something like that.
+0:54
+If you can't find it, I'll help you find it after you have found it.
+1:04
+OK, great. So in terms of then what's coming?
+1:07
+So I think there's now you'll get assigned to projects to review tonight.
+1:12
+I think ideally about 9:00 p.m. It'll Emilio links to read them again.
+1:18
+I don't think this will take an amazing amount of time,
+1:24
+but I think it'll be really instructive and seeing what other people do and how that might impact what your project looks like.
+1:27
+So keep that in mind. Then over the next five days or so.
+1:32
+So you should either get written comments back on your draft from your t.f reader or you should get comments from in person from your t.f reader.
+1:42
+So for instance, I plan on reaching out to my students to schedule a meeting either tomorrow, Friday or Monday or Tuesday.
+1:54
+But by the end of day on Tuesday, you should have heard back. Certainly, if you haven't, you should feel free to reach out to your TRF reader or me.
+2:06
+If you're not sure entirely who that is, hopefully you should know who that is by this point.
+2:14
+And then the final version of your project will be due on Monday, December 13th.
+2:20
+By the end of day five p.m. OK, so that's what I need to have the final version to degrade.
+2:26
+Are there any questions about what to expect there? Yes, Tommy, all.
+2:34
+Just one step it'll submit for the whole group. Other questions.
+2:42
+If you don't get an email from canvas, giving you access to some four peer reviews say within twenty four hours,
+2:51
+you can feel free to email me, and that might mean that there's some kind of a bug that I need to track down and fix.
+3:00
+So feel free. Other questions.
+3:06
+So there are a few things that I need to do today.
+3:12
+One of the ways that I'm going to end today's class is to talk about what happens aftermath 20 to a I need to
+3:18
+tell you at least one wrinkle about math 20 to be so the the wrinkle is that my wife is currently pregnant,
+3:26
+which I am very. Yeah.
+3:36
+Thank you. We're we're very excited about that. It'll be number three.
+3:45
+So a third mathematician? Maybe the third can be a physicist, I don't know.
+3:50
+So but what that does mean is that it makes the spring semester a little bit more complicated.
+3:58
+So what my plan was is that I was going to take a bit of a leave and the spring semester.
+4:02
+And so we currently had had someone lined up that I would share 20 to be with while I was on leave.
+4:09
+But unfortunately, that arrangement has fallen through. So there is some probability that there might be a change in instructor for 20 to be.
+4:17
+That's not known yet. So I just wanted to make sure that you're all sort of aware that it might be someone else teaching Math 20 to be instead of me.
+4:25
+It'll still be a great class and maybe even a better class. But but I will talk about today how they're still.
+4:35
+I want you to know what options are available to you and what courses that you should consider for next semester.
+4:48
+But I one didn't want that to be a surprise coming out of Out of the Blue.
+4:55
+So in terms of mathematical content, we have one bit of math that I wanted to finish up today that I think is just a really beautiful theorem.
+5:00
+And then there are nice follow ups of this that you're going to see in actually quite a lot of the projects.
+5:09
+So the main application of the spectral theorem or one main application,
+5:16
+there are a number of different ways you could go towards giving singular value decomposition of a matrix and the applications of that.
+5:20
+I was hoping today would be that, but we've gotten a little bit behind schedule.
+5:28
+So instead will prove the spectral theorem that will make a nice capstone for the semester and then my rest of the class.
+5:32
+I want to talk about post math 20 to a.
+5:39
+So we have this theorem that is orthogonal diagonals of all, if and only if a is symmetric.
+5:45
+So last time we prove the forward direction that if we knew that it was orthogonal diagonal sizable, then.
+5:54
+It would be a symmetric matrix. So what we're left to do is to prove this reverse direction.
+6:06
+And I think it's a really nice sort of tour of a lot of the ideas that we've seen.
+6:11
+So we started setting this up last time. So we suppose we have we are going to prove this by contradiction.
+6:15
+So suppose not.
+6:21
+So namely, that we say that we can have a symmetric matrix, and we're supposing the conclusion then doesn't work, so it's not orthogonal, diagnosable.
+6:25
+And we're going to assume that we have the smallest KN where this happens.
+6:39
+OK. So namely, suppose a v a symmetric.
+6:43
+And by RN Matrix, that is not.
+6:56
+Not orthogonal, diagonally visible. And if there is such a matrix like this, there's a smallest one where an is as small as possible.
+7:04
+So we noted last time that and has to be bigger than one.
+7:25
+Because a one by one matrix is sort of trivially diagnosable. So we'd like to then think about what we could do with this.
+7:32
+So we have a lot of results from last class.
+7:40
+If we have a symmetric matrix, we know that we have real eigenvalue say.
+7:46
+So let's take one of those real eigenvalues. So our goal is going to be we're going to give an orthogonal diagonal ization for this matrix.
+7:51
+OK, so we're going to contradict that. It's not orthogonal. Diagnosable. OK.
+8:01
+So by our previous theorem from last time. Phi Theorem from last class.
+8:08
+We know a has all real eigenvalues. So let's name one and take particular Vector.
+8:21
+So let's take Lambda one to be one again, vector eigenvalue eigenvalue with corresponding unit eigen vector.
+8:36
+You want. So namely, that means, of course, that a times you one is equal to lambda, one times you want and it's a unit vector, its length one.
+8:53
+So we're given already that we know we can do that.
+9:04
+So what I'd like to do is then find the other and minus one vectors that I would need to do that.
+9:10
+To Dove analyze the whole thing.
+9:17
+I want them to be orthogonal, though, so I'm going to consider them the set of vectors that are orthogonal to this given vector.
+9:19
+So let's take now to set W to just be the set of vectors in our NW W such that W dotted with oh right,
+9:27
+this way you one dotted with W is equal to zero.
+9:40
+So we have this vector you in space with this vector, you in space,
+9:48
+and we're taking that everything perpendicular to that the orthogonal complement of that given vector.
+9:53
+So you can then think about what this is, is that this is the orthogonal complement of the span of you one.
+9:58
+So. A nice note in the front row here.
+10:16
+Takes a little of a couple of how many trends positions that are.
+10:23
+It's a nice idea. What does the one hundred and eight mean?
+10:31
+Nothing. OK. But got.
+10:41
+Oh, I see, OK. I say, OK, OK.
+10:47
+But they're vectors, so it's like a bunch of actors. One number of.
+10:52
+So one thing that we can think about this is we can then think about this is then the null space of U.
+11:02
+One transpose. So what dimension will W have?
+11:07
+It's actually relevant to many of the projects I've wasted that I've met with people what Dimension W have.
+11:19
+It will be on minus one. We know that you has a non-zero vector.
+11:32
+So then if we're taking everything orthogonal to that, we then get something that where the dimension of W is equal to and minus one.
+11:36
+So the orthogonal compliment is then and minus one dimensional. OK.
+11:47
+It's a subspace, so I can certainly take an author's normal basis for the subspace.
+11:53
+We can apply. We can give a basis and then apply. Graham Schmidt to then get on with the normal basis if we want.
+11:59
+So I'm going to then take the basis you two through UN to the north of normal basis.
+12:05
+For W. So there and minus one vectors there.
+12:17
+Just sort of indexed it in a funny way because I've already defined a you one.
+12:21
+All right. So what I'd like to know is what a does two things inside of W.
+12:28
+So let's just think about that for a moment. So note or side note, if you take an element, say you inside of W or sorry w inside of W.
+12:36
+Then if I play to that element, it's going to stay in this particular subspace.
+12:51
+And A.W. is an element in W.
+12:57
+So that means that we can think about this Matrix A as a function on W, as a function from W to W, so let's maybe I'll prove that.
+13:06
+So this is because how would we check that A.W. is inside of W?
+13:17
+How would you check that? Are you?
+13:21
+Perfect, right, so we just need to check this orthogonal city condition, so we want to take you one dotted with a W.
+13:27
+So we're computing this particular dot product, so this is then by definition,
+13:38
+you one transpose times a W. Well, then I can move the say a inside the transpose by taking its transpose.
+13:42
+It's a symmetric matrix. So then this would be equal to a U.
+13:53
+One Transpose times w. Then eight times you won, you won was chosen to be an eigenvectors.
+13:58
+So this becomes lambda one you won.
+14:08
+Transpose Times W, which is then just lambda, one times you one dotted with W.
+14:11
+We're now u one w was an element in W.
+14:18
+So then this dot product will be equal to zero. So we definitely do stay inside that particular subspace.
+14:22
+All right. So now this is where I think it gets kind of fun.
+14:31
+Let me just take off my jacket. This is where I think it gets kind of fun because what we now have is we have here W.
+14:45
+And then we have a as a function from W to W.
+15:00
+So now W is an RN minus one dimensional subspace and of our RN.
+15:07
+How do we often study things? Study vector spaces. Thinking back to Chapter four,
+15:11
+how do you what approach do you often use to study if you have a function from one vector space or one subspace to another subspace?
+15:18
+Right, so we kind of we do a change of basis or we put coordinates on our vector space.
+15:30
+So here we have an end minus one dimensional subspace, so we could use the coordinate mapping coming from this particular basis up here.
+15:36
+So maybe I'll name that basis. So let's take a.
+15:45
+B to b u two, three u n.
+15:52
+So then that gives me a coordinate mapping down to what copy of our will be here.
+15:58
+R n minus one, because it's n minus one dimensional.
+16:06
+And this is then the coordinate mapping where I put things in coordinates relative to the EU coordinates and I do the same thing on the code domain.
+16:09
+So the usual thing that we do then is we study the associated matrix the matrix down here.
+16:20
+So I'm going to give a name to this matrix. And I call this thing am.
+16:26
+But I'd want to think about what those vertical arrows are doing, those changes of coordinates because it's a little bit subtle.
+16:34
+So let's take an element in W. So let's kind of this is a little bit long winded for a proof,
+16:41
+but nevertheless, I think it's kind of a nice discussion and tying our ideas together.
+16:48
+Let's take an element in W. Well,
+16:52
+the whole point of having a basis and how you compute the coordinates relative to a particular basis is you express X then as a linear combination.
+16:58
+So then X is equal to say C to you two plus da da da C and you n four unique scalar c two, three and four unique.
+17:08
+Sailors. See to see, yeah, that's because it's a basis.
+17:26
+And then by the way, we defined the coordinate mapping relative to this basis was that this was the tuple of those weights.
+17:34
+See two down to see RN giving me a vector in R and minus one.
+17:44
+So that's how we get what the coordinate mapping is going down there.
+17:55
+But so this is a vector equation. How else could we express this vector equation?
+18:00
+So if we have. X is equal to see to you two.
+18:05
+Plus da da da see and you kn going back almost to the beginning of the semester.
+18:11
+How else do we think about that vector equation? Her, sure.
+18:18
+Right, so what do you usually think of this is then the matrix you two or you end times the vector, see two down, three see in.
+18:28
+So usually we call this matrix, then the change of coordinates matrix, we'll call this matrix, then say P.
+18:39
+And then this is expert and relative to the court.
+18:50
+So then X, so just to summarize, we have X is equal to P times X written relative to the B coordinates.
+18:55
+Now, can I compute P Inverse? Can I compute Inverse?
+19:06
+It's not square, so we can't compute inverse,
+19:13
+we have to be a little bit careful here because these vectors W and everything and W lives inside of our end, right?
+19:16
+It's an RN minus one dimensional thing inside of our end.
+19:23
+But. I want to move. Get rid of this pea.
+19:29
+What could I multiply by to get rid of it? What could I do?
+19:32
+James P. transpose, because we haven't or the normal basis.
+19:38
+So these are then orthogonal vectors, so they are of length one.
+19:43
+So then that means that p transpose times X is equal to p transpose P, which is equal to the identity matrix.
+19:50
+So that is x written relative to the B quartz.
+19:59
+So if you wanted to take a particular Vector X written relative to the standard coordinates and turn it into X written relative to the B coordinates,
+20:04
+you can multiply by P transpose, which is what these down arrows should be doing.
+20:12
+So this is multiplying by p transpose and this is multiplying by p transpose.
+20:18
+So then that tells us what we could now give a formula for air.
+20:25
+So let's now give a formula for what is by just following our way around the diagram.
+20:31
+So our clever thing that we're doing here is we're actually putting coordinates on our hyper plane on our end minus one subspace of our RN.
+20:39
+And then in those coordinates, it will then be and regarded as something in orange minus one.
+20:47
+So if you think about then what is so hence?
+20:56
+Well, what is it?
+21:04
+You can regard it as just going along the red arrow or instead you could go up, which would be then multiplying by pea to go up instead of transpose.
+21:05
+Then you go across by a and then you go down. So you first.
+21:15
+Yes, Jonathan. So that. He.
+21:20
+The. If it were square, this thing isn't square, though.
+21:25
+What we did right here, so we multiply both sides of this equation by transpose,
+21:36
+this literally will give us let me maybe write it over here, p transpose.
+21:41
+Can you actually see this?
+21:46
+OK, p transpose x is equal to p transpose p times x written relative to the B coordinate system, so we proved for an author a normal basis.
+21:48
+So if your matrix has all the normal columns, then we prove p transpose P will be equal to the identity matrix.
+22:01
+That's something we proved. So then what M is, is that when you first go up IP, then you apply a and then you go down by P transpose.
+22:06
+Again, the thing to keep in mind here is that P isn't square matrix here,
+22:24
+and the reason for that is because P is taking something in r n minus one and then embedding it into R rn.
+22:28
+So it's going to have an end minus one columns, each living inside of our end.
+22:39
+All right. But now, yeah. Is and b p going from R B to our standard bases, yes, p is p transpose, then goes the other way.
+22:50
+W. has a basis, B that we're using to get the coordinates down here.
+23:12
+Right. So then here W is everything's written in terms of standard coordinates up here,
+23:18
+and then we're using the particular basis to get a new the coordinates down here.
+23:22
+Yep. So what do you notice about this matrix, though?
+23:27
+What what can you tell me about what properties does it have?
+23:33
+Marco. This is a little bit like those of the divers going backwards because they were following him.
+23:36
+You would go up his first feet to go up his pee.
+23:43
+Yeah. Because he has right to left. Matthew?
+23:49
+And we'll be square, yes, what size will M have? What me and minus one by minus one, so that's already a good note.
+23:58
+So this is an RN minus one by and minus one matrix.
+24:07
+What else can you tell me about it? What do you notice about him transpose?
+24:13
+It's equal to em, so it's symmetric, so this is an end minus one by and minus one symmetric matrix.
+24:26
+Why does that seem like it might be helpful? The camera.
+24:32
+That will definitely be helpful. Is there anything else that might be helpful before that moment?
+24:47
+What do we assume about a. We assumed a was not diagnosable.
+24:54
+That's right, Daniel. Perfect.
+25:01
+Exactly, we assumed a was the smallest size, and you could have where your matrix would not be orthogonal, diagonally visible.
+25:17
+Now we've constructed a symmetric matrix that's minus one by n minus one.
+25:26
+So then our assumption tells us that this thing must be orthogonal, diagonally visible.
+25:31
+Otherwise, the whole thing wouldn't have made sense at the beginning. So then that means that M is orthogonal a visible by our initial assumption.
+25:36
+Yes, Tommy. Compute m transpose.
+25:52
+So if I compute, I'm trimmed and transpose I'm picking the transpose of these three factors and
+25:59
+then I reverse the order of those and you get the same thing because asymmetric. Other questions.
+26:04
+All right. So AM is with organic diagonals. Yes, Jonathan.
+26:14
+Because we assumed a was the smallest size and you could have where there exists a symmetric matrix that's not orthogonal, diagnosable.
+26:21
+So then this one would be an end minus one by and minus one symmetric matrix.
+26:31
+So then it must be orthogonal, diagnosable.
+26:35
+So that means we can find a basis that will orthogonal die, analyze it, so then we let's give a name to that basis.
+26:39
+So I'm going to give a name to the basis that does that. So I'm going to use it to find the basis in terms of the coordinates on basis B.
+26:49
+I'm going to let X two relative to be up through X.
+26:57
+And so these and minus one vectors written relative to the B coordinates will be the basis that's going to orthogonal diagonals.
+27:04
+So this will be an or the normal.
+27:14
+Basis the diagonals analyzes an.
+27:20
+So that's the thing that does it.
+27:33
+OK, so down here, we know there's some basis for our N minus one or some collection of N minus one vectors down here that will diagonals em.
+27:37
+And we can make them more than normal. Because it diagonals is M.
+27:47
+That means each of them must be an eigen vector.
+27:54
+So since we have an eigen basis, that idealization theorem then tells us that they're going to be eigenvectors.
+27:59
+We have an eigen or we have a diagonal sizing basis.
+28:08
+And I can basis, I'll read it that way. Then that means that m times each of these vectors.
+28:15
+Will be equal to some scalar, which I'll call you. For.
+28:25
+Each K from two through, and so this is just noting that they are eigenvectors.
+28:34
+OK. They diagonals, they have to be eigenvectors. All right.
+28:46
+So now think about what the goal was. I mean, we've done a bit of work now, let's think about what we're trying to do.
+29:01
+We're trying to find a basis for our end that forms an author normal and all the normal basis for our RN that consists of eigenvectors for a.
+29:07
+Well, we have you won as a nice factor already in our end.
+29:20
+A nice eigenvectors for a. How could I complete that, what vectors might you take in our RN to try to give then and all the normal eigenvectors basis?
+29:25
+What would you add to you, one, given the work we've done here? What might we add to you want to complete the story?
+29:37
+Let's remember, we don't want to add the U.S. You to the U.N. because they weren't eigenvectors.
+29:56
+They were definitely worth a normal. So that was good, but they weren't eigenvectors.
+30:02
+So we did a bunch of work to modify them to then find some eigenvectors.
+30:07
+So what would be the thing to take to get eigenvectors? What factors should we take?
+30:12
+See, Daniel. Yeah, so if we take these new vectors X to through X N,
+30:24
+they're going to live up here inside of W because they're before applying the coordinate mapping X to through X n, they're up here.
+30:32
+You add you to that. You by definition, is orthogonal.
+30:41
+You want is orthogonal to everything inside of W. So then you one through u one x two through X N will then form an orthogonal set.
+30:45
+They've all been scaled to be autho normal. So the only thing left to check is that those vectors X to three x n actually form eigenvectors for a.
+30:55
+So let's check that. So we just verify that their eigenvectors for em.
+31:07
+Let's make sure they're actually eigenvectors for a. OK, so now note, if I take this relationship here and let's just plug in what we know.
+31:12
+Well, we know what Ms. M is equal to p transpose a p, then we'd like to know what this thing is.
+31:27
+Well, that thing is just going to be p transpose times x K.
+31:35
+So that's what X in the B coordinates is. So then on the other side of the equation, all then have muc times p transpose x OK.
+31:43
+All right, well, let's think about how we could simplify this now.
+31:58
+The pee times treats pee transposed bit will give us an identity matrix because there are all the normal columns.
+32:01
+So that goes away. So then I'm left with p transpose a times x k is equal to me two times p transpose x k.
+32:08
+So if I wanted to get rid of that p transpose, what might I multiply both sides by p, so multiply both sides by P,
+32:21
+so then i get p times p transpose times eight times x k is equal to muc times p times p transpose times x k again or the normal column,
+32:28
+so p p transpose becomes the identity matrix. So then I'm left with a x k is equal to me two times x k.
+32:40
+And now what that tells us is that these vectors X to three x n are not just eigenvectors for A,
+32:52
+they're also they're not just eigenvectors for M, they're also eigenvectors for a.
+32:59
+Which sort of makes sense, because Adam was really just representing a in accordance.
+33:06
+Or at least hopefully makes sense. So let me move over here.
+33:12
+So therefore. X K is an eigen vector for.
+33:28
+A for each case. So thus, the collection you won X to up through x n.
+33:42
+You one is orthogonal to all of these because it's to the rec center elements and W, they're in the orthogonal compliment of you one.
+34:03
+They're all scaled to be unit vectors. So this is worth the normal.
+34:12
+We just checked you one x two, three x n or all eigenvectors for a.
+34:15
+So then this is an earth, a normal eigen basis. So this is and for the normal, I get a basis.
+34:21
+For A. And hence, if you haven't watched the normal eigen basis, then that means a is orthogonal, diagnosable.
+34:32
+But that contradicts our assumption that a was the smallest and that was not orthogonal, diagnosable.
+34:54
+Hence, there is no smallest end where you can not be orthogonal, diagnosable Jonathan.
+35:01
+What? Whether you like it or not.
+35:10
+I nothing. So. How do we know the excess by themselves or with the normal oh, the the links here?
+35:19
+Well, for one, this matrix p to transform the coordinates has what the normal column sort preserves links and it preserves dot products.
+35:29
+So we prove that about orthogonal multiplying by matrices with our normal columns.
+35:37
+So then if you have a property of vectors down here, it'll also be a property of actors up here.
+35:43
+So one thing we proved about that was one of our properties about matrices with all the normal
+35:48
+columns is that it preserves the length of the vector and it preserves the dot product.
+35:53
+Well. Right. So then if you have them being orthogonal down here, they'll also be orthogonal up here.
+36:01
+So that was. We can go through that proof afterwards again, if you want to.
+36:08
+Yes, Tommy. Yes, that's right.
+36:13
+Other questions. Yes. How do we know that it has an agent at all?
+36:24
+Well, we know it's a symmetric matrix, so we know it has all real eigenvalues so we can just take one of those real
+36:33
+eigenvalues and because an eigenvalue has to have an associated agent vector.
+36:39
+So then. So that's an interesting point, so eigenvalues will always have eigenvectors associated to them,
+36:44
+but you're then wondering how many linearly independent eigenvectors do they have associated to them?
+37:04
+Because you always have an infinite number of eigenvectors associated to a single eigenvalue because you can always scale one and you know,
+37:09
+there has to be a non-zero one for it to be an eigenvalue at all.
+37:15
+Because the only way that lambda can be an eigenvalue is if a X equals lambda x has some non-zero x that solves this equation.
+37:19
+That's the definition of lambda being an eigenvalue.
+37:29
+So once you know there is a real eigenvalue, then you can find an associated real eigenvectors despite computing the null space.
+37:32
+Other questions. So this is not a proof of the spectral theorem.
+37:42
+It then does get around that issue that James brings up of thinking about the dimension
+37:49
+of your eigen spaces because you're right that the when you have repeated eigenvalues,
+37:55
+you can have the geometric multiplicity being less than the algebraic multiplicity.
+38:01
+But this is saying that for symmetric matrices, that that won't happen. Marco, sorry.
+38:06
+That's a good question. So W is the orthogonal compliment of a single non-zero vector in space.
+38:15
+So then you want to know what, how many vectors you have orthogonal to that.
+38:20
+So that's given by the vanishing one equation being set equal to zero.
+38:25
+So you're looking at one equation, be equal to zero, you're going to have it has exactly one pivot position and the rest being free variables.
+38:30
+Then you know you have and minus one free variables or the rank. No, any theorem.
+38:37
+Tommy. Yeah, so when you have a repeated eigenvalue there, that's one place where you can have the failure of diagonal visibility.
+38:43
+So when you have that in your piece, you proved in the case we have distinct eigenvalues that you can with organically diagonal eyes.
+38:56
+And it was a nice proof there, but it didn't handle the case where we have repeated eigenvalues here.
+39:03
+We do handle the situation where we have repeated eigenvalues because we're not assuming anything about how
+39:09
+the multiplicity of the eigenvalues we just take one with and find an agent vector associated to that.
+39:15
+And then we just consider everything orthogonal to that.
+39:21
+We take like this plane orthogonal to my arm and then we just then work in that smaller thing.
+39:23
+And then because it's then in that space, your matrix will be acting as an RN minus one by RN minus one matrix in that plane or a smaller size.
+39:30
+But then you can apply your assumption to then say there it must be diagnosable.
+39:39
+Don't consider. They definitely could be corresponding to the same eigenvalues,
+39:46
+but those because it goes back to our assumption that he was the smallest size where you were not orthogonal, diagnosable.
+40:02
+So then when you get a matrix that's smaller,
+40:10
+even if there happens to be repeated eigenvalues when you have repeated eigenvalues, you can still be diagonals of all.
+40:12
+It just depends on whether you have enough linearly independent eigenvectors.
+40:19
+And our assumption then tells us, because it's a was the smallest, that means then M must be diagnosable.
+40:22
+Great questions. OK, so this is our last theorem for this semester.
+40:31
+It's sort of a nice capstone. I like that it's see you see like coordinates showing up again and you get
+40:36
+to see this nice diagram emphasizing a lot of the abstract ideas we've seen.
+40:41
+What I want to do with my last bit of time is something totally different.
+40:46
+So. Something that I'm very out of practice with.
+40:55
+Because we don't usually do this in this class. So one of the I think, nicest things about.
+41:03
+Harvard is that there are just so many opportunities, there are so many options for you.
+41:36
+And so I just wanted to make some of them known to you and what we talk about today.
+41:42
+And to give you an idea of where some of the ideas that we've been talking about all semester,
+41:46
+where they go from here since this will probably be one of my main chances to talk to the full group of you.
+41:50
+I wanted to do it today. So we've covered a lot of linear algebra.
+42:01
+We've written certainly a lot of proofs this semester. You've grown a lot as mathematicians.
+42:05
+So the question I think that you might be wondering about is what comes next? What do you do now?
+42:10
+And so I think that there are a lot of mathematical questions that are still out there coming out of this class.
+42:16
+So one natural question that you might be considering just coming from the course content is what about infinite dimensional vector spaces?
+42:25
+What happens in that setting?
+42:32
+And you can certainly read about some of the project ideas that people are working on to get an idea of what goes on in that direction.
+42:34
+And there's a lot of interesting math, I mean, even getting into philosophy and mathematical logic,
+42:41
+but you might also be wondering about nonlinear functions.
+42:47
+This is certainly the focus of Math 20 to be thinking about what happens now if we have a curved space instead of just flat some spaces,
+42:50
+what happens if you have some kind of a curvature? How do you then study them there?
+42:58
+What about working more specifically over the complex numbers instead of over the real numbers?
+43:02
+What about working over other sets rather than strictly speaking over the real numbers or the complex numbers?
+43:07
+How does that change the linear algebra that we've been doing? We have one mathematical result that we've seen before,
+43:14
+which was quite nice when you were thinking about the card analogy of sets that the
+43:23
+real numbers themselves are a strictly larger card analogy than the natural numbers.
+43:26
+So one fundamental question in set theory and mathematical logic and philosophy is whether there's a number in between.
+43:32
+Is there an infinity that's strictly smaller than the size of the real numbers and strictly larger than the size of the natural numbers?
+43:39
+I mean, that's actually a deep and hard question that leads to a lot of really interesting questions in the foundations of mathematics.
+43:49
+And then again, you can read about this idea in some of the projects that people are pursuing.
+43:58
+But we've seen the idea of an abstract set.
+44:03
+Then we put some structure on the set, whether it was through equivalence, relations and equivalence classes or whether it was through vector spaces.
+44:06
+But there are certainly many other ways that you could put an operation on a set and study that operation on that set with various properties,
+44:14
+and it could model different things, whether it's coming from engineering or physics or chemistry or whatever.
+44:21
+And so you could. Certainly, it doesn't have to be the scalar multiplication and vector addition operations.
+44:27
+You could study other types of operations as well.
+44:32
+So and then certainly you can think about what happens when you think about not just in a matrix of numbers,
+44:37
+but what if you had a three dimensional matrix so you have not an eye and AJ,
+44:42
+but you also have a K going out and then you can think about higher sizes for matrices and these are things called sensors.
+44:46
+And again, I think there are a few projects where you can read about these ideas. So what happens in what's called multi linear algebra?
+44:54
+So when you think about sensors, differential forms and more in those directions, so.
+45:00
+And applications then of all these different sort of ideas.
+45:11
+So I wanted to give you some highlights of what you might do aftermath twenty two.
+45:16
+So certainly my preference, my suggestion is 20 to be is the most natural course to take coming out of my twenty two way,
+45:21
+but it's certainly not the only option coming out of my twenty to a for you to consider.
+45:28
+And there are a lot of factors that might go into that decision,
+45:32
+like if you're taking Kes one twenty four people tell me it conflicts, so that might be a problem.
+45:35
+But there are actually a lot of spring courses that you're now mathematically prepared for.
+45:42
+So I wanted to highlight a few of them. So Math B is the most fundamental one that I'll point out, but it does cover the same content as math.
+45:46
+Twenty one, a twenty one a is still an option for anyone here that's interested.
+45:54
+But you can also think about dynamical systems. Math one 18. You could think about geometry.
+46:00
+The thing about different types of geometry, not just Euclidean geometry, but non Euclidean geometries and math.
+46:07
+One 30 If you're really interested in sort of connections with philosophy and logic,
+46:12
+there's the mathematical logic course being offered math one forty one a.
+46:17
+So that's a great course for you to take. If you're more interested in connections with, say, accounting and computer science,
+46:22
+you might think about discrete math math one fifty two or the combinatorics class math one fifty five.
+46:28
+If you want a more theoretical alternative to that one 10, then you could think about the probability course in the math department.
+46:35
+Math 154 If you just want sort of a fun class, fun math like all of these classes are fun.
+46:41
+If you want something that's a more relaxed class, that's fun. Math one fifty seven Math in the world.
+46:50
+The idea behind that class is to just kind of like, present some mathematical problems and then think about how they come up in various contexts.
+46:57
+So like, you might talk about game theory one week, then maybe another week you talk about applications of group theory,
+47:04
+maybe another week you talk about applications of different ideas within mathematics. So not all of these classes are the same workloads,
+47:09
+so you should certainly consider appropriately among them some of the math classes one hundred level or less work than math.
+47:19
+Twenty two has been. Others will be more work, so it just depends on what you're considering in a given semester.
+47:27
+But among the spring twenty twenty two classes, these are the ones that are at least currently on the books.
+47:33
+It's always possible that there might be some changes due to last minute fluctuations.
+47:40
+I also wanted to give you a broad overview of what the numbering system means at the one hundred level.
+47:45
+So in mathematics, there are three main branches the modern mathematics.
+47:50
+There's analysis, which is the one 10s. This is calculus. Basically, anything that has to do with limits is the math one tens.
+47:54
+Then there's the math one 20, which is sort of discrete math and abstract algebra.
+48:03
+So this is. Where you might see some linear algebra and other sort of more abstract courses, number theory, things like that.
+48:07
+And then the one thirties.
+48:19
+So I wanted to give you some ideas of what these different branches are like, so you can see what modern math is really about.
+48:20
+So one question you might think about in this class is what's half a derivative?
+48:27
+So we've thought about the derivative as a linear operator on function spaces.
+48:32
+So then you might say, well,
+48:36
+a half of a derivative then should be something a linear operator that you do twice to get the original different derivative.
+48:37
+So you then can study what these have derivatives do. This is called fractional calculus, and it's actually widely applied.
+48:46
+Most of analogy. Mathematical analysis to one 10s are used a lot in optimization in applied techniques within engineering, for instance.
+48:54
+You see this identity showing up a lot online in YouTube videos.
+49:02
+Most of them are wrong. The sum of one plus two plus three plus dot, that dot is equal to negative one over 12.
+49:09
+And it's sort of deliberately stated as just a provocative statement.
+49:16
+But of course,
+49:19
+like Math one 10 or math one 15 shows you how this falls out of your analysis in mathematical physics and actually has a meaningful interpretation.
+49:20
+You might ask the question of given a continuous function, how non differential can that function be,
+49:31
+for instance, like you might think about the absolute value of X,
+49:39
+it's a continuous function that's not differential, but the origin for how badly non differential can your function be?
+49:43
+Can this be just a point or a handful of points? But what can happen?
+49:49
+And it's then sort of a remarkable thing. Oh no. Well, this is scrawled, sorry, how did I get out of full screen?
+49:54
+This is what happens when you have someone that doesn't present all the time.
+50:02
+Yes, sir. So this is called the via straws function when via straws came up with this function in the eighteen hundreds,
+50:12
+this was regarded as a mathematical monster. And really,
+50:22
+people were quite alarmed because it posed actually found logical inconsistencies for the foundations of calculus in mathematics and caused people to
+50:26
+sort of revisit it in a more modern guise for analysis at the same math 112
+50:34
+level to then make a rigorous system where a function like this makes sense.
+50:41
+And this actually comes up, these kinds of functions come up a lot, and fields feels like mathematical finance,
+50:45
+where you might be using stochastic processes and stochastic calculus to understand things.
+50:50
+So there's an interesting function.
+50:57
+I also want to talk about this sort of fun problem from, say, math one 18, at least if I taught math one 18 where I might start the story.
+50:59
+Think about the following problem that you had in calc one or some fundamental problem in math is to find the zeros of a function.
+51:08
+OK, this is something we think about, even in math.
+51:16
+Twenty two a quite a lot as you just want to solve an equation that's sort of, in some sense, one of the most fundamental math problems.
+51:19
+So you have the equation F of X is equal to zero. And I tell you, I want you to find the zeros of this function.
+51:26
+Well, the most fundamental thing you would do if you have a nonlinear function is you'd say,
+51:31
+I'm going to use the basic idea of calculus to approximate this nonlinear function of the linear function.
+51:35
+So I'm going to create the equation of the tangent line. There is my linear causation up there and my function l the equation of the tangent line and
+51:40
+then solving L of X equals zero is hopefully giving me an approximation for f of X equals zero.
+51:47
+And then the idea behind, say,
+51:52
+Newton's method that you might have seen in calc one is that you iterate this process over and over again to keep finding the tangent lines
+51:54
+and keep improving and hopefully to keep improving your gas or your estimate for where the zero is to then find where it comes out to be.
+52:01
+So this idea of solving the equation to get this iterated map here is one way of doing that.
+52:11
+So that goes back, of course, to Newton. So one question that comes out of Newton's method is like.
+52:18
+What if your function has multiple zeros, how do we know we're getting to zero that we want?
+52:27
+So you could ask the question of which, where do we go when we go to the zero that we're actually interested in?
+52:31
+So the initial guesses, it's not that converge to one zero is called the basin of attraction of that zero.
+52:37
+And then the ones that go to maybe other zeros is called the base of attraction of that other zero.
+52:47
+So we're going to group them together based on what they eventually go to. So let's consider a simple function.
+52:51
+So here's a quadratic so we should be able to analyze completely what happens for this function.
+52:57
+So we have this graph of the function I form the equation of the tangent line,
+53:03
+the linear causation in green and then Newton's method tells me fine, the zero.
+53:07
+So I find that zero of the green function and I say, Hey, look, that's pretty close to the square of three.
+53:12
+Great.
+53:16
+Then I would find the equation of the tangent line at where the Green Zeros X Intercept is and then do the same thing again and again and again.
+53:17
+And I note that it converges to the square root of three. And I'm happy.
+53:24
+So then that means that point can is in the basement of attraction of the Square to three.
+53:28
+So you can probably convince yourself without too much effort that the basis of attraction is set.
+53:33
+B is just equal to all positive real numbers.
+53:37
+If I take my guess to be any positive real number, even if it's a billion it convergence of the square root of three.
+53:43
+If I took my initial guess to be zero, Newton's method would fail because a horizontal line doesn't intersect the axis so that it won't be in the set.
+53:49
+What do you think? And then if you take any negative number, it converges to a negative square to three.
+54:00
+So, OK, fine, we've computed the basis of attraction. It doesn't seem that complicated, but it's something.
+54:06
+Well, let's go to a complex plane for a moment.
+54:14
+So now suppose we take a function from sea to sea, so the focus of something you might study in that one 13 a complex analysis class.
+54:17
+So a simple function would be something of the form F of Z is equal to Z squared minus three now again, where Z is a complex number.
+54:25
+So the same polynomial for before, but now it's complex instead of real.
+54:31
+And then I'm going to take Newton's method as before.
+54:36
+I mean, derivatives for polynomials work the same way for complex numbers, so I can apply the same procedure and see what happens.
+54:39
+So here are the basics of attractions in the complex plane.
+54:48
+So this purple region so great here. This will be the real axis of thought here and a little dot here.
+54:53
+Those correspond to the real zeros of this function.
+55:00
+And every purple point, even if I guess way down here in the imaginary plane, Newton's method will then converge to the actual real value.
+55:03
+If I took any point over here, it will then converge to negative square root of three.
+55:14
+OK. So again, it's not wildly different. It seems like you've just extended off the real axis into the real plane, so not wildly different.
+55:19
+So let's maybe consider a slightly more complicated example now.
+55:29
+Let's try Z cubed minus three. So again, not so different.
+55:33
+Here are the basins of attraction of the cubed minus three. So again, now we'll have three zeros in the complex plane.
+55:40
+One will be along the real axis and the other two will have imaginary components.
+55:47
+So here are the zeros for the basics of attraction.
+55:55
+So what this is telling you is right over here, you can see that line going through the origin is the real axis.
+56:00
+That's where one of the real zero, the where the real zero is the keyboard of three along the real axis.
+56:07
+So every purple gas will converge under Newton's method to that zero.
+56:16
+So even if I'm way down here in this purple region.
+56:21
+My my four or five year old now tells me I'm not very good with colors, I think that's purple.
+56:26
+I don't know if you agree with me, but this region, which I'm calling purple, will then converge by Newton's method up to there.
+56:32
+Any warmed point will convert to the zero over here.
+56:40
+Any green gas will convert to the zero up there.
+56:44
+So what's really interesting is you get this really subtle behavior around these certain regions where,
+56:47
+like small perturbations can result in wildly different long term behavior.
+56:54
+So you get this interesting fractal shapes coming out, and then you can even think about how this story evolves for even more complicated functions.
+56:59
+This is just the behavior coming from thinking about a cubic function,
+57:10
+and you'll notice that it has sort of these three tendrils going off describing this sort of behavior of this function,
+57:14
+where it's like these regions where it's more complicated.
+57:22
+What do you think would happen if I took a quadratic function or sorry, a cathartic function or a Quantic function?
+57:24
+What do you think might happen? What's your guess? You would have a guess what might happen.
+57:31
+Matthew? Pads going off.
+57:40
+That seems like a good guess, right? It seems like that might be what happens.
+57:48
+And you can what's kind of fun here is you can even experiment by just like plotting
+57:52
+some of these fractal shapes to see what does happen for different regions.
+57:55
+So this is a field called complex dynamics. And I mean, this is one of the topics that comes up.
+58:01
+There's also a field called real dynamics where you can talk about chaos theory and all of those sorts of things.
+58:06
+These do come up in math one 18, and this actually comes up in a lot of scenarios where a lot of the physical models you might create for
+58:11
+various things like neurons firing in the brain or your heart beating come from dynamical systems models.
+58:18
+So you might want to know like is your model chaotic? Is your model predictable?
+58:24
+How can you understand it? So it's actually applied as well.
+58:28
+So the math 120s some questions to maybe get you interested in the math one 20 is that or considered here?
+58:33
+You might think about questions like Can you generalize the quadratic formula to higher degree polynomials,
+58:40
+or can you prove that it can't be generalized? So can you complete the cube?
+58:45
+Can you complete the Hypercube? Things like that. I might like completing the square.
+58:49
+How can you mathematically encode and study cemetery? So what exactly does that mean?
+58:55
+You can even think about some of the group projects are considering,
+59:00
+like encoding the cemetery properties of chemical molecules and using group theory to study that cemetery.
+59:03
+You can think of about questions and number theory. Can every positive energy be expressed as the sum of four squares?
+59:12
+Can it be some expressed as the sum of three squares of two squares?
+59:17
+Can every integer greater than to be expressed as the sum of two prime numbers?
+59:22
+So there are quite a lot of, I think, interesting questions that are not super hard to state that come up in these courses in the one thirties.
+59:27
+This is geometry and topology and perhaps most relevant to physics and economics.
+59:36
+The first question, which will be a question and the fundamental question of math 20 to be, is how do we generalize calculus to higher dimensions?
+59:43
+The difference between math 20 to be in math twenty one A will be the language that you use to answer that question,
+59:50
+whether you use linear algebra in answering that question or not.
+59:56
+In Math 20 to be, we will use linear algebra to fundamentally answer that.
+1:00:00
+And in math twenty one you want. So you might think about what our higher dimensional analogs of surfaces this is what are called manifolds.
+1:00:05
+You can think about how do you understand the shape of space? How do you detect her curvature?
+1:00:14
+How do you stack holes in space? How do you stack flatness?
+1:00:18
+How do you detect connectedness like if you have some point cloud in space, some very large data set?
+1:00:20
+Can you detect if it's actually a very large dataset that contains some whole within it?
+1:00:26
+How would you algebraically detect that hole? How would you if you knew that it all sort of was on the surface of a donut?
+1:00:30
+I mean, that's interesting to know whether that structure exists in a large dataset.
+1:00:36
+But if it's like a 10 million dimensional dataset, I mean, how are you supposed to just see it?
+1:00:40
+You can't just see it. You have to have tools for detecting it, for understanding it and measuring it.
+1:00:46
+How can we generalize continuity to more general spaces, how do we can what happens if we measure distance in different ways?
+1:00:53
+These are called metric spaces. It's again kind of blends with the math one terms as well.
+1:00:58
+I also thought that maybe some of you might want some mathematical reading over the break. You might already have plenty of mathematical reading.
+1:01:05
+But if you are thinking about these different directions, especially if you just like an overview on what math is,
+1:01:13
+one relatively old book that I quite like, it's called the Nature and Growth of Modern Mathematics by Edna Kramer.
+1:01:19
+I read it when I was a kid and. You certainly I mean, there are topics in there that even now,
+1:01:26
+you won't necessarily understand fully, I mean, I certainly didn't when I read it the first time.
+1:01:35
+But it's very good to give you kind of an idea of where these big ideas were coming from.
+1:01:39
+I mean, it goes back to the Babylonians and then kind of goes forward to thinking about like how differential geometry shows up in relativity.
+1:01:43
+And it really does give you a nice story of how these ideas evolved.
+1:01:50
+If you're thinking about more of like a book on like, how would you improve your proof writing?
+1:01:55
+My favorite reference is this book Mathematical Thinking by D'Angelo and West, which is built around puzzles.
+1:02:01
+And so it's quite a lot of fun. You can just kind of like, read some puzzles and think about how you might solve them.
+1:02:07
+And it's a great way to get a bit more experience writing proofs if you're thinking that you want to get ready for a course like math one 12.
+1:02:13
+There are some nice analysis books that you might consider if you're thinking about the one twenties.
+1:02:22
+There are some nice abstract algebra books that you could read. Um, if you're more interested in the one thirties,
+1:02:28
+there's some geometry and topology books that you might enjoy if you're more interested in
+1:02:35
+connections with number theory accommodates works like Concrete Mathematics by Donald Knuth.
+1:02:39
+Knuth was the guy who created tech, among other things.
+1:02:44
+He's a Stanford computer science professor,
+1:02:48
+and concrete mathematics was the the course that he taught at Stanford for many years on and math for computer science.
+1:02:50
+And so it's filled with really great questions and great fun problems to solve.
+1:02:58
+I also wanted to think about some resources for you going forward.
+1:03:06
+So I think one great resource you have is all the 22A projects that I'm going to post to the canvas page in a week or so we can have.
+1:03:09
+And I think it'll be a great place to kind of get an idea of where some of the ideas in this course,
+1:03:19
+where they go and read them and think about those and kind of a nice light way.
+1:03:24
+They're also two nice places where we can find free math books. Springer Link is Harvard students.
+1:03:29
+You get access to all the Springer books.
+1:03:34
+These are the yellow books and they it's an enormous library of really high quality math books for you that are normally relatively expensive,
+1:03:36
+but as Harvard students, you get them for free.
+1:03:45
+They're also an initiative towards open Open-Source textbooks by the American Institute of Mathematics,
+1:03:47
+and so you can find a bunch of nice textbooks there that you might read.
+1:03:53
+I think one thing that I've been most proud of with this course is the wonderful community that all of you have created.
+1:03:57
+So you're certainly your classmates are a great resource for you to consider going forward.
+1:04:02
+A few years ago, some grad students and I created what's called the directed reading program in mathematics.
+1:04:08
+And I think this is also a really nice place for getting some more experience with mathematics and a very sort of relaxed and laid back way.
+1:04:16
+The idea is that you're paired with a graduate student for a semester long reading project on a mutually chosen topic.
+1:04:24
+And so you find a topic that you're both interested in. The department buys a book for you.
+1:04:31
+We pay for you to go out to coffee with the grad student,
+1:04:36
+and you can talk about what it's like to be a grad student in math and what that pathway is like,
+1:04:38
+and also just get some advice and learning that topic. So it can be a nice way if you want to learn something, but you're like,
+1:04:44
+I can't for the full math class in my schedule this semester or second full math class in my schedule four of us for a semester.
+1:04:51
+But it can be a really, I think, a nice, rewarding experience to have, like more direct one on one mentoring.
+1:04:59
+And so there's you're welcome to apply for that any semester here at Harvard.
+1:05:07
+The projects are just completely chosen by you and the grad student at whatever level you want it to be at.
+1:05:13
+I mean, you might want to put a ton into it. You might only want to put like an hour a week into it.
+1:05:19
+So it's not very flexible. I also certainly want to point out that I'm a resource for all of you going forward.
+1:05:22
+I mean, forever. You're always welcome to email me. I'm always very happy to chat about math.
+1:05:30
+And one of my favorite things in the world to do is to talk to students about math and also to hear about what you're doing,
+1:05:36
+where you're going from here or what you're doing next. I mean, I think it's nice when I get to stay in contact with everybody.
+1:05:43
+So keep that in mind that you should never feel nervous or reluctant to email me to reach out.
+1:05:51
+I think it's exciting to hear what people are up to, what they're doing.
+1:05:57
+So definitely keep that in mind.
+1:06:01
+One of the things that I've been most excited about this semester was working with all of you and getting to know all of you this semester.
+1:06:04
+It's been really a lot of fun. So please come and see me over the next week and a half of a reading period.
+1:06:13
+Hopefully, I'll see a lot of you in math 20 to be that I'll be back and you'll all be back.
+1:06:20
+That's the ideal. But even if that's not the case,
+1:06:25
+you're always welcome to come and talk to me in January about what math class to take or what you're interested in doing.
+1:06:29
+But it's been a blast. And thanks very much for all your hard work this semester.
+1:06:34
+Thank you for your. Thanks.
+1:07:01
+I even ended with enough time to pay off my time debt, so I didn't I didn't go overtime in the last day.
+1:07:09
+And thanks for the front row for the kind of message here. Yes, yes.

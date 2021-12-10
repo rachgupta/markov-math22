@@ -1,0 +1,959 @@
+﻿Let's go to get started. Sorry I'm getting a little bit of a late start today.
+Lots of great questions. Let's go to get started. Sorry I'm getting a little bit of a late start today.
+Lots of great questions. So just in terms of some reminders, we have problems at four coming up,
+if you've looked at it, you'll note that it is a fair bit shorter than problems at three.
+So hopefully that makes your week a little bit more manageable. Mid-term one these tonight, six to eight p.m.
+Oh, yes. Excited. Yes.
+So it will be tonight, six to eight p.m. in science in our Holby, unless you've arranged otherwise to for other reasons.
+But for the bulk of us, we should be there in the science center.
+Are there any questions before we get started on sort of logistics that are coming up? Any questions?
+Yes, I'll bring scratch paper.
+The exam is also printed single sided, so if you have other work,
+you would like to show where your solution goes beyond the white space provided then working on the back of a page is the best thing to do.
+Yes, I think you probably should not arrive directly at 6:00 because we'll start at 6:00, so you end up losing time to, like, getting situated.
+But I've been told the room is not used for anything.
+I mean, well before we're in there. So you should be able to go in a fair bit before.
+I mean, I will probably go down there something like 20 minutes earlier or something just to make sure that I have time to get set up.
+Yes. I just I mean, come ready to do some thinking.
+So, I mean, make sure you're, I don't know, well hydrated.
+I mean, have some orange juice beforehand. So you're feeling good? Yes.
+I'll probably turn on the Science Center projector to just project the time, so then you can just see it.
+Yeah, that's what I usually do on the Science Center. Yeah.
+You know, I don't actually know if there will be a pencil sharpener, and if you ask me, I won't I don't generally have pencils,
+so it's probably a good idea if you if you really want to use a pencil to bring it back up one.
+I suppose if you ask me for something to write with, I'll give you a pen, because that's all I really like to write with other questions you can have.
+I mean, I don't I don't know if I have a strong opinion on whether you have your bag with you or not.
+Your phone should not be out at any point during the exam.
+So just make sure you keep don't keep pulling out your phone to check the time or something or project the time.
+So there should be no issue. Other questions, anything I can help with now.
+So you know exactly what to expect. Yes. Solving this is like the new system, how much writing you want to accomplish, like the absolute.
+That's a great question. It does depend specifically on the question how much writing I would expect to justify your answer for that question.
+I mean, typically for me, I don't necessarily need to see like this step.
+I performed this RO operation to get to this next thing. I mean, I don't really care, like, just show me the reduction.
+I mean, however you end up doing it, I mean, it might help to have, like, at least some kind of a sentence outlining your basic logic,
+especially if the problem you're doing is you're solving it in some kind of a nonstandard way,
+maybe a summary sentence at the end, if it's appropriate for the question.
+But if it's just like solve this system of equations, I mean, there's not that many words you would need for a problem like that.
+I mean, you might say like we form the augmented matrix.
+I mean, even if you look at the solutions I posted there, not that many words and solutions of that type, that type of problem.
+I mean, they're the more conceptual problems certainly require more justification.
+I mean, for instance,
+one of the practice exam questions is like show that these two or find all values of age where these two spanning sets are equal.
+Well, then, of course, you need to show some work there to how your what your strategy is like,
+why, you know, one set is definitely contained in the other just by the definition of a span.
+So then you only really need to determine whether the other I think in that problem, the right hand span,
+right hand side span is included in the left hand side and then you form an augmented matrix and you reduced to be able to do that.
+So it really depends on the question how much justification I would need to see.
+Other questions. I mean, my general advice on something like that is like I would just take the exam, go through it,
+and then when you are sort of making your next your second pass through the exam to look things over,
+think about like whether any steps invoke something that needs to be justified or I mean,
+are there places where you're using a problem, said, well then right by problem set.
+If you're using something from class, say we proved in class, I mean things like that to make it clear.
+Otherwise you might have the greater right. Something like why? How do you know that's true?
+So you want to then justify what you're saying? That's especially true in the Proops. OK, then also.
+Yep, like the one on the. We have.
+Just like. If you say what I wrote in class, then that should be sufficient.
+Yeah, I mean, if you're, like, changing, I mean, you don't have to reproduce them like a scribe, for instance.
+It does not have to be like exactly the same word in the same font that I used.
+I mean, that might be difficult to reproduce.
+You're not like a photocopier, so it should be quickly, logically equivalent to what I wrote down, not through using any theorems from the class.
+So I think Tommy gave a good example of this earlier when he asked about the definition of linear independence.
+Could you instead just say the Matrix equation X equals zero has only the trivial solution?
+Well, that is definitely not the definition. There is another definition in the way of that, too.
+Linear independence. That is certainly something that we all know and we've been working with a lot.
+But that's not the definition.
+So you'd want to make sure that you're giving actual definitions, not something that we prove is equivalent to the definition.
+OK. Other questions, concerns. So makes sense.
+All right, fruit. So the last day of linear algebra that we had,
+we were starting to combine together the more days that we've been having thinking
+about functions and equivalence relations back with thinking about linear algebra.
+So we then introduced a special class of functions called linear transformations or linear functions, and we started observing properties of these.
+So these are the ones that sort of play nicely with our vector operations of vector addition and scalar multiplication.
+So that's one reason why they're natural things to study in this context. So I just want to start with kind of a computational example.
+Even from your I think this is example one on the handout that I gave you.
+Another question that actually came up that I think is a good one that I'll just remind you of,
+I often put more questions on the handouts than I can realistically cover in class.
+This is deliberate so that you get some problems to practice with if you want to.
+So I strongly encourage all of you to look at the problems that we don't get to.
+The solutions are posted to all of those. So they're good ones to use. To check your understanding then.
+That's true for today's class, too, that there are a few on there that I don't necessarily intend to get to.
+OK, so here we're thinking about what data would you need to know about a linear transformation
+in order to determine the entire behavior of that model or that linear function.
+So let's suppose we have some linear function t going from in this case are two to our three.
+So it takes inputs to real inputs and spits out three real outputs where given that it's linear.
+So it's a very special function and we're given two data points.
+We're given a T of one zero gets sent to the output vector five negative seven two and T of one zero one gets sent somewhere as well.
+So T o zero one gets sent to the vector, negative three eight zero.
+So maybe we've done these experiments. We've measured for these inputs.
+We get these outputs. So we then just like to know, does this determine our function?
+Is this enough to know exactly what the behavior is everywhere or not?
+So the question is, can we determine from these two data points the entire behavior of your function, of your model?
+OK, so let's think about how we could approach a question like this.
+Well. We want to just generally use the skills of being a good problem solver,
+so we have something that we're given and we want to connect it back to the things that we know.
+Subquestion. A.
+Perfect, right? So because it respects tradition, we can put these together, so for instance, here, since T is linnear.
+We can use the following observation.
+So if T is linear, we can break up the vector AB in terms of one zero and zero one,
+so then T of the vector A B is equal to T of the vector A times one zero plus the scalar B times the vector zero one.
+So we've then taken this arbitrary vector in our two and written it as a linear combination of one zero and zero one.
+Now because T is a linear function, it's very special. It's kind to both vector addition and scalar multiplication.
+They're friends. They get along. And so we can distribute the tea across the vector addition and pull the scalars
+through to then get T eight times out of one zero plus B times T of zero one.
+And this is by linearity of T. OK, well, now we know what he does to these two particular vectors,
+so then this will just be equal to eight times the vector five negative seven two plus B times the vector, negative three eight zero.
+What's another way of writing this? We have a particular linear combination.
+How could we express that, Tommy? We could think of it as an element in the span of these two vectors.
+How else could we think about it? Gwen.
+Combined, the. Perfect, right, we can also think about this as a matrix times the vector ab,
+so this would be then the matrix five minus seven to minus three eight zero times the vector AB, because that's how we define vector addition.
+We use this vector to say how much of a weight are you putting on the first vector?
+How much weight are you putting on the second factor and take that linear combination of those two vectors?
+So then just given these two data points, were then able to determine the entire behavior of our function because it's linear?
+Certainly that would not be true. If it were a non function, we could not then just say exactly what it's going to do to other inputs.
+So this also tells us that this particular linear transformation is that a matrix transformation?
+It's just equal to a matrix times, a given vector.
+So a question that we had hanging over us from last time was we saw that all matrix transformations are linear transformations,
+but we didn't know the converse. Is it true that all linear transformations are matrix transformations?
+So are all linear transformations.
+All linear functions, also matrix transformations.
+Well, this sort of warm up problem hopefully gives us some ideas of how we could carry that out.
+So our first theme of the day will answer this question for us. This theorem ten in your textbook if you want to have a number attached to it.
+That if you have a linear transformation te going from our NT to our M.
+So this is linear. Then there exists, right, in other words, there exists.
+A unique. What size should this matrix have?
+What size? And by nd so remember, the number of rows should match with the number of outputs,
+the number of columns should match the number of inputs, so then it should be an MBA and matrix.
+So existing, unique and by and matrix a such that.
+T X is equal to a times X for all X in the domain of my function.
+So just some terminology before we prove the theorem, we call this unique matrix a the standard matrix,
+so we call a standard matrix or the associated matrix.
+Standard matrix. Or associated.
+Matrixx. Of T, since that's unique, we can define it specifically for a given linear transformation, so this will be a specific answer.
+So then the class of linear transformations will be exactly the same as the class of matrix transformations.
+These are both describing the same kind of objects.
+OK, so now I want to prove this theorem.
+So we're getting to the point in the semester where we're all starting to get more comfortable writing proofs and so or maybe we're not,
+but we will over the next few weeks if we're not yet. And part of getting comfortable writing proofs is to practice starting.
+This is one of the hardest things when you're first learning to write proofs is to get started.
+This is one reason why I'm giving relatively quick timed quizzes is to try to get feedback on that process of getting started.
+And also one reason why I like to pause in class to give you a moment to think about how you would prove something yourself.
+So I want to do that here. I want you to just take a minute or two yourself thinking about how would you prove this theorem.
+If you've done the reading and you've already read a proof of this, don't just try to think and remember,
+try to think about if you are approaching this yourself for the first time, what would the argument look like?
+How would you start? What would you do? So I just want to see some ideas of how to get started.
+OK, so just take like two minutes and then we'll prove it together.
+But these individual exercises are really important for getting started, writing proofs to develop those skills to get started.
+There's no substitute for practice. So make sure you write down at least one idea concretely, how are you going to start this?
+All right, let's come back together now, you've had a moment to think about it.
+Does anybody have a suggestion? How could we start? So.
+I would like to go with meet with the.
+So there are some great ideas there. I mean, you say like we should use an example one, right?
+We want to use the idea of this problem. So generally speaking, when you're thinking about a new problem ahead of you,
+if you had no idea how to approach this problem and if you just if you never see problems that you have no idea how to approach,
+then that just means you're not solving hard enough problems. OK, everyone gets to that stage where you see some problems.
+You have no idea how to start. If you have no idea how to start a problem, make it concrete, OK,
+pick some numbers and actually work with that problem with some instance of that problem and try it out.
+This is good advice for the midterm tonight as well. If I give you a proof of a counterexample problem, you're not sure if it's true.
+You're not sure if it's false. Try to write down an example. OK, that's how I could get started.
+Don't just stare at it. Think about how you could get started playing around with it.
+So I think this is a great suggestion going back here to this previous problem that we've seen.
+We could write an arbitrary element in our two in terms of one zero and zero one.
+So maybe we could generalize that idea to this context as well.
+The other suggestion I have for getting started on a problem like this is you first need to write the word proof.
+Or at least abbreviate it, so here I want to write the word proof.
+I also want to start with the things that I'm given. I want to introduce some notation into this problem.
+So let's suppose we have a function T that's linear like this.
+So suppose we have T going from our NP to our M.
+Suppose this function is linear.
+So it's the kind that we have in this problem in front of us and we want to know what T does to an element in its domain.
+So let's give a name to that element. So let's take X to be the vector X one down to X and inside of R and.
+So so far, all I did was introduce some notation based on the hypotheses that we have in this given problem.
+Now we can use Haleys Theorem suggestion, rather, of going back to this previous example.
+Our Vector X is just like the vector AB. So we want to write the Vector X as a linear combination of some nice vectors.
+Well, in this case, the nice vectors are going to be the ones where you have a one say in the first part,
+followed by a bunch of zeroes, one in the second spot and zeros everywhere else and so forth.
+So let's give names to those. So let's define the vector E j.
+So this will be notation that persists throughout this class and even in other classes.
+This will be called the standard unit vector in our end. So it'll be zeros.
+Followed by a one. And the GS position.
+OK, so it's just a vector where zeros everywhere, except for in the jth component, you have a one.
+That's what this vector is. So then note the Vector X can be written as a linear combination of these things.
+So I just take X one times, E one was X,
+two times E to start at X and and so there is my arbitrary element in the domain written as a linear combination of these particular vectors.
+OK, well, hence we can now apply t to both sides of this equation, so then we know T of the Vector X is equal to T of X one, E one plus X n e n.
+Now what? Even just following the idea from the previous computation we did.
+And what would we do you. Perfect right now, will you use linearity so this becomes x1 Hymes T of E one plus X and T of N and this is by linearity.
+So by the definition of linearity, we're allowed to do that, OK?
+Yes. I know we can always apply the same function to both sides and get something that's equal, I mean,
+that would be from the definition of a function that if you're applying a function to two things that are equal, you will get the same output.
+So that seems maybe too granular to go back to.
+But that's a good question. If you didn't want to do that, you could just start with T of X and then plug in what X is into that, so.
+OK, now what? Oh, yes, Jonathan.
+By definition. The X Factor.
+So. But you could define it in words, I mean, I think this is still a perfectly fine definition.
+You could say you could define it piecewise if you wanted,
+so you could define it in words to be the vector of all zeros except for one in the position.
+That would be a sentence that defines it. In terms of notation. You could write this where you clearly indicate the one is in the position.
+If you want to define it piecewise, you could also define it piecewise as a function that way.
+So that. Yes.
+So there should be any other questions.
+Yes. Because not all functions distribute across your function will distribute like this,
+I mean, it has to be because the function is linear, that I'm allowed to do this.
+So it's not that I'm multiplying the T as a function.
+So if like T were squaring or something. Right, it wouldn't do this.
+You get cross terms. It's a good question.
+So remember, linear functions are special. They're nice. So by definition of matrix multiplication,
+then we would have T of the vector X is then these are now elements in R m and you're taking a linear combination of vectors in our M.
+So then by definition this will be the matrix T of E one to T of E n.
+So you'll note that there columns here, each of them living inside of our M times, the vector X one down to exact.
+So then we just take that to be a so and this is equal to a times the Vector X where A is equal to T of this vector E one up to T of this vector.
+And so knowing where this vector E one goes through and through the vector N where the linear transformation sends each of those vectors,
+tells you what the matrix has to be. What's missing from my proof.
+What's missing, what have I not addressed. Well.
+So. The uniqueness part is certainly not present, so I have shown that one exists.
+I found one, I found a matrix A that will do the job, but I've definitely not addressed uniqueness at all.
+So we do need to think about uniqueness. OK, so we've shown existence, now we want to prove uniques.
+So one common strategy for proving uniqueness is to suppose you have another one and then show that they're equal.
+So that's what we're going to do. So suppose we have another Matrix B that does this job.
+So B is an MBA and matrix. Such that.
+T of X is equal to the Times, X for all X in the domain.
+So be is another matrix that expresses this as a matrix transformation, let's give names to the columns of this matrix.
+Oh, it was odd. It wasn't just me.
+Right. OK. OK, good.
+I'm glad it wasn't just all right.
+Start seeing spots, it's worrying. OK, all right, so we'll give names of these things so we have an MBA and Matrix,
+so we need to name the end columns where B.K. is an element in our what are these in R.M. because it's an MBA and matrix.
+So what we'd like to show is that The Matrix A is the same as The Matrix B, right.
+That's the goal. OK, well.
+Let's start with one of the columns, say, column B.K., how could I get the case column out of this matrix?
+What could I multiply by in order to get the case column out?
+That's Brendan. What? Oh, I'm sorry, I was looking at Brendan and then go ahead, E.J.
+Yes, sorry, I didn't mean to put you on the spot, Brendan. I was looking at you, and then I saw your hand up.
+Look, so be it, OK?
+Right. So that's one way to get the kids column out, OK?
+Question. All right, so then this is then plugging in to the same thing, tea, because that's how what BP was supposed to do.
+Well, you know, tea is also represented by the Matrix A.
+So this is a times E. Well, what does this do to a.
+It says, take the linear combination of the columns where you apply a zero weight to every column except for the case one,
+so then it pulls out the case column of The Matrix at. So hence, Matrix B has all of the same columns as The Matrix.
+So then they're the same matrix. Questions.
+Seems like there might be questions. Yes.
+After the event here, sure. So what I want to do, the goal and what I'm doing next is I want to show that the Matrix B is equal to The Matrix.
+Two columns or two matrices are equal if they have exactly the same columns.
+So that's what I'm trying to do. I want to show that the cave column of B is equal to the column of air.
+So I start out with the column of B and I say, well, how is that related to the Matrix B?
+Well, it's the Matrix B times the vector where you apply zero weight to every column except for the case one.
+So then B times vector X is just the column of the Matrix.
+B, then I say, well what is this in terms of T will be was assumed to be the matrix that I could multiply by to represent
+any of the any of the linear transformation t so that's the same thing as T applied to this vector.
+But then the whole point was the A was also a matrix that did this job where it
+would just be multiplying by that matrix to express the output of this function.
+So then that's equal to a times. OK, but again, just the same reasoning is before, if you take the vector X times the matrix A,
+that's then applying zero weight to every column except for the case one.
+So then it pulls out the case column. So then the column of A is the same as the case column of B, therefore the matrices are equal.
+And it's unique, which I think was a question maybe Arjuna's last time was whether there were other ways to represent a given linear transformation.
+So it makes sense questions. We're good.
+Yes. Oh, you're good.
+Yes, Xabier, linear transformation, yes, by the properties that we've seen already of Matrix properties, we're multiplying matrix by a vector.
+They're all linear. Yep. Yeah, we can't divide by a matrix.
+Yeah, there's we don't have any method of dividing by matrices or dividing by vectors, so we can only use the operations that we have in front of us.
+Other questions. Oh, yes.
+Oh. So if there were another one be, then I would have to be the same as a right.
+So then there's only one. Because you already have this one A then I say, suppose there were some other there was another one,
+I call it B, well, then B would have to be equal to this one. So then there's only this one.
+Other questions. OK, so as we're getting more into the linear algebra of the semester, we'll answer more proofs of the results in linear algebra.
+So this will give us exercise in both developing our proofreading strategies where we're then exercising is getting started writing proofs,
+which is often the hardest part. So I'll often do this where we pause and try it ourselves.
+OK, I think it's a really good way to get going. OK.
+All right. So example two on your hand out now, I would like to write down some use some of these ideas,
+so let's suppose we have tea to be the linear transformation from R to to R to that's going to rotate by theta and a counterclockwise direction.
+And I would like to find the matrix associated with this. I want to find a rotation matrix so we now know that there's exactly one of them and we can
+find the matrix of any linear transformation just by computing what it does to end vectors.
+So here there are two of them. There's the vector one zero and the vector zero one. I rotate both of them by theta.
+I see what happens to them. That tells me the rotation matrix. So let's just do it.
+So here, I'll write my domain. I should use my colors here.
+So if we have the vector E one one zero.
+And I have the vector E to the vector zero one.
+Now I want to rotate both of these by theta and a counterclockwise direction.
+So then I'm going to get here will be T of E one.
+So that'll make an angle of theta. And then I'll get over here t e two, which again, that will make an angle of theta with the positive y axis.
+So I just need to think about where those go. Well, we can do some trigonometry.
+So this vector we're rotating by, we're taking the vector one zero six on the unit circle.
+We rotate by theta. So then this is just going to the point cosine theta sine theta.
+Well, this is just doing the same thing, same problem, but rotated into the second quadrant.
+So then my x axis here is then going to be minus the Y here.
+So then it'll be minus sign theta and then this the the amount we go up is the amount that we went over here, the x coordinate here.
+So then that will just be cosine theta. So then in yellow t e to be minus sine theta.
+Cosine theta. So that means my Matrix A. will be the matrix cosine theta sign data, minus sign data, cosine data.
+So if we want to rotate by an arbitrary angle theta, we can now just multiply by this matrix.
+What if I want to rotate around the Z axis in our three, then what would I do?
+We have a three by three, right, if I'm rotating around the Z axis in our three.
+What would happen to the vector zero zero one? What happened to that, I'm like, here's my Z axis, I'm rotating around this one.
+What's happening to that vector? So much to answer before I get dizzy. Nothing.
+So I'm just going back to the same vector. I still got dizzy. So. So then our rotation matrix would be a three by three matrix where I would have this
+in the upper left corner and then I would have zero zero one for my third column.
+So we can think about this is often very useful in computer graphics. We have a lot of other geometric transformations as well.
+We can think about a reflection across an axis. So maybe a few more dramatic transformations.
+So we could take one, let's reflect, you can reflect across an arbitrary line,
+you could even imagine reflecting across a plane and our three the same idea for finding the Matrix work and all of those cases.
+But let's just take an easy one and reflect across the x axis. Maybe not easy, but at least an early example.
+So if we want to reflect across the X axis, we want to do it in our too well.
+We just take our two unit vectors again are two vectors, one zero zero one.
+I apply this reflection transformation.
+Well, T of E won on that line, you reflected across, you get the same thing then when I reflect the other one down, I'll get T of E two.
+So that means the matrix that reflects across the standard matrix of this transformation.
+T will be one zero zero minus one.
+Multiplying by that matrix then gives me reflection across the x axis.
+Similarly, you could reflect across the Y axis,
+you could reflect across a line like Y equals X. What would that matrix look like if you reflected across the line?
+Y equals X? Or the matrix of that transformation be?
+How would we even figure it out if you don't know? You.
+That's exactly right. So, I mean, I would just this all start the same way, take the vector one zero.
+See what happens with that vector.
+When I reflect across the line, Y equals X, if you reflect that vector across a line Y equals X, what would you get?
+Yeah, 01 one writes, Your first column of your matrix will then be zero one.
+Similarly, if I take the vector here one zero one and then I reflect across, it goes to one zero.
+So then my matrix becomes zero one one zero in terms of reading the columns.
+OK, so just a few geometric transformations. We now have a rotation and reflection operations as well.
+I want to tie this back together with what we were doing last class or two classes ago, I suppose,
+which is determining whether or not your linear transformation and now your matrix transformation will be interactive or subjective.
+So the question we want to determine now is given a linear transformation t going from,
+say, r nt to r m, how can we determine if it's inductive or subjective?
+T is inductive or subjective. So, I mean, if you were given a question like this on an exam or a piece that you just had no idea.
+My first suggestion to you would be we'll try it in a really concrete problem, try it in a very specific instance of the problem.
+So that's what I want to do an example for. Let's take this matrix going from our for to our three given by T of X, multiplied by the Matrix,
+where hey again, the domain number of components has to match with the number of columns.
+So I need four columns. The number of output components has to match with my number of rows in a three by four matrix
+and I take the one one minus four eight one zero to minus one three zero zero zero five.
+Now I want to ask both of these questions in turn, whether it's inductive or subjective.
+All right. So remember, for subjectivity.
+We want to determine if we're given an arbitrary element in the QUARTERMAIN, in our three,
+that there's some choice of weights for the columns so that that element in the QUARTERMAIN is mapped to by that element in the domain.
+OK, so we saw last time,
+I think this was maybe Arjun's observation was that the range of this linear transformation or the image would be the span of the collapse.
+So we already know from last class that the range or the image of T is equal to the span of these columns.
+So one zero zero minus four to zero eight, minus one zero and one three five.
+OK, so if I'm looking at the span of these these span, all of our three, do these four vectors span all of our three.
+Do you think? Yes, how do you know that?
+There's a pivot position in every row when you form the augmented matrix,
+if you augmented this three by four matrix with an arbitrary vector B. over here,
+then you have a pivot here, you have a pivot here and you have a pivot here.
+So there's a pivot position in every row.
+So we've proven before in class that if you have a pivot position in every row, then the Matrix Equation X equals B would always be consistent.
+And therefore these columns that span all of our three. We've proved in class that having.
+A pivot in each row.
+The pivot position in each row, we have a pivot position in each row, then the equation X equals B is always consistent and X B is always consistent.
+Hence, T.S.A. If this were a more complicated matrix, you might need to do some work to see that there's a pivot in every row,
+but because it's a relatively simple form, we can see the pivots immediately.
+OK, so now let's think about injectivity and then we can try to make some more general observations.
+So if we wanted to see injectivity. All right, so looking at this matrix, can you tell me about injectivity?
+If the function were injected, how many elements could map to zero? There would have to be more than one element mapping to zero.
+How can you see that from The Matrix? Yes.
+There's not a pivot in every column, right, we have that free variable, so the Matrix Equation X equals zero will then have infinitely many solutions.
+So there's a lot of elements that mapped to zero. So therefore, this is not an objective function.
+So note. X equals zero has a free variable.
+Again, so from early work on the class and hence.
+There are infinitely many solutions.
+Bus tea is not indicative because being injected should mean that there should be at least one element that will map to the zero vector.
+OK. Well, now let's try to prove something more generally that we can use,
+we have a nice example that should inform how our troops should look, but let's try to actually prove it now.
+So this is theorem 11, so again, let's take T to be a linear transformation from our end to our M.
+So the associated matrix will be M by N, let's take it to be linear because this result won't be true if it's non-linear.
+It's a good exercise for you to think through. What if you had a nonlinear function? How would this fail then?
+The conclusion is that T is ineffective or one to one.
+If and only if T of X equals zero has only the trivial solution.
+Again, it's a good exercise in sort of developing improved writing skills to think about how would you start this?
+How would you think about proving this statement, given the logical construction of the statement?
+What two pieces of this proof? Do you immediately have to be there? Yes.
+Perfect. Perfect, right?
+So you would know this, the left statement implies the right statement or the right statement implies the left statement.
+So we're already sort of unpacking what the structure of the argument looks like.
+Once you start seeing like if you want to prove two sets are equally sure, each is a subset of the other.
+When you start seeing those big pieces of how the argument needs to look, the overall thing becomes a lot more manageable.
+So let's actually try to actually prove it together now. So we'll exactly use this strategy.
+So, again, proof so it doesn't really matter which one you want to do first, let's prove left implies right.
+So suppose she goes from Aaryn to R.M. is injected in linear.
+OK, so that's our function. So now what I want to prove is that T of X equals zero has only the trivial solution.
+OK, well, since the functions linear, what can you tell me about T of zero?
+It has to be zero, right, so sensitive is linear.
+We know or we've previously proved to be of zero is equal to zero, so that means we already have the trivial solution to this particular equation.
+So thus X equals zero is a solution to T of X equals zero.
+All right, well, so we wanted to prove that not only do we have the trivial solution, but we only have the trivial solution.
+So if we want to prove that we only have the trivial solution, we could say, suppose we have another one.
+Suppose. Why is a solution to T of X equals zero, so namely, t Y is equal to zero, then if we could prove Y has to be zero, we'd be done.
+OK, well, now.
+Oh, no, I break it. They warned me not to break it, like, don't break this, Dusty, OK?
+So now we have. T of X or Y, rather, does equal to T of zero.
+They both map to zero. What can you tell me about this? So since he is ineffective, then you can conclude the two inputs would have to be the same.
+That's the definition of injectivity, that's the contrapositive form of the definition we got is equal to zero, hence.
+Zero is the only solution. Yes.
+You're still using the same argument because you're still it comes down to using injectivity to show any other one would have to be zero.
+So at some point, you just need to invoke injectivity in some form.
+All right, so let's move the other direction now, the other direction is a little bit more tricky.
+I should leave it up. All right, so now we want to move this direction.
+It's also an interesting statement to a nice, true or false question if you're thinking of them for, say, another quiz or exam.
+So if you drop the word linnear, whether this statement is still true,
+it's kind of a question that I would like to use in the past if you're looking for more practice problems.
+Hint, it's not, but she come up with a counterexample.
+All right, so now suppose T of X equals zero has only the trivial solution.
+Now we want to prove he is. How does an injectivity proof usually start?
+That's. Perfect, so suppose to vector X1 is equal to T a vector X two, so that's what I want to do.
+So now I know things about linearity, so it seems like it makes sense to try to get them both on the same side of the equation.
+So then we know that T vector x1 minus T a vector x2 is equal to zero by linearity we get T of X one minus X two is equal to zero by linearity.
+And now this is the crucial stage where we're invoking the assumption.
+What does the assumption allow us to conclude. Yes.
+Go ahead. Next one is equal to zero, so since this only has the trivial solution, the only thing you could have plugged in to get this result is zero.
+So that means X one, minus X two is equal to zero. So since.
+We have only the trivial solution.
+Then we know X one minus X two must be trivial and hence X one is equal to X to.
+And the proof. So therefore, it's a. yes.
+Jonathan playing.
+Have a solution that I think will be absolutely fascinating and there's only one thing that people are going to.
+Yeah, you'd also be using the theorem that we can work with the Matrix matrix of a linear transformation.
+So the key point there is that we can translate any of our questions about linear functions now to be statements about matrices.
+So that's sort of the underlying theme of today's class. And then you'd be invoking, I think, Mike's theorem.
+I don't see Mike today for his theorem. No, he should be here to count up every time his theorem gets invoked.
+Unfortunate. That's the dangerous part of getting a theorem named after you.
+OK, so what I want to do is exactly summarize Jonathan's observation here.
+So the key idea from today's class is the following.
+You can study a linear transformation now t going from our NP to our M.
+Well, this is linear by studying the matrix of a linear transformation.
+So the key idea is now we've taken a question about functions that might be complicated or hard to work with,
+and we've turned it into a question about matrices, which we have tons of tools to work with and understand.
+So this is a common theme in all of mathematics.
+What we try to do is to take some new object and related to our old objects, the things that we're comfortable with.
+So when you're getting a question about linear transformations,
+you want to turn that into a statement about matrices that you can then just answer using row reduction,
+using vector equations, using matrix equations, using augmented matrices.
+So kind of seeing that theme from the first week of the semester come back again.
+So to summarize, that is really the following theory. It's a nice review of the first bit of this class to Siss Theorem 12.
+It's proof is the proof of this theorem is really a nice exercise in just seeing the different theorems we've proved over the last few weeks come up.
+So Theorem 12, a nice one that we might want to invoke if we have a linear transformation going from our end to our linear.
+And he is the associated or standard matrix.
+We know it's unique, there's just one matrix and we can get that matrix by just evaluating that linear transformation on these standard vectors,
+each one through e end. And then we get these two statements. T is subjective if and only if the columns of a span are m the output space,
+which again we know is a nice question in linear algebra of just how do you figure out whether the columns span R.M. or the new form,
+the augmented matrix and see if there's a pivot in every row statement to T is injected.
+It's one to one if and only if the columns are linearly independent.
+They are linearly independent, so this was exactly the observation that Jonathan was making that we can now exactly translate
+between statements about your linear function and statements about the associated Matrix columns.
+OK, so that's really the key thing to take away from today's class.
+If you're taking away, you want to think, well, what's what should we really remember?
+The basic thing to remember is that we can study linear functions by studying.
+The Associated Matrixx.
+So every question you could ask about a function, I would like to ask the corresponding question about a matrix and vice versa.
+So there's not too much to prove in this statement, but it's more of a summary because we've really done all these pieces before.
+So for a let's just kind of summarize the ideas here.
+So T is subjective or it's on to. Well, that's true.
+If and only if we'll think about what the definition is for all be in our M,
+there should exist in a little way in our NT such that t a little lay is equal to be right.
+There is the definition of subjectivity for all elements in the domain.
+There is an element in the domain such that Tiva is equal to be.
+OK, well then translating this statement into a statement about matrices then means for all b in our M the matrix equation X equals B is consistent.
+A particular solution would be a for instance,
+but then we proved before that this matrix equation being consistent for ALBE is exactly the statement about the columns of a spanning arm.
+So by previous theorem, that means that the columns of a span.
+Columns of a span are, um, the Kotomi, so we've proven that before.
+Questions on that. Similarly, the result on so if you want to know this part, if you want to really specify at every stage what's going on,
+the first if and only if statement is by definition of subjectivity,
+the second if and only if statement is by definition or by the theorem that
+A is the associated matrix of T so that we can translate between those two.
+So by the theorem we just proved and then the third one is from the theorem early in the semester
+where we showed that the columns span R.M. if and only if the Matrix X goes B is always consistent.
+OK, so let's do the other one and then I'm probably going to be out of time.
+So, B., so, again, we've really set this up for most of the work has already been done for us and other results.
+So T is now inactive or one to one if and only if by the previous theorem.
+We just proved previous theorem today, if and only if T of X equals zero has only the trivial solution, only the trivial solution.
+Right, it's only has a trivial solution, but if that equation has only the trivial solution,
+again by the theorem that tells us that we can translate this into a matrix equation, then we know that X equals zero has only a trivial solution.
+So if X equals zero has only the trivial solution,
+then that means that the only way to write zero is a linear combination of the columns of the Matrix is to take weight zero for every column,
+which is the definition of linear independence. So thus that means the columns of NG are linearly independent.
+So we've really seen all of these results before, it's just a matter of assembling them together now and one argument.
+So the key takeaway, if you're going to take things away from today's Class One,
+we can study linear transformations by now studying the associated matrix.
+You can find the associated matrix by evaluating your linear transformation on the standard vectors E one through E and so those sort of two things.
+Then any question about linear transformations? We can study through the associated matrix, including the question of injectivity and subjectivity.
+You can now ask just use whether the columns of the matrix span are M and whether the columns are linearly independent.
+OK, so that's sort of the key summary. All right.
+It looks like I'm oh, I'm not out of time, but I'll add two minutes early, so then I'll pay down my debt.
+All right. I'll see all of you later tonight. Have a good Monday.
+0:04
+0:12
+0:18
+0:31
+0:35
+0:44
+0:53
+1:05
+1:09
+1:13
+1:23
+1:36
+1:40
+1:44
+1:52
+2:02
+2:07
+2:19
+2:28
+2:34
+2:40
+2:45
+2:57
+3:02
+3:06
+3:12
+3:17
+3:34
+3:47
+3:52
+3:58
+4:06
+4:12
+4:16
+4:23
+4:27
+4:32
+4:38
+4:39
+4:46
+4:51
+4:56
+5:00
+5:07
+5:16
+5:25
+5:31
+5:38
+5:41
+5:47
+5:52
+6:00
+6:10
+6:22
+6:27
+6:32
+6:35
+6:45
+6:51
+6:56
+7:01
+7:06
+7:08
+7:15
+7:24
+7:35
+7:40
+7:45
+7:53
+7:59
+8:08
+8:15
+8:20
+8:25
+8:31
+8:35
+8:41
+8:47
+8:55
+9:01
+9:10
+9:18
+9:26
+9:45
+9:56
+9:59
+10:04
+10:09
+10:23
+10:31
+10:42
+10:46
+10:58
+11:14
+11:25
+11:34
+11:48
+11:55
+12:02
+12:13
+12:23
+12:34
+12:49
+12:53
+13:00
+13:07
+13:14
+13:25
+13:29
+13:35
+13:42
+13:54
+13:59
+14:03
+14:12
+14:20
+14:28
+14:36
+14:45
+14:55
+15:04
+15:17
+15:25
+15:33
+15:37
+15:48
+16:03
+16:10
+16:19
+16:29
+16:43
+16:49
+16:57
+17:01
+17:11
+17:19
+17:23
+17:30
+17:36
+17:45
+17:49
+17:54
+18:03
+18:08
+18:17
+19:51
+19:55
+20:02
+20:21
+20:25
+20:32
+20:39
+20:44
+20:50
+20:55
+21:02
+21:07
+21:11
+21:17
+21:22
+21:26
+21:35
+21:40
+21:45
+21:49
+21:59
+22:01
+22:09
+22:23
+22:29
+22:35
+22:43
+22:49
+22:54
+23:03
+23:07
+23:14
+23:23
+23:29
+23:40
+23:43
+24:00
+24:22
+24:27
+24:52
+24:57
+25:06
+25:14
+25:19
+25:31
+25:39
+25:45
+26:01
+26:04
+26:10
+26:16
+26:21
+26:26
+26:30
+26:41
+26:46
+26:50
+26:54
+27:01
+27:06
+27:16
+27:24
+27:37
+27:53
+28:04
+28:10
+28:17
+28:23
+28:29
+28:52
+28:59
+29:09
+29:20
+29:28
+29:36
+29:39
+29:46
+29:54
+30:01
+30:19
+30:25
+30:32
+30:42
+30:46
+30:56
+31:03
+31:07
+31:15
+31:29
+31:34
+31:42
+31:49
+32:04
+32:17
+32:30
+32:41
+32:46
+32:52
+32:57
+33:06
+33:10
+33:18
+33:25
+33:30
+33:35
+33:45
+33:48
+33:58
+34:10
+34:15
+34:21
+34:33
+34:45
+34:56
+35:00
+35:09
+35:17
+35:24
+35:35
+35:42
+35:48
+36:00
+36:13
+36:40
+36:48
+36:53
+36:59
+37:04
+37:19
+37:26
+37:33
+37:38
+37:46
+38:02
+38:08
+38:12
+38:20
+38:24
+38:30
+38:37
+38:46
+39:04
+39:13
+39:22
+39:27
+39:39
+39:44
+39:55
+40:00
+40:09
+40:25
+40:32
+40:38
+40:46
+40:51
+40:58
+41:05
+41:15
+41:22
+41:28
+41:35
+41:39
+41:46
+41:59
+42:10
+42:15
+42:16
+42:25
+42:30
+42:36
+42:41
+42:50
+42:59
+43:11
+43:21
+43:35
+43:49
+43:56
+44:15
+44:23
+44:31
+44:43
+44:54
+45:03
+45:07
+45:18
+45:20
+45:30
+45:41
+45:57
+46:05
+46:19
+46:22
+46:27
+46:31
+46:33
+46:40
+46:58
+47:14
+47:34
+47:46
+47:52
+48:02
+48:18
+48:29
+48:34
+48:42
+48:49
+49:02
+49:09
+49:22
+49:36
+49:42
+49:50
+50:01
+50:07
+50:14
+50:23
+50:41
+50:47
+50:53
+51:04
+51:10
+51:16
+51:20
+51:24
+51:37
+51:48
+51:58
+52:14
+52:23
+52:34
+52:43
+52:53
+53:12
+53:21
+53:26
+53:50
+53:57
+54:16
+54:27
+54:46
+54:59
+55:16
+55:23
+55:29
+55:41
+55:55
+56:02
+56:06
+56:13
+56:19
+56:34
+56:42
+57:05
+57:12
+57:35
+57:40
+57:47
+57:57
+58:05
+58:14
+58:27
+58:33
+58:42
+58:51
+58:57
+59:04
+59:10
+59:17
+59:27
+59:33
+59:40
+59:48
+59:58
+1:00:05
+1:00:11
+1:00:14
+1:00:20
+1:00:22
+1:00:28
+1:00:32
+1:00:39
+1:00:50
+1:00:59
+1:01:14
+1:01:21
+1:01:31
+1:01:52
+1:01:58
+1:02:05
+1:02:16
+1:02:26
+1:02:36
+1:02:39
+1:02:43
+1:02:51
+1:02:57
+1:03:09
+1:03:17
+1:03:22
+1:03:27
+1:03:36
+1:03:48
+1:03:52
+1:03:56
+1:04:13
+1:04:18
+1:04:29
+1:04:44
+1:04:59
+1:05:10
+1:05:17
+1:05:22
+1:05:27
+1:05:32
+1:05:40
+1:05:50
+1:05:57
+1:06:05
+1:06:24
+1:06:30
+1:06:46
+1:06:49
+1:06:57
+1:07:15
+1:07:22
+1:07:28
+1:07:32
+1:07:42
+1:07:51
+1:07:59
+1:08:02

@@ -1,0 +1,485 @@
+﻿So not too many announcements today.
+So I'm looking forward to this afternoon getting to learn a little bit more about what projects people are pursuing.
+So what's going to happen this afternoon is I'm going to try to I'm going to create a canvas group for every student group,
+so you'll be added to a group on canvas with your teammates. That's where you'll ultimately submit the project draft and the final project.
+And that's how we'll facilitate the peer review.
+You'll still get the feedback on your proposals on on grade scope, but then the submission for your projects will be through canvas.
+I will try to do some amount of still, if there's I know several groups.
+Several people lost their groups last night and they emailed me about it and I wasn't able necessarily to connect people up quite last night.
+But I will try to facilitate matching up people if they're still,
+if they're working alone at this point, and they would prefer to be working in a group.
+So if you're still open to that, you might get an email from me asking if a say, a third person could join your group.
+Yes. If you're a group like you currently have to and you'd really like to have a third person if you could,
+yeah, you could email me and just let me know that that's something that you'd be open to.
+Just remind me in the email like what your topic is so that I can try to pair people up accordingly.
+So we took the stand, and he said that it applies to the proposal as well.
+What I do need today, though, is at least like a couple of key words for your project, just so that I know who you're working with and what.
+Roughly speaking, the topic is so I can make all of these groups and try to figure out if people do need to be matched still.
+Yeah. Yeah, that would be totally fine, I think most of the people that have told me they're using the extension have done exactly that.
+So as long as I have some idea of what you're doing, then that would be and we are working with that will be totally fine for today.
+And then you're welcome to keep working on it until Sunday. The TFS and I are going to try to turn these around pretty quickly.
+Unlike all of the other grading in this class, unfortunately,
+so that that does mean like the sooner that you can get the proposals and the sooner we can try to get the the feedback back to you.
+I think it's especially important because you'll notice that the the draft is due on December 1st.
+That's not that far away, especially for people who know you're leaving for Thanksgiving break.
+In an ideal world and a sort of practical vision of things, you're probably not going to do a huge amount of work during that time period.
+So I would try to plan for that and try to get some amount of that work done now.
+I did write a piece at 11 I and fortunately, I think Tommy asked about it and I didn't get a chance to post it yesterday.
+It is just one goofy problem. So it's not like a particularly long piece, and that's that.
+Specifically, it's a problem that I like. I think it's a fun problem, but I sort of restrained myself from putting lots of fun problems on there,
+just one with the thinking being that I really,
+really want you to have time over the next week to put into your final year projects so you can get a good start on those, OK?
+So even if you don't wait to necessarily hear the feedback from your t.f reader,
+just kind of there's a lot of work that you'll need to be doing now that will definitely appear in whatever direction the project goes.
+Do that already? Start doing that right away. If you haven't yet, create a shared overlay with your team,
+so you can at least like have that ready to go or shared tech file, however you're facilitating that.
+Are there any quick questions? All right.
+So the reading for today again, lay six point one, six point two.
+The basic idea for the last bit of the semester is to talk about geometry now in our end.
+We've certainly done a lot in our end already, but we were focusing specifically on what do you get from the vector space structure on our end?
+What do you get from additions of vectors and scalar multiplication? Not necessarily.
+What do we get from the additional geometric structure on our end?
+So we want to think about what else, how else could we encode these ideas?
+So, for instance, two notions that you'd really like to bring in to when you're thinking about vectors in our end is
+we'd like to interview given Vector to the idea of just cut out or that if that keeps happening,
+please let me know. You want to think about the length of a given vector and you want to think about, say,
+if you have some vectors in space, how could you measure the angle between those factors?
+So those would give us a bit more geometric view on what's happening inside of our ET.
+So the way that we're going to do that is we're going to introduce another operation on some vectors, so if we're given some vectors,
+you and we in our PN, I'm now going to define what I call the dot product between these two vectors.
+So the dot product you dotted with B, so previous to this point, we didn't have a way of multiplying two column vectors together.
+Now we do, this is just going to be, well, I'm going to take this column vector and I'm going to turn it into a row vector.
+So that will be you transpose now you transpose as a row vector.
+So I can multiply that by the column vector V. So I can then defined it in terms of matrix multiplication,
+the result of this will be a one by one matrix, which we regard as just outputting a real number.
+So the DOT product is then a function from that takes pairs of real numbers and outputs a real number, so it outputs escape.
+If you explicitly work this out in coordinates,
+then this would be equal to you one v one plus dot dot dot plus you and the end where you want the U.N. or just the components of you.
+And the one through van are the components of the.
+So that's what the DOT product is. So the first question you should have when you think about a new mathematical
+structure is you would like to know what information does this definition encode?
+What does the DOT product tell us? So here are some basic properties of the Dot product.
+Any of these just follow from matrix multiplication, because after all,
+we defined the DOT product in terms of matrix multiplication, so some basic properties would be let's take some vectors U,
+V and W inside of R rn and some scalar C and D scalar as we're working with real scalar is again not complex numbers, necessarily real numbers.
+I. Well, the first thing that you can notice is that if I take the DOT product with you and V because of the way that it comes out,
+that's the exact same thing as the DOT product would be. And you.
+So it's commutative. So the first property we have is that you started with V is equal to V dotted with you.
+And that's true for all factors U and V. So unlike matrix multiplication in general, the DOT product is commutative.
+Similarly, we can distribute. So if we have say you plus v dotted with, say, the Vector W, this will just be equal to you.
+Dotted with W plus v dotted with W.
+And again, if you wanted to prove either of these two identities,
+you would just literally plug in to the definition and observe that the two sides are equal.
+OK, so these are exercises. The proofs are exercises for you to check your understanding.
+Similarly, if I take scalar multiplication. This will be the same thing.
+As C times, you started with the W rather, and then this will be the same thing as if I applied my scaler on my other component.
+All right. The most interesting prop here is the third, the fourth one where when I look at a vector, I with itself.
+So if I look at a vector dotted with itself, that's going to be the sum of you, one squared up to you and squared.
+So it's the sum of a bunch of squares. So then we know it's going to be non-negative.
+So you dotted with itself is always bigger than or equal to zero.
+So that's just a fundamental property because you're getting a sum of squares of real numbers.
+Furthermore, we also can say that you dotted with itself is equal to zero if and only if every component is equal to zero.
+So namely, it's the zero vector. So those are some basic properties of the product should be comfortable approving any of these properties.
+So the proof I will leave as an exercise for you. That's a nice way to check that you understand the definition.
+But again, what we're hoping to do here today is we're hoping to figure out what do we get from the DOT product, what does it really tell us?
+Well, one thing that we can do is we can use the DOT product to tell us about the length of a given vector.
+And in fact, we often define the length or the norm of a vector in terms of the dot product.
+So the length. Or Norm of a Vector V in our NW?
+Is then given by we often use these double vertical lines to denote the norm or the length of a vector.
+And this is just going to be equal to the square root of the dot product of V with itself.
+So we should think about why that makes sense is a definition.
+So if we plugged in the components of this, this would be equal to the square root of v one squared plus dot dot dot plus v and squared.
+So then what is this quantity? So Matthew answered with a gesture.
+That's exactly the distance formula to the Euclidean distance formula, from the origin to the point v one through the end,
+which is exactly what you would hope the length of your vector should be at least measured using Euclidean distance.
+It's also an interesting project idea to think about other notions of distance.
+I think I've heard of several groups thinking about doing this where you might want to
+measure your distance in a different way to sort of encode a different type of geometry.
+Yes. I only ever learned the formula, are you?
+How do we know we're. So one way that you could do that is you can build it out of the distance formula in
+order to by sort of forming a bunch of right triangles with your coordinate axes.
+So for instance, in our three, if I have this vector here, we.
+So its projection into the plane will make a right angle there. So then I have this formula that will make a right angle here.
+So now this is a right triangle in the plane, so you can then compute the hypotenuse of this right triangle using this one.
+Now you have the length of this side and then you have no the height here.
+So then you can compute the length of V using the Pythagorean theorem applied to this triangle.
+So you can assemble it from the Pythagorean theorem in the plane twice to make my picture a little better.
+So that would be one way that you could see it from the Pythagorean theorem in two dimensions.
+So the grand theorem more generally than gives us the Euclidean distance between two points.
+So maybe I should write that down as well. So maybe I'll make the distance.
+Between, say, a point P. and a point Q, So if I wanted to compute the distance between two points,
+well, then I just take the vector of the difference.
+So then this will be equal to the square root of, say, P one minus Q one squared plus datadog plus and minus Q and squared.
+So in terms of some vectors, but I want to compute the distance between these two vectors U and V, so their end points.
+We then have geometrically we should drop it in a different spot will then be the length of say, u minus v.
+The picture you should have in mind here will be a vector you.
+Of Actor Dhabi. And remember, the difference u minus V will then be this factor right here.
+Minus 50. Going between them. So it's telling you the distance between the end point of view and the end point of view.
+Starting at the end point of view, yeah, yeah, yeah, yeah.
+Starting at the end point of view, yeah, for the distance, it doesn't actually matter.
+I'm. So we can use the DOT product to encode distance.
+We can use the DOT product to encode length of vectors.
+How would you know if the products can encode, say, angles between vectors and in particular, if I can use it to encode orthogonal?
+So I'm going to start by giving a definition and then we're going to try to understand where the definition is coming from.
+So if we take two vectors, you and we in our DN.
+And you and we are called orthogonal.
+If their product is zero.
+So that's what we're giving the attaching the meaning orthogonal to me and when the dot product of two vectors is equal to zero.
+So orthogonal are sort of colloquial use of the word orthogonal usually encode something more like the word perpendicular.
+So we would like to see if that is still encapsulated in this definition.
+So let's think about how we might see this. So if I have some.
+Vector. Say you. And I have some Vector V.
+And then I look at my A.V, so it's minus V over here.
+Well, if you and we were perpendicular, how would the distance between this point, these two points and these two points compare?
+If they meet at a right angle. They'd be the same.
+This back with what that means, so this distance and this distance.
+Well, then you plus me and you minus v.
+And so we're going to look at when those two quantities are equal. So suppose you have you minus V.
+Norm squared, the length squared will be equal, so we might as well square it was working with a square root and you plus b squared.
+Well, by the definition of what we just did. So this would be encoding situation where they meet at a right angle.
+Well, this then means you minus v dotted with you minus v is equal to you plus v dotted with you plus v.
+So now just using the properties I can distribute and then use cumulatively to group things together,
+I'm going to get you started with you minus two you dotted with B and plus B.
+Oops. What I do here. You minus. Here we go. We thought it would be and then on the other side of the equation and do the same thing again,
+I use the basic properties that we just talked about of the DOT product so I can distribute, use community, very group things together.
+So I have you dotted with you. Plus two.
+You started with me using Community Tivity Plus we started with the.
+All right, so now a bunch of things are in common, so we can for them cancel, cancel, cancel, cancel.
+Move this over to the other side of the equation. So then I have zero is then equal to say four.
+You started with V, which then four is non-zero, so that means you zero is equal to you.
+Thought it would be? So if we had that these at right angles,
+then our notion of geometry would tell us that these two lengths should be the same and then that would tell us the DOT product would be equal.
+Every step that I've done here is an if and only if statement so that I can also go backwards.
+So I can say if the DOT product was equal to zero, then these two quantities would be equal.
+And so then I would be encoding that. These two links are.
+And we're perpendicular. So that's the idea behind how we're getting orthogonal City to relate back to our Euclidean notion of being perpendicular.
+So. What that tells us is that.
+You and we are perpendicular. They meet at right angles.
+If and only if. Few dotted the is equal to zero say for non-zero vectors.
+Yes, more. But I'm not using Exponents Square.
+I think, um. Yes.
+Yes. Right.
+So what I want to use here is I want to emphasize exactly what the quantity is.
+And it's the dot product of U with itself. If you're right, you squared, it's not necessarily clear exactly what you mean by that.
+You or I want to emphasize that this is really the dot product of you with itself.
+Well, there will be other notions of products that will come up, for instance, in our three, you have cross products.
+So maybe you mean you cross you in our three, so that could be something else that it might mean.
+So I think here I'd just like to be maximally clear about what it is.
+All right, um. So track of what this notion of Orthogonal City means.
+So one thing that we will do. As we'll keep track of all the vectors that orthogonal to some collection of actors.
+So if if you have some Vector Z.
+And you want to say that it's orthogonal to a collection of vectors?
+All I mean by that is that it's going to be two to that in every factor in that set.
+So. So if he is orthogonal to a single vector.
+We just say the product is equal to zero.
+So if I say V is orthogonal to every vector in a sub space, then we say its vector, it's orthogonal to that collection.
+So if these orthogonal to every. Factor.
+In a subspace. W.
+Then we're going to say that Z, the vector is just orthogonal.
+2W. All right.
+So that's what it means to be orthogonal to vectors.
+So, for instance, here in this picture above, you could say that the Z unit vector zero zero one is orthogonal.
+To the subspace generated by one zero zero zero one zero.
+So the picture you might have in mind. Is the following.
+There is a subspace w it has to go through the origin every subspace does, and here would be some Vector Z.
+That's orthogonal to it. It meets every vector and W at a right angle.
+So the next thing you might do that, given some subspace, you might try to group together all of these things that are going on.
+That's what I'm going to define as the orthogonal complement of a subspace.
+All right. So definition. The set.
+And this is red W per so W with a superscript of the perpendicular symbol from
+Euclidean geometry and high school W Purp is the set of Vector Z inside of our NW.
+Such that Z is orthogonal to W.
+It's that collection of actors, so everything or thought. So if I go back over to this picture.
+Here. This would be W part.
+If you're thinking about this picture here, I take you to be the subspace generated by the X y plane.
+The orthogonal compliment would be the z axis. So perhaps a few quick remarks.
+Remark one. One way that I could check whether you're in the orthogonal complement is that I could show that you're an orthogonal to a spanning set.
+So X is an element in W Purp and the orthogonal Oh, I should say this is called the orthogonal complement.
+Complement. Have W.
+So X is in the orthogonal complement to a given set.
+If and only if X is orthogonal.
+To every vector in a spanning set.
+So instead of checking literally every vector inside of W., it's enough to check it on, say, a basis or a spanning set.
+Tommy is going to. That's a great question to your thought going to compliment is a subspace.
+That's not obvious. I don't think so, let's prove it.
+So if we want to prove something to subspace. We have to check three things.
+So prove. We need a check.
+It's supposed to be a subspace of our NW. So it's by definition a subset.
+Did it check that it contains the zero vector? All right, well, let.
+Zero. Well, let me say this note, if I take the zero vector dotted with any vector v w,
+well, by definition you're multiplying zero by every component of W this vector.
+So this will just be equal to zero times w one plus that I thought was zero times w n, so that would be equal to zero.
+So hence. The zero vector is orthogonal.
+To every vector. W. Inside of your original space, W Plus.
+Zeroes in element and orthogonal complement. It's an element in W perp.
+So that's part one. Now I need approved heart part two.
+So if I take X and Y to be two vectors inside of W Per.
+Well, then I would like to know whether X Plus Y W Purp to check whether some things in W perp,
+I need to take the dot product of that with an arbitrary vector inside of W.
+So I look at X Plus Y dotted with W.
+So now I can use my basic properties from the beginning. To distribute so this becomes X dotted with W plus y dotted with W.
+This thing is equal to zero, because X was an element in the orthogonal compliment.
+This one is equal to zero because I was an element in the orthogonal compliment.
+This is equal to zero plus zero sense.
+Hex is an element in W purple and Y is an element in W Purp zero plus zero is equal to zero.
+So that's. X plus y.
+There's an element in W per se, if I add two things that are orthogonal to everything in W together,
+I get something else that's orthogonal to everything in W. The third condition?
+Consider. See, it's a scalar.
+Well, now I look at sea time as my vector.
+Well, I need to say X is also in here perp.
+C times X. I take that with W. Or W is an element inside of W.
+Let me write that. Suppose.
+Ws an element in W. Then consider.
+C times X dotted with W off again from the basic properties, I can pull the scalar out front.
+And this is equal to see X dotted with W X dotted with W because X is in the orthogonal compliment.
+It's orthogonal to everything that's in W. W is an element and w therefore the Dot product here is equal to zero.
+So I get C times zero, which is just zero.
+So hence. Sea time times, the Vector X is an element in the orthogonal complement.
+So it's closed under vector addition. It's closed under scalar multiplication.
+So then it's a subspace. So hence.
+Going to compliment is a subspace knot of W.
+But of our end. So again, you can think about this poor where you have, say, a plane.
+Inside of our three. Again, for this plane to be a subspace, it has to go through zero.
+So this is some plane inside of our three W.
+And you can consider the orthogonal compliment will be then the line going through the origin.
+So. And the pattern persists.
+You'll note that the dimension of the orthogonal compliment.
+Is one here, and the dimension of the subspace W is to the dimensions, then add up to three,
+because every vector in our three can be written as a vector inside of W,
+plus the vector, a vector that's inside the orthogonal complement that's often called the orthogonal decomposition of a vector.
+So let's do a concrete example. So let's go back to some matrices.
+So let's take the matrix one one one two two to.
+Then. A transpose will be one one one two two two.
+For any given matrix, we have some canonical sub spaces that we look at, namely the column space, the null space and the row space.
+So for each of these two matrices, let's look at what they are. So the column space will be a sub space of our two,
+no space will be McCollum's space of a will be a sub space of our two one dimensional
+subspace of our two and the null space will be a sub space of our three.
+Similarly, over here for a transpose,
+the column space will be a one dimensional subspace of our three now and the null space will then be a sub space of our two.
+So let's actually just compute these things and see what they look like. So if I look at the north face of a well, I can reproduce this matrix.
+So let's get one one one zero zero zero.
+So if I just want to find a basis for that, an old space can solve for a basic variable in terms of the free variable.
+I have two free variables, so then I'll get I'll get two basis factors, namely one minus one zero and one zero minus one.
+That's the basis for my null space. Since we're here, we might as well compute the column space.
+So the column space, again is the span of the columns we could see the first column will be the only one with a pivot.
+So then we can take this to be the span. Of one two.
+So you can see things like the call of the null space is non-trivial, so the function feels to be ineffective.
+The matrix transformation corresponding to multiplying by a. We can also see that the column space is not big enough.
+It's not all of our two, so it's not subjective. So just making some connections with what we've seen before.
+But I wrote a transpose there for a reason. So let's look at what a transpose also tells us.
+So if I now look at a transpose and I could look at, oh, I'll also write the rose space here.
+Aerospace space is the span of the road, so it's the span of the vector one one one.
+The row vector, one one, one in our three. It's a subspace of our three again.
+But now let's do the same thing for a transpose.
+So if I looked at a transpose, he can again go back over here if I reduce this thing one to followed by a bunch of zeros,
+so I could solve for my basic variable in terms of my free variable.
+So then I can take it as the span of the vector negative to one. So the column space then of Transpose.
+Because the span of the columns of a transpose. So again, one is a scale and multiple of the other.
+So this will just be the span of the column one one one. And finally, you could do the road space, too.
+So the road space of a transpose will then be the span of the roads.
+So then it's just the span of the vector one to. To see others drop out when you wrote this.
+And these are all bases. So the question becomes, how are all these things related?
+So the question? How far?
+Is related. So it's sort of interesting to think about what relationships you might observe among all of these different collections of actors.
+Yeah, and you're right. They should be Rose, because I'm taking spans of the rose.
+So it is a minor annoyance to have it be a row instead of a column.
+But we should be. We should respect the form of the matrix.
+So what about the null space of a the row space of a how do those seem to be related?
+Otherwise. Are you?
+So that's an interesting question. So like here, when I'm thinking about like taking a product of these things,
+I would want to take the dot product of the transpose of this vector right to turn it into a column vector.
+And then I could certainly take the dot product.
+I think to Tom's point, if you want to identify them as elements and are to because they wanted an element in our two,
+then we just regard it as a column that I suppose is fine here.
+But what do you notice about the row space away and the null space of a?
+Anthony? A thug. So we can.
+Generalize that and prove that as a theorem,
+that in particular that if I take the orthogonal compliment of the row space, that this is the null space.
+Maybe as a side question, what do you think the orthogonal complement of the orthogonal compliment is?
+If I take W purp of W Purp. W per per.
+It would be W again, you're taking it like you could go back to this example over here.
+I'm looking for all vectors that are orthogonal to W. So I get this line.
+Now, if I want, then the orthogonal complement of the orthogonal complement.
+I'm looking for all vectors that are then orthogonal to this line, which then gets me back to W.
+So another fun exercise, I think I've given this on quizzes before.
+Is that W per purpose equal to W?
+So you could rephrase this by saying aerospace of air is equal to the Earth, I'm going to compliment to the null space if you want.
+All right. There's another relationship that we could observe here with, say, the column space of A.
+And the null space of a transpose. Those also look to be orthogonal.
+And that observation persists in general as well. Column space away if I take the orthogonal compliment of this.
+This is the null space of a transpose. Yes, follow.
+Yes. So let's prove this.
+All right. If we want to prove that two sets are equal, are usual, strategy for doing that is to show that each a subset of the other.
+That's something that we could do here. Proof of a.
+Well, if I want to prove that each is a subset of the other, I could start by proving the left hand side is a subset of the right hand side.
+All right. So again, one of the big points of emphasis in the last month of this class, or maybe the entire class.
+Has to work carefully and precisely with the definitions.
+So if I want to prove that something is a subset of something else, I just take an element over here and show that it would be over here.
+So. X be an element in the orthogonal compliment of the rose space.
+OK. Well, if you're an element in the orthogonal compliment of the rose space, then that means your orthogonal to everything that's in the row space.
+So then in particular, you're orthogonal to every row of your matrix.
+So if I let our one through our M denote the rows and I would have the X would be orthogonal to all of them.
+So, I mean, write some of that out.
+That means the X dotted with R is equal to zero for all R in the row space.
+Of Egg. I.
+All right. So then in particular, access orthogonal to each row of a.
+X is orthogonal. To.
+Each. Well. All right.
+Now we want to know whether it's in the null space, how do we check whether some things in the null space?
+What condition needs to be satisfied? Yeah.
+Two equals zero, so I want to compute a times X and see what it is.
+So I come here a times X well. We don't usually think about it this way.
+Maybe we do computationally, but we can think about this is our one down to our end as your matrix a times x.
+Well, what are you doing when you do matrix multiplication, you're doing row by column.
+So this is then equal to the product of our one daughter with X down to our M dotted with X.
+Assumed that you were in the orthogonal compliments, so all of these products will be equal to zero.
+So he can say X equals zero. So this X is an element in the normal space of A.
+So therefore. We've now established that the orthogonal complement of the road space away is a subspace subset.
+It's actually a subspecies to have the null space of a.
+So now to complete the proof part of A. We need to go the other way.
+Oops! All right.
+So again. Let X be an element in the null space of A.
+Now I want to show that it's going to that orthogonal A to B the depth.
+At the. They. So.
+We know that a times X is equal to zero.
+Well, again, using the exact same interpretation, that means that then X.
+Dotted with arc equals zero for all our arc, making up the rows rows in a.
+The rose from a spanning set. For the rose base, the rose.
+Of A. Form. A spanning set.
+For the road space, it's not necessarily a basis. So that means an X would be orthogonal to everything in the road space.
+So the US. Acts is an element in the orthogonal complement.
+All right, so we proved then each subs, each the subset of the other.
+So therefore, these two sets are equal. Some sense.
+Each. It's a subset. The other.
+And we know from our first day on set theory.
+But the row space of a few orthogonal compliment of that is equal to the null space of A.
+Yes. The rose of a sense, the rose of a form of spanning set for the rose space of A.
+For. Because a road space is defined to be the span of all the rows.
+It might not be a basis because some of those rows might be redundant. All right now, Part B.
+We could do the exact same thing again that we want to prove that they're called the orthogonal complement.
+So just as a reminder, we want to prove that the orthogonal complement of the column space is equal to the null space of a transpose.
+So again, we could do the same thing of showing that each side is a sub sub set of the other instead of doing that.
+We could also make some intermediate observations. So you can note.
+For instance, but the narrow space of a transpose.
+So when I transpose the Matrix, that's the same thing then as the column space of A.
+We also know from what we've just proved that the road space of a transpose, the orthogonal complement of that.
+Will then be equal to the null space of a. Transpose.
+That's what we just proved. So then just putting these two things together.
+Then gives the result that the null space of a transpose is equal to the column space.
+The orthogonal complement. In the column space. So that's a proof of Part B.
+All right. So that's a little bit about orthogonal compliments.
+We should also think about angles between vectors, so if I have two daughters,
+I thought about their angle as being 90 degrees if their product was equal to zero, but what if their angle is not 90 degrees?
+So if I have a Vector U and a Vector V and they meet in some angle theta?
+Well, it can form a triangle out of these. So if I take.
+You minus V. That factor that forms a triangle.
+And it's not a right triangle, but I can then use the law of code on this triangle.
+So the law of so a generalization of the Pythagorean theorem from geometry.
+So that would be telling us that if I take the light on the opposite side squared, so you minus the blank squared would be side lengths.
+You squared plus v squared. Minus two times the length of u, times the length of the times, cosine of the angle theta that.
+So, of course, that's not a proof that's not at all claiming as obvious as the fact that I'm appealing to from prior coursework.
+And now we can simplify this expression. So here I can expand the left hand side so this becomes you dotted with you
+minus two times you dotted with B plus we thought it would be equal to you.
+Dotted with you. Plus, we thought it would be minus two times the length of u.
+Times the length of B. Times cosine of theta.
+So now I can cancel. And I can solve for, say, theta or cosine theta if you want.
+So then cosine theta cosine of the angle between them will be you dotted with B divided by the length of you times the length of the.
+So this relationship coming from the law of coastlines gives us a way of measuring the angle between arbitrary vectors in our end now.
+Just in terms of the DOT product.
+So the DOT product, fundamentally what it's doing is it's telling us how much of one vector is in the direction of another.
+OK. So that's how we can compute angles between vectors.
+It's often convenient to work with orthogonal collections of actors, so I'll introduce the notion of an orthogonal set, so a set of actors.
+You won. Threw up.
+In our end. It's called orthogonal.
+If every pair, every vector is orthogonal to every other vector.
+So if you take dotted with you, Jay.
+Is equal to zero for all distinct.
+OK. And. So that's what an orthogonal set collection of actors that are all mutually orthogonal to each other,
+so not them have any amount in the direction of the other's.
+As a quick example. The standard basis on our two.
+One, zero and zero one. Is orthogonal.
+So only two vectors, I just compute one dot product. I verify that that DOT product is equal to zero.
+A nice result is that orthogonal vectors, as long as they're non-zero, are linearly independent.
+So let's prove that. So if s is the set.
+You one up threw up. Inside of our end.
+Is a. Collection and orthogonal.
+SAT. Of non-zero vectors.
+Then the vectors are linearly independent. As.
+What in the. Again, let's prove it.
+So if I want to prove that some collection of actors is linearly independent back to the beginning of the semester,
+I form corresponding vector equation and I need to show that every coefficient equal to zero.
+All right, so consider the vector equation C one one plus dot dot dot plus c p u p is equal to the zero vector.
+Everything inside is an R at. All right.
+So now I want to prove that all these coefficients have to be equal to zero. So one way that I can do that?
+Is that I can take the DOT product with some say yuck. So now take.
+The Dot product. Of both sides.
+With. UK. So then we will get see one you one for a start that dot c p u p dotted with UK is equal to zero.
+OK. Well, now you can use the things that we know about the DOT product to distribute it through.
+So I'm going to get C one u one dotted with UK plus starter dot c p u p dotted with UK.
+Is equal to zero. All right.
+Well, now looking at this equation, most of these factors are orthogonal, so you one dotted with UK is equal is equal to zero if K is unequal to one.
+So that means only one term is going to survive here, namely when you take UK dotted with UK.
+So then the result? As a result.
+Sick times, you OK, A.
+Dotted with UK is equal to zero.
+It's the product of two real numbers is equal to zero. So either the first factor is equal to zero or the second factor is equal to zero.
+Can this the second factor can't be to zero because these are non-zero vectors.
+Cents UK is not equal to the zero vector, then we know the UK is equal to zero.
+My argument was arbitrary in terms of K, so that means then now for all tech in the set from one up to pee we get.
+See, one is equal to see two as equal to the outdoor CPE is equal to zero.
+Does. As is linearly independent.
+So one thing that you can now do is that if you have some collection of vectors,
+you can use the DOT product to quickly verify whether they're linearly independent and if they're linearly independent and non-zero,
+and you know that they're linearly. I'm sorry if you know that there are orthogonal and non-zero, then you know that they're linearly independent.
+So one thing that's telling us is that orthogonal sets are particularly nice to work with.
+That's one reason why when you work with the standard basis, it's quite convenient.
+Because this vector has no amount in the direction of the other vector.
+They're somehow encoding a different notion of M. ality.
+All right. So from that, we can then talk about having an orthogonal basis for subspace.
+We want a basis that consists of orthogonal vectors. So I should include that so that we have that in our shared vocabulary now.
+I still have time. An orthogonal basis.
+For a subspace. W of R RN R is a basis.
+But. Is also. And orthogonal set.
+So it gives you a third condition, expands its linearly independent,
+and it's an orthogonal set, so you could regard this as also a notion of a nice basis,
+whereas last time we were thinking about a nice basis being one that consisted of eigenvectors here,
+another notion of what could be a nice basis would be one that consists of orthogonal vectors.
+All right. So I can start hinting at why anyone would possibly care about this.
+Or at least one reason that I care. Is because it makes computations easier.
+So to illustrate that. We have the following theory.
+If I have set you one up, threw up.
+Is it orthogonal basis for a subspace? Orthogonal.
+Basis. For a subspace W.
+Inside of our own. Then if we take an element for each X inside of W.
+Then, because it's an element in W and we have a basis, we know that we can write acts as a linear combination.
+X is equal to see one you one plus c p you p.
+That's nothing new. That's the same as what we've done before.
+The part that's new is that we can give an exact formula for what these coefficients are in terms of the dot product.
+So namely the coefficient c j, we'll just be equal to your vector x dotted with K scale by UK dotted with UK.
+So I have now an exact formula. If you've done this before today and you were just working with an arbitrary basis,
+you'd go back to chapter one and you'd say, Well, I can form an augmented matrix and I can reproduce that matrix.
+I know there must be a solution. Exactly one solution. We proved that before.
+For finding out these things are now the new piece of this is that you can compute any part of that solution just by computing to dot products.
+And you could even make your life a little bit better by scaling all of your bases vectors that have length one.
+And then you can compute all of these by just having one dot product and a dot product is something that's very fast and efficient to compute.
+So I think I can prove this theorem in my last three minutes.
+Because there's not too much to it. Proof.
+Let X be an element in W when X is equal to see one you one cluster that are c p up for some.
+See one up through C, P and R.
+This is since we have a basis. There's a basis.
+All right. So now, how can I get orthogonal to show up in the problem again, picked up products with both sides?
+If you take the DOT product, the both sides will say, You J.
+So taking. Products.
+With few j and gives.
+Well, most terms are going to drop out because of Orthogonal City.
+The only term that will serve well, the term on the left to have is X dotted with U.
+J. The term on the right that will survive will be the one involving U.
+J. So I'll get C J Times, U.
+J. Dotted with U. J. Now I can just solve for C.J.
+So then this is X dotted with U. J divided by U.
+J. Dotted with you, J. So this tells us that in this case, with an orthogonal basis,
+you can just very simply compute how to express some vector as a linear combination of the others.
+You'll note that that also means that it becomes easy to compute the coordinate mapping because the
+coordinate mapping at its heart was expressing some vector is a linear combination of the others.
+All right. I think I'm out of time, so next time we'll pick up with Orthogonal City and what are going to see.

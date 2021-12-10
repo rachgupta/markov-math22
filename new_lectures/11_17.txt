@@ -1,0 +1,586 @@
+﻿So I do want to run through the announcements reasonably quickly here.
+So problems that 11 is due on our normal schedule on Friday.
+There's still like the extension window if you're choosing to use an extension on problems that 11 feel free problems at 12.
+This one won't have any poofy problems on it. This one will only have some what I call data analysis problems.
+And so that'll be using the topics from Friday when we talk a little bit about linear regression
+to think about how linear algebra informed some basic techniques in statistics and data science.
+And then that'll be on problems at 12. That'll be do the last day of the semester, so the Wednesday after we get back from Thanksgiving break.
+So the TFS and I are sort of hard at work with reading the projects.
+There's still a handful of students that have not submitted a project proposal.
+So if you haven't submitted a project proposal and you haven't replied to my emails asking you if you're going to submit a project proposal,
+please do so soon. Both reply to my emails and submit a project proposal.
+The the ones that I've been reading, so I have about 20 of them that I'm sort of taking on myself as the project mentor for those projects.
+They've been quite good so far. I mean, I've been really excited reading them.
+We're hoping that we can release the feedback, the written feedback from the TFS by Friday,
+but that kind of depends on whether all the tests are done reading them.
+If you really like have a pressing time commitment that you want to get started on your project earlier than that,
+you should, of course, feel free to email me.
+I've met with a bunch of groups already, and then I'm happy to tell you who your project mentor will be so they can give you their feedback already.
+So. That that's that's what my advice would be if you're thinking about how to.
+How to navigate that situation, so we're hoping that Friday we can release those grades on grade school.
+The other thing that I wanted to mention is so Quiz six, we're going to run a little bit differently than normal.
+Partially just because it's the end of the semester, it's also very close to Thanksgiving break.
+And so what I think the reason I decided was that for Quiz six,
+the Friday version of Quiz six is going to be sort of individually done at your own leisure, and that portion won't be graded.
+OK, so you will only be graded on the Monday version that you turn in electronically.
+So that means that you're welcome to so.
+Just just to make sure that I'm really clear on how this is going to work, so on Friday, I'll bring my printouts of the quiz like normal.
+If you have other arrangements where you need to take the quiz early, you can get the quiz from me earlier.
+What I would encourage you to do is treat it like a normal quiz. Give yourself 15 20 minutes or something to try to solve those problems.
+You then are welcome like a problem set to then interact with your classmates to discuss those problems.
+The only thing I would say that you're not allowed to do is you're not allowed to just like post the problems on the internet somewhere.
+You're not allowed to ask someone. That's not a part of our course community about those problems.
+OK, and then on, I'll have the electronic submission open on great scope on Monday,
+and you would submit your quiz like you normally would for a Monday version.
+Yes. You then only submit one. Yeah.
+And that is so that one will count for your quiz grade for Quiz six.
+So hopefully that's a little bit less stressful. I want to encourage you, though,
+to like I still think it's useful for your mathematical development to try to do that 15
+20 minute version yourself just to try it and then certainly then consult resources.
+OK. Nice sound effects for the class.
+Good timing. But are there any questions on that?
+Does that make sense? That's why I see email about scheduling the out of sequence quizzes didn't go out yesterday.
+We had our t.f meeting yesterday to discuss whether we wanted to do this or you.
+There will be no class time devoted towards the quiz. So on Friday, you didn't I'm not going to give you 15 minutes of class time.
+We'll just have like a normal seventy five minute class. I'll have the printouts.
+You can take one with you and then you submit it whenever you're ready to.
+OK. If you're not going to be in class on Friday, it'll be posted to the canvas page two, so.
+I probably should say we do actually have class on Monday. Hopefully some people come, but I plan on being here.
+So are there any other questions before we get going?
+Logistical questions or otherwise? All right.
+So the big thing, though, I'll keep emphasizing this.
+The project deadlines are really going to start coming up quickly and in some cases a number of the projects that I've read,
+they're wildly ambitious projects.
+So I mean, many of my comments have been around like scaled back this a little bit like you're not going to be able to do this in three weeks.
+So keep that in mind as you're working on them, though, we want to cover sort of a reasonable amount of material, too.
+But in order to make sure that you kind of get there and get good feedback, I would start doing some consistent work regularly on the project.
+Don't put it in.
+Like, try to think I'm going to put in 12 hours on December 1st and the morning before it's the project draft is that is a recipe for disaster.
+OK, so I'm I'm in the midst of trying to convince you that orthogonal city, an orthogonal sets or a useful notion.
+I don't know that I've necessarily done that yet. So let's keep trying.
+So geometrically, this picture that you want to have in mind is we're working entirely in our end at this point in the semester.
+And you have some subspace inside of our N W.
+And we have some vector say why that's not in my subspace.
+So there are sort of two equivalent questions that you might want to know about.
+One has to say like how much of why is in the direction of my subspace in some sense, like how much of why go has a component in my subspace?
+So the way that we kind of geometrically think about that is in terms of. Putting an orthogonal projection into this space.
+So this we haven't actually done yet. We're just kind of hinting at what we would like to do.
+So we call this vector y hat the kind of shadow into the subspace, the component of why in the subspace derby.
+So there are at least two ways to think about this.
+So we're thinking what I want to do is to call this factor y hat the orthogonal projection onto the subspace w.
+So we've done that in the case of a line or a one dimensional subspace. Orthogonal projection on to Derby.
+But we haven't done that in the case for a larger sub space. So there are two important ways to interpret what y hat is and.
+So one way is to say that we want a vector y hat so that when I subtract y hat from Y,
+the result is orthogonal to W or it's in the orthogonal compliment of W.
+So this is what we call an orthogonal decomposition. So the two ways that we might think about this is that if we're given.
+A vector y inside of our N. And a subspace W as in the picture.
+Subspace w then we'd like to say that there exists a vector y hat inside of W so that the following.
+It's true. Well, first, I would like to say that. This vector gives me an orthogonal decomposition, so namely why hat is the unique factor.
+In W. W so that y minus y hat is orthogonal, so an element in the orthogonal compliment.
+So this gives us then what we call an orthogonal decomposition that we have, why expressed as the sum of something in W and something orthogonal to W.
+So that's very much like when you express something in the standard coordinates, you have the vector AB in the plane.
+It's like saying you're using a of the vector one zero and B of the vector zero one.
+So it's an orthogonal decomposition of that vector. So we can talk then about the components of that vector.
+So the second interpretation that you might take of what we had is is that it's
+an optimization problem that if you take all vectors inside of you and you say,
+minimize the distance to this point, why this projection, this y hat will be the unique shortest distance.
+It will give you the unique shortest distance to the vector y. So you can also phrase this is the solution to an optimization problem.
+So why hat is the unique factor?
+And R W W sorry, inside the W, so it's a constrained optimization problem for those of you in economics,
+you might think about what happens if you're constraint space.
+Your W is actually curved, so it's not a linear subspace, because then that will still be a kind of optimization problem you'd want to solve.
+But then that leads you nicely into techniques from 20 to be. So it's the unique factor and W. that is closest or minimizes the distance to why.
+So I take all vectors inside of W, and I compute the distance from that vector to y y hat gives me the shortest distance.
+So that gives me at least two ways of thinking about what the orthogonal projection is.
+So I haven't actually proved these observations are true. These are just things that I'm kind of saying from the picture.
+These are things that I would like to have happen. So we should actually verify them.
+So these are sort of two of our big theorems. So we're going to prove one.
+So this will be called the orthogonal decomposition theorem, and we want to prove that this exists.
+So you can think about this as establishing what? So I want to prove that we can actually do this in the case of a one dimensional subspace,
+we explicitly did it and we gave a formula for the orthogonal projection.
+But now we want to do this more generally.
+So I'm going to do this in a little bit of a sneaky way, and we'll see if anyone picks up on how I'm being sneaky here.
+But after the proof and I'll point out how it's a little bit sneaky.
+So be on alert for shady reasoning.
+So let w be a subspace. Um, of our and of course.
+Don't worry, nothing yet. Nothing. And for each factor, why in our end?
+Then why can be uniquely expressed, why can be uniquely?
+Expressed. Y is equal to Y hat plus z, where Y hat is an element in W and Z is an element in the orthogonal compliment.
+So we call this the orthogonal decomposition of Y with respect to the subspace W.
+So there's a unique way that I can decompose it as take.
+However, much of it is in the direction of your subspace. That's y hat. That's what we're going to define to be the orthogonal projection.
+And then Z will be the result of subtracting all of that off so that then you only get things that are orthogonal to that subspace.
+So then you're in the orthogonal complement. So that's what I really want to prove.
+I'm going to prove the slightly more refined version. In terms of having an orthogonal or north or normal basis.
+So if. We have these vectors you one threw up is an orthogonal.
+So if we have an orthogonal basis for my subspace W.
+Then I claim that my hat will be given by this following formula, why dotted with you won over you,
+one dotted with you one times you won + plus y dotted with up over you, p dotted with up time's up.
+So that was exactly how we. Wrote down our we proved last time that there was a way there was a unique way of
+expressing a vector in your sub space as a linear combination of your base as factors.
+And this was the unique way of doing it. So now I'm saying why hat is given by that vector that we had last time.
+And then once you have white hat, then you can just define Z by y minus y hat.
+So once you have a formula, then you take that thing to be orthogonal component. So before we actually prove this sense, it's a unique quantity.
+We're going to take this to be the definition of the orthogonal projection onto your subspace.
+So definition we call white hat given by this formula.
+The orthogonal projection apply onto the subspace dubie, so you can think about that in one of two ways or perhaps more,
+but at least two ways that I'm presenting to you today that that Vector White Hat will be the solution to an optimization problem.
+It is as close as you can get to why while staying within your subspace w.
+OK. It's sort of like, well,
+let me maybe not mention that so and then the other way that we can think about that is that it's the amount
+that you move in the direction or the component of your vector in in the direction of your subspace W.
+So if you're thinking about this picture, it's we have this vector.
+Why it's then how much of why has it is its component components in W. So if you are totally orthogonal,
+then it would your projection would just project projected zero. And I'll label this is the origin.
+It's a linear subspace, and that's a vector. All right, so let's prove the orthogonal decomposition theorem.
+So. Well, prove this moreover part.
+So when you prove this moreover part, we already proved last time that this underlined bit here is an element in this question.
+Uh, oh, up here. Here.
+That's a good question. So the reason why is because I'm using this formula to tell you what why that is.
+So if I wrote why hat here, it would be so sort of circular reasoning because I would be using what I had in the definition of what hat you're given,
+why you're given this vector in space. And then I want to know how close can I get to that vector?
+And that's what I want to call white hat. So my claim is that then I'm going to define white hat by this formula,
+which we observed last time because you want as an element in W up as an element and W you're taking a linear combination of things in W.
+So this will indeed be an element in Derby. Right.
+Then I define Z to be this quantity. So the only thing that's left to do is because this does defined something in W.
+What's left to do is to verify that when you subtract that off from Y, when you get Z,
+that Z is actually in the orthogonal compliment that it's actually orthogonal.
+So you can think of that, as did you subtract off everything that's in the sort of in the direction of your subspace w.
+OK. That is your question. OK. So we have a purported notion of what we had is what were then left to do.
+Is. We what we're left to do is we need to then.
+Verify that it's orthogonal. So proof.
+So let's take our why had to be given by the formula that I hope that it works.
+Well, I had why daughter with you one you won?
+Plus da da da plus y dotted with U.P. over U.P. dotted with U.P. Time's Up.
+Well, by definition, that's an element in W. We will also define Z now to this b y minus y hat.
+So then I've expressed Y as the sum of two things y hat plus z y hat is definitely in W.
+I need to verify that Z is that in w purple. So claim.
+Z is an element in W that C is orthogonal to W, so we prove before that you're an element in your dog and a compliment.
+If you're orthogonal to a basis, so we just need to check that Z would be orthogonal to you, one threw up so we can do that.
+So if we compute, say this Vector Z dotted with.
+One of my vectors, UK. Well, we plug in what Z is, that's y minus y hat dotted with UK.
+All right. Well, distribute. So we have y dotted with UK minus y hat dotted with UK.
+All right. Well, we have a formula for what why that is, so you're multiplying this thing through your dotting with UK.
+So most of those vectors are orthogonal, so most terms here are going to drop out when you take you one data with UK,
+for instance, though it will be zero because they're orthogonal. So the only term that will survive is the one involving UK.
+So this becomes why dotted with. I a.
+Now I have y dotted with UK over UK dotted with UK times UK dotted with UK.
+So now we cancel, cancel, cancel, cancel, cancel.
+This is then equal to zero, so that means this is true for all.
+OK, so the US. So.
+We be right that sense. This is true.
+For all, OK? In the set one up, the rupee and we get the Z as an element in the orthogonal compliment.
+So thus, we've given an explicit orthogonal decomposition. So what's missing in my proof?
+What have I not addressed? Cameron? So UK out of UK and the denominator and UK data of the UK here, they can't see because of the product right,
+then I'm just left with y dotted with UK here, and that's what I had over here.
+Yeah. Good question, Matthew.
+The law. Well, you're right that I have not said that.
+What do people think of it? Why would this be an element in our end? How do I know that?
+It's a sub subspace of our own. So then we know everything inside is going to be lurking in our own Quinn.
+How do we know UK is equal to zero?
+We don't know the UK is equal to zero, in fact, UK was an orthogonal basis, so all those vectors had to be non-zero.
+So right here. Yeah, the division cancels them out, and in fact, that's why the division is OK, because they all have some non-zero length.
+Are you? We didn't address the uniqueness part at all.
+So that's certainly a problem. So any other problems that people might think about what I've done, James?
+Yeah, that's certainly true. That is a remark that I made, but I didn't actually prove that for you.
+I mean, that could be a nice thing for you to check that you could write out a proof of such a thing.
+So that's certainly something where there's some details that you could write out as though a third thing here,
+though that might be causing some people a little bit of consternation.
+Or maybe, perhaps not. Yes, exactly.
+Well, that's true, too. So maybe a fourth thing. I didn't really tell you where that formula came from,
+except for it to just remark that we were able to find that formula last time as the way of expressing vectors
+inside of the subspace W. So then we're using that to make our definition and then we prove that it works.
+So it is kind of like pulling it out of the hat. What else might be a little bit worthy of more questioning here?
+So definitely, we have not addressed the uniqueness part at all. That's certainly true.
+That's OK. It's good to emphasize that, because that certainly we have not addressed uniqueness at all.
+Yeah, Luke. So the reason why we're seeing that, though, is because you're right, I could have defined why had to be literally anything inside of you.
+But if I do find it to be anything else inside of W when I compute Z from that.
+So when I subtract that amount off from why it would not be orthogonal to my subspace,
+that's sort of the key point of how we know we're subtracting off as much as we possibly could in the directions of your subspace W. So right here,
+verifying that Z is in W is like saying really subtracted off everything.
+Yes. That's a good point.
+So like right here, I've just picked a generic one, so I'm just taking K to represent any of them from one to P.
+So I really want to do this reasoning for all K between one and P, but it will actually go through the exact same way for every single one.
+So that's how I know that then Z will be orthogonal to you one you two you three up to you, p.
+So it's orthogonal to all of them. Well, yes, Sam.
+That's a pretty sneaky thing, right? Like, there's more over business is like saying like, well, we have this orthogonal basis.
+Where did that come from? I haven't shown us how to get that at all.
+So that's a little bit weird. We just suppose one exists and then we work with it.
+So that's at least one of the major things that is left unsaid here is that we want
+to have some idea of how you would actually come up with this orthogonal basis.
+So you're all giving very good suggestions of things that might need to be addressed here.
+Certainly, the uniqueness part of our argument has not been addressed at all.
+So let me address the uniqueness part. So we have a complete proof.
+Then we'll come back to Sam's question, but I think that's something that you should keep in mind.
+One of the major learning objectives for the day of the day is called orthogonal ization
+is we want to have a way of taking a basis and turning it into an orthogonal basis.
+We already know for any subspace of W, any subspace W of our N, we know we can find some basis.
+So now I want to have some way of taking that basis and turning it into an orthogonal basis.
+So we want to have some procedure for doing that. So that's how we can from this moreover statement, get the general statement.
+But let's also approve uniqueness, because many people pointed out.
+We should verify that. So what's the standard way that we prove something's unique?
+We suppose we have to ensure that they're the same thing. Right, so let's suppose we have another decomposition.
+So let y be equal to say why one heart plus one as well, where?
+Why one heart has an element in W and Z one is an element in W perp.
+So that's my other decomposition. And now I'd like to show that why one heart has to be the same thing is why had?
+OK, well, from that, we know they're both equal to y.
+So thus we know that why one had to plus z one is equal to Y hat plus z because they're both equal to Y, after all.
+So let's get the two things in W. together. Let's get the two things in W perp together because we know they're sub spaces.
+So then we have why one hat minus y hat is equal to z minus z one.
+OK. Where can what can you tell me about where this vector lives?
+This one on the left hand side? Where will that vector live given the axioms of sub spaces?
+It's good, right?
+Friends of two things, and so it has to be inside of W. So we know that then why one had minus y hat is an element and w what about z minus z one?
+Where does that thing live?
+We actually went to sort of excruciating detail of showing that the orthogonal compliment is a subspace, so where will this live and w purp?
+Well, since they're equal, that means that why one had minus y hat, is that an element in W Intersect W perp, it's in both.
+So then that means that y one hat minus y hat is a vector that's orthogonal to itself.
+What vectors orthogonal to itself? Has to be the zero factor.
+So that's because the intersection here is zero.
+We know that why one hot minus y hat is equal to the zero vector and hence why one hat is equal to y hat.
+So there is no other vector that does this. Similarly, with the way that Z is defined, once you know that y one say from this identity,
+once you know this is equal to this, then you also know that Z one is equal to Z.
+So the decomposition is unique. OK, so that gives us the orthogonal decomposition theorem, so given any subspace,
+we can always think about a vector as being decomposed into the amount that moves in
+the direction of your subspace W and the amount and in the subspace orthogonal to it,
+Robbie. Zero, Vector.
+So like if we go back to this picture right here, here is W. Perp.
+So if I think about what's in both of these sub spaces, the only thing that's in both is the zero vector.
+So that's why once I know that I'm in both, this vector has to just be the zero vector.
+Because then that's saying, if you're in W and you're in W purp w purpose, a set of things that are orthogonal to the things in W.
+So you want to then say, well, what Vector is orthogonal to themselves? Well, there's not many of those.
+Good. All right.
+So the second interpretation that we had for orthogonal projection is that it's a minimum distance, so we should also prove this.
+So this is the second major thing for the day. This is the best approximation theorem.
+It's actually really interesting to many of you wrote in your project proposals that
+you're doing things related to you and Alexis or infinite dimensional linear algebra. Many of these results can be generalized to that context.
+So you have a best approximation theorem in that context. You have the decomposition theorem in that context.
+So you could think about including those sorts of things in your project. So a best approximation theorem.
+So this is item two on our list here, which does what you would hope so namely.
+If I have some subspace W. So this is like your constraint space, if you think about it from like an optimization perspective.
+So this is where you're allowed to be and then you want to take some vector outside of that space.
+Why be an element in our end, so some vector, not necessarily in W, if it happened to be in W, then of course you could just make the distance zero.
+And then if we take. Well, I had to now be the orthogonal projection onto the subspace so defined according to this formula, so defined above.
+All right, that here so we call this.
+The orthogonal projection on T.W. of why?
+So just before then, we have this nice inequality, so namely that if I compute the distance between y minus y hat,
+this is always less than the distance from Y to V for any.
+Vector V in W. Well, I would have equal to if I allowed the possibility that V could be equal to the projection itself.
+So I take out the projection. So geometrically, let's draw a picture of what this theorem represents.
+So we have a clear idea of what we're trying to do.
+So the picture again, we have our subspace.
+W. We have the thing we'd like to get close to why, but unfortunately his outside of the things,
+the outside of our subspace, so we can't get perfectly close to why we want to get as close to war as possible.
+So we say, well, take the orthogonal projection into my subspace,
+so this will meet at a right angle and that gives me this vector at the orthogonal projection.
+Then what this theorem says, if you take any other Vector V in my space,
+we take any other Vector V like one and say over here, this is v now and I compute the distance from Y to V.
+This yellow distance here will be longer than the one over there.
+So that's what the theorem is saying, that if I looked at this distance right here,
+this will be y minus v in white, maybe I should do that in a different color.
+See if I have an orange or red all work, but that's not a good red.
+So a question. So this factor here will be y minus y hat.
+Question. We are just any vector inside of my vector space other than the projection itself.
+So we have just drawn it to be it can be any inside of W except for a Y hat, because why that was the unique thing that minimized the distance.
+So I'm saying it's going to be strictly longer if I choose anything else. Oh, OK.
+So because this is the orthogonal compliment, we know that that meets at a right angle.
+And then we can also think about, say, this distance here between these two.
+So that distance would then be why hurt?
+Minus we because we have these three things there y minus y hat, the one going straight up that's in the orthogonal compliment.
+Then we have y minus V and we have y hat minus V.
+So where does Y hat minus v live? And let's face.
+And W, right, because it's the difference of two things in W, so it's the one sort of along here.
+No, this thing y minus y hat by the orthogonal decomposition theorem that's orthogonal to W.
+So that tells me y minus y y minus v or orthogonal.
+So that's one observation that we can make. Yeah.
+What? OK, well, let's think about that in just a second.
+Again, presented in a slightly different way.
+So here ultimately what I want to do is I want to relate these two quantities, these two distances, right?
+The idea is, is that like if I'm trying to, like, get as close to that light as possible in the ceiling, right, that light right there?
+Well, my distance from that light was longer than if I instead went the point directly below the light.
+Like right here. That's like as close as I can get other than jumping. And that won't get me much closer.
+So that's what's happening here as well. Now, when I move way over here, that's like my v.
+My V is then way even further away from that point. So that's what I'm trying to encode with this theorem.
+The best approximation theorem is that the point directly below the light is as close as you can get to that particular point.
+The orthogonal projection. So the way that we can approach doing that is like, let's just consider the distance that we're interested in y minus V.
+So if you consider this distance y minus v this distance right here, right?
+Y minus v the new distance, the yellow one going from the point I'm interested in to this distance that's like me to the light right now.
+Well, what I'm interested in is how that compares to the orthogonal projection.
+So I can instead rewrite this as y minus y hat plus y hat minus v.
+Just added and subtracted the same thing. So it's still the same distance.
+All right. So if you think about where all of these quantities are, I'm considering this triangle.
+Right there, that triangle, so I have on the bottom is this is who I have minus V is right there.
+I have minus V. That's the thing that's inside of W because it's a difference of two things
+in W I have y minus y hat and that thing was n or the orthogonal compliment.
+That's how I'm allowed to draw this right angle in there. That was the point of the orthogonal decomposition theorem.
+So that tells me this thing is in W. This thing is in W purp.
+So that means those two vectors are orthogonal. So that means y hat minus V dotted with y minus y hat has to be equal to zero.
+They're orthogonal vectors to one another.
+Well, this other vector here, so that means I have then a right angle right there, so that tells me I'm getting a right triangle right here.
+I should draw my right angle a little bit better. So I've got a right triangle right there.
+The hypotenuse of my right triangle is y minus V, so if I have then a right triangle, then I can apply the Pythagorean theorem to that result.
+So the square of the side lengths will be when you add them together will be equal to the square of the hypotenuse.
+The square, the hypotenuse is y minus v,
+so I have the square of y minus v squared is then equal to the square of y minus y hat that one side length squared,
+plus the other side length squared again. Because they met at right angles, they formed a right triangle.
+OK, well, now think about what I'm trying to compare. I'm trying to compare this quantity and this quantity.
+So then how could I how could I get my strict inequality from this?
+What do you know about this term? Well, I have minus V. It's not zero because they're different, right, they're different vectors,
+so I no sense v is an element in W take away why had there's some distance, some positive distance between those two?
+So that means that y hat minus v that distance is positive.
+So then I can replace this equality, so thus we get.
+That y minus b squared will then be strictly bigger than just taking the length of y minus y hat squared.
+Because I've dropped off something that was positive. All right.
+So that's just from the way we usually manipulate inequalities. Now how can I get my final result?
+What's the last thing I need?
+We take the square root of both sides, and that preserves the inequality because the square root is an increasing function.
+So then we get the desired result. OK. All right, great.
+So. That tells us that gives us our second interpretation.
+For now, what orthogonal projection is, it's as close as you can get to a given point inside of your subspace quip.
+It doesn't only work if we're in all three of the reason why it's fine here is because these three points determine a plane.
+So you're still inside of a plane even if that plane is in a more complicated space.
+And so since they still meet at a right angle, it still works out.
+If you didn't believe that, you can work it out strictly from the properties of the product like you had before,
+like you can just use that the Argonaut compute this quantity.
+Compute this quantity of compute this quantity using properties of the DOT product and verify that because of orthogonal A-T, lots of terms drop out.
+That's a good question. That's you're you're entirely right to be skeptical there, but if you are skeptical of that point,
+you can go back to the definition of the DOT product to see it. Other questions.
+Good. All right. All right.
+So. I think.
+There is a reasonable question about how you would find the matrix to represent this transformation of orthogonal projection.
+I think I'm going to skip that, though.
+It's a reasonable thing for you to be curious about, but it is in the solutions if you want to play around with it.
+What I want to do is accomplish my other major learning objective for the day, which was going back.
+To Ono, who asked this question. Sam Sam's question of how do we actually get this orthogonal basis at all?
+So I think this last question, so that's what we're going to do for the last bit of class today.
+How can we find an orthogonal basis?
+So I hope that I've been able to convince you that an orthogonal basis is actually a useful thing to have.
+So in particular, it's them. It makes computing things like linear combinations easier and makes computing coordinates easier.
+It makes understanding the geometry easier. It's in fact the only way that we currently have for computing the orthogonal projection onto a subspace.
+There is no other way that using the methods that we've introduced so far that you can actually compute what that is.
+So if I did ask you to compute in orthogonal projection, your starting place is well, I need to find an orthogonal basis.
+And if you've been doing the web work, you'll notice there are a lot of those sorts of questions.
+So it should be a pressing question on your mind of how do you actually do this?
+The next class, we'll talk about applications of these ideas to optimization problems.
+So let's do this through an example first. So I think this is one on your handout.
+So I'm going to take a three dimensional subspace of our four so big enough where we can't picture it.
+So we have to think abstractly. So this is the example.
+So I'm going to call these factors x one x two x three, so we can see that they form a basis for my subspace w,
+we can sort of quickly verify that they're linearly independent. So it's a three dimensional subspace of our four.
+So it's a hyper plain. So the problem is that these vectors are certainly not orthogonal.
+So what I want to do is I want to find an orthogonal basis.
+So what we're going to do is we're going to modify these basic factors to then get an orthogonal basis for this space.
+So if I just want to sort of iteratively move through my basis and modify the vectors so I don't change the subspace, but I change the basis.
+So that I'd get an orthogonal basis for that subspace, so I'm going to start with the first vector.
+Well, there, I don't really need to do anything because it's perfectly fine vector to have on its own.
+So I'm going to start with just taking my first face this vector v one that'll just be equal to x one.
+So that's then one one one one. So there's the beginning of my orthogonal basis, but now what I want, we want.
+A vector. The two so that.
+Too is an element inside of my subspace w I don't want to mess space.
+But I also want. He too, dotted with the one to be equal to zero.
+So I want an entirely orthogonal direction inside of this subspace.
+So what I can do is I can take this Vector X to and I could say, well, is it orthogonal to the first Vector V one?
+Well, it's clearly not because the Dot product is non-zero.
+So then what I can do is I can subtract off the orthogonal projection onto the subspace because that's still within the vector.
+That's still only subtracting off things spanned by the first vector.
+It won't change my subspace. So then I'm only going to retain the part that's orthogonal to the first vector.
+So the geometric picture that you should have in mind as you have this vector.
+The one and then I've got this Vector X to the SEC in my list, and it has they're not orthogonal.
+So what I'm going to do is I'm going to compute the orthogonal projection onto v one to get then this vector here.
+So that will be then the projection of X two onto v one.
+And then when I subtract that off, I only am left with the vector that's orthogonal.
+So this will be the orthogonal component will be x two minus the projection onto V one of X two.
+So I'm just taking everything away that had any component in the direction of my first basis vector.
+It'll still be inside my subspace, so then I can still get something that's then entirely orthogonal.
+All right. So the two is then equal to X two, minus the projection onto x one v one, I guess v one of X two.
+So then that formula becomes X two minus X two, dotted with B one over v one dotted with v one.
+That's my projection formula for projecting onto a single vector. So then we can compute all of these dot products.
+So the dot product of X two, this factor would be one.
+The first one will be three x v one dotted with B one will be four.
+So that becomes X two minus three over four times one one one one.
+So then when I subtract that off from X two, I then get negative.
+Three fourths one fourth, one fourth, one fourth.
+So now, you know, that Vector is orthogonal to one.
+Because of the way I've constructed it span. V1 and V2 is equal to the span of X1 and X2.
+So I'm just iteratively constructing this new basis by subtracting off everything
+that was in the direction of the previous factors that I've included, so I can then build an orthogonal axis.
+So now we do it again with the third one. So now we want.
+Say a Vector B three in W so that.
+The three dotted with the two is equal to zero and v three dotted with v one as equal to zero, so it's orthogonal to my previous two vectors.
+Well, again, I can take x three because it was linearly independent from the first two.
+It must have some component that is different from the span of these two.
+So I can then subtract off the orthogonal projection onto that particular subspace.
+So the orthogonal projection then builds for me in orthogonal base.
+So now we define. V three.
+My third base is Specter Take X three, subtract off the projection onto the span of V one and V two of X three,
+because then you'll be orthogonal to those previous two. We're still inside of W because X three is an W.
+This thing was in the span of the first two. So if I do that, I get the third factor in my list.
+X three. Zero zero one one.
+Then minus x three dotted with the one over v one data would be one v one minus x three dotted with B two over v two.
+Data would be to be to. So there's my orthogonal projection formula again,
+I'm just subtracting off all of that particular vector that was had any amount in the direction of my subspace, my first two vectors.
+So geometrically, the picture should be the algorithm is maybe somewhat complicated looking,
+but geometrically the idea should be somewhat intuitive that at every stage
+we're just subtracting off everything that was in involving the previous stages.
+OK. All right. So if you then go through and compute this you with the vector.
+One third, one third. And the result of this process then gives us three basis factors which you would expect for a three dimensional subspace.
+So we have the basis consisting of the one one two three four one one one one.
+Then the second one is minus three fourths one fourth.
+One fourth, one fourth. And the third one was zero negative, two thirds, one third, one third.
+All right. So we could check that this is orthogonal and also computed the DOT products to verify that they're all equal to zero.
+What if you wanted this to be the normal instead of just orthogonal? What would you do?
+Cameron. Yeah, so we just scale all of these to be unit factors.
+This is an orthogonal basis. If you then wanted it to be worth a normal, you could then certainly scale all the vectors as well.
+So this yes. They don't they won't necessarily be scaled by the same factor.
+Yeah. All the entries in one column would be scaled by the same factor. That's right. You'd scale them all by the length of the particular vector.
+Yeah. So this procedure that we've just done as the Graham Schmidt algorithm for orthogonal ization.
+So it's mildly, as you can see, mildly tedious procedure to actually carry out.
+It's both useful. It's both useful practically and theoretically in theory, when we often when we write proofs,
+we'll say by Graham Schmidt, we know we can find an orthogonal basis.
+So now this is the piece that was missing from my proof at the beginning where I could say by the Graham Schmidt algorithm,
+I know I have an orthogonal basis for the subspace, and then the rest of the argument gives me the orthogonal decomposition theorem.
+Tommy. Well, I mean, you could I mean, you could rotate these things, right?
+I mean, so like if you had a sub space, you could you could certainly change your your basis by rotating it around.
+Will those be all of the orthogonal bases is coming from rotation?
+So you you know that all of them are becoming from.
+Could you do anything else?
+I guess you could still have like reflections and things showing up to so you could still have more complicated things coming up.
+Yeah. Yeah, I mean, there you could have you could think about what are all the different ways that
+you could modify the spaces to get new bases using geometric transformations.
+And they don't all have to just be. They don't all have to just be rotations.
+OK, so the Graham Schmidt algorithm? Graham, that.
+Algorithm. It's not particularly surprising, given what we've done here at every stage, you just do exactly the same thing.
+So I'll just kind of briefly write it out. If we're given a basis, we know we can find some basis x one, say XP for a subspace w.
+So you can always do that inside of our N subspace w of R,
+and then you want to know just how you can modify all of these to be then on the normal basis.
+Then well. Just to find the one to be equal to x one.
+So just take the first face factor. OK, well, then take the two to be, then go.
+But you want it to be orthogonal to the first one. So subtract off the projector.
+Onto your first basis, factor you one. So then the results will be orthogonal to the first factor.
+Three. You then take X three and you subtract off the projection onto the first span of V one and V two x three.
+And you just keep going. You keep subtracting this off to then get something that's going to be orthogonal at every stage.
+Dot, dot, dot. The end result, the conclusion.
+Is that the one the VP is an orthogonal basis?
+So we can always get an orthogonal basis for W.
+And it's actually constructed completely iteratively, so if I take the span of x one through x k,
+the first K basis factors this will be the same as the span of one up there VK.
+So it gives you this iterative basis coming out, but the key takeaway, there's actually some beautiful geometry here of how you're getting this basis,
+and if you sort of internalize and understand what the geometric picture is,
+it's not hard to remember these formulas because you can just sort of re derive from the picture
+what you're doing to subtract off as much as you can to make it orthogonal at each stage.
+Questions. Yes. Yup.
+It's a good pick. Good question. I should wish to move the move up here, I guess so.
+That's a good question. So like when we had just the two, we had a picture like this, but then when we go to having three.
+We now have something that looks more like. This.
+So we have here zero. Here is the one, and you have two inside that's orthogonal.
+And then you have x three some vector sitting outside of this thing.
+So then you're saying, I want something, a new Vector V three that's orthogonal to those previous two.
+So I take my Vector X three that has some amount in the direction of my subspace.
+Take the projection down here. Take the projection.
+So that's x three hat we've been calling x three hat.
+Subtract that off. So then you're getting then x three minus x three hat.
+And the result then is an orthogonal vector to those first two.
+And then when you have three of them, you're like spanning a space, then you're subtracting off all of those that you can.
+And you just keep going. Does that help with the picture?
+Other questions. OK.
+OK. So it's often extremely convenient and important to have an orthogonal basis,
+even going back to some of our fundamental questions over the course of the semester.
+So if you think about what the most fundamental question in linear algebra is, in some sense it is the problem of solving linear systems of equations.
+I mean, that's what we did in the very first day,
+we talked about the matrix equation or a linear system of equations that's represented by X equals B,
+and that's what you'd really want to say something about.
+But the columns of A might not necessarily be orthogonal.
+So then you'd like to say, could we do something with that? Could we modify the columns of A to then be orthogonal?
+So namely, could we orthogonal lies the column space of A and then work with that it'll still represent the same thing.
+Because you're taking, then just getting an orthogonal basis for it.
+But then maybe your computations will be a little bit easier.
+So what I'm proposing is that you apply the Graham Schmidt algorithm to the column space of a given matrix.
+This results in a decomposition of your matrix that's called the QR decomposition of a matrix,
+which is actually quite important in applications, even though it just kind of seems to fall out of the theory.
+So let me tell you what that is. And then we can kind of see what that is, and I'll try to convince you that it's somewhat useful.
+So theorem, this is called the Q R factorization of a matrix.
+So we've seen a lot of different matrix factorization this semester, probably the most important one being the eigen decomposition,
+the die analyzation of a given matrix and many of you again in your applications have been telling me about the different
+types of matrix factorization you're going to pursue as a part of your final project in terms of your applications.
+So if you're thinking about doing like principal component analysis or singular value decomposition, these are other decomposition.
+So the idea here is that if a is an m by N matrix.
+With linearly independent column, say.
+Because I want the column space to be generated by all of the columns because I'm interested in the column space.
+If one of the columns wasn't linearly independent, we'll just throw it away. It's not really telling you anything good.
+Linearly independent columns.
+Then you can write a as the product of two matrices, Q and R, where these two matrices, of course, have some nice properties.
+So what do you get? I want the Q Matrix.
+So where? The key metrics should have all the normal columns.
+So cue is. And by and matrix.
+Whose columns these columns? Form and or the normal basis?
+For the column space of A. Then our fixed from that, essentially, then our is an upper triangular.
+A triangular matrix. And by and.
+Positive entries along the dog. So.
+I claim that this is a really a corollary of the Graham Schmidt algorithm,
+so the way in which this is a corollary of the Graham Schmidt algorithm is that you start out with
+the column space of a that forms a subspace w on which you can apply the Graham Schmidt algorithm.
+Applying the Graham Schmidt algorithm then gives you an author normal basis for the column space defined Q to be that matrix.
+OK. Because of the way that matrix would then be constructed that you're sort of iteratively moving through those vectors,
+each vector in the list won't involve any of the later vectors.
+And that's why this arm matrix is then going to be upper triangular when you think about it.
+So let's actually verify that I know that's maybe a bit to think about, but let's actually.
+Work it out. So we have Graham Schmidt over here.
+Let's get that. Question.
+My questions. All right.
+Wow, it's a. Think about whether he would rather do the proof or do the example.
+Perhaps I'll do the example and then. The proof I'll leave the office hours or something.
+So exercise to the reader. So if you think about the the question that I ask you after that is to find a R decomposition.
+So example. Find. The QR decomposition.
+The composition for the column space of a or rather for a where A is equal to the matrix one one one one zero one one one zero zero one one.
+OK, so what do you notice about these columns?
+The column space of very. What do you notice?
+It was our subspace, W. writes, we've already actually found an orthogonal basis for W, for the column space.
+The columns are linearly independent. So note this was our column space from before.
+So we know the column space of a has an orthogonal decomp in the normal bay by just scaling those appropriate values.
+So if you scale those values, you would get your first value will be one half one half one half one half.
+Scaling this vector of ones for ones to be have won by scale.
+This vector to be one that I scale, this vector to be one. So scale them by their lengths I have.
+And with the normal basis, if you check the computations, it'll come out to be minus three over the square root of 12.
+Then one over the square root of 12. One over the square to 12.
+One over the square to 12.
+Then your last basis factor, again, I'm just scaling the third base factor that I had over there that I got from Graham Schmidt.
+Zero minus two over the square to six one over the square to six one over the square to six.
+So here all I'm doing is playing by the links, I'm turning them into unit vectors.
+I've done all the hard work finding the up basis over here.
+So I compute the length of this vector and then I just scale by that length.
+I compute the length of this vector I scaled by that length to get a unit vector.
+OK. Was that the question?
+So that I know that I have this particular or the normal basis showing up, so then I could use that to say, well, I know the the place of it.
+And by these columns as well. So then I can take those columns as my cue matrix.
+And then I can just solve for my R matrix. So if I take, then Q is equal to these three vectors.
+So let me just name them. You two, you three.
+You take Hugh is equal to you one. You two, you three.
+It's an all the normal basis. So this is then a matrix with all the normal columns.
+So we know it has nice properties. It's a nice symmetry. It preserves length.
+This is one reason why it's useful in applications is because it it's when you preserve links.
+It'll preserve the length of the error when you multiply by this matrix. So it's often useful in that setting.
+So then you just want to find what your R matrix is.
+Well, if a is supposed to be Q Times R., How could I get rid of this Q knowing that it's a matrix with all the normal columns?
+So I could multiply by the inverse if it were square. But what do I know about a matrix or the normal column, Zoe?
+We can multiply by its transfer so I can multiply by Q Transpose A will be then this R matrix.
+If I take this matrix Q and I multiply by the matrix,
+a something sort of magical happens and that all of these entries in are below the diagonal will just drop out.
+The reason for that, again, is because of the way that you set up the Graham Norton Organization process was that these
+factors were going to form an orthogonal basis for your space sort of iteratively look.
+He wasn't square. He wasn't he was not square, so we count multiplied by the inverse.
+I multiplied by the transpose, I can always multiply by the transpose.
+Because it's always the normal columns we proved that have a matrix as all the normal columns, then you transpose Q is equal to the identity matrix.
+So then if you now you can just compute what your R matrix is.
+It's just this matrix Q, take the transpose, multiply by a, you'll then get a relatively nice looking matrix coming out of that.
+The reason why this is sort of a useful idea is because it makes it quite quick to solve a system of equations.
+So if I have this equation, X equals B at the beginning, and if I replace A with its QR factorization,
+QR X is equal to B or by Zoe suggestion I can multiply both sides by Q transpose and I have our X is equal to Q transpose B.
+We also know that Q is a matrix with all the normal columns of preserves length.
+So if there's any sort of error in your measurement so far, you're preserving the error under doing this operation.
+So now I just have to solve this equation. This is just some vector and this is then a matrix of equation that you'd like to solve.
+But it's an upper triangular matrix. An upper triangular matrix means your last equation only involves one variable,
+so you can then solve it very quickly and then backtrack to get the solution to all the others.
+So numerically, this is actually very powerful tool that comes up a lot when you're doing numerical linear algebra,
+when you have to actually do data analysis.
+So the Q R factorization is actually a really important technique that falls out of the Gram Schmidt orthogonal citation procedure.
+All right. I think I've gotten two minutes over, so I owe you two minutes for next time.

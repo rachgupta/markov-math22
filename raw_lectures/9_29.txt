@@ -1,0 +1,843 @@
+﻿So just a few quick announcements.
+0:02
+I'm sorry, the math department, we're having a lot of trouble with our copier, so I don't have copies of the hand out today.
+0:04
+Hopefully it'll be back to normal on Friday. The so the handout is on canvas if you want to work with the digital copy there.
+0:10
+But otherwise, through today's class, I'll try to be more careful about writing down the problems from the handout
+0:22
+on the on the board as we do them in terms of what's coming up in the class.
+0:28
+I did email everyone to let them know that piece set for essentially you have an extension on that one until Friday if you want to.
+0:37
+If you have one person, if you've already put it in, and certainly you can use that extension at a different point in the semester.
+0:47
+So just maybe that gives you a little bit of flexibility in what's coming up.
+0:55
+I've already posted problems at 5:00. It's a pretty similar length to problems at 4:00.
+1:00
+So the workload, I think, should be relatively stable through October.
+1:06
+So keep that in mind as you're allocating time.
+1:14
+Good. If you're in terms of the reading, the reading for this class, I think is really helpful and important to do, to deepen your understanding,
+1:20
+to see sort of another perspective on the material, to really make sure that you fill in any gaps that maybe weren't clear from Class Anarcho.
+1:31
+Not. OK, then I maybe I didn't get it posted yet, then I'll post it when I get back.
+1:40
+I teach until 3:00 today. When I get back to my office around 3:00, I'll post it.
+1:49
+But it is a similar length to be set for. I think the reading for the next few chapters is particularly useful.
+1:54
+So chapters two and three in the textbook tend to go by pretty quickly.
+2:03
+I think it's worthwhile to at least make sure that you're skimming that material to make sure you're comfortable with all of it.
+2:08
+So today, well, roughly speaking, get through to point one to point to Max Klatt, to point to, well, next class, we'll do our last poopy day.
+2:12
+Then we'll do two point two and two point three on Monday. Are there any questions with.
+2:21
+Sir. Oh, yes.
+2:30
+So I'm going to do my best to have the midterms graded by Friday. That's.
+2:46
+That's the goal, that's the goal.
+2:54
+So I don't know if that makes people happy or sad, but as a team, I think it's better that we get the information out as quickly as possible.
+3:00
+So we will have those ideally by Friday, barring catastrophe.
+3:10
+So, Jonathan. So I don't think that you should and I don't agree that it was OK, so the practice exam was longer,
+3:16
+and when we gave that as an actual exam, the students also found that to be quite a challenging exam.
+3:41
+To the most challenging question on that exam for most students in the past was
+3:46
+the question on equivalence classes from talking to students in office hours.
+3:51
+That seemed like the most worrying question that people were anticipating.
+3:56
+It did not appear on the exam. OK, so I don't know if that helps at all, but.
+4:00
+The intention was certainly not to write an exam that was wildly different from the practice exam.
+4:10
+Our intention is to write the practice exams to be very similar to the exam.
+4:15
+The questions on the practice exam were questions that we would have been happy to give on the actual exam.
+4:20
+The questions on the actual exam were questions we would be happy to give on the practice exam.
+4:26
+So any exam you take,
+4:31
+I think is going to feel much more stressful than an exam you take on a practice exam that you take because you're taking it in a different format,
+4:34
+OK. So I realized that I think.
+4:42
+I realize that that's sort of that it feels very stressful to take.
+4:49
+Exams for the first time in more than a year again, and so just getting back into that,
+4:55
+it's going to feel a little bit different and a little bit uncomfortable, a little bit unpleasant.
+5:01
+But I mean, I think it's.
+5:06
+It's a it's important to remember that we want to use the exam, we want to use the quizzes, we want to use the problem sets as a learning opportunity.
+5:14
+OK, so one, if you have, say, a bad performance on one exam, we've all had bad performances on one exam.
+5:24
+We've all had exams where we do really well on the exam, even though we maybe didn't study as much as we meant to.
+5:31
+I mean, it doesn't always. One exam.
+5:37
+Well, Sam. Is we have problems at work problem.
+5:54
+To try to get a more complete picture understanding of. The.
+6:01
+I don't think that that dictates a particular outcome in this class, I think any grade is still possible.
+6:11
+I think that every semester we see some students do really, really well on exam one and then it falls off the rest of the semester.
+6:16
+We see students that do really, really poorly on Exam one,
+6:25
+and then they do really well the rest of the class and get an A and we're so happy and excited about that.
+6:28
+And so we're less excited about the first outcome where people do well and fall off because we really do want you to do well.
+6:32
+OK, we're we're we want you to learn this material.
+6:40
+And it is a very deep way so that you can use it and move on from it and use it in a way that's your course.
+6:43
+So I think I really don't want to have an adversarial relationship between the two of them.
+6:52
+So we're not like, oh, we got you on this one. We're just trying to present problems where if you don't understand that problem,
+7:01
+well, then you learn that problem, you learn that material and we move on from there.
+7:08
+OK, that's why I'm giving you quiz problems to give you that feedback where you can say how to do that.
+7:12
+Let me think about how to do that so I know for next time so I can deepen my understanding so I can move on from that.
+7:17
+That's the same motivation for the midterms, is to give you this sort of diagnostic feedback, maybe in how you're in the class.
+7:23
+Sometimes in particular, it could be approaching the exam for many of us.
+7:30
+I'm sure that you were all very strong test takers at some point in your life,
+7:35
+but we're all pretty out of practice and taking exams and especially timed exams.
+7:38
+And so there might be some amount of thought that needs to be given to just timing during the exam itself,
+7:44
+like making sure that we're spending less than five minutes at the very most on the definitions at the very beginning.
+7:49
+I was just grading that question earlier this morning.
+7:56
+For many students, people were writing way too much for that question, way more than just the definition.
+8:00
+And so not only is that not the definition anymore,
+8:05
+because you're including more so it's actually a detriment to your grade, but it's also more taking more time.
+8:09
+Move on, just the same thing I wrote on the solutions of the practice test,
+8:18
+the practice that started with question one being the exact same question as on the actual exam,
+8:22
+a few of the other questions were very, very similar as well. The separate question, I just changed the sets.
+8:28
+So hopefully that was also a question that people were relatively comfortable with.
+8:33
+But the format of the second exam will be similar.
+8:38
+If you don't think it's helpful. I'm happy to not provide a practice exam, but we'll do if we do write a practice exam for the next exam,
+8:43
+I will do my best to make sure it's wildly harder than the actual exam.
+8:55
+Yes, I'm grading a fair amount of the exams.
+9:00
+Caleb's also grading a fair amount of the exams, so you should be nice to him too.
+9:06
+So and yes, I am grading a lot of them.
+9:12
+I think I have six hours and already of grading, so there'll be quite a few more hours over the next few days.
+9:18
+Yes, Luke. It counts towards your paycheck, right?
+9:25
+Yeah. You want more of those?
+9:35
+One reason I'll just tell you my own thinking about this and I mean people can convince me otherwise in this particular point,
+9:45
+my feeling towards extra credit is that it's I like giving you problems.
+9:51
+I think it's fun to talk about math and show more math problems. So in some sense, I'm happy to give zillions of extra credit problems.
+9:55
+It becomes, to a point, unfair, I think, because you don't all have the same amount of time to work on those extra credit problems.
+10:01
+And so I don't want to go overboard with that just because some students this might
+10:08
+they might have one hundred hours that they want to allocate just to this class.
+10:12
+But most students don't have that ability.
+10:17
+So I'm reluctant to give tons and tons of extra credit just because I think it can quickly become overwhelming.
+10:19
+And I also don't want that to be the way that people kind of get through the class is just by doing tons of extra credit.
+10:25
+I want to focus on the core learning objectives. OK, other questions.
+10:30
+Have I quelled the uprising, is it going to be OK if I turn my back?
+10:40
+All right, so I think this is honestly a very good time to start catching your breath with the material.
+10:49
+If you've been feeling uncomfortable with the linear algebra, the next two chapters are really a place where most students do find a time where
+10:58
+they both integrate their knowledge from the things they've been seeing before,
+11:04
+and they get much more comfortable with the linear algebra going forward.
+11:08
+So let's have a bit more of a relaxed day about the Matrix operations and Matrix arithmetic.
+11:11
+So this is starting Chapter two, so let's just give a name to a particular matrix.
+11:18
+I want an M and Matrix, so let's give a name to the columns, a one through A and this will be an M by and Matrix.
+11:25
+So it's there's some standard notation that has not really come up for us in this particular class,
+11:42
+but just to make sure that we all are comfortable with this,
+11:47
+we often need to refer to the various entries in the given matrix and we use the indexing oh by column.
+11:51
+So I'll take a one one to refer to the entry in column one and one.
+11:58
+Similarly, I'll take a one two to be the entry in row one column to out to the entry in row one column.
+12:05
+And so this is sort of standard notation for how we can refer to the particular entries in this matrix.
+12:15
+Similarly, going down, we have a one to A and so this is to refer to the entries in a given matrix.
+12:21
+Sometimes we'll use the shorthand, a J like that to just show we're indexing the entries.
+12:34
+If I want to refer to a specific entry in The Matrix, I'll often use the following notation.
+12:44
+So if I take a matrix and I put an IJA here, this is just the entry of that matrix, so it's just a bit of notation that we're using here.
+13:00
+So maybe to make sure it appears in your notes, note a IJA is the entry.
+13:12
+Of a in row. I can call them.
+13:21
+Jay. All right, so just as a quick example, there are a lot of ways that we can work with matrices just the same way we've been working with vectors.
+13:29
+So, again, let's go through this in a little bit of a relaxed way. So let's take The Matrix.
+13:42
+One, two, three, four, five, six, going across the rows and let's take the Matrix B to be two, three, four, five, six, seven.
+13:48
+So there are several things that we can do that are probably not too surprising,
+14:07
+I can define the sum of these two matrices to just add them up opponent wise the same way you would add two vectors together.
+14:12
+So namely, this will be the one one entry of this matrix will be one plus two to the one two entry to three three plus four four plus five,
+14:19
+five, six and six or seven.
+14:34
+So then we get a new two by three matrix just coming from the corresponding entries.
+14:38
+Similarly, as we scale vectors, we fail every entry. We do the same thing to a given matrix.
+14:45
+So we also have two times the Matrix B will then just be two times all of these entries.
+14:50
+So four, six, eight, 10, 12, 14.
+14:57
+This gives us now a bit of matrix arithmetic that we do.
+15:04
+We have now two Matrix operations. We can add two matrices of the same size together and we can scale them like a given scalar.
+15:08
+There are many properties of Matrix arithmetic.
+15:18
+We should observe them so that we can use them.
+15:28
+So we don't have to reprove these results, so let's just take A, B and C to be matrices of the same size.
+15:34
+Furthermore, we'll take two scalars or a. then a whole bunch of things are true if I add A plus B,
+15:58
+this is the same thing as adding B plus A matrix addition is commutative.
+16:09
+Similarly, matrix addition is associative.
+16:16
+So if we have A plus B and then you first do that and then you add C, this will be the same thing as if you took A plus, B plus.
+16:19
+OK, three, if I take a and I add to a matrix consisting of all zeros, just like if you took the zero vector, then this would just give me back at.
+16:33
+So all of these results should be results, they should be comfortable proving they're mostly just kind of notation.
+16:49
+So for we have distributive city.
+16:56
+So if we have our times, the sum of two matrices, this will be the same thing as our times, the first matrix plus our times, the second matrix.
+16:58
+So scalar multiplication distributes across Matrix edition.
+17:07
+Similarly, if I have scalar additions are plus ass times a day,
+17:12
+that will also distribute in exactly the way that you would hope that this becomes R times A plus s times.
+17:17
+Right. The last one that we want to record is just this associativity of scalar multiplication.
+17:26
+So we have our times as times a it doesn't matter if you first did as times your matrix and then an R times your matrix,
+17:34
+you could also do our Tansy's as real numbers and then use that to scale your matrix.
+17:43
+Same thing.
+17:48
+So so far, the takeaway that you should be seeing from this, hopefully, is that nothing too surprising is happening yet where they're being yet.
+17:52
+So I'm going to do something kind of. Through exercise.
+18:07
+By that, I do not mean you need to do this as an exercise to turn in by any means, but you should be comfortable approving any of those results.
+18:17
+OK. So there are other Matrix operations as well, some probably even familiar with the most important one is going to be matrix multiplication.
+18:29
+So it's kind of funny that we've been this long into a matrix linear algebra class and we're only talking about matrix multiplication now.
+18:43
+But that's OK. We've been working on other things.
+18:51
+So I really want to make sure that you understand where matrix multiplication is coming from,
+18:57
+because for those of you that have certainly seen matrix multiplication before,
+19:02
+it's a little bit of a strange rule, the strange way of multiplying two together.
+19:07
+So the question I would want you to have in the back of your mind is why is it that strange rule I'm going to think about from our perspective,
+19:12
+why it is what it is? And then for those of you that maybe even in your final projects, there are other ways of defining matrix.
+19:21
+Multiplication are useful in other contexts, including in machine learning,
+19:29
+where there are other ways of multiplying matrices together that become very relevant.
+19:33
+But the most natural one is the one that we will consider. So the starting point is going to be taking some vector X in, say, r n.
+19:39
+And then I want to apply some matrix to it, say some Matrix B, B will be an M by NT Matrix.
+19:52
+So where will the output of multiplying by B live? What space, if it's NBN?
+19:59
+Or em, right, the number of rose, so multiplying by this matrix B,
+20:08
+so we think about that as a matrix transformation or a particular instance of a linear transformation.
+20:14
+We showed last time that all linear transformations have an associated matrix and we can explicitly find it.
+20:19
+But now I want to do another linear transformation. So I want to compose together these two functions.
+20:25
+So here we're going to do another one multiplying by the Matrix A going into Arpit.
+20:32
+So this would then be a times. B of X.
+20:39
+So what are the dimensions of Matrix A. What kind of matrix is that, if it's going from our M to our P?
+20:48
+And so this thing A is a P by M Matrix.
+20:59
+He em and this one is made by. And.
+21:11
+OK, so if we're thinking about this in terms of linear transformations,
+21:22
+in terms of composing together two maps, we then get the composition which goes from here to here.
+21:26
+So this is what I want matrix multiplication to represent. I want that to be taking a B, whatever that is, times X.
+21:33
+That's the way that I want to define this. I want to define it so that it represents composition of linear functions.
+21:44
+So we know every linear transformation has an associated matrix, the associated matrix of that linear transformation.
+21:51
+I'll call the Matrix a B of multiplying those two matrices together.
+21:57
+So what dimension should this have given that it's a linear function going from our NP to our P?
+22:02
+And so this is done up by an matrixx.
+22:10
+Baby. So now the goal is I want to know exactly what this matrix is or represent a linear transformation
+22:19
+so we know how we can use the properties of linear functions to find what the associated matrix is,
+22:28
+the goal. So we want to find the associated matrix.
+22:34
+Well, let's just sort of do this piece by piece, so if we had this B times X, so that's something we've defined already.
+22:52
+So that represents the linear combination of the columns of B, using the weights coming from X.
+23:03
+So this is then X one times the first column will start at that plus X and times the end column.
+23:10
+So that's just the definition of how we defined the matrix vector.
+23:20
+OK, well, now we could do the same thing of A times, B of X, because that's how we were getting at this composition.
+23:27
+You first to be then you do a to the output of that. So now we can plug in what this means.
+23:36
+So this is a times the linear combination, X one, V one, plus DataDot plus X in the N.
+23:42
+OK, well now you have a linear combination of some vectors, B, one through B n so from the properties of matrix times vector matrix times A vector,
+23:52
+we can distribute this across and pull through the scalars using linearity if you want.
+24:02
+So this becomes x1 times A B one plus plus X and a B it if you want by linear.
+24:07
+I'll put parentheses in just to make.
+24:25
+So now this thing, so a big one that's going to be giving you some vector and R.P., so we have done some linear combination of vectors in RPE,
+24:32
+how could we how do we often represent that so linear when we have a linear combination of a bunch of vectors?
+24:43
+How else do we think about that? Using a matrix.
+24:49
+That's exactly right. So we could think about this is representing the Matrix where a B one is the first column,
+24:58
+Abnd is the end column and X one through X, N are the weights.
+25:04
+So this would be a B one is your first column through a B and your end column times the vector X one through X at.
+25:09
+So exactly tells us what we get for the columns when you multiply the matrices together, so thus we now define.
+25:21
+A times, B, multiplying these matrices together or rather eight times bigger.
+25:39
+So remember, that's between doing B first and then A, multiplying eight times.
+25:47
+B, we define this to be the matrix A times the first column of B up through A times,
+25:51
+the tenth column of the state again tells us we're going to get and each of them are going to then have the number of same number of rows as a.
+25:59
+So we get them up by and matrix as we were expecting.
+26:10
+So if you're thinking about that question of why do we define matrix multiplication and sort of a funny way,
+26:17
+why don't we define it in the same way as like vector addition or Matrix edition where we do it component wise?
+26:22
+The reason is because we want to function.
+26:30
+In order for it to represent competition of linear functions, to doing one function and then another, you need to define it in this way.
+26:34
+So the definition is forced upon us by what you want it to do.
+26:44
+All right, so let's do again a quick example, make sure we can actually multiply some matrices together.
+26:54
+So we have the Matrix two, three, one minus five, Matrix B will be four one three, negative two six three.
+27:04
+So I want to compute then A times B, so this is the result of this should be a two by two matrix multiplied by a two by three matrix.
+27:17
+So the end result should be, uh, give us a two by three matrix.
+27:29
+So here by definition, this is a time your first vector B one eight hundred second vector B two eight times your third vector B three.
+27:37
+So now each of.
+27:48
+We're talking these as your wait on these two particular columns, so that tells me my first entry here two times four plus three times one,
+27:51
+my second entry here will be four, one times four plus negative, five times one.
+28:09
+Similarly, we'll do this row by this column now, so then we'll get, um.
+28:19
+Let me just put in the entries, zero three twenty one minus nine.
+28:26
+So the first question you should ask yourself is this corresponded to first doing this and then doing it.
+28:37
+So what is the.
+28:43
+What would this correspondent like, why can't you computer?
+28:50
+Yeah, exactly right. I mean,
+29:04
+think about what a does A takes an element in or two and it spits out an element in order to be takes inputs and r3 and spits out outputs in order to.
+29:05
+So there's not a way to match up the inputs with outputs in this order.
+29:15
+So here I can't multiply these together because it doesn't fit the definition of matrix multiplication.
+29:19
+So this is then not possible. Tommy.
+29:25
+Thirteen. Let's see for this entry I'm doing one times three.
+29:36
+Yes, 13. Thanks. Yes, yes.
+29:44
+Are willing to change. So here, when I first do this, I take some vector that has N components, I multiply.
+29:53
+And of Muslims are taking a linear combination with the outputs are going to be an R m of those end columns to then get.
+30:12
+So this thing is. So it has em in there and I'm looking that into a major.
+30:25
+Where of the 10? And Carl.
+30:35
+I'll put on each of those columns in order to get it, and he.
+30:44
+Sorry if the audio is cutting out there, I shouldn't just go that way. Other questions.
+30:53
+So make sense. But.
+31:02
+All right. Oh, we now know the definition of matrix multiplication, so we and we know situations where it's not going to work,
+31:11
+where they don't line up, when you can't actually define those two matrices together.
+31:19
+Just like for Matrix additions, we needed the matrices to be of the same size in order for this to make sense.
+31:25
+So. Add together any random matrices or multiply together random list,
+31:32
+there's some care that needs to be given to make sure that they're representing what we think they represent.
+31:38
+OK, so a few observations. So one thing that's useful often is to note how we get these entries, so like this particular entry,
+31:45
+the one one entry was coming from the row one of a times, the column one of B, so that pattern persists and we can observe that.
+31:57
+So, for instance, if I multiply eight times, B, well, this will just be say,
+32:08
+the one one entry of that matrix will just be the one one entry of a times,
+32:14
+the one one entry of B, but then I want to go across the row of A and down the column of B, so this will then become a one two times B two one.
+32:22
+So now I'm in the second position in the first row of A and I'm in the second position of the second of the first column of B out to the end.
+32:35
+So this will be a one. An and B and one.
+32:45
+More generally, the same pattern holds for the eigth entry.
+32:56
+So now I just need to make sure I'm going across row I so it'll be A I one B one J plus dot dot out to A I and the and J.
+33:02
+So that's just recording how we do, how we can get a specific entry in the Matrix when we multiply.
+33:17
+And we can see that exactly showing up, say,
+33:26
+in this example where I'm multiplying across the first row of a down the first column of B for that one one entry.
+33:28
+So the same we would like the same thing we had before, four properties of Matrix, edition and scalar multiplication.
+33:38
+We would now like to have some properties of matrix multiplication. Lenegan.
+33:48
+Nice to have it. We don't have to reprove them all the time. So, for instance, matrix multiplication is associative,
+33:58
+this immediately follows because we can identify matrix multiplication with
+34:08
+composition of linear functions and we know composing functions is associative, so you can rely on previous knowledge that you have.
+34:11
+So this is the same as A, B, C, so matrix multiplication is associative.
+34:17
+It's also distributes across Matrix Edition. Again, assuming that these are all of sizes where these things make sense a, b,
+34:25
+c so we can distribute the AI through, we can distribute on the other side.
+34:36
+So if you had B plus C times A, this will be the same as B times A plus C times.
+34:42
+We could also say scale our given matrix or our product of our matrices or our times a b so it'll be the
+34:55
+same thing as if I first scaled A or if I scaled B as multiplying and B and then scaling the result.
+35:07
+So this is the same thing as R times A times B, which is also the same thing as A times r b.
+35:15
+There's also an important special matrix that we can multiply by to get exactly the same thing,
+35:31
+just like when you have functions and you compose them together, you can have the identity function, Jonathan.
+35:37
+I don't feel like. So what I'm doing and see is I'm multiplying this some on the right by a matrix.
+35:44
+So I want to be able to distribute it through. So the first term is coming from putting it through.
+35:55
+So I get by. The second term is coming from distributing it through and getting s.A.
+35:59
+These are different matrices, yeah. So I need all of the mattresses here to be matrices where it makes sense to do matrix multiplication.
+36:07
+So they have to be compatibly shaped. So one special function that you've seen before is the identity function.
+36:18
+So everybody is equal that spits out the same output, the input into it.
+36:28
+What is the matrix of that linear transformation? If you just take the linear transformation?
+36:36
+Tiebacks is equal X. Yeah. Can you tell me what the identity matrixes?
+36:41
+Uh. Nice, right?
+36:55
+So if we wanted to find the associated matrix to this linear transformation, T of X is equal to X,
+36:59
+how would we do that if we were just sort of following what we've done so far in class?
+37:05
+How would we do that? How do we find the associated matrix to a given linear transformation?
+37:09
+Arjun. One.
+37:14
+So that's exactly right, right, so we just plug any one, two, three, four and five up to 10, if it's the identity,
+37:26
+the identity transformation, it's just going to send each of those to the exact same output.
+37:34
+So that means your matrix will then be the one e one, two, three, four of the end.
+37:38
+And that's exactly right that we're then thinking about and we're calling it the identity matrix.
+37:44
+So it's representing the linear transformation that doesn't really do anything. So here if I had this identity matrix,
+37:48
+so loved ones along the diagonal and zeros off the diagonal and you multiply by the matrix, a, what do you expect to get back?
+37:56
+So if A is an MBA and matrix, that means this we'll call I am because it's a square matrix that has columns.
+38:09
+If A is then an end by Matrix, we can also multiply by the end by N identity matrix.
+38:20
+So ones along the diagonal and zeros off the diagonal to get back as well.
+38:31
+So this thing we call I. N the end by an identity matrix because A is not necessarily square.
+38:35
+This identity matrix might be of a different size than this identity matrix.
+38:43
+OK, so, again, the proofs of these are relatively straightforward,
+38:48
+it's mostly just kind of chasing through the identities and computing what they come out to be.
+38:55
+I recommend trying one yourself just to make sure that you could do it.
+39:00
+And if you want to see any of them worked out, just come to office hours like.
+39:04
+So that's a great question, so I want to know, like what thing I can multiply by B in order to get back B. Well,
+39:18
+it's different on the right versus the left right. So if I took this matrix over here, B and I wanted to put something on the left,
+39:25
+that means that I would have to have what size while I'm doing row by column.
+39:33
+So that means I need to. Right, but now if I put it over here on the left, I put it on the right, I'm doing row by column.
+39:37
+So that means I need to match the number of columns here with the number of rows here.
+39:48
+So this would be one zero zero zero one zero zero zero one.
+39:52
+Does that make sense? All right, so what I wanted to do now, so so far, I claim that everything that I've presented is exactly as you would expect,
+39:59
+that might not necessarily be the case, but it's at least probably not wildly different from what you would expect.
+40:20
+The other hand, things do get a little bit different.
+40:28
+So in the spirit of the types of questions that you see on problems and so forth,
+40:32
+I wanted to give you some true problems that are of the variety prove I give a counterexample.
+40:43
+So here are three, four true or false questions that I want to do. So true or false?
+40:47
+So some practice prove or give a counterexample questions. Is it true that a B is in general equal to a B, B, A four to three and by and matrices.
+40:52
+So assume that they're all square. So suppose. And we are just and by nature, since they're square matrices.
+41:05
+So the first statement I want you to consider, whether it's true or false, is that one.
+41:16
+So just like on a quiz, a midterm or a problem, that I want a concrete counterexample with actual numbers, if you say it's not true.
+41:19
+Similarly, if a B equals the zero matrix, then is it true that A equals zero or B equals zero?
+41:28
+Third one, see, suppose we know that a squared is equal to zero, then, is it true that A is equal to zero D.
+41:41
+Suppose that if you knew A times B was equal to eight times C, then is it necessarily true that B is equal to C?
+41:54
+So just to start off, if you take these to be one by one matrices, that number a case each of these three, four properties hold true.
+42:05
+So I'm asking you for larger N say and is at least two.
+42:15
+Is it true if you have square matrices that are at least two by two matrices, are each of these four statements true or false?
+42:20
+Can you give me a counterexample? Can you give me a proof? OK. So me try it.
+42:28
+Why don't we take a, I don't know, a few minutes,
+42:35
+not super long and discuss with the person next to you and tell me whether you think they're true or false, if they're false?
+42:38
+Give me a counterexample. If they're true, prove them. Negative one point.
+42:45
+It's. Come back together and discuss this one, Caleb informs me that the microphone has been cutting in and out a little bit,
+44:12
+so if you can't hear me, feel free to just, like, raise your hand. I'm happy to repeat myself.
+46:29
+I mean, that's just generally true.
+46:33
+I mean, I apologize for more technological glitches, but I thought last year would be the peak of technological problems, but apparently not.
+46:35
+OK, so thinking about these problems, what do you think?
+46:46
+What do you think? Yes, sure, which one?
+46:52
+OK, a is false. OK, so again, I mean, like, if you were doing this on, say, an exam or something,
+47:01
+you might not have a strong feeling to start with, whether it's true or false.
+47:09
+So my advice in those situations is just try something and see what happens.
+47:13
+So I'm going to pick some random matrices. I'll take a to be the Matrix.
+47:17
+One, two, three, four. Will they be to be this other random matrix?
+47:23
+Zero one minus one one. I mean, lots of matrices will work here.
+47:28
+It doesn't particularly matter what you pick. Then we just compute eight times.
+47:35
+So one, two, three, four times zero one minus one one.
+47:39
+So then when I multiply this row by this column, we're then getting minus two.
+47:46
+When I multiply this row by this column, then I'm getting three.
+47:50
+When I multiply this row by this column, I get minus four.
+47:56
+When I multiply this row by this column, I get seven. So now we just need to compute the other way.
+48:00
+The so zero one minus one one times.
+48:05
+One, two, three, four. So now when I compute this one, well, I have a zero there.
+48:10
+So it's just going to be picking out the second row. So it's three four.
+48:17
+So I can already see that they're not going to be equal, but I might as well compute the whole thing just for practice.
+48:20
+So then this will be minus one. Plus three is two. Then this one we minus two.
+48:25
+Plus four is two. And hey look a B is definitely not equal to the.
+48:30
+So this single example, of course, doesn't illustrate that they could never be equal because if you did take,
+48:38
+say, A to B, the identity matrix, the identity matrix does commute.
+48:43
+But in general matrix, multiplication is not commutative. So this is wildly false.
+48:47
+So here's another property. We use a lot for real numbers that if you multiply two real numbers together and you get zero,
+48:55
+then, you know, one of those two factors has to be equal to zero for matrices.
+49:03
+Again, this is false. It's maybe a little bit trickier to figure out an example, but not too difficult.
+49:09
+Again, my advice when you're thinking about counterexamples for questions like these,
+49:23
+take small matrices or stick with two by two and pick easy numbers like small numbers of zeros and ones are usually a good idea.
+49:27
+Zero one zero zero multiplied by zero zero one zero.
+49:35
+So there's my age might be. So let's verify both of these are non-zero matrices when I multiply them together.
+49:41
+Um, that's not going to work. Let me start and let me move this one.
+49:55
+This one. There we go. So if these two matrices multiply them together, then I'll get zero zero zero zero.
+50:01
+So I've multiplied together to non-zero matrices to get the zero matrix.
+50:14
+So that's a little bit odd. Something a little bit different. Just multiplying real numbers together.
+50:19
+But this is all want to see us take a to be equal to zero one zero zero.
+50:25
+So that's something that's not the zero matrix. But when you square it, it comes to zero matrix.
+50:36
+So the behavior can be different and more interesting.
+50:41
+So this last one time when we're solving equations that we want to cancel out a factor.
+50:47
+Right. So right here, I would like to cancel out this and conclude that B has to be equal to see.
+50:52
+You're probably noticing a theme here among these problems.
+50:57
+And again, it's false. So, for instance,
+51:02
+you could take the Matrix A is equal to zero one zero zero zero one zero one B could be
+51:06
+the matrix one one zero one and say let's take C to be the Matrix two three zero one.
+51:13
+So we need to compute these various things and make sure that they actually work out.
+51:26
+It's important to check that we actually have a counterexample.
+51:32
+So remember, we want a B to equal AC, but B, to be different from C, so we know B and C are definitely different.
+51:37
+So that's at least good. We just want to make sure AC equals B C, so if we take AC, this will be the Matrix zero one zero one.
+51:44
+If we e c and you multiply these together, B, I'm C so row by column.
+51:56
+Oh, sorry, I don't want to see I want to see AC that makes more sense.
+52:12
+AC. So I already have a C, I want a B, so now when I multiply these together,
+52:17
+so I'm going to pick out the second row and here I'm going to pick out the second row again, which gives me zero one zero one zero one zero.
+52:28
+So hence we have a B is equal to A C and B is not equal to C.
+52:39
+Yes, it's like. Zero one zero zero zero two zero zero zero each other.
+52:52
+You can do things like that. I mean, there's no objection to using a smaller problem.
+53:11
+I mean, I think you want to do the smallest problem. What can see property fail.
+53:17
+So, I mean, I wouldn't start by trying to be super clever on these problems.
+53:21
+I'd start by just writing down something and seeing what happens. Yeah, so these statements are related, certainly.
+53:27
+I mean, same thing when you think about these two are definitely related. So here this is often called the cancelation property.
+53:42
+So the question that should be lurking in your mind is, well, we can't always cancel.
+53:51
+Can we ever cancel? Is it ever possible that we could cancel out these matrices so that we can conclude B is equal to C?
+53:55
+So that's certainly something that we should keep in the back of our mind as we continue on.
+54:02
+So in the spirit of Matrix operations today, we've seen Matrix Edition,
+54:09
+we've seen scaling a matrix, we've seen matrix multiplication and we've seen properties thereof.
+54:14
+We've seen ways in which it behaves like we would expect and we've seen some ways in which it behaves differently.
+54:20
+There's one other property that we would like to see today, one other operation, the transpose of a matrix.
+54:26
+So we'll define the transpose of a matrix. And the following way, so if we're given an M by and Matrix A, then the transpose of A.
+54:38
+Uh, which is denoted by a with a superscript of a T.
+55:05
+So he transpose is the NT by M Matrix,
+55:16
+so we flipped the roles of those two and it's just obtained by taking the columns of your original matrix as the rows of your new matrix.
+55:24
+So given. By. Taking the columns.
+55:35
+Uh, as the rose. Of Trans-Pecos, so just to be really concrete, let's see an instance at.
+55:46
+So example, say you take the Matrix B to be one, two, three, four, five, six, so then B, transpose.
+56:11
+I want to take the the columns of A as the rows of A transpose so that I'm taking this column as my rose or one three five two four six.
+56:24
+There is a transpose so similar to the properties of matrix multiplication, their properties of matrix transposition.
+56:38
+So let's observe a few of those so you can regard this matrix as you're just in the eye and positions,
+56:52
+so the IJA position of A is the same as the eye position of a transpose.
+57:01
+So, for instance, if I take a transpose and then I take the transpose of that, what do you expect to get a great.
+57:09
+It's exactly right. So if you take the transpose twice, we get back.
+57:19
+If we take the transpose over a sum, then that's the same as the sum of the transposes.
+57:23
+Right. Similarly, we have for all scalars are we have our times, your matrix transposes the same thing as our times a transport.
+57:32
+What are properties B and C remind you of?
+57:43
+It's telling us that something is a linear transformation, so we'll make that notion precise a little bit later on in the semester.
+57:49
+But again, these two conditions are very much reminding you of linearity.
+57:56
+Again, the last one, if I take a B transpose that this is the same thing as B transpose e transpose.
+58:00
+So you should note that the order of those two factors did get switched on.
+58:10
+So there are a few good reasons to think about why they might get switched.
+58:17
+If you think about your matrix A, it's an M by and matrix, your matrix B then has to match.
+58:22
+Maybe it's an NYP matrix. So the result of doing that will then give you an M by matrix.
+58:27
+We take the transposition of that. That gives us a P by and Matrix, a P by Matrix to in order to do these two multiplications to get the same thing,
+58:34
+we would have to flip the order that we're multiplying them by in order for them to be able to be composed together.
+58:43
+OK, we see how much time to have time. So.
+58:52
+Do I want to do this, let's see. Let's move on.
+59:00
+So I think A, B and C are pretty reasonable proofs to write down there, again, just kind of working through the notation.
+59:06
+The notation does pose some challenges, but they're good problems to practice on.
+59:13
+D, however, I think is a little bit more tricky. So why don't we prove.
+59:20
+Proof of the.
+59:26
+So one strategy for proving that two matrices are the same would be to show that the IJA entry and one is the same as the IJA entry in the other.
+59:30
+That's roughly speaking, what I'm going to do here. OK, so let's just recall how we were able to compute the idea of just any given matrix at all.

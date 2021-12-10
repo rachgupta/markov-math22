@@ -1,0 +1,596 @@
+﻿So I just want to make sure that we're all on the same page in terms of what assignments we have left for our class.
+I mean, we're we're we're already in November, so things are going quickly.
+So in terms of things coming up at nine, I decided to make the due date Friday just because of the disruption in our calendar.
+So I know that a lot of people I've talked to in office hours, especially even on Fridays office hours, that people.
+So I do think it's a problem that you can get done without too much time, so I but I would encourage you to start at early.
+The next thing is Cui's five is coming up this Friday, so Cui's five will cover a subset of the material on the midterm.
+So I'm viewing Cui's five is like a little bit of a warm up for the midterm help.
+You inform your studying for the weekend so you can think about like where there's
+some things you'd like to review a bit more before going into the midterm.
+The midterm will be a week from today, another evening exam later in the week will send out the forms if you need to take the midterm
+at a different time on Monday or if you need to take the quiz on a different time on Friday.
+So just make sure that you're on the lookout for the email from seeing to sign up for those conflict times problems at 10.
+After the midterm, I felt like it was a little cruel to have the problems that do so,
+I thought I would just move that problem said already to Friday as well.
+Hopefully that gives a little bit of smooths out the workload a little bit more.
+So you should keep in mind the largest portion of that problem said to be thinking about your final project.
+So the main questions that I would like to see answered as a part of that proposal will be, who are you?
+And watch out for the things you hope to do, is the microphone going in and out?
+Try the other microphone. Let me try the other one.
+Well. Question. All right, how's that question?
+All right, so that's a great question. So the question was, is the midterm cumulative?
+So the midterm essentially has to be cumulative because, for instance,
+suppose a common computational question I could ask you to do is to find, say, the nulls a basis for a null space of a matrix.
+In order to do that, you need to do a reduction. Well, that was an early topic in the course.
+So like many of the early topics we've seen before, like linear combinations, I mean, they're still showing up again.
+So while I won't specifically ask you about the material from before,
+I guess early September, from before that first midterm, it will still come up again.
+So you need to know about linear transformations. You need to know about linear independence. You need to be able to work with spanning sets.
+I mean, all of those same topics we had before can certainly show up again.
+So it is essentially cumulative, even though it is more focused on the most recent material.
+But that's because the course material is so intertwined, there's really no way to disconnect it from that early material.
+Another question that I think people might have was about some review material or practice problems.
+If you look at the handout for today's class on canvas, not the one that I printed for you, but the one on canvas,
+I think I posted something like 15 problems on there, some of them relatively straightforward computations,
+some of them relatively challenging, gruffy problems.
+So I'm not making any claim that this is an exhaustive list of material, especially given that we haven't finished writing the midterm yet.
+So I'm just giving you a bunch of problems that I think are good problems to practice on.
+I would be perfectly comfortable putting any of those problems on the midterm, but.
+I'm not making an attempt that this is a representative to be, say, a practice midterm, OK?
+I think it's better to just get more problems to practice with.
+So they tend to be more of the poofy variety, rather than trying to give you an exhaustive list of every type of computation I could ask you about.
+You should certainly try to make that list for yourself. Like what is what are all the different types of computations that could reasonably on there?
+Probably the first half of the exam or so, again, will be dedicated to questions of that variety similar to Web work style questions.
+Yes. It'll cover through today's class, so today's class is what you need to get through all of the Web work material,
+so including all of the Web work and all of the problems of this week there on the midterm.
+The material from Wednesday's class Fris class and Monday's class will not directly be on the midterm or the quiz.
+Yes, Tommy.
+The quiz is a subset, so the quiz is more directly focused since the last quiz, but then the exam will go all the way back to the last exam.
+So I think I wrote down the dates that I'm thinking about. I believe the quiz should go back to October 15th through today.
+So November 1st and the exam should go back to September twenty second through November 1st.
+Questions from. Tommy. These are 10 will likely be posted on Wednesday.
+Yeah, so you should be able to start it early if you want to.
+Again, if you think about peace at 10, though, the biggest part of peace at 10 will be thinking about your project proposals,
+because once we get done with the midterm, that's the largest portion of your grade that's left after the midterm.
+We have one more quiz and then I think three more problem sets and the project.
+So we're really starting to wrap up the semester. Other questions, concerns, anything that I can help with.
+Yes, there is no final exam, there's a final project, no final exam just to confirm.
+I don't think I would go over well if I had a surprise final exam. The other questions, one thing that I'll be certainly asking all of you about,
+and I genuinely want to know your feedback on, is whether you prefer the final projects to the final exam.
+So the main reason why I'm having the final projects again this semester is because when I surveyed the students last year,
+it came out about 90 percent to 10 percent in favor of the final project.
+I'll be honest with you, in addition to that comment,
+most students reported spending more time on the final project than they would have on the studying for a final exam.
+They felt like it was more work, but it was less stress and they felt like they got more out of it.
+So I think in most cases I agree with that. So.
+Other questions. Sorry, but I think the clock might be off today, so someone should tell me if I go way over time.
+All right. So we have really this last bit. Everyone gets scared.
+I'm going to go over. We have this last point that we're trying to generalize from.
+Chapter one, if you recall, back to chapter one, we we did all of this work to study what's going on inside of our end.
+And then the big idea from Chapter four was to generalize all of this to abstract vector spaces.
+The last point that we had in Chapter one was to try to study linear transformations through their associated
+matrix so we could use all the things that you know about matrices in order to understand that function,
+that linear transformation. And so what we want to be able to do, finally, is to be able to do that for our general transformations now.
+So we've been hinting at how this is going to work, but let's actually do it today.
+So the basic set up.
+One interesting idea that some of you could think about for your projects is to think about how this story will change if you take,
+say, a vector space that's infinite dimensional.
+So everything I do today is going to be for finite dimensional vector spaces.
+But for those of you that are interested in physics, one of the most common vector spaces that you'll study is the space of,
+say, continuous functions or differentiable functions. And there, you know, it's going to be infinite dimensional.
+And so how would the story that we're pursuing here change in that setting?
+It's a nice question to think about. Also a source of many project ideas.
+So if we have, say, a linear transformation, a linear mapping, a linear function, those are all synonyms for the same thing between vector spaces.
+So if this is linear. The linear transformation between these vector spaces and we have some basis.
+We one up through the end.
+Um, for me, is a basis for me is a basis for your vector space V and let's give a name to say a basis for your vector space for W.
+Thesis. For W so the seeds are for a basis for your quartermain, the bees are a basis for your domain.
+So. You recall the big idea here as we have then our vector space V.
+We have our vector space w we have this linear map going between them.
+Well, now, because we have these bases, we can use the basis to give a coordinate mapping.
+So the basic idea is the coordinate mapping coordinates relative to bases be on V, then gives you a mapping into our ND.
+So then we can map, say, down into our ND.
+You'll recall we use the notation T Sabeh to be the coordinate mapping relative to base B. We prove that that's an iso, a linear isomorphic zoom.
+So that's a bijection, that's also a linear transformation. And then over here.
+You can go down and we could use tea subsea, which will give me a linear map into my font size, changed into our R.M.
+So what we want is now to study a mapping going from our NPS to our M,
+and because if you have a linear mapping from our end to our M by chapter one, you know that this linear mapping will have an associated matrix.
+We're going to call the associated matrix to this linear mapping a. I think that's Jonathans.
+Suggestion to use a here for this associated matrix to map better with the notation from Chapter one.
+So if you think about what that's supposed to do, what we want, then.
+So the goal. Because we want.
+The Matrix. Hey, such that.
+If I take tea of an Element X and I express that in the C coordinates, so you take X living in V,
+you apply T to it to get over here and W then you put coordinates on it to move into our M,
+that should be the same thing as if I took my vector X written relative to the B coordinates and multiplied by this matrix A.
+So what that saying is that here, going this way around the diagram.
+And going this way around the diagram result in the same thing.
+So that's what we want we want a matrix A that's going to do this.
+So set another way, we can then think about A as first going up over and across.
+Right. So we could think about this matrix A or the linear transformation corresponding to it is in order to go up, you do t be inverse.
+So that would be the first linear transformation you do. Then you apply this transformation t to the output of that.
+And then finally, you put coordinates on the output, so t subsea.
+So that's what A is. All right, well, that doesn't seem so bad.
+People laugh so but going back to thinking about a matrix a or a matrix of a linear transformation,
+how do we find the matrix of a linear transformation going back to Chapter one?
+How do you actually find it if you're just thinking about it in terms of Chapter one?
+We have a linear transformation from our end to our M. How would I find the associated matrix or the standard matrix of that transformation?
+Jonathan. We apply to those vectors, right, e one through N and we see what we would get.
+Question.
+The other coordinate mappings, so Tesa be of X is X written relative to the B coordinates, so we introduce that notation for the coordinate mapping.
+We have both pieces of notation. We can represent t subi as the coordinate mapping of your vector X.
+We've also written it this way as X relative to the base. Yep.
+Jonathan. We like to call it related.
+Know, I mean, I could have called this B or M, B, whatever, I just happened to have used T before, so I thought I would use T again.
+OK, so the suggestion is that I could find what the columns of A are or will be by plugging in E one through E, right.
+So let's do that. So a one the first column of your matrix, A will be a times E one.
+OK, well, let's just plug it into this formula, so that's supposed to then be T subsea composed with T composed with T sub B inverse.
+Of E one. OK, so if I'm starting down here, maybe I'll write this down here.
+So that's the vector with one followed by a bunch of zeros,
+if I'm thinking about that as expressing something in the B coordinate system, what vector does it represent?
+If you say I'm going to write the vector, will you take one? Followed by a bunch of zeros, Jonathan.
+So if I want to think about this thing, I want to know what it maps to, what it corresponds to inside of.
+So I'm taking one followed by a bunch of zeros as the output of the coordinate mapping
+what vector and V could I plug in so that T of that vector is equal to E one.
+Yes. We want right. So this is sense.
+The coordinate mapping of the one is equal to one, followed by a bunch of zeroes,
+which is e one set and then other notation, so X written a, B one written relative to the B coordinate system.
+You're asking, how can I write B one as a linear combination of B one through B N we'll take one on the first basis vector and zero on all the others.
+OK. So that means that everyone will be equal to T subsea, composed with T, composed with T to be inversed, which is then to be one.
+So what that's telling us is that this. Is just T of the one written relative to the C coordinates.
+This is a one similarly, if I took a two.
+Well, this is equal to a times e to.
+Well, we say what is a a supposed to be the thing that would be the same as if I started with E to put it inside a V,
+so that corresponds to the basis factor B to then applied T to it.
+So T of B to then go down. So T of be two in the C coordinates.
+So this would then be. T o be two in the C court.
+So if we keep going, what we end up getting is that our Matrix A. will be te of your basis factor B one in
+the C coordinates up to your last one T of B N written relative to the C coordinates.
+So this looks like sort of a complicated version of what we did before, if we were doing a in the standard coordinates to the standard matrix of a.
+That would mean be one through be an hour, just your standard vector's E,
+one through E n C would then correspond to expressing it as a linear combination of E one through E m.
+So the standard basis in our M. So then what would this be.
+Well this would just be T of one up through Tvedt, so it would give you back the standard matrix.
+So the only thing that's different from your formula from before is instead of plugging in E one through e n,
+you plug in your basis for the domain then. You express each of those basis elements as a linear combination of your C vectors.
+So the idea, again, is that to study a map from our end to R.M., we first go through Võ, then over to W and then back down.
+So the big idea that we're going to have in all of these sorts of problems is you'll have a problem in some abstract vector space,
+put coordinates on your vector space to transfer the problem into R,
+N or R M, and then study the problem in R n using the techniques of Chapter one, then everything we know about A will apply to T.
+So if you want to know whether T is subjective inductive a bijection, we can then use the corresponding properties of your matrix.
+A. If you want to solve concrete problems about this transformation, for instance,
+like determining what a specific linear dependent's relation might be involving the input vectors or output vectors,
+you can just translate the problem down here, work with vectors and then answer the problem to come back to the vector space level.
+So this sounds very abstract, I'm sure. But what you want to think about here is like making this more concrete.
+How can we kind of peel off some of this notation, some of these ideas?
+So let's do this in a particularly concrete case. So let's go back to one case that's relevant to, say, physics,
+when we're thinking about function spaces and to make the problem sort of nicely sized, I'll choose a particularly small example.
+So let's take tea is going from the space of polynomials of degree to or less to the space of polynomials,
+some degree to or less wear T of your polynomial P is just the derivative of that polynomial.
+So we've seen before that this is a linear transformation between vector spaces.
+But now I claim that I can write down the matrix associated to this linear transformation.
+So let's find the matrix of the derivative.
+So if you think about what this says to do, we need a basis, what's your favorite basis for this based upon Oatmeal's?
+Perfect, so let's take that as our basis, so we'll use the standard basis, so let's take one T and T squared T squared.
+So you'll note that this matrix here that I wrote down is dependent on the particular coordinates that I chose.
+So this matrix here we call the Matrix.
+Of tea relative to bases B and C.
+But up. Oh, yes, I'll see that in just a second, but to just quickly answer your question in case I forget.
+Let me forget but that when I talk about the B matrix or of A given linear transformation,
+that will be when I'm taking the basis on both the domain and domain.
+So here I've made a very general construction where the domain could have a different basis than the code domain.
+But if you're talking about the B matrix, you're taking the B basis for both V and W.
+That's right.
+Yep. So in this case, this matrix, this what we called the B matrix, so a.
+In this case. Is called or often called the B Matrix.
+To. I sometimes use the notation T and then sub B for that matrix, so I often write that.
+Denoted by. So I'll use sometimes use this notation t the matrix of T written relative to B is this matrix.
+And if you want to write the formula out, it will just be the Matrix T of the one written relative to be.
+Up through T, B and written relative to be.
+The reason why this particular case, Jonathan, is is important is because what you often do when you're building mathematical
+models is you're interested in how you can build what are called dynamical models,
+where you can keep iterating over and over again to update the status of your system.
+This comes up a lot when you're doing probabilistic models. So if you're thinking about then the situation where TI is going from B to V,
+so then you would iterate this map over and over again and then you want the domain and domain to line up in order to do that.
+So that would correspond to the case of then having the same dimension and domain and domain.
+So it's a square matrix associated to it. OK, so then in this particular case, here is B one, here is B two, and here's B three.
+So we just need to compute these things. So it's been a while since I've asked you to compute any derivatives.
+So hopefully you haven't forgotten. If I'm computing the derivative of just one, we just get zero.
+The derivative of T will just be one and the derivative of T squared is equal to two T.
+OK, do I just take those as my three columns? The trick question.
+Kamran. We have to make them relative to be right, I mean,
+it doesn't make sense to make the polynomial to t a column of your matrix, so we instead have to express it in coordinates.
+So then T of one written relative to the B basis.
+So I'm asking how can I express zero as a linear combination of one T and T squared.
+We'll just take all three coefficients to be zero. Zero zero zero.
+And now this thing is something that I can take to be the column of your associated matrix.
+So, again, the types of your objects must match up. So then here I want to express one as a linear combination of one T squared.
+So I take one zero zero. And then finally, T of T squared written relative to base B is then zero two zero.
+So then what that tells us is that my matrix, a associated with this linear transformation or in this notation, I sometimes use the B matrix of T,
+so sometimes it's like you're applying the coordinate mapping to T itself will then be the matrix zero zero zero one zero zero zero two zero.
+So the kind of cool thing is that multiplying by this matrix now represents differentiation,
+which is kind of interesting because now you can study what's called a differential operator
+to then study a lot of the ideas that you've done in calculus before through linear algebra.
+So, for instance, lots of the questions you thought about before in terms of finding an antiderivative.
+Well, that's now going to correspond to inverting a matrix, doing a row reduction problem,
+because then you're just trying to find a way of undoing this particular differential operator.
+So this comes up quite a lot in physics. Yeah.
+The image will be one, so it won't be I won't get the entire.
+It won't be subjective, but the QUARTERMAIN could still be up to I just never get anything that's to agree to as an output.
+So here I do want it to be of the form. That's a nice question, actually.
+So to Tommy's question, if I changed this to be the Matrix, not the Matrix,
+but The Matrix relative to B and see where I take the standard coordinates on P one, how will it change the associated matrix?
+It'll get rid of one. The zero zero, right, exactly, so then here all of my output will be written relative to the two basic factors.
+So now I'll be getting a three by two matrix. But here, since the domain and domain have the same dimension, the same number of basis factors,
+then that tells you the size the associated matrix has to have, just like in the case.
+Back in Chapter one, Robbie.
+Yeah, that's a great point, too, if I had instead said, take the bases t one T squared, I mean, I didn't have to write it in this particular order.
+But then the associated matrix would change order, too, because this is an ordered list.
+Good questions. One thing that maybe doesn't seem completely clear is how you could use this to actually computer derivative.
+So I thought it would be fun to actually show that this does what we think it should do.
+So let's just do a quick check to make sure that this all makes sense or agrees with the mathematics that you've seen before.
+So let's take a relatively small polynomial. So let's take a T of doesn't really matter.
+Two plus three T plus four T squared. So if I plug this into T, what will I get?
+So call it a. What is ti of this polynomial?
+So I'm just differentiating, right, so I get three plus 80.
+So that's if I just plug that in directly, well, I'm supposed to get the same thing if I multiplied by this matrix.
+So let's think about how this multiplied by this matrix gives us that same thing.
+Well, note two plus three T plus four T squared written relative to the B coordinates.
+We can just read off very quickly his two, three, four.
+So the point of the matrix attached to a linear transformation was that t of this thing should be the same as multiplying this vector by that matrix.
+So if we just do that, we have zero zero zero one zero zero zero two zero.
+If we multiply by the representation of our polynomial with respect to the standard basis, two, three, four.
+Now I just multiply these two things together. So my first entry will be three.
+My second entry will be eight and my third entry will be on.
+But you'll note corresponds to the polynomial three plus eight, which was exactly what we got from just computing the derivative.
+So this does still give us back exactly what we had before, but the advantages of this approach is that this is completely algorithmic.
+You know, tons of information now about studying matrices and hence differential operators.
+You can solve differential equations this way. You can, for instance, compute and derivatives this way.
+There's a lot of power coming out of this approach because we have fast
+algorithms for answering many of the questions that you'd be interested in here.
+All right. Questions. Good.
+Well, let's see, Hillary, that. All right, so I'm still working here to try to convince you that this is a useful idea.
+Don't worry, I haven't given up yet. Let's try another problem.
+Let's try another. So one thing that your Web work and your well,
+I guess really your Web work and some a lot of the practice problems that I posted for both the quiz and the exam involve computing the
+matrices associated to linear transformations and then computing things like are they injected or are they subjective and questions like that.
+Can you answer questions about linear independence using the associated matrix?
+But let's go back to the context in which things are sort of most relevant and that would be inside of our end.
+So let's consider an example. So let's suppose again, let's go to the situation where.
+Or most able to visualize things, so our two to our two.
+So this is where tiebacks is just given by matrix multiplication, it's a matrix transformation,
+so I'm going to write the standard matrix for this linear transformation. So that means everything written relative to the standard coordinates.
+So AI will be the Matrix seven to minus four one.
+And now, as I was hinting at before,
+a lot of the applications that you might be interested in at their core will be where you iterate this map over and over again,
+where you keep multiplying by a by itself many times as like updating the state of some system.
+So to simulate that kind of problem, what I would like to know is what is a 20, 20 second power?
+Oh, well, it doesn't matter once you've done that. And you could do a few more 20, 19.
+Or we can update it to be this year.
+So the sort of simple thing to do would be to, well, compute a squared, compute a cubed, compute eight to the fourth and try to look for patterns.
+This approach will be quite painful and I don't recommend doing it.
+But some people are very, very good at pattern matching and they might be able to quickly find a pattern.
+So instead, what I'd like to do is to think about this in a slightly different way,
+so I'd like to think about this in terms of the coordinate system that we're thinking about.
+So the first thing that I'd like to do is just to make sure that this makes sense with the notation that I've been thinking about before.
+So first, let's just note that if I take the standard basis on our two one zero and zero one.
+And I use then the standard basis to figure out what my associated matrix would be.
+We know the answer should be a but let's again just make sure that this notation all makes sense.
+So t our linear transformation and relative to the standard coordinate system, the E Matrix.
+Well, then just be by definition, T of E one written relative to the standard coordinates, T of E two written relative to the standard coordinates.
+So that's what the sort of abstract construction we did at the beginning says.
+So let me just finish it and then I'll come back to your question,
+so if I plug in T of E one that literally says I multiply this matrix A by E one, so that's just going to pick out the first column.
+So I pick out the first column of this matrix and then I want to express that matrix,
+this vector seven, negative four as a linear combination of one zero and zero one.
+Well, the simplest way to do that is to just take the vector seven, negative four.
+So then my first column is just seven negative four.
+Similarly, if I plug in E two to this transformation, it says multiply E two by this vector.
+We're going back to the very beginning of the semester. That means you put a weight of zero on the first column, a weight of one on the second column.
+So then you just output two one. Then your job is to write the vector to one as a linear combination of one zero and zero one.
+Well, because it's the standard basis, you can just take two times the first one plus one times the second one.
+So written relative to these coordinates, you then get the second vector is just two one.
+So our abstract construction of taking whatever basis factors you had, plugging them into your linear transformation,
+then expressing the output as a linear combination of these basic vectors does indeed return exactly the same thing you would expect from Chapter one.
+Well, no. Let's do the same thing with a more complicated basis.
+So instead, let's take this basis and find the B matrix.
+Oh, I'm sorry, Jonathan, I meant to come back to your question. What was it? I don't understand what we're doing here.
+What does it mean? Me? Yeah, I mean, my understanding is important elements of this that and you find the coordinates of.
+Steve. The coordinates of the coordinates of T you're talking about this.
+Yeah, well, that's what I defined this notation just a few boards ago to mean the matrix associated to T in the E coordinate system,
+us the question about what the B matrix was. This is a B matrix where B is the standard coordinates.
+So I'm defining that notation. It's not literally I'm applying the coordinate mapping to T I'm defining this
+notation to represent the matrix of this transformation in this coordinate system.
+So I'm defining this notation. I'm defining it to be the construction we started the day with.
+OK, so when I when you asked the beginning today at the beginning, you're like, what is the B matrix?
+I said, well, the B matrix. This is what we're going to find to be the b matrix of the linear transformation.
+So this is just terminology. This is the words that we're introducing.
+So I'm defining the B matrix to be the construction of your matrix A at the beginning of class.
+So your matrix A was we constructed it to be t applied to your first base vector B one then.
+Right. That thing relative to the B coordinate system that gives you a column up to your last basis.
+Vector B n written relative to your base is B.
+So this gives me a matrix, it's a matrix attached to a linear transformation,
+that matrix that is attached to the linear transformation is relative to a particular basis.
+Therefore, I want some notation to be able to refer to it.
+So the notation that I'm introducing to refer to the attached linear transformation is the transformation T sub B,
+so to try to evoke the same notation we used when we took a vector X, and I wrote that relative to the coordinate system.
+This is your matrix, your linear transformation written relative to your coordinate system.
+B If you wanted to generalize that further, you could talk about the Matrix relative to B and C,
+which would then be now taking B one through B nd now outputted relative to the basis on the code domain.
+So each of these would be CS. But this is a definition. This is how I'm defining this notation.
+It has no meaning other than what I've written here. Does that answer your question?
+So that's what I want this notation to be. It's not that this has any other meaning other than what I've written here is not
+that it's just taking T as an object and applying the coordinate mapping to that.
+That's not what it is. That's right.
+Yeah, that's a good question. Maybe let me draw the picture.
+So this is the picture that you should have in mind. Hold on, let me just take one question at a time.
+So this is the picture you should have in mind. You have your vector's, maybe you have your vector space.
+W you have T going between the W.
+I put coordinates on V, so that gets me down here into a copy of our RN, assuming it's finite dimensional, I have no basis factors here.
+I have M basis vectors over here that puts me into a copy of our N now everything in sight is a linear transformation.
+Composing linear transformations from the beginning of the semester then gives you another linear transformation.
+So then I get a linear transformation from our end to our end. That means there's a matrix associated to this.
+That was the matrix you suggested last time.
+We call Matrix A this matrix A depends on your choice of coordinates of V in your choice of coordinates for W,
+so it is relative to two bases, the bases here and the bases here.
+When we refer to the B matrix, it's when you're taking the same basis for your domain and domain.
+So when you're mapping from the Toovey, so like the situation of the convertible matrix theorem where you're going from our end to our end.
+So in this context, when we're going the general setting from our end,
+our M something that's a different dimension, we might need to have a different number of basis factors here.
+So what I want is some way of referring to this matrix other than calling it A because I was just kind of a letter we chose.
+So instead what we use is we call this T, but then it's written relative to some bases.
+So if there's only one basis around be I write a B in this case, I have to say you could write BNC.
+So that's all I mean, in that case, because of the way we constructed this,
+the columns had to be coming from your base as factors evaluated your basis factors here to be one thrombin,
+plug them into T, then express them in your coordinate system on your Kotomi.
+So if I wanted to do that same thing for the standard coordinates to make sure it agrees with Chapter one,
+what I would do is I take the standard coordinates E one and E two.
+I plug them into my transformation. So getting E one, plug it in here, I would get the output seven negative four.
+So then this construction says express the vector seven negative four relative to this base.
+Wow. It's kind of a trick here because it's already expressed relative to the standard basis.
+So I could just read it off. So it's just the same vector again.
+It's the same idea over here when we were thinking about the expressing two plus three T plus four T squared,
+it's already written relative to the standard basis be one T and T squared.
+So you can read off the coordinates very quickly. If I asked you to express this relative to some other complicated coordinate system,
+you'd have to do some work to figure out what these coefficients are. But in this case, these vectors are written relative to the standard coordinate.
+So I can read them off. So what I'm doing here is I'm just verifying that this notation still agrees with what we expect it should give,
+namely that the matrix associated to the linear transformation on R two written relative to the standard coordinates is just the same matrix.
+So that's all we're doing here. Robbie. He picked up.
+So that's the same, that's a great question.
+So that's the same idea when we're thinking about linear transformations at the beginning of the semester,
+when you say I'm going from a map from our two to our three,
+if I'm going from our two to our three, well, then that means you're going to have a matrix that has three rows and two columns, right?
+So it doesn't have to be square. And then when you're thinking about the output space, you're getting a span of two columns an hour three.
+So they might be giving you like a plane that could still be giving you a line if
+they're linearly dependent or even a point if they're all just the zero vector.
+But then if you think about things in the domain, like the null space, they'll be given by two components because they're inside of our two.
+So we've definitely seen before situations where we have Norn Square matrices and the analog is exactly the same here,
+where you might have V and W being different dimensional and then the associated matrix should be different dimensional as well.
+And then, Tommy, I think you had a question about.
+Oh, yeah, I'm going to use a comma, we will almost never use the need to do this, so that's why I wasn't really emphasizing it.
+But if you did that, you could use this notation, sub T, sub B, comma C,
+that more typical thing is the the Jonathan's situation of having one basis on both the domain and Kotomi.
+I will point out one major application that many of you are considering for your
+projects is going into singular value decomposition at the end of the semester.
+We'll get to that a little bit. But the idea there is exactly to take to different bases on your domain and Kotomi.
+Yes. Yeah, they can't be the same basis because you need different numbers of vectors, yep.
+Yeah. That's an in fact, one reason why it's maybe a little bit of an advantage when Tommy asked the
+question at the beginning and when I was thinking about the derivative operator,
+Tommy pointed out, well, you could also think about this as mapping into one because you never get a quadratic term showing up here.
+So then why not just make this a row of zeros?
+For one reason why it's maybe a little bit annoying is that you then can't multiply these things together.
+You can't compose these functions together. So you couldn't, like, iterate this map to do it multiple times.
+So I would have to then be careful if I was thinking about computing like a second derivative,
+I couldn't just write T squared because I've now restricted the domain to be smaller.
+There are fewer components here. You can't multiply the matrices together.
+So, again, it kind of goes back to defining objects in a way that you can use the.
+Good, yes. Xavier. Of problems are not in the town.
+Yeah, yeah, if you're not given any other information, though, you should just assume that everything is written relative to the standard coordinates.
+But yeah, you could very well be given a linear transformation written in terms of other coordinate systems.
+In fact, that's what I'm going to do right now. Other questions.
+All right, so we did this linear transformation in one case for the standard map,
+and we got exactly what we hoped we would get the same matrix that we had attached to it.
+But the problem with this approach is that comparing this to the twenty 19 power or the twenty twenty second power is going to be a bit of a pain.
+So instead, we would like to do something else to really understand what's going on.
+So the idea is to. Choose a different coordinate system.
+Questions. OK. So let's choose a different coordinate system and try to express our transformation in that coordinate system.
+So here we have the coordinate system that we're just given.
+So we're just given to try this coordinate system. All right, fine.
+So first question is just totally a computational question.
+Find the B matrix of T, so find T written relative to the B coordinate system.
+Well, that works the same way every time now, just like before in Chapter one, what you would do is you would plug in the standard vectors,
+you one and two, and you would express the you take those to be your columns.
+Well, now do the same thing again. This is B1 now and B2.
+Let's compute the B matrix to figure out what your linear transformation will be relative to this coordinate system.
+So if I can t of be one. So that would correspond to trying to get my first column.
+This will then be the Matrix seven to minus four one one relative to minus one one.
+All right, so now negative seven plus two, negative five.
+And then my other entry here, I will get, what, five? So there is the output of B to.
+All right. Well, that's the output written relative to the standard coordinates.
+That's not what the B matrix is. The B Matrix is to write the output relative to the B coordinates.
+So then what we want. To find some constants, so, um, I don't know what we want to call these constants.
+A one and a two, so that. This thing, minus five five is written as a one time, B one plus maybe.
+All right. What you want is. It was minus one one plus, uh, two times the second basic factor, minus one to.
+So what can I choose for a one, an eight two if I had to solve this vector equation?
+Yes, five and zero, five and zero.
+So that means I could take five times B, one plus zero times B to.
+So that gives me this vector minus five five written relative to the standard coordinates in the coordinates.
+So again, using our notation for that, part of this is just pinning down the notation so we get comfortable with it.
+So if I want to write this thing now minus five, five written relative to the B coordinate system.
+So t o be one. Written relative to the B coordinate system will be five zero.
+OK, let's do the same calculation again. So now I want to compute T of B to.
+Let me put this in. Port.
+We all remember it to be two, so now I'm plugging in the second faces factor into TV,
+so I'm doing the exact same thing I did with E one and two before. So then I'll have seven to minus four one time the basis vector.
+What was it minus one to. OK, so then I'm going to get minus seven, plus four, so I get minus three.
+Then I get four plus two, so I get six.
+All right, so now I want to find Constance to express three minus six as a linear combination of these two.
+So how could I what could I put on these two as scalars to then get negative three six?
+Marco. Zero three, so that means T of B to return relative to the B coordinate system is just zero three.
+Because zero times this vector plus three times this vector is exactly negative three six.
+OK, so now these will form the columns of my B matrix, so let me move over here.
+So that means my might be matrix. T written relative to the B coordinates.
+Will be five zero and zero three.
+So now, if I wanted to commute this thing to a large power, you're not so annoyed with me, right?
+Because if I commute this thing to a large power, it's a diagonal matrix.
+So that will just end up being five to the twenty nineteen power and three to the twenty nineteen power.
+So commuting a diagonal matrix many times is a lot easier. OK, but then you say, well, how does that relate back to our original problem?
+Let's think about that. So on the one hand, I have our two.
+And I have our two. And then between these two, I have t written relative to the B coordinate system.
+So that was the Matrix I just found and down here I have to can I have R2 and I have The Matrix at.
+So up here, I'm working in the B coordinates. And down here, I'm working in the E coordinates, the standard coordinates.
+Yes. Why are you laughing? I thought that. In that time out there, he would be caught on the bottom.
+I can't put it on the bottom if you want me to like this. Let's go.
+I guess I love that, I know. Well, let's put it on the bottom of the helps.
+So we have this matrix, we have the original things, this is my V and W, maybe Jonathan's right, this is probably better.
+So here I have the W up here in this case, V on the standard coordinates.
+This is your T, right? This is T is equal to U of X is equal to eight times X.
+I think you're right. This is actually much better. There was a reason why I did it the other way, but maybe this is better.
+I had originally written it this way first, but. Maybe this will lead to a different question in a minute.
+Does that help at least? So now TCB is just this thing written in a different coordinate system.
+Yes. I guess I don't understand.
+That's. Relatives kind of understand the analogy whereby that top row coordinate to support a.
+Well, if you recall what this matrix is supposed to be doing, this Matrix is telling you how you would operate on something written relative to the
+coordinates in order to and it would output your answer written relative to the B coordinates.
+This thing would tell you how you would take something written relative to the standard coordinates,
+you do something to it and you would output something written relative to the standard coordinates,
+both of them are supposed to represent the same thing. So there must be a way of moving between them.
+The way that we move between them is to change coordinates.
+So I think you're asking a question, but wait a minute, let me finish the thought and then see if you still have the same question.
+So here, if we're thinking about this one, if this is the analog of V and W,
+and now we want to put coordinates on this, so then what would the analog be going down here?
+What goes between the E coordinates to the B coordinates?
+How can I do that, how do I change coordinates? Roy.
+We use the basis, right, so if we go back to how do we change coordinates?
+So how do we change coordinates from the standard coordinates to the coordinates?
+Well, recall, the whole point was that if I take the coordinates,
+those were how you wrote X as a linear combination of the vectors, B one through B.N.
+So this matrix is what we usually call piece B to E.
+So in order to take something written relative to the coordinates,
+these were the things you used as the coefficients to express X and the standard coordinates as a linear combination in terms of the B coordinates.
+So this matrix where you take B one through B N gives you the change of coordinates, mapping from the B coordinates to the coordinates.
+OK. So if I want to go from being coordinates to coordinates, I just multiply by these vectors.
+So in this case for this problem, what were these vectors, minus one, one and minus one, two written times?
+This, whatever that is, will be X written relative to the standard coordinates.
+So that gives me a linear transformation from the B coordinates to the E coordinates.
+So here if I want to go from the E coordinates down to the B coordinates, how would I do that?
+Take the inverse. So this BP sub inverse, same thing over here, he said the inverse.
+So now these matrices are just expressed by multiplying by a particular matrix.
+So if you want to express what T be is your B matrix. Well, on the one hand, you're doing a in the standard coordinates,
+but first you would then need to in order to be able to use a you need to go take something in the B coordinates.
+So take P the change of Matrix from B to E and then undo that on the other side E to be.
+So this corresponds to here, if I want to do this operation relative to the big.
+Well, change coordinates to go to the standard coordinates, then do your stuff, your operation, whatever it is,
+maybe it's the rotation, reflection, whatever happens to be in the standard coordinates and then go back down.
+So this relationship. Is telling you exactly how you relate something in the B coordinates,
+doing all your operations in the B coordinates to something in the standard coordinates so you can unpack that even a little bit more.
+You can unpack that a little bit more. Get a better piece of chalk.
+That T sub B. Here, Matrix.
+Well, this one was just be one through B.N., so we could just read those off.
+This one was B, one through B, an inverse and the middle one was that.
+So this is B one. There be an inverse, which was what we call P, and this is A and this is B one through B and.
+Set another way, this is P inverse A P.
+So if you want to know what A is, just solve this equation.
+So A, your equation and your standard coordinates, well, I can multiply on the left by P, so I get P multiply in the right by P inverse.
+Now. Compute A to the 20 20 second power or the 20, 20, 19, whatever it is.
+So this is the cool part. So if I want a to the twenty nineteen, this will be equal to.
+P times T and the B coordinate system, your B matrix, B inverse.
+P t written relative to the, uh, the Matrix inverse, and this will be done.
+Twenty 19 times and now you look at me and you say, well, Dusty, that seems silly, that doesn't seem any better.
+But what do you notice about this when you write this out? Yeah.
+So it seems like here the next turn will be P and inverse T P inverse again, right.
+So then you have a P inverse next to a P, all the internal P.
+S and P inverses are going to cancel out. So then what this is just going to end up being is it's just P times your T matrix.
+To the twenty nineteen power times invertors.
+So in this particular example, what that means for us is that if I want to compute a to the twenty nineteen power for this non diagonal matrix.
+Whoops, something I didn't say to the twenty nineteen. This will be equal to P, whereas my more of my vector's minus one one minus one,
+two times my P matrix was um five to the twenty nineteen zero zero three to the twenty nineteen.
+Times this matrix inverse. Which is the calculation we can very quickly do.
+So the upshot of this is this gives me an exact formula for the entries of this matrix to this really large power.
+Yes. How were they?
+Here. Or. I guess.
+Oh, really? I don't understand least know if I took 10 minutes.
+I could probably write it out. I would like to understand intuitively.
+How? No, but. Right.
+Like it doesn't. It doesn't make sense to me, which is why the negative one one.
+Want to instead of. They don't want to and then.
+So this, I think, goes back to Robbie's question a few minutes ago in that I can choose any order for the basis factors I want,
+all that's going to do is if I change the order here, you'll note that this five zero was relative to that particular order that you chose.
+So then if I reorder these to be this order, then this would be three zero instead of zero five zero,
+because then it would be using the second basis vector.
+So this representation of your matrix is relative to the order in which you wrote down those basic factors.
+OK. So in order to see how this is to the standard coordinates, I think we need to go back to the definition of the coordinate mapping.
+And I agree with you that that's probably like a 10 minute long conversation. So let's do that together another time.
+So here. Arjun.
+What? So Arjuna asks,
+I think exactly the question that I would like you to be thinking about at the moment was how would you possibly come up with these basic factors?
+I think that that's the question I want to pursue for the last few minutes. Are there other clarifying questions that I can answer?
+It seems like there were a number of there's a fair amount of commotion, discussion.
+If I can answer something, I would like to. But if it's a longer question, I'm happy to go back to to refer it to after class.
+Yes. Over again. Oh, yes, yes.
+So this is a great question. So if I'm thinking about what A is, I just expressed a as P times, some matrix times P inverse, right.
+I'm just going to write B for years of writing. So where I'll just say.
+B is to sub.
+So then a to the twenty nineteen power, well, that's equal to a times, a 20 19 times.
+So now each one of these are replaced with that, so this becomes P, B, the inverse times P, P, P, inverse times P, p, p.
+Inverse times P, p, p inverse.
+I do this 20, 19 times. So now what do you notice when you write this out about your times,
+matrix multiplication is associative so you can group these in whatever order you want.
+So I group these two together and they cancel to give you the identity matrix.
+So then I have B times. B, Well, then these two will grouped together.
+So I'll get B times B, times B, and if you do that all the way down, all of the internal PS will group together to give you the identity matrix.
+And so what you'll be left with is then one P on the left.
+Be a whole bunch of times, in fact, 20, 19 times, and then finally.
+So all of the internal is canceled. If you think about the story you're telling each time you're doing a change of coordinates,
+so it's like when you do P followed by P inverse, you change coordinates and then you immediately change back.
+So they're just undoing each other.
+So when you're going around this picture, you're seeing it going up and down multiple times and going up and down, they just undo one another.
+They're inverse functions. OK, so when you have two matrices that are related like this, namely A is equal to be inverse,
+they're expressing the same linear operation just with respect to a different basis.
+So in some sense, they're telling you the same sort of thing. So we give a name to matrices that are related in this way.
+We call them similar matrices when they're expressing the same linear transformation, but with respect to different bases.
+So. The thing that's nice, then, is,
+I think a bit of Arjun's question of then how could we find a nice basis to work in the standard basis was terrible for a I mean,
+this would have been truly a pain to compute.
+But then when we found this weird basis over here, whatever, somewhere on the board, they raised it everywhere.
+Now, what was it? The basis minus one one, minus one, two, I guess it's right here this basis.
+So when we worked in this basis, then our transformation was expressed as a diagonal matrix.
+Diagonal matrices are really simple to work with. So then the question becomes, can we always represent our matrix and a diagonal form?
+Can we always represent our linear transformation in a nice form?
+This corresponds to many of the questions you consider in your applications is find a nice coordinate system to work in,
+namely one where maybe your operation is diagonal or nearly diagonal.
+Study it there, do all of your work there on the nice coordinate system and then at the end of the day,
+translate back into whatever coordinate system people wanted you to work in.
+So you want to think about for the application you have in mind. You want to choose a basis that nicely expresses, expresses your operation.
+I mean, the same idea is that, like, if I'm sitting here and I'm expressing rotation in our three, I'm rotating like this.
+Right. What's one nice direction with this operation?
+It seems like one nice operation before I get dizzy and fall over is my axis of rotation, right?
+If I make that one of my basest factors, it's very nicely expressed under this operation.
+The same thing is true as I'm studying like reflection. Suppose I'm describing a coordinate system in our three coming up from my chest here.
+This is the other axis. So like this, if I'm describing reflexion with respect to the XY plane, so X, Y,
+Z, well, reflexion is really nicely expressed in the standard coordinate system.
+Right? Namely, if I reflect across the x y plane, it takes my hand like this just down below.
+That's a nice basis to work in because my operation will be expressed diagonally with respect to that basis.
+However, what if I were reflecting across like this plane sort of diagonally now out and it's really a skew plain through the origin?
+Well, now the standard basis isn't so nice to work with.
+So instead, what you'd want to choose a basis that reflects that reflects the geometry of the operation that you're studying.
+So what we want to look for here is what operations, what directions are nicely behaved.
+This leads us to the idea of an eigenvalue and an eigenvector, and that's where I'll end the day.
+So a nice direction is one way or Matrix acts like a diagonal operator, so definition.
+And eigenvector or an eigenvalue for your given matrix is the following.
+So in. Let me say an eigen.
+Value lamda in the real numbers is.
+For an end by a Matrix four and and by and Matrix A is where there exists a non-zero vector.
+Is this a non-zero Vector V? One zero nine zero Vector V such that.
+A times B is just equal to scaling by that constant V.
+OK, so all it does when you multiply by this complicated matrix is it happens to just scale it by this number.
+So then Lambda is called an eigenvalue and V the vector is called an eigenvector.
+So then V is an eigenvector. So eigenvectors correspond to nice directions, and so you can see that coming up here, how do we know this one was nice?
+Well, when we took be two, when we plugged that in, it was just B two multiplied by three.
+So then three was our eigenvalue.
+And B two, was that an eigenvector, so the then Arjun's question becomes, how can we find these nice directions ones?
+It's like my axis of rotation when I'm spinning around or the directions where you're reflecting across.
+So to reflect the operations that you're doing. So we want systematic ways of being able to identify those nice directions.
+OK, so that's we'll build towards over the next few classes really the entire rest of the semester.
+And nearly every application you choose at the heart of it is finding a nice basis, a nice coordinate system.
+All right. We'll pick up there next time. Like, if you think about this kind of thing, we have to be like, we don't want to write,

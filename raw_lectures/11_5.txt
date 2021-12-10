@@ -1,0 +1,814 @@
+﻿So the handouts in the front, if you need it in terms of what's coming up, the ideas, I think over this last Wednesday,
+0:01
+today and Monday, well, strictly speaking, eigenvalues and eigenvectors won't really show up on the exam.
+0:11
+Many of the ideas we're using certainly will show up on the exam,
+0:17
+so they're still very good practice for the sorts of questions you might expect to see.
+0:20
+So just as a quick reminder, midterm two is on Monday, six to eight p.m.
+0:25
+Please, please, please don't wait to tell us if you have a conflict until like 5:30 on Monday,
+0:30
+because that's like really difficult for us to find time and space to be able to to give you the exam.
+0:35
+So please, by five p.m. today, fill out the form that seeing sent out that if you have an academic conflict,
+0:42
+you absolutely cannot make it six to eight p.m. Then please fill out that form by today so
+0:48
+that we can make sure to actually arrange a time for you to take the exam piece at 10:00.
+0:54
+This is one of my favorite piece sets because it has one of our favorite sequences on it again, and so that makes me happy.
+1:02
+And that's really the only question on there, and I kind of broke it up into a lot of parts.
+1:12
+So then hopefully that makes the problem itself pretty digestible.
+1:17
+And then the second question on there is really to tell us where you are and thinking about your project.
+1:21
+OK, so there are two main things that I'm going to be looking for in the project proposals.
+1:28
+One that you've given some thought to what the proposal actually might be like.
+1:34
+You have some outline in mind for the types of things that you might cover.
+1:38
+So there's some thought that you've been given, you've given to the project and to who exactly you'll be working with.
+1:42
+So once I have that information, I'm going to form all of the groups on canvas.
+1:49
+And so then and you will get a t.f reader mentor assigned for your project group.
+1:56
+OK. So those are the two things that I'm looking for as a part of that project proposal.
+2:02
+In terms of midterm two, I will strongly recommend again that I've posted on the handout from Monday's class, I think 11 or 12 questions.
+2:10
+I really like those questions. All of those questions are problems that I've given on exams in the past.
+2:19
+So there are questions that I particularly enjoy in terms of a little bit more hints to guide your studying.
+2:25
+Now that we've sort of officially stopped arguing about the content of the exam with the contentious, arguing is over,
+2:34
+and I can tell you a little bit more specifically that as I said last time, card analogy of SATs will not appear on the exam.
+2:45
+So even though I did post a question that I like and I think it's fun, you don't need to necessarily agonize over that question.
+2:53
+The second type of question that is not making an appearance despite my best efforts,
+3:00
+is that mathematical induction isn't going to show up on the exam.
+3:05
+So there's some kind of conflict about mathematical induction here,
+3:13
+so I want to at least be sort of upfront with you that there is a problem on the the the review problems that I posted.
+3:20
+One of them is one of the questions on mathematical induction that I do like with determinants.
+3:29
+It's a, I think, a perfectly reasonable question for you to practice working with the cofactor definition of determinants.
+3:34
+But it's not that exact style of question proving something by induction won't appear.
+3:39
+OK, so mathematical induction will not appear on the exam,
+3:46
+so it's not going to specifically, I won't require you to do a mathematical induction proof.
+3:52
+There might be questions where you decide you want to prove it by induction, but none of the questions on there.
+3:57
+I'm imagining that your first approach would be by mathematical induction.
+4:03
+The main other hint that I will give you in terms of content is to think about among the review problems that I've posted.
+4:10
+There are some certain recurring themes that appear among those questions. If you're not yet comfortable with those style of questions,
+4:19
+especially styles thinking about like linear transformations between the abstract vector spaces,
+4:27
+then certainly it's a good time to ask questions about those to make sure that you're comfortable by Monday.
+4:33
+OK. OK. Are there other questions that I can help with at this moment?
+4:39
+Tommy. So they're on Mondays hand out on canvas.
+4:44
+I think that's the first day of eigenvalues and eigenvectors.
+4:51
+So that's the day also where I posted my puzzle, my Fibonacci sequence puzzle and my business plan for making math twenty two wildly successful.
+4:54
+So I would be interested in hearing your analysis of my business plan as well.
+5:03
+But on that same handout,
+5:09
+I have the normal days stuff where I talk about the matrix of a linear transformation is and how you find that in the example of like a derivative.
+5:11
+But then after those problems, there's a list of like 12 problems. So other questions.
+5:18
+Strongly encourage you to consider looking at those problems. I have a list of like a through K,
+5:26
+if true or false proof would give a counter example questions and then I have a bunch of proof or computational questions,
+5:33
+and then I end with another list of proving give a counterexample questions.
+5:39
+So it should be, I think, even better than a practice exam because it's several practice exams and one.
+5:43
+All right. Other questions concerns anything that I can help with.
+5:50
+We OK. All right. So what we're doing today is we're continuing on the big theme of we want to find a nice basis, so we want to find a nice basis.
+5:55
+That's really ultimately what we were trying to do, so last time,
+6:12
+what we thought we realized was that using eigenvectors would then choose coordinates,
+6:15
+choose a basis that really nicely expressed the geometry of the matrix that you're studying or the linear transformation that you're studying.
+6:23
+So the way that we're going to approach finding a nice basis is through eigenvectors.
+6:32
+So let's try that in a particular example, let's try to ground the conversation, these abstract ideas in explicit computations.
+6:39
+So the first problem on your handout today is a two by two matrix.
+6:50
+So I want to take a to b the matrix one one minus two for.
+6:56
+And I want to just start, which could be a review problem from last time.
+7:04
+But let's just kind of do it together to discuss these topics.
+7:08
+I want to start by finding eigenvalues and eigenvectors. So ultimately, my goal here is to try to find a basis for our two of eigenvectors of a.
+7:13
+So I'd like to find two linearly independent eigenvectors of this particular matrix.
+7:23
+Well, the only way that I know how to find eigenvectors currently is to find the basis for the null space of a minus lambda times the identity matrix.
+7:28
+Well, the only way that I could do that is if I knew what Lambda was.
+7:40
+So what the eigenvalues actually are? So what we're going to do is we're going to find first my eigenvalues and my eigenvectors.
+7:43
+So if you recall, the big idea for finding the eigenvalues is that we wanted The Matrix, A-minus, Lambda Times,
+7:56
+the identity matrix to fail to be in vertical so we could through the convertible matrix theorem,
+8:04
+measure the failure of indoor activity or the failure of invert ability through the determinant.
+8:10
+So we look at the determinant of a minus lambda times the identity matrix,
+8:16
+and we look at where that's zero, what for what values of lambda is that equal to zero?
+8:21
+So we call that the characteristic polynomial. So recall.
+8:26
+Lambda is an eigenvalue for A.
+8:32
+If and only if. If and only if.
+8:39
+The determinant zero is equal to the determinant of a minus lambda times,
+8:48
+the two by two identity matrix, which you recall is what we were calling the characteristic polynomial.
+8:55
+So this is the characteristic. Polynomial.
+9:01
+OK. So step one is we just need to compute what that is.
+9:11
+So let's actually just do it.
+9:19
+So P, the characteristic polynomial by definition, is the determinant of a minus lambda times the two by two identity matrix in this case.
+9:21
+So it's equal to the determinant of one minus lambda one minus two and four minus lambda.
+9:31
+So we can then multiply this out. So we've got four one minus lambda times four minus lambda minus negative.
+9:41
+Two times one.
+9:49
+So then we have now a quadratic in lambda, so we could use the quadratic formula to find the zeros of this thing, or we could just factor.
+9:53
+So we have six minus five lambda plus lambda squared.
+10:03
+So then when you factor this, we get lambda minus two times lambda minus three.
+10:07
+So that tells us the characteristic polynomial will be equal to zero when lambda is either equal to two or lambda is equal to three.
+10:13
+So hence the eigenvalues of a.
+10:20
+Are given by two and three. So now we want to find the corresponding eigenvectors, so namely the EIGEN spaces.
+10:28
+So we just go through this one step at a time. So we take the smallest eigenvalue first.
+10:39
+So we take this lambda is equal to two, so then in this case, we'd have a minus two times the two by two identity matrix,
+10:48
+which then becomes minus one one minus to two, which fortunately again, we got a row of zeros.
+10:56
+We know something was wrong. If you didn't get a row of zeros, that would be a quick check on your computation not being correct.
+11:05
+And now we then know that the eigen space corresponding to the eigenvalue of two is equal to the null space of a minus two times the identity matrix.
+11:15
+Finding a basis for the null space of a matrix is a very important thing for you to know how to do.
+11:25
+So then I would want to find the span of this or just the span of one one.
+11:34
+So therefore, we know in particular, the dimension of this eigen space is one dimension of an alien space is always at least one.
+11:42
+We've seen an example where the dimension of the Eigen space can be at more than one as well.
+11:49
+We also can see that the nullity of a minus two eye is also equal to one here.
+11:56
+OK, so now we can find the other one lambda is equal to three. So now we look at a minus three times the two by two identity matrix.
+12:03
+So if I subtract three from the diagonal, I get minus two one minus two one again.
+12:12
+That it rho reduces to have a row of zeros is a really good sign, but I haven't made any mistakes here.
+12:21
+And then from this, we can then read off what the eigen space is.
+12:28
+So the eigen space corresponding to the eigenvalue of three is the null space of a minus three times the two by two identity matrix,
+12:31
+which now we can read off a basis vector. I could take one time and two one two as the direction for my I get space.
+12:40
+So right here I get one IGen vector right here, I get another eigen vector there,
+12:53
+linearly independent, so I can put those two together to then form a basis for our two.
+13:01
+Yes. All right. How we know there that. We don't know that yet.
+13:07
+That's a really great question. I'm going to prove that today, so we don't actually know that it turns out that these two,
+13:11
+we can see are linearly independent just because of the form of those two matrices.
+13:17
+But it's certainly not obvious that they would be linearly independent. So that's a good question.
+13:22
+So we should make sure you remind me, don't let me get away without proving that.
+13:27
+OK, so now the point of this, after all, you want to remember, what's the point of this?
+13:38
+You recall one day I was bringing up this really good question. I thought that a student brought up, not at all in a snarky way.
+13:45
+I know it was a friendly question of who cares about any of this? And I think back to what?
+13:51
+Who cares about this? The goal is you want to find nice coordinates to work in.
+13:56
+I mean, you can make your computations really difficult if you work in just an arbitrary
+14:01
+coordinate system that doesn't take into account the geometry of what you're going to do.
+14:06
+A lot of say, computer graphics will come down to using nice coordinates.
+14:10
+A lot of physics will come down to using nice coordinates.
+14:14
+You want to have methods for finding like what does it really mean to have a nice coordinate system?
+14:17
+So for us, for right now. Nice means a basis of eigenvectors.
+14:23
+So let's try it out. So let's take B to B this basis of eigenvectors.
+14:29
+What are they? One one. So, you know, there are lots of eigenvectors because I could just scale this and get many more.
+14:36
+So there are infinitely many eigenvectors corresponding to this particular eigenvalue. And I also have the other one was one too.
+14:44
+So instead of using the basis, the standard basis one zero zero one, a nicer way to study a claim will be to use this particular basis.
+14:53
+So let's think about that. Let's take this is now all stuff that's going to be relevant to the exam.
+15:06
+So here, if I take from R2 to R2, where Ti of X is equal to eight times X, so a is the standard matrix of this linear transformation.
+15:12
+So now what we want to do when we find the B matrix, as you've done on your web work,
+15:24
+is to then change coordinates on your domain and on your code domain to be reflected in terms of these coordinates.
+15:29
+And the idea would be that this would make things simpler. So let's see if that's true.
+15:36
+So the picture that I want to have in mind is this one here is multiplying by a.
+15:41
+So everything up there is in the standard coordinates. Now I want to change.
+15:48
+Hold on. I want to change into the B coordinates.
+15:52
+So here, if I want to change into the coordinates, if I call this vector B one and this vector B two,
+15:56
+well, if I take the Matrix P is equal to B1 B2, what does that do?
+16:04
+Where does it go from and to. Version. This goes from the B coordinates to the E coordinates.
+16:12
+So that goes from the B coordinates to the E coordinates,
+16:24
+if I'm going to go from the E coordinates where A lives to the B coordinates, how would I do that?
+16:27
+I would use the inverse. So then p inverse well, then transform down here into the B coordinates.
+16:34
+So this is the standard coordinates up here coordinates. And then down here, I went to work in the big ordnance.
+16:42
+So now here I'm going to do the same thing on the Kyoto main.
+16:55
+That's why it's the be matrix because I'm using the same basis on my domain as on my code domain.
+16:58
+So I also use P Inverse to transform from the standard coordinates down here.
+17:03
+Now the B matrix will be the matrix that represents A in the B coordinates.
+17:08
+Since it's a B matrix, let's use normal B for that, not math cow B.
+17:20
+And then we just want to think about how we could relate a and B so like in this case, I'm interested in knowing what the B matrix is.
+17:28
+So if I want to know what the B matrix is, B will be equal to.
+17:38
+Well, you could go directly from here to here working in the B coordinates.
+17:42
+Or you could go around the picture like this. So if I wanted to go from the B coordinates to the standard coordinates, I'd multiply by P to go up.
+17:47
+So I first do p. That takes me from the B coordinates to the standard coordinates then.
+17:57
+Now I'm in the standard coordinates, so I work with A. So I multiply the output of that by a.
+18:05
+Then I want to go back to the B coordinates because you're B matrix was supposed
+18:11
+to work and the B coordinates and output results within the B coordinates.
+18:16
+So I want to take the output of whatever a did in the standard coordinates and turn it into the B coordinates.
+18:20
+So I multiply by p inverse. So this story, all you're doing is you first transform from B coordinates to standard coordinates.
+18:26
+You work with a in the standard coordinate system. A outputs its result within the standard coordinate system.
+18:36
+And then you take P Inverse to get it back in the purportedly nice coordinate system.
+18:43
+So let's actually compute one of these things. So be one and be two.
+18:49
+That's my p. So let's take that thing.
+18:54
+So I have what one one one two inverse times the matrix a and the standard coordinates is over there one one minus two four.
+18:58
+And then I've got p over here to transform from the B coordinates to the standard coordinates.
+19:14
+So I have then one one one two. So luckily, in this case, it's a two by two matrix, so we need to scale by one over the determinant.
+19:19
+So what's the determinant to this two by two matrix? One that's great at a scale by one.
+19:29
+Then the formula for the inverse of a two by two matrix, you take a on the diagonal,
+19:34
+so you swap the diagonal entries and you negate the off diagonal entries. So there's the inverse of that two by two matrix.
+19:39
+And then to make some progress, let's actually just multiply those two together.
+19:46
+So if I multiply those two together and then going to get one one times one one, so I get two one one times one two,
+19:51
+so I get three, then I have minus two plus four, so I get two and then I got minus two plus eight.
+19:59
+So I get six. Is that correct?
+20:09
+See, that's what I got earlier. OK, so now we're multiplying to two by two matrices together again.
+20:15
+So if I do the one one entry, that's going to be four minus two, so that'll just be a two.
+20:22
+So there's my one one entry. Then if I look at the one two entry, that'll be two times three is six minus six.
+20:30
+So that's zero. And if I look at the two one entry, then I have one is one times two one times two.
+20:36
+So I get zero. And then my last entry, I have minus one times, three, so negative, three plus six.
+20:43
+So I get three. So the B matrix of this linear transformation is then diagonal.
+20:52
+This is the B matrix. So working in the B coordinates, all I have to do is multiply by a diagonal matrix,
+21:02
+which sure seems nicer to me, then multiplying by an arbitrary two by two matrix.
+21:09
+Jonathan, is there a simple reason that that's the sort of just like fruit calculation on?
+21:16
+Oh, this is.
+21:24
+We proved that earlier, right, that if we have if a is equal to a b c d, then a inverse is equal to one over a d minus b c and d a minus B minus C.
+21:25
+Once you have this formula, you're right, you could just prove it by brute force by.
+21:42
+That would be a perfectly fine way to prove it. The other way, you could prove it directly,
+21:47
+as you could just take your algorithm for computing the inverse of a matrix and do it for a general of general matrix.
+21:50
+For normal stuff, for sure. Oh.
+21:59
+Half of them just think one thing. I mean, right, that one like that p e on the left, e on the right arrow.
+22:09
+Yeah. To your left, to my left over here.
+22:20
+Could you nearer still finding something you could you'd probably confuse a bunch of people, but to be honest, this notation confuses people already.
+22:24
+So I mean, any time you're using this notation, you have to be careful.
+22:32
+It feels a little odd. I mean, I understand why people chose this notation because like, you're putting the input vector on the right,
+22:36
+so you're kind of viewing it as like, it's coming in on the right and then it's being output by multiplying it.
+22:43
+So it's on the left. What is the arrow is going the other way.
+22:47
+You're still saying the same thing that this matrix is taking something with respect to be and outputting something with respect to see.
+22:52
+So I don't particularly care. As long as your notation is clear and I understand what you're doing that I'm happy.
+22:57
+All right. It seems like there are questions. What questions do people have?
+23:04
+Have you confused as to how you could make it one one zero zero?
+23:09
+Despite. Oh, right here.
+23:17
+Yeah, I guess partially it's from my experience, I have the equation X plus Y is equal to zero or X minus.
+23:22
+Oh yeah, so you said X equals Y and then you got it because it's a two by two, I can kind of just read off that step.
+23:30
+We could write it out if you want to. There's no harm in writing it out.
+23:37
+I mean, just like in this one, you then have minus two x plus y is equal to zero solve for one of your variables in terms of the other.
+23:40
+Yes. Like. So we've defined them specific to different vector spaces, so like our standard coordinates on our RN,
+23:50
+our one followed by a bunch of zeros zero one, followed by a bunch of zeros and so forth.
+24:03
+The standard coordinates on the space upon which people stay with me.
+24:07
+So I can't. I can't. I can't hear the questions.
+24:12
+So for the standard coordinates on different vector spaces, this word standard is is defined in terms of the specific vector space.
+24:16
+So if you're working on our end, we've given a specific definition definition for what standard means on our end.
+24:24
+We've given a specific definition for what standard means on the space of matrices.
+24:31
+We've given a specific definition of what standard means in the space of polynomials.
+24:35
+We've never said what standard would mean on the space of continuous functions, for instance.
+24:40
+I mean, that leads you nicely into for analysis, but we won't go in there, really.
+24:45
+We'll do a little bit one day, but that's about it. Yes. But why is?
+24:50
+Well, that's a good question, and that's not a stupid question. That's a good question.
+25:01
+So what do you want to think about is what all of this notation means?
+25:12
+So for instance, if I write X relative to the B coordinates is equal to like one one.
+25:16
+What does that literally mean? Well, it means that you're a vector.
+25:24
+X is equal to your first basis Vector 100 first basis vector b one plus one times your second basis Vector B two.
+25:28
+That's what it means to write something relative to a particular coordinate system.
+25:38
+You're saying What weights do I use in order to express it in that coordinate system?
+25:41
+So then if I know that's a B one and B two are given in terms of the standard coordinates like, say, I know that.
+25:47
+This basis, B one and B two. Again, is there a question in the back?
+25:57
+Question if there's too much talking while I'm talking, then no one can hear, so I just want to know if you have a question, please raise your hand.
+26:06
+Question. Something unclear. All right.
+26:17
+So if I have them given in terms of some standard factors, like one two and say one three.
+26:26
+So I'm just arbitrarily chosen vectors. Then if I want to know what this thing is, it is one times one two plus one times one three.
+26:34
+Well, it is just a matrix, namely the Matrix one two one three times the vector one one.
+26:46
+Because we at the very beginning of the semester when we talked about a vector equation we can transform from a vector equation to a matrix equation.
+26:52
+So that's where you're getting the matrix equation p is because your p matrix over here is exactly
+27:00
+the one telling you how you go from your B coordinates to your standard coordinates are at.
+27:06
+And this ties in with James's question as well. Like, what really are the standard coordinates?
+27:15
+Well, the reason why the standard coordinates are the way they are is because of the way we defined our end.
+27:21
+We defined our end as a bunch of tuples of real numbers. So it's then very simple to describe things as well.
+27:26
+What's the first entry in this tuple of real numbers? What's the second entry was the third entry.
+27:33
+So that then leads us nicely to that definition of a standard matrix. Yes.
+27:39
+No, in fact, that's a general result. So, yes, that's a good point. So a few things that people have mentioned here, these diagonal entries,
+27:48
+when we and allies are the eigenvalues, your p matrix or change of basis, matrix or your eigenvectors.
+27:57
+So when you want to then diagonals a matrix,
+28:05
+what you're going to do is you're going to express your matrix relative to that new basis of eigenvectors.
+28:08
+OK. Other questions. Can I answer anything?
+28:15
+Help clarify? Yes. When you say life is not like one.
+28:23
+From each one, I need a basis of eigenvectors, so I need to linearly independent ones.
+28:31
+Yep. I'm guarantee that the that if I take one from each eigenvalue, they will be linearly independent.
+28:35
+That's a really great question is why do we even know if we could get enough eigenvectors?
+28:52
+The answer is going to be no, you can't in general.
+28:56
+So unfortunately, this dream we have of being able to find a good basis where your matrix will be diagonal isn't going to work or in general.
+28:59
+So we sadly that won't that won't play out for us.
+29:07
+So. Right.
+29:13
+Yeah. So the domain would be. Because that's the order and matrix multiplication.
+29:21
+So like when you compose functions together, you always compose with the right most function first.
+29:30
+Like if you're looking at Earth composed with G of X. This means do G and then do f.
+29:35
+The same thing is true with matrix multiplication.
+29:42
+If I write a times b times X, that means first you b and then do a, so it's corresponding to the edit.
+29:44
+We're doing it that way because matrix multiplication represents composition of functions,
+29:52
+and that goes back to one really important question of why do we define matrix multiplication the way we do?
+29:57
+Why is it this crazy row times column formula? It's because it's because we want it to represent composition of functions.
+30:02
+You could certainly want to study something else and define a product a different way.
+30:11
+That does happen in different applications, but it no longer represents composition of functions.
+30:15
+It tells you a different story, and it builds a different theory, capturing different qualities.
+30:20
+This is the most sort of important one, the most common product you will see.
+30:26
+Yes. Yeah.
+30:30
+Yeah, that's why I have to multiply by the inverse on the other side, though,
+30:39
+like this thing is only telling me how you do computations relative to this basis.
+30:43
+And the answer is the the outputs of multiplying by that diagonal matrix will also be giving you weights relative to this basis.
+30:51
+So in order to get your answer back in terms of the standard coordinates,
+30:59
+you then would need to say, Well, how do I go from the B back basis to the E basis?
+31:03
+So multiplying by that p matrix? Good questions. Good questions. All right.
+31:12
+So um. Let me raise this thing now.
+31:17
+So a few terms. So if we can find a basis of eigenvectors, we call that an eigen basis.
+31:33
+So definition. A basis.
+31:45
+Our RN consisting. Of eigenvectors.
+31:53
+Of a matrix A. Is called an iron basis.
+32:03
+So it's just it's just a basis that's also eigenvectors.
+32:17
+Similarly, we're going to say that a matrix A is diagonals of all.
+32:24
+So it's diagnosed.
+32:36
+If there is some coordinate system in which it's expressed as a diagonal matrix, so namely if it's similar to a diagonal matrix, if a is similar.
+32:38
+To a diagonal matrix. OK.
+32:54
+So the first question you should probably ask yourself is whether every matrix is diagonally visible.
+33:09
+So we already I've already said that the answer to that will be no.
+33:18
+But that's something we should definitely make sure that we are clear on by the end of class that we have a concrete example of that.
+33:23
+So we have two new terms that we can use here. So our strategy for doing this here, the a diagonal as a matrix severe.
+33:30
+We have. Yeah, so we defined as two matrices, A and B to be similar to last time a similar to B of A is equal to P bp inverse.
+33:41
+So if they're related through a change of coordinates, not at all. No, this is a roll call and should be a different equivalence relation,
+33:51
+so the one thing that's kind of fun here is we're seeing lots of different types of equivalence relation show up in the class.
+33:58
+We have an equivalence relation on linear by whether they have the same solutions that we have role equivalent matrices.
+34:04
+We have.
+34:12
+So we've seen a number of different ones come up, whether they're both, they're similar in the sense of they're related by a change of coordinates.
+34:14
+What have you think of our strategy for doing this if you actually wanted to carry this out?
+34:22
+We essentially have a three step strategy. You find the eigenvalues, you find the corresponding eigenvectors.
+34:26
+You try to form a basis for our end consisting of those eigenvectors. So that last step is coming down to we want to have a basis.
+34:33
+So this goes back to Jonathan's question of if what if we took one non-zero vector from each eigen space?
+34:42
+So one eigen vector coming from each eigen space? Would they necessarily form a basis?
+34:49
+Well, there are two pieces to that. One is, are they linearly independent and two are there are enough of them.
+34:56
+So the first one, let's prove that they would be linearly independent. So they're.
+35:01
+If we have some collection of actors, the one up through VPI and their eigenvectors for some matrix.
+35:08
+Say a eigenvectors of a matrix A and I want them all to be coming from different eigen spaces, so corresponding,
+35:19
+so similar to how we just grabbed this one and I grabbed this one and I just said, Oh, they're linearly independent.
+35:31
+Well, you could check that, certainly.
+35:37
+But in general, they will be linearly independent because they're coming from different eigenvalues to distinct eigenvalues.
+35:39
+Then we one up through the p r linearly.
+35:52
+Independent.
+36:01
+So that's what I would like to prove, so that we don't have to check this ever again, if you just take a bunch one eigenvectors from each eigen space,
+36:05
+then you know that they will be giving you a linearly independent set just from general theory.
+36:13
+OK. So let's prove it.
+36:20
+So true. So let's prove this.
+36:30
+By contradictions, I so suppose not. So namely, assume the A1 through AP or VH1, I'm sorry, we der VPI are linearly dependent.
+36:39
+So they're linearly dependent, so they're all non-zero, so that means there some smallest.
+37:12
+Index and the list where that factor can be written as a linear combination of the preceding ones.
+37:18
+OK, so then then there must exist. Some of the smallest are bigger than one, so that.
+37:25
+The Earth one in the list is a linear combination of the preceding ones.
+37:41
+So see one v one plus that I thought was c r minus one b r minus one.
+37:46
+Because that's, after all, how we thought about linear independence.
+37:56
+You could just kind of march through your list and look for linear combinations of the preceding ones so linearly dependent.
+37:58
+There must be some point where that happens. So take art to be the smallest point where you get that hour has to be strictly bigger than
+38:05
+one because the first factor in the list has to be non-zero because they're eigenvectors.
+38:13
+Questions. OK, so just from sort of a problem solving perspective, if you got to this point,
+38:23
+we've basically just kind of like used our hypothesis that we're supposing that the conclusion isn't true,
+38:31
+that there are many independent and we are using one of our first theorems about linearly dependent sets of actors.
+38:38
+Well, but if you're just thinking about like, what could we do, you'll say, well, these are eigenvectors.
+38:49
+So somehow I'd like to get that into the problem. I'd like to get the fact that they're eigenvectors into the problem.
+38:54
+So the main way for me to do that is to multiply both sides of this equation by air.
+39:00
+So the main reason for me to do that is, again, just because it seems like it will get something helpful into the problem.
+39:05
+So multiply both sides by a. Side by a.
+39:13
+So then we get a times, we are as equal to apply linearity so I can distribute a V one plus that c r minus one a v r minus one.
+39:25
+And now what could I do? Now what?
+39:40
+So we. Yeah, each of these comes from their they're all eigenvectors.
+39:49
+This would be Lambda R times. We R is then equal to see one lambda one v one four star dot c r minus one lambda r minus one b r minus one.
+39:58
+So that's just using the fact that they're all eigenvectors.
+40:11
+Well. One thing I can do here is I know what VR is, so I could still plug that back in on the left hand side of the equation to get rid of it.
+40:16
+So if I did that, I would then have see one lambda r times v one plus dot dot dot up to C R minus one lambda r times v r minus one.
+40:27
+And then the right hand side stays the same c one lambda one b one.
+40:47
+I started to see R minus one lambda r minus one v r minus one.
+40:51
+Oh. So all I've done here is I've just plugged in what VR is for this expression and multiplied it out.
+40:59
+Now, I could move everything together to say the left hand side of the equation, so then I would have zero is equal to.
+41:09
+Well, let's look at the coefficient of V one. A coefficient of v one will be C one times.
+41:17
+Well, I'll see one time C one. So why don't we factor that out to see one?
+41:24
+And then I have lambda r minus lambda one.
+41:29
+Then my next term will be plus v two times C two.
+41:35
+Times Lambda R minus lambda two plus data up to v r minus one times, then c r minus one times lambda r minus lambda r minus one.
+41:43
+So all I've done is rearrange the equation and factor. So this is some scalar times v one.
+42:06
+This is some scalar times v two up to some scalar times v r minus one is equal to zero.
+42:12
+Laurel. Here.
+42:19
+Well, that in this one. This one.
+42:36
+OK, so I'm taking this expression and I'm plugging it in right here, so I'm taking all of these terms and I'm multiplying by lambda.
+42:44
+Ah, so I will see one lambda RV one up to c r minus one lambda v r minus one.
+42:52
+When? So that that's where the lambda is coming from.
+43:00
+Good. Got other questions.
+43:07
+So here I have now a vector equation. What can you tell me about V one through VR minus one?
+43:17
+James? Are they linearly dependent or are they literally independent?
+43:24
+Because I said VR was the smallest one that could be written as a linear combination of all the others right now,
+43:32
+I've taken VH1 through VR minus one, so I'm taking a smaller collection of them.
+43:37
+So then what must be true about those? David? Those would then have to be linearly independent because it's a smaller collection of those vectors,
+43:41
+and none of them can be written as a linear combination of the others, otherwise that would contradict my assumption.
+43:50
+So if those are linearly independent, what can you tell me about all these coefficients? They must be zero.
+43:54
+OK, so then I have the product. Let's write all that down.
+44:02
+I have the product of one lambda r minus lambda one is equal to zero up through my last one.
+44:07
+So the US. I got a system of equations, I get C one times Lambda.
+44:16
+Did I write it that way or minus lambda one is equal to zero down to c r lambda r minus oops.
+44:24
+Minus one lambda r minus one is equal to zero.
+44:33
+So this equation, if this first equation is equal to zero.
+44:38
+It's the product of two real numbers is equal to zero, so either the first number is equal to zero or the second number is equal to zero.
+44:42
+Can the second factor be equal to zero? No, I can't, because they're distinct real numbers,
+44:48
+lambda one could never be equal to lambda r lambda r could never be equal to lambda r minus one because they're all distinct.
+44:54
+They're different. Eigenvalues are different real numbers.
+45:01
+So then that means the only way this could be true is then if C one is equal to see two is equal to c r minus one.
+45:04
+OK, well, what does that tell me about v r? So then what's VR?
+45:13
+Go back to the beginning of our. Zero. Is that allowed?
+45:21
+No eigenvectors have to be nonzero, right? So since that's not possible.
+45:28
+So that's a contradiction. So that contradicts.
+45:33
+Which contradicts. I can vectors are non-zero.
+45:39
+None, zero. So then we have the most fun part of our contradiction, proof we get to do the lightning bolt.
+45:51
+Questions. Yes, Sergeant. Yes, those are all equal to zero, because the coefficients over here,
+46:00
+these are my scalar coefficients of V1 through VR minus one because our was chosen to be minimal.
+46:14
+They couldn't have non-zero coefficients because otherwise I would have another
+46:20
+a smaller R that could be written as a linear combination of the others. And so then I know that all these coefficients have to be equal to zero.
+46:25
+So all these products are zero. The second factor here can't be zero because the eigenvalues are distinct.
+46:32
+So then I know C one is equal to zero. And then you go all the way down the list.
+46:39
+These have to be different, non-zero because the eigenvalues are distinct.
+46:43
+So then c r minus one is equal to zero. So that tells me c one through c r minus one, they're all equal to zero.
+46:47
+But then I go back up and see, what does that mean about our eigenvectors VR?
+46:53
+That means VR was then equal to the zero vector, which is impossible.
+46:58
+OK. Yes. Poppy, or any doubt that you can go from?
+47:06
+Third, lower, more scene one.
+47:16
+Not not that land of our finest lambda or has zero because I.
+47:23
+Yes, because eigenvalues are distinct. So, yeah, you have the first equation is equal to zero,
+47:31
+so the product of two real numbers is equal to zero if and only if one of the two is equal to zero.
+47:35
+So either this is zero or this is zero. I know this one can't be zero.
+47:40
+So then this one is. Question.
+47:45
+Can I help answer a question? There are so many conversations going on as I look around the room.
+47:59
+What questions can I help answer? Let's all try to stay together here.
+48:13
+All right. So if you think back to what's the big idea, what we're trying to do is we're trying to find a basis of eigenvectors.
+48:24
+So the first part of that story is that we could take one eigenvectors from each in space.
+48:38
+Now, through Jonathan's question, we can conclude that if you're coming from distinct island spaces,
+48:43
+we will then get a collection of linearly independent eigenvectors.
+48:48
+So then the question becomes if we want to find a basis through the basis theorem, we need any of that, OK?
+48:52
+So the diagonal ization theorem is going to tell us that if you can find NW linearly independent eigenvectors on our end,
+49:00
+then you can diagonals your matrix. OK? So that's what the diagonal analyzation theorem is going to tell us.
+49:07
+So, yes, look. Because there is a basis and there that are linearly independent, so the basis theorem tells us that they would then spend.
+49:14
+Oh, all right. So next class, what we will pick up then with is then proving that idealization theorem that if we had a basis of eigenvectors,
+49:26
+we would then get a diagonal representation of our matrix that you would prove that then it's similar to a diagonal matrix.
+49:36
+Then we will give two examples of how you diagonals a matrix when you can find enough linearly
+49:42
+independent eigenvectors and how you can't when you don't get enough linearly independent eigenvectors.
+49:48
+OK. So that's where we'll pick up next time. So right now, I'll use the left or state of my time today to do the quiz.
+49:55
+Please put away your notes.
+50:02

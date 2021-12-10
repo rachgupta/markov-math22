@@ -1,0 +1,1186 @@
+﻿All right.
+0:01
+So in terms of quickly going through some midterm too, we have tonight six eight p.m. in science Center Hall B piece at 10 is due on Friday.
+0:01
+Again, piece at ten is one question and the project proposal.
+0:13
+So make sure that you think about the two things that I'm looking for in the project proposal that you've put
+0:17
+some thought into what your project will consist of and that you found some people to work with on your project.
+0:22
+If you're still looking for people that you would like to work with, or maybe I've heard of some groups that have broken over the weekend.
+0:29
+Unfortunately, it happens. It happens.
+0:35
+I'm sorry it happens. But and if you'd like some help being connected with other students in the class that might be interested in similar topics,
+0:39
+I think it's probably reasonable that we set a deadline for that by, say, the end of the day tomorrow.
+0:50
+So anyone that emails me by the end of the day tomorrow looking for people to work with on their project,
+0:56
+I will make the my best effort to connect you with other students that have similar interests.
+1:03
+Currently, very few people have taken me up on this site necessarily have a lot of people to match at the moment,
+1:08
+but if you feel like that would be helpful, please feel free to reach out.
+1:15
+So we want to finish up. Diane Analyzation today, and this is really an important topic and in principle encapsulates a really intuitive idea.
+1:21
+So the idea is basically that. Some coordinates, some ways of expressing something are easier to work with than others.
+1:31
+This is often the case in applications that you might pursue and in pure mathematics, to be honest,
+1:40
+where choosing a good coordinate system makes the rest of your analysis much easier.
+1:47
+And so what we were looking for to sort of choose a nice coordinate system was one that consisted of eigenvectors.
+1:53
+So eigenvectors were representing directions or inputs to your transformation that behave in particularly simple ways under your transformation.
+2:00
+OK. So it's something that if I plugged it into my tea, then tea would be very well behaved under this transformation.
+2:10
+So to summarize, if we're given a linear transformation T.
+2:20
+Going from say, well, we can just say from our end to our end or our end at the moment.
+2:27
+Where?
+2:37
+Since it's gone from R to R M, it's given has an associated matrix in the standard coordinates eight times X, then what we would like, then we want.
+2:39
+A basis. Be.
+2:52
+So that. Your linear transformation T with respect to that basis, the B matrix.
+2:58
+This diagonal. That's what we want.
+3:10
+OK, so that's this whole idea behind this picture, I keep drawing over and over again because we have T in this case going from our end to our M,
+3:18
+so it's a little bit less general than the setting we were in the previous classes.
+3:27
+We have our end to our end. This is coming from multiplying by your Matrix T now you want some basis b where
+3:31
+you move into that basis so that we multiplying by your p inverse matrix.
+3:41
+So he inverse oops, he inverse. So where p is just your base factors.
+3:47
+Then down here in this new coordinate system, the Matrix is easier to work with.
+3:56
+So this is what I'm calling T sub being what your web work is often just calling the Matrix B.
+4:04
+From that, we can see that he and the associated matrix at T in the standard coordinates a are related by being similar to one another.
+4:11
+So namely, if I wanted to know. Well, alright.
+4:20
+Uh, which way you want to run it right? This be.
+4:24
+So if I wanted to study B, the B matrix, that would be the same thing is if I went the other way around the square.
+4:28
+So you change to be in the standard coordinates to change in the standard coordinates, you multiply by the matrix p.
+4:34
+Now I'm in the standard coordinates, so I'm up here so I can use a to get an output in the standard coordinates,
+4:41
+and then I multiply by inverse to get back into the B coordinates.
+4:48
+So then we get that A and B are similar. So A and B are similar matrices.
+4:54
+So they're expressing the same linear transformation with respect to different coordinate systems.
+5:07
+You can make a problem seem much more complicated than it really is by working in an awkwardly chosen coordinate system.
+5:12
+That's true just geometrically. Again, if we go back to that example for my first day where I'm spinning around.
+5:19
+If you choose one of your coordinate axes to be different from your axis of rotation,
+5:25
+then things will just be much, much messier and make the analysis more difficult.
+5:30
+Matthew. One of them does use P, so p this matrix.
+5:36
+Goes from the B coordinates to the standard coordinates.
+5:49
+So Note A was with respect to the standard coordinates, was calling that my standard matrix the top line of my diagram here.
+5:55
+This world is all in the standard coordinates.
+6:03
+So the idea is you want to move out of the standard coordinates to now this nicer coordinate system or hopefully nicer coordinate system.
+6:08
+So in order to do that,
+6:17
+I do the inverse matrix to get out of the standard coordinates to get into the standard coordinates and multiply by the P matrix.
+6:18
+OK. So to go this way, I use Inverse to go. This way, I use P.
+6:26
+That's why when I was first going up, I used P here because remember you always go right to left.
+6:31
+Jonathan Husband. Why?
+6:39
+Because the definition of being a similar matrix is that B is equal the inverse ape.
+6:42
+So we we've defined the word to similar to mean that they have this kind of a relationship.
+6:48
+So I'm just kind of using this vocabulary to remind you of that terminology.
+6:53
+But if you're thinking like the word similar is a term that mathematicians overuse dramatically.
+6:57
+Somehow, we don't have big enough vocabularies, so we use the words similar to mean lots of different things.
+7:03
+In this context, what you really mean is that this is reflecting the same linear transformation, but in different coordinate systems.
+7:08
+And then hopefully in some coordinate system, things are simple. OK, great.
+7:16
+So for us, the way that we went about trying to find this matrix p like this nice coordinate system as we looked for directions,
+7:23
+where are your matrix? Was simple?
+7:31
+So like in that example of me spinning around one direction where things seem particularly simple is if I took a vector in the axis of rotation,
+7:33
+then it's preserved under this rotation. It's the same thing. That means it has an eigenvalue of one.
+7:43
+So that seems like a particularly nice direction to use as a basis factor.
+7:49
+Same thing. If I were thinking like reflecting across my piece of paper, I want to reflect across my piece of paper with some vector like this.
+7:54
+Well, if I'm orthogonal to my piece of paper, well, then I have an eigenvectors value of negative one because it just reflects it below.
+8:02
+If I take a vector in the plane,
+8:09
+then I just get an eigenvalue of one or an eigenvalue for each of the two independent directions that you could have inside of that plane.
+8:12
+So that gives me an eigen basis.
+8:20
+I have the two directions inside the plane to linearly independent directions inside the plane and the direction perpendicular to the plane.
+8:22
+That gives me a nice eigen best basis to work with.
+8:30
+So here what we want is to then just show that we have enough nice directions.
+8:34
+If we have enough nice directions, then we take that to be our basis. So that's going to be the diagonal ization theorem.
+8:41
+This is going to completely characterize when a matrix is diagonals visible.
+8:48
+So an end by end matrix, hey, is diagonals of all.
+8:58
+If and only if. We have an linearly independent eigenvectors, a pause and linearly independent.
+9:08
+Eigenvectors. So that we can find enough of them so that they can form a basis.
+9:22
+OK. So we can also make this more precise.
+9:30
+When we did this last class for two by two example,
+9:34
+we found that if we took a excess of the eigenvectors and then we computed the beam matrix relative to that eigen basis,
+9:39
+this diagonal matrix, it wasn't just diagonal, but even more than that.
+9:47
+The diagonal entries were themselves the eigenvalues. So we can include that as a part of our theorem.
+9:51
+So moreover. If we have a diagnosable so as equal to PDP Inverse, where the is diagonal.
+9:58
+Then that's true if and only if the columns.
+10:18
+Of P R eigenvectors of a R eigenvectors.
+10:25
+A and B diagonal entries of D are the corresponding eigenvalues.
+10:37
+Yeah, are. The eigenvalues, so we can give a very nice description.
+10:50
+Of what that's going to look like, Laura. It's a fair question.
+11:01
+So if I move the PEA over to the other side of the equation, then I would have p inverse.
+11:13
+A multiply by P on the right is equal to D.
+11:19
+So it's. If I it just depends on how you're expressing this relationship, like what you want to be, is P going from is p your basis of eigenvectors?
+11:24
+And then in that case, going back over to this picture over here, if p is your basis of eigenvectors B v one,
+11:34
+the V and then you want it to be reflecting of going from your nice basis,
+11:41
+the one where your thing is supposed to be, your matrix is supposed to be diagonally represented,
+11:47
+where your transformation is diagonally represented to the standard coordinates.
+11:50
+So then if you think about here like what this relationship represents,
+11:56
+multiplying by P first because you always go right to left p first, then transforms.
+12:00
+From the standard coordinates to the oh sorry, from the B coordinates to the standard coordinates,
+12:06
+then A works in the standard coordinates, then P Inverse transforms back.
+12:14
+So then all I'm doing with this relationship is I'm just solving this one for a instead of D.
+12:20
+So when I solve this for a, I get PDP inverse. So I just want to be consistent about what P does.
+12:25
+P will be the matrix that transforms from the new coordinate system back to the standard coordinates.
+12:32
+OK, so d will be working in the new coordinate system.
+12:40
+So I want P to be the one that undoes that and puts me back in the standard coordinates because that's where a is supposed to live.
+12:43
+Senator. Was that similar to your question, Jonathan?
+12:50
+I was going to have this type of life or our. Oh, oh, thanks.
+12:55
+Thanks. PR eigenvectors, a very good call.
+13:06
+Thank you. Yup. Or.
+13:10
+There, linearly independent, yeah. Yeah.
+13:17
+I mean, here, I don't have to say it again, because already I've said that P Inverse exists to the columns will be.
+13:21
+And yeah, so I want the columns to be linearly independent eigenvectors. All right.
+13:27
+OK, so let's prove that there. So it's an if and only if statement.
+13:34
+So we need to prove both directions. So just thinking about the structure of our proof.
+13:42
+So we start out with our and linearly independent eigenvectors. So let's take this one up through the PN, the linearly independent eigenvectors.
+13:46
+OK, so this is my hypothesis over here. I have.
+14:05
+So if I have an linearly independent eigenvectors on our RN, I can use them to form a basis for our end by the basis theorem.
+14:09
+So then let's just name that basis. Let's take script B to B v one up through the end.
+14:17
+So then the P matrix. We won V n will be the matrix that transform from coordinates to the standard coordinates.
+14:26
+That's what The Matrix always does, it takes your basis with respect to.
+14:40
+Oh, I'm sorry this one. This one should be embraces. OK.
+14:46
+So let's give a name to the eigenvectors since or the eigenvalue since we'll need them as well.
+15:01
+So define. Lambda one lambda and has the corresponding.
+15:11
+Eigenvalues. This does not mean they're all distinct.
+15:25
+So lambda one through Lambda NW, they could have a repeating values in that list, but they're all corresponding to V one through V.
+15:30
+OK, so I'm not assuming that they're all distinct. Finally.
+15:40
+The claim was about this diagonal matrix where I put the eigenvalues along the diagonal, so let's just do that.
+15:46
+So now, if I'm going to prove the other direction A is diagnosable,
+15:56
+so the definition of being a diagonals will matrix means that you're similar to a diagonal matrix.
+16:00
+So that means you need to construct this p matrix in this DX matrix where a is similar to those.
+16:05
+So now we have our purported diagonal matrix DX.
+16:10
+We have our purported Matrix P, so it's just a calculation to see if then A is equal to p dpi inverse.
+16:14
+So let's compute so. Or is a vision instead work with eight times P?
+16:25
+First, so if I think about eight times P, so you'll note eight times Per.
+16:35
+So if I look at what eight times is, this is a times the one through the end.
+16:44
+Well, now, by the definition of matrix multiplication, I can multiply through all of the V the A's, so this becomes a times v one a times b n.
+16:51
+That's how matrix multiplication works. But now we went through Vienna eigenvectors with corresponding eigenvalues.
+17:01
+So then this becomes lambda one, the one up through lambda and the RN, that's again since we went through Vienna were chosen to be eigenvectors.
+17:09
+All right. So now I would just like to know what this is. So this says the first column is scaled by lambda one.
+17:21
+The second column is scaled by Lambda two up to the nth column is scaled by Lambda NW.
+17:29
+So one way that you could express that relationship is you could then say this is equal to P.
+17:38
+We want through the N times the diagonal matrix lambda one found through lambda and.
+17:43
+Just equal to top times, D. So now we have the relationship, AP is equal to PD.
+17:52
+So if I then just supply both sides by inverse, which again, you know, Inverse exists because they're linearly independent,
+18:05
+you have and linearly independent vectors and are in the inverted matrix theorem then tells me that P Inverse exists.
+18:12
+So since he is inverted, all.
+18:19
+Vertical. We get. But A is equal to P the P inverse.
+18:26
+So hence, it is diagnosable. So there is a proof that if you have an linearly independent eigenvectors, then you will get that matrix is diagnosable.
+18:39
+So we need to prove the other direction as well. Is that part okay?
+19:09
+What questions do people have anything? OK.
+19:35
+We're technically approving the moreover part, because the more of a part, it really implies this part.
+19:48
+So yeah, I mean, the moreover part is really just a more precise version of that because what I did here is I just took the moreover claim,
+19:53
+and that's how I set up the calculation. So.
+20:01
+And the top part of the more I more of a claim, a being equal, the PDP inverse, that's the definition of being diagnosable.
+20:07
+So yeah. All right, so we should prove the other part.
+20:15
+So now we do want to prove we want to suppose that is diagonally visible,
+20:24
+so then that means that suppose a is similar to a diagonal matrix, so A is equal to p the p inverse for some matrices and.
+20:29
+So let's give names to these matrices, and we'll optimistically label them as the one through the end.
+20:47
+This point, I don't get vectors, but I hope they are by hoping again.
+20:56
+Maybe my favorite proof strategy, proof, positive thinking.
+21:09
+Oops! I say that as a joke, but I think there's actually a fair amount of truth to that.
+21:19
+I mean being it's like solving hard problems and working on hard problems,
+21:33
+you really it's important to remind yourself like how how much skill you have in this subject now that you've really worked hard, you've done a lot.
+21:37
+And so it might not feel like it because we're always working on the edge of what we know, like those are the problems we're working on.
+21:47
+But you've truly put a lot of work into this class. I know that I've seen many, many of you in office hours.
+21:54
+I see you before class working on the problems. I get an incredible amount of email asking really good questions.
+22:00
+It's I know you all know this material. Well, OK, so it's.
+22:06
+It's important, though. I mean, it's fun to joke, but it's important to remember to have a positive attitude and to remember that, like bring that in.
+22:16
+Well, it's a lot easier to do hard problems when you go in, like knowing I've solved hard problems before I can do it again.
+22:25
+Uh, yeah, that's that's a good question.
+22:39
+I don't know.
+22:43
+I mean, it's a I think it's a reasonable thing to think about what works for you, what motivates you, and it is different for different people.
+22:44
+I mean, I think that one of the things that I enjoy most about teaching and working with students is recognizing that each student is an
+22:54
+individual and learns in different ways and ask questions in different ways and trying to figure out what motivates different students,
+23:01
+like how to get people to work sort of really at their peak capacity.
+23:08
+And like to really understand things in a deep way. And um, I personally think that it's really,
+23:13
+really important to take time even like further on in your career when you're well past this course, when you're well into your college career,
+23:19
+when you're well after college, maybe you're in grad school, maybe after grad school,
+23:27
+you're all famous professors or something that your you take time to remember how like, how far you've come to because.
+23:30
+Good. It can truly be discouraging if you're always at the very edge of what you know.
+23:46
+But if you take some time to look back and I think hopefully maybe over Thanksgiving break,
+23:53
+you'll all get some time to reflect more over the semester, you get some quiet time.
+23:57
+Take that time to really think about how much you've learned this semester. I know it's been hard.
+24:02
+I know it's been a long semester for everyone.
+24:07
+It's truly been challenging, but you've learned an incredible amount, so you should take pride in that and you should definitely appreciate that.
+24:10
+So it's important to take time to appreciate how much you've learned to.
+24:18
+All right. Well, let's prove this before I start crying. So, so we have this statement and approach it in the same way.
+24:24
+Some approach it in the same way as I'm going to compute a times piece here.
+24:35
+And I want to essentially use the same argument to conclude that I have a bunch of eigenvectors.
+24:40
+So now we know. But eight times P is equal to P times D just by solving that first equation.
+24:44
+OK, that's what we know, because a is equal to PDP inverse.
+24:58
+OK, well, now this side of the equation that tells me that I have eight times the one up through van and I have the one,
+25:04
+you could summarize this proof by just me saying I don't want to invert any matrices.
+25:14
+So that's maybe the guiding principle behind what's going on here. So now when I multiply these together, I think this goes back to.
+25:19
+This Luke's question, someone a long time ago asked the question about what happens when you do elementary matrices on the other side of the equation.
+25:29
+So now I'm going to be doing column operations on this matrix, and this matrix will become a times b one up through a times v end.
+25:36
+And then here we have lambda one v one times lambda and the RN.
+25:46
+So now two matrices are equal if and only if their corresponding columns are equal.
+25:53
+So this tells me a v one is equal to lambda one v one down to a v n is equal to lambda, and we end.
+25:57
+So then this tells me that the arc is an alien vector.
+26:08
+With Eigenvalue. Lambda decay.
+26:16
+OK. Which was what we set out to do that if we took the columns of this corresponding Matrix P,
+26:27
+we could show that there eigenvectors in the diagonal elements would be the corresponding eigenvalues.
+26:33
+So now we have this theorem. Yes, soccer. Oh, it's a good question.
+26:39
+That's a good question. Does anybody have a suggestion, how can we figure that out, whether they're linearly independent?
+26:47
+Let's see, maybe, Tom, you've answered a lot of questions. We'll give someone else a chance.
+26:54
+How would you know that if you want to be in, I think your point is exactly right, I probably should say something about it and my proof.
+27:00
+Why would they be linearly independent sailor? Yeah.
+27:07
+That's exactly right, since we started with a risk matrix, the inevitable matrix theorem tells us that there linearly independent.
+27:15
+So it's a good question.
+27:20
+OK, so our main theme about idealization is that if you end linearly independent eigenvectors, then you know that your matrix is diagnosable.
+27:37
+I want to skip my two examples for just one minute.
+27:49
+What if I knew I had a matrix and all of the eigenvalues were distinct,
+27:53
+I think this is the last question on my handout, but I just want to ask you that question.
+27:59
+It's a nice profit problem.
+28:04
+It, of course, won't be on the exam tonight because eigenvalues and eigenvectors would only show up in a very minimal way, if at all.
+28:05
+But here, how would you know that if they're all distinct, if all these eigenvalues happened to be different, you have different ones?
+28:13
+Why would you then know that you have to be diagnosable? James.
+28:21
+Perfect. Yeah, take one.
+28:37
+I bet they're coming from each of those and distinct eigenvalues, we proved last time that then they would all have to be linearly independent.
+28:40
+Now we have and linearly independent eigenvectors of the diag analyzation theorem tells us that they will be a basis and eigen basis.
+28:47
+No, that we can. We would be diagonals able. So that raises an interesting question.
+28:58
+That means that if I have any distinct eigenvalues, I would always be that.
+29:05
+If you're looking for a matrix that's going to be done in Liverpool, no limit to be matrices where you have a repeat.
+29:13
+Then it raises the interesting question, I think of how important our repeated eigenvalues.
+29:25
+So in many linear algebra courses that you might take,
+29:32
+there will now be a big fuss about repeated eigenvalues and why you should study repeated eigenvalues.
+29:35
+I claim that's not super important for the following reason.
+29:43
+Suppose that all of your data is sort of experimentally determined.
+29:48
+So in that data, so all the columns of your matrix are like data points from some measurements that you've done.
+29:52
+You have these and measurements all living inside of our.
+29:57
+Well, the generic situation from your experiments is that they're all going to be linearly independent.
+30:01
+The reason for that is because your experiments are only up to some amount of certainty anyway.
+30:07
+There's experimental noise.
+30:13
+So if you have a slight perturbation, like within the range of noise of any of your data points, then you've just moved it.
+30:15
+So that's not a linear combination of the previous ones anymore because to be
+30:23
+a linear combination of the previous factors is sort of a special condition.
+30:27
+That's very precise, a precise relationship.
+30:31
+So the generic setting is that you would have indistinct eigenvalues and that you would have something that's diagonals able to work with.
+30:35
+So this is actually the most relevant situation.
+30:43
+The thing that's most likely to happen in an application when you have a real data determining what's going to happen,
+30:45
+whether you're going to be diagonally visible or not.
+30:52
+Because even if you did have, say, a repeated eigenvalue in your calculation coming from that real data set,
+30:54
+well, that was only up to some experimental accuracy anyway.
+31:01
+So it's probably not even the case that it was genuinely a repeated eigenvalue.
+31:06
+They might just be close. So then you can still use this theorem of making them all diagonal visible.
+31:10
+So that would be a reasonable project if anyone was interested in developing the theory for repeated eigenvalues.
+31:16
+And what you could do, they're subject to not necessarily being able to diagonal lines.
+31:23
+But that's not something I want to go into in this course.
+31:27
+So what I want to do now is I want two examples, one example where you can diagnose and one example where you can't diagonal eyes.
+31:31
+And then I think with my last, I don't know, I'm hoping my last, say, 15 minutes for the day.
+31:39
+I'll then show how this looks.
+31:44
+In the case of working with some differential operators, which is then parts of that will overlap with the exam material for tonight.
+31:46
+So I thought that might be a nice bit of review at the end. So let's go through these two examples.
+31:55
+And then I'll hopefully have time for these exam relevant examples at the end.
+32:02
+So let's take a to be the three by three matrix one three three minus three minus five minus three three three one.
+32:09
+So I want the question that we're interested in is there a basis in which this matrix would be represented as a diagonal matrix?
+32:20
+So is it diagonals visible? Is a diagonal sizable?
+32:29
+So the only way that I've really approached diagonals ability before is by spinning around.
+32:36
+That's how I saw a lot of math problems as I spend. Also helpful.
+32:43
+So here what? I'm looking at this. It is not at all apparent to me that this represents any sort of geometric transformation.
+32:48
+So there's not a good way for me just to guess eigenvectors or guess eigenvalues.
+32:54
+So I need to just go back to sort of the drawing board here, and I need to actually carry out the signalization algorithm.
+32:59
+So this is going to be three steps.
+33:07
+You find your eigenvalues, you find the corresponding eigen spaces and then you apply that idealization theorem if appropriate.
+33:09
+So our strategy? What I and I got values.
+33:16
+To find alien spaces.
+33:27
+Spaces. Three. Apply the diagnosed Asian zero.
+33:33
+OK, so let's start with one. So we want to find the eigenvalues of this particular matrix.
+33:44
+The only way that I've taught you to find the eigenvalues of a matrix is through finding the zeros of the characteristic polynomial.
+33:52
+I think, was it Joel, someone asked before? What about the situation?
+34:00
+Why are determinants even useful at all? They seem computationally really inefficient.
+34:05
+So our only strategy for finding the zero the zeros of the characteristic polynomial will be
+34:10
+through studying the determinant and through studying the zeros of particular polynomial.
+34:15
+So this is a rather computationally cumbersome thing to do.
+34:20
+So that's not what you'd really want to do experimentally if you're again working with a very large dataset.
+34:25
+It's not a practical approach to just compute a polynomial of degree 10000 and try to find all the zeros to factor it of a polynomial of degree 10000.
+34:31
+So again, it's a very nice project idea would be to think about what are algorithms
+34:41
+computationally efficient algorithms for finding eigenvalues and eigenvectors?
+34:45
+Profoundly important problem. So here we will use the example of the strategy for small examples and still
+34:50
+theoretically useful of finding the determinant of the characteristic polynomial.
+35:00
+So in this case, then I'm trying to find where I am finding, I suppose, the determinant of one minus lambda three three minus three.
+35:06
+Minus five, minus lambda, minus three, three three, one minus lambda.
+35:16
+So this is a calculation that I'm sure that all of you can do, but I don't think we need to go through it together in the moment.
+35:24
+So this becomes minus lambda minus one times lambda plus two squared.
+35:31
+For her, there is the repeated eigenvalue, so this is a particularly special situation, it's not a generic situation.
+35:38
+Maybe I should switch boards. Sorry, that's warm, I shouldn't cover that after I finished writing.
+35:53
+OK, so just to summarize, step one, we found eigenvalues of one and an eigenvalue of negative two.
+36:11
+And again, I mentioned this before, but I'll mention it again.
+36:21
+When you have an eigenvalue appearing some number of times in the characteristic polynomial,
+36:24
+you refer to that as the algebraic multiplicity of your eigenvalue. So the algebraic multiplicity of the eigenvalue of one is one.
+36:30
+The algebraic multiplicity here, the algebraic multiplicity.
+36:38
+Is to because it appears as a factor, twice in the juristic polynomial.
+36:43
+So step two is then we want to find the corresponding null spaces.
+36:49
+So certainly something that you're all prepared for and comfortable, comfortable with for tonight would be finding a basis for a null space.
+36:55
+So this is a good example for us to work through. So we take each. Eigenvalue and we compute the corresponding eigen space.
+37:03
+So the EIGEN space corresponding to the eigenvalue of one is the null space of a minus the three by three identity matrix,
+37:11
+which is then the null space of the matrix. Zero, three, three, minus three, minus six, minus three, three three zero.
+37:19
+Now we Robredo's, so then you reduce the matrix and then you end up with one zero minus one zero one one zero zero zero.
+37:35
+Which makes sense that it had one free variable. In fact, one result that we're not going to prove, but it's nice to notice,
+37:46
+is that the dimension of your eigen space is always at most the the algebraic multiplicity of zero.
+37:55
+So because you have a algebraic multiplicity of one here,
+38:03
+you can have at most one linearly independent eigenvectors vector corresponding to this eigenvalue.
+38:06
+OK, well, now in this case, we have the one free variable. So, you know, the nullity is one you're expecting one basis factor.
+38:12
+So then again, we can do the usual thing too. Then, right, this is then equal to the span of one.
+38:18
+Minus one one. For instance.
+38:28
+So there is my basis there for then I can space corresponding to eigenvalue of one.
+38:35
+So I have one I can Vector, and I want three.
+38:44
+So the other two had better come from the other eigen space or I know I'm just out of luck.
+38:49
+So now we take the other eigenvectors eigenvalue route.
+38:58
+So the eigenvalue the eigen space rather is the null space of a plus two times the three by three identity matrix,
+39:02
+which then this will be the null space of the Matrix three three three minus three minus three minus three three three three.
+39:12
+And there's a nice matrix to reduce early on a Monday afternoon,
+39:24
+so that's then just equal to the null space of the Matrix one one one zero zero zero zero zero zero.
+39:29
+There are two or three variables now. It's good because I was hoping that I would find two linearly independent eigenvectors.
+39:38
+So now I can then write this as the spin.
+39:45
+Of the two vectors, I guess I could take, for instance, minus one one zero and minus one zero one.
+39:51
+Those would be give me a basic. For this particular agent space.
+40:02
+So now I can apply the tag analyzation theorem.
+40:08
+Maybe I'll leave up the original matrix. So now step three, we want to apply that idealization theorem.
+40:13
+So the Digi Analyzation Theorem tells us that a is going to be equal to PDP inverse, where PND are determined vectors.
+40:20
+So now by the diagonal ization Theorem A is equal to p the P inverse where.
+40:30
+D. Well, it's going to be the diagonal entries will be the eigenvalues, the eigenvalues in this case were one and negative two and negative two.
+40:40
+So it's repeated. That's why it shows up twice on the diagonal. And he was supposed to be my be my matrix coming from my baby eigenvectors.
+40:54
+So in this case, I need to write them in the same order that I've written the eigenvalues.
+41:04
+So the first one is one minus one one. That's Nagan vector coming from the eigenvalue of one.
+41:09
+Now these two are coming from the other eigen space. So then I have minus one one zero minus one zero one.
+41:15
+And the calculation that you can check, but I'm not going to do it for you, is you can compute this matrix times this matrix times p inverse.
+41:25
+And it will indeed be equal to a. And that will generally be true.
+41:35
+Jonathan is one of the second around the order of this agile life.
+41:39
+Yup, yup. So like, for instance, like I could scale this one, it's still an eigen vector.
+41:50
+No problem. All that's going to change his plea here and the inverse here, because it's on both sides, it changes accordingly.
+41:55
+So yeah, there's not a unique choice here. They just have to be three linearly independent eigenvectors.
+42:03
+The thing de here is sort of unique up to the choice of the eigenvalues, the order that you've written them down and.
+42:09
+Of course. Sure.
+42:18
+So here I'm looking at the whole space. Of one one one zero zero zero zero zero zero, so that's like this.
+42:26
+Matrix.
+42:37
+So there's not much more that I can do with The Matrix, the augmented matrix, so instead what I turn it back into a linear system of equations.
+42:40
+So that tells me X plus y plus z. Is equal to zero.
+42:46
+So that tells me that X equals or maybe Vector X is equal to x y z.
+42:51
+So maybe solve for X. When we saw four, so then if we solve for X here, I would get minus y minus z y z.
+43:01
+So then that's equal to y times the vector minus one one zero for z times the vector minus one zero one.
+43:10
+So that. Good question, Tommy. So things like.
+43:21
+Yes. So that would be something else you could say that's a little bit of work to prove it, but yeah,
+43:35
+you could say that the the in order for a matrix to be diagonals of all the
+43:39
+algebraic multiplicity must be equal to what's called the geometric multiplicity,
+43:45
+which is the dimension of each eigen space. The sum of the each the dimensions of the eigen spaces must add up to RN.
+43:49
+So, yeah, that's a nice way of thinking about it also could be a nice project since I'm not going to do that in class.
+43:57
+So, um, let's do one more example, and then I have these two differential operator questions that I'll do at the end.
+44:05
+All right. So let's do one more example, this one is I can do a little bit more efficiently.
+44:22
+So now let's take another three by three matrix again, given the context that's just coming from numbers in The Matrix,
+44:38
+we have no geometric context to go from to kind of guess things. We have to use more algorithmic methods.
+44:46
+Two four three minus four minus six minus three three three one.
+44:53
+So again, the same prompt diagonal lines, if possible, find a basis in which the matrix of a will be diagonal if possible.
+45:01
+So we go through the same steps as before.
+45:13
+Step one, we find the eigenvalues, the only way we really know to do that is through the characteristic polynomial.
+45:16
+Again, there are better methods, especially if you are thinking about applying this in sort of a context, maybe with a large dataset.
+45:25
+It's nice to learn those methods that their.
+45:33
+So here, if I look at the characteristic polynomial, this will be the determinant of a minus lambda three.
+45:38
+It's actually a nice product from last year, one student went through like actually finding an eigen basis for an extremely large
+45:48
+dataset from a biologic biology context of looking at like genetic sequences.
+45:55
+And so it's a really interesting to see it play out that way. So here, if I die, analyze this one again, I won't show the exact calculation here.
+46:01
+So we get this is our characteristic polynomial after you factor it.
+46:14
+So that means the eigenvalue. For one and two, again, the second one, the two has algebraic multiplicity to.
+46:18
+One only appears with one factor here. So it's the multiplicity one.
+46:30
+So now, step two, we need to find the EIGEN spaces. And again, it's the same thing.
+46:37
+We just need to find bases for the north faces. It's really a critical skill.
+46:45
+So here, let's do the first one. If I take the eigenvalue, land is equal to one,
+46:52
+so then the corresponding EIGEN space will be the null space of a minus the three by three identity matrix.
+46:57
+Well, saving a little bit of time. I'll just tell you, this comes out to be the vector one minus one one.
+47:04
+Lambda has equal to two again, I'll just save a little bit, uh, uh, who did I make a mistake here?
+47:16
+Well, I'm just going to.
+47:28
+So then the eigen value corresponding to to the eigenvectors with the null space of a minus two times the three by three identity matrix.
+47:30
+And the point that when you compute this one, you will actually only get one free variable, so you'll end up with minus one one zero.
+47:43
+If I remember, right?
+47:53
+So that means that we can only find two linearly independent eigenvectors here instead of the required three to pull off diagonal ization.
+47:55
+So the point wasn't really to see the exact reduction here, so I'm not going to go through all of those steps for you.
+48:06
+But because we only have then to linearly independent eigenvectors, then that means that a is not diagnosable.
+48:12
+So then by the dying analyzation theorem.
+48:20
+A is not diagnosable, there is no basis, there is no basis, no matter how clever you are, where your matrix would represent it as a diagonal matrix.
+48:26
+Tommy. That's a good question.
+48:41
+Hum, hmm. But I mean, in terms of the geometry of a.
+48:47
+So it would be telling you about the number of directions in which your matrix is operating and sort of just by scaling,
+48:52
+and that there's essentially only two of those that operates just by scaling.
+48:59
+If it were, say, a larger matrix,
+49:04
+it could be representing that maybe you have something else going on where maybe you have like some kind of a rotation.
+49:07
+Like when I was thinking about my example here, which will come up next class when I'm rotating around,
+49:14
+I have this nice eigenvectors coming from my axis of rotation. But anything in this plane is not just a scaling by a real number.
+49:19
+So then we would want to think about like, how could we diagonals the rest of the transformation?
+49:28
+What would I do with the rest of the coordinates?
+49:33
+And so what's going to come up there is that with the way that we usually express rotation is by multiplying by complex numbers.
+49:36
+So what we really then have in that context of rotation as I spin around, that's how I think about complex numbers is I just get really did.
+49:44
+So. Let's try to repeat the same joke, but sometimes it'll work.
+49:52
+Clearly, if you're thinking about what that would mean is it's telling you something about a number of nicely behaved direction.
+50:01
+The other side of that is that can't diagonal lines.
+50:07
+There are other things that you can do like you could ask whether you could put it in a different diet.
+50:11
+But maybe it's close. Like what kind of matrix would you?
+50:18
+It doesn't happen again. They can offer triangular matrix doesn't seem so bad.
+50:22
+I mean, especially if maybe you can get a bunch of zero, maybe. What nice.
+50:31
+OK, so those are my two examples of one you can diagonals, one you can't diagonals,
+50:46
+so we know that the story is that we can't always diagonals, but we have distinct eigenvalues.
+50:52
+We can't. And that's sort of the one that's most relevant to experiments and data sets anyway.
+50:58
+So I thought what I would do with the rest of my time is go through two examples of working with differential operators,
+51:06
+so a differential operator, you'll recall, is just a linear transformation on function spaces.
+51:13
+So we've been doing a lot of that already, so we'd like to know, and this is especially a context that comes up a lot in, say, quantum mechanics.
+51:19
+So let's take a relatively simple function space the space of polynomials of degree two or less.
+51:28
+So I'm going to define T to go from the space of polynomials of degree two or less to the space of polynomials of degree two or less.
+51:35
+That's what I mean by a differential operator.
+51:43
+It's a linear function on a function space, so it functions and it outputs functions in this case, polynomials.
+51:45
+Jonathan? And space is a vector space where the elements are functions.
+51:53
+So here, like the elements inside a two, these are just polynomials,
+52:00
+like when you talked about the space of continuous functions from zero to two pi like Oh, sine X is now a vector and Cosine X is a vector.
+52:04
+So it really showed the for abstract. So we need to say what this thing is going to do.
+52:11
+So it's a polynomial p and what it's going to do. Is this going to output the polynomial p plus T plus one times the derivative of that polynomial?
+52:17
+So that's just some rule, just like any other function you've seen before in your life, it just does something to the input.
+52:33
+So in this case, it takes the input and then adds the derivative time something.
+52:39
+It's just some example. So the first part is let's take a basis.
+52:46
+One T n t squared.
+52:53
+So this could be a basis for both I and the domain, so it makes sense, and this is a question that I could certainly ask you on, say the midterm.
+52:55
+Here's to find the B matrix of T, so then find.
+53:05
+T relative to the standard base.
+53:11
+The next question I want to ask here is, can I diagonals this operator, which is at the heart of a lot of questions in quantum mechanics?
+53:17
+Yeah. I just mean that it's a function between it's a linear transformation, which phases.
+53:28
+So it's like the derivative is an operator that eats a function, it outputs a function.
+53:36
+So in this case, I'm eating a polynomial of degree two or last thing, a polynomial degree us, so.
+53:43
+So recall, the way that we find the B matrix is we plug in the base factors and we express them in terms of those coordinates.
+53:51
+So here let's compute what tea is applied to one.
+54:00
+Well, that's equal to one plus tea plus one times the derivative of one, which is just zero.
+54:04
+So then this just comes out to be the polynomial constantly equal to one.
+54:11
+Then my second basis factor was tea. So then I take tea, so I'm just plugging it in to this expression.
+54:15
+I'm just following this rule. Plus tea plus one times the derivative of tea, which is just one.
+54:22
+So now simplifying I get to tea plus one.
+54:30
+Now, my third one. T of T squared again, all I'm doing is plugging it into this funny looking operator.
+54:35
+I shouldn't call it funny looking. That's not nice. This. Nice operator.
+54:42
+So I plug it in and I get T squared. Plus T plus one times two T.
+54:50
+So there's the derivative. And then when I multiply this out, I'll have T squared plus two T squared plus two T.
+54:57
+So I get three t squared two plus two T.
+55:05
+So those are my three basic factors when I plug them into T. But now I can't take those as the columns of a matrix because they're not columns,
+55:11
+they're not column vectors, they're not elements in our three.
+55:21
+So what I need to do is I need to express each of those in coordinates relative to the B coordinates.
+55:24
+So in this case, just relative to the standard coordinates.
+55:30
+So if I do that, then I get T of one relative to the system, we'll just be the vector one zero zero.
+55:38
+Because I use one of the first bases factor zero of the two others that take T o t i express
+55:50
+that as a linear combination of those three basis factors and I would get one to zero.
+55:58
+And finally, T of T squared. Written relative to the B coordinates, and I'm taking this thing.
+56:06
+Well, I use zero of the one part, I use two of the tea parts and I use three of the tea squared parts.
+56:13
+So this becomes zero to three.
+56:20
+So that means the matrix, the B matrix, the matrix of T relative to IS B will be equal to one zero zero.
+56:25
+One to zero and zero to three.
+56:35
+There is the matrix. So now I can study this three by three matrix in order to understand my linear operator.
+56:42
+So in particular, I could ask you questions like, Is this injector?
+56:50
+Is it subjective? Is it is it subjective, is it interactive?
+56:54
+Can you tell me? Jonathan, the.
+57:00
+Yeah, so the columns are linearly independent, there's three of them, the convertible matrix theorem applies.
+57:10
+And so we know that it's going to be both inductive and surge active.
+57:15
+It's going to be a bioactive transformation. OK.
+57:20
+Now we shouldn't make this relevant to spend talking about, too.
+57:25
+So now my next question is, can you diag, is this differential operator?
+57:30
+So that would mean, can I find a basis of eigenvectors?
+57:35
+So here to find eigenvectors and eigenvalues this particular matrix, the matrix attached to it?
+57:39
+That's right, perfect, right?
+57:52
+So we already know it's going to be diagnosable because we can we know it's upper triangular base, it's upper triangular,
+57:54
+so we can read off the eigenvalues very quickly because we proved that the upper triangular matrices,
+58:00
+the eigenvalues will just be the diagonal entries. So then the eigenvalues.
+58:05
+R one, two and three. Then we just observed we didn't necessarily write out the formal proof observed, if you have can use,
+58:13
+you can eigenvectors corresponding to each of these eigenvalues, they will be linearly independent.
+58:23
+You have three of them, so they will form an eigen basis. So then the diagnostician theorem tells us that this will be diagonal sizable.
+58:30
+So maybe just for kicks. Why don't we actually do it?
+58:39
+So if I take this Matrix B matrix here, a so if I take a minus the three by three identity matrix.
+58:45
+So now I'm just subtracting one from the diagonal, so I'll get zero one zero zero one two zero zero two.
+58:55
+OK, so now I can read off with the null space of this matrix is the first variable is free on the second to determine.
+59:07
+So this will just be the span of one zero zero.
+59:16
+Now, remember that, yes, I'm sorry, my. Why are we able to?
+59:25
+I mean, the values of this. I don't know of T yet, because the eigenvalues are going to represent tea with respect to and coordinate system, right?
+59:36
+So the eigenvalues don't change when you change coordinates.
+59:51
+That's sort of a fundamental property of the eigenvalues, even if I change the coordinates, the eigenvalues will still be the same.
+59:56
+So that's sort of an invariant quality of the transformation.
+1:00:02
+So if I change this to consider the sea matrix of this relative to some other basis, the eigenvalues will still come out to be one to three.
+1:00:06
+How? We know that you could look at the characteristic polynomial and look at them
+1:00:14
+with the zeros of because any matrix that's related by a change of coordinates,
+1:00:19
+it'll be like a is equal to PBP inverse. So then you had two problems that problem where you compared the determinant of a with the determinant of.
+1:00:23
+I think in that case, it was CBC Inverse. But you show that then those determinants were the same thing.
+1:00:33
+I don't. I'm sorry, I'm not following. I understand.
+1:00:40
+I don't. So what I'm saying is, is that here the eigenvalues of tea will be the same and any coordinate system.
+1:00:44
+OK. Because remember, let's just take a brief diversion here.
+1:00:53
+So if we have a matrix, A is similar to B.
+1:00:57
+Let's just pause for a moment. Then a is equal to p be p inverse.
+1:01:02
+Now I claim that the eigenvalues. Of A.
+1:01:11
+Are the same. As the eigenvalues of the.
+1:01:18
+OK. Well, think about how you compute I. Euros.
+1:01:28
+Characteristic polynomial of B. Oh, we can.
+1:01:39
+Let's spread it out. So if I take the characteristic polynomial of a.
+1:01:45
+This is, by definition, the determinant of a minus lambda times the NBN identity matrix.
+1:02:02
+Great. Right? OK. So if a is similar to be you, what can you tell them, what can I replace it with?
+1:02:10
+Well, then I can just replace this with p p p inverse minus lambda times the n by an identity matrix.
+1:02:18
+Oh, no, this looks terrible. There's a pea here, I want there to be a pea over here.
+1:02:28
+How can I get a pea over there where I can rewrite this identity matrix?
+1:02:36
+Blindness, lambda times, p times, p inverse.
+1:02:48
+Now I could factor out the pea on the left could factor out the P inverse on the right.
+1:02:56
+So. Jonathan's going to make me rewrite my next piece so I can have this problem on there.
+1:03:05
+But. So P B minus lambda times and by an identity matrix times p inverse.
+1:03:12
+Right. Because I just factored out the pea on the left. The Universe on the right.
+1:03:22
+Now, the determinant is multiplicative, this part you've actually done, you really,
+1:03:28
+really did this as your piece, but the determinant is then multiplicative. So that was like a Chapter three.
+1:03:32
+I like this problem, actually. He.
+1:03:41
+But oh, the one, yeah, you're right, you're right, you're right, you're right. Thank you.
+1:03:49
+Thank you. I went on autopilot. You're right. Thanks. Well, now these are just multiplying real numbers together,
+1:03:53
+actually graded this problem on the piece that so I saw like 200 people telling me an explanation of this problem.
+1:04:03
+So then these are all now real numbers. So then I can compute this real number, pass this one,
+1:04:09
+and then I could use the multiplicative it again to rewrite that as the determinant of p times the inverse.
+1:04:15
+Well, then that becomes the determinant of the identity matrix. That's an upper triangular matrix.
+1:04:21
+So then that will just be one. So this becomes the determinant of B minus lambda times i n, which is the characteristic polynomial of lambda.
+1:04:25
+So then if this thing is zero, then this thing is zero. So the eigenvalues are the same in any coordinate system.
+1:04:38
+So this is a quality of your transformation, not of the basis.
+1:04:47
+OK, that's what makes it really useful in trying to find a good basis. Yep.
+1:04:52
+But that doesn't always happen to me, so I'm glad I'm making sense.
+1:05:02
+So here are the determinant of this quality, right? I have these three matrices together.
+1:05:08
+I use the multiplying activity of the determinant to then rewrite it this way.
+1:05:12
+Then these two cancel. So I'm just left with the determinant of B minus this, and then I'm left with what is the characteristic polynomial of B?
+1:05:16
+So that means, oh yeah. So then that means that the eigenvalues of B will be the same as the eigenvalues of A.
+1:05:24
+So that means the eigenvalues are telling you something that coordinate independent.
+1:05:32
+So that's what makes them useful in finding good coordinate systems is because
+1:05:37
+it's telling you something that's fundamental about the transformation itself.
+1:05:41
+That's the eigenvalues, yes, then you find the corresponding eigenvectors. Yeah.
+1:05:47
+All right. Let me look at the clock here. Oh, it's not some time, so we're turning to that answer your question.
+1:05:53
+Sort of. OK, well, we can come back to it to future.
+1:06:00
+Well, I think now I well, maybe I'll leave the question up. Sure. OK.
+1:06:07
+When we when I get the like emails from canvas telling me about the analytics on the videos,
+1:06:17
+then I'll get like a lot of people watching like certain minutes of this video.
+1:06:22
+But this are the next point actually comes right back to, I think, Jonathan's question.
+1:06:36
+I think this all started by saying,
+1:06:42
+why did the eigenvalues of T tell you about the eigenvalues or the eigenvalues of the matrix tell you about the eigenvalues of the operator t itself?
+1:06:45
+And the reason why that's true is because these values here are just obtained through a change of coordinates.
+1:06:55
+And so we we did over there as we established that the eigenvalues themselves don't change.
+1:07:02
+When you just change coordinates and we can actually observe this,
+1:07:07
+maybe a calculation will help in convincing us suppose that we took one of these things.
+1:07:12
+So like the eigen vector corresponding to this needs to be a polynomial.
+1:07:17
+What polynomial corresponds to one zero zero in the standard coordinates?
+1:07:22
+What so then, the EIGEN space corresponding to the eigenvalue of one is the span of that polynomial what?
+1:07:28
+So this is an eigen vector for the matrix. One is an eigen vector for the the operator.
+1:07:37
+So this is often called an eigen function to really emphasize that the element here is a function.
+1:07:45
+So we can actually check it. So T of one. So if this is going to be an eigen vector, it should be lambda times T of one.
+1:07:51
+Right? That's what it would mean. So you are to some scaled version of your original thing, what's lambda in this case?
+1:08:02
+One. So what were you hope for is that T of one will just be equal to T of one,
+1:08:08
+which if we plug that in tier one, when we compute, it's just equal to the polynomial one.
+1:08:13
+Right? So when we plug in of one, uh. So we want to have one to be equal to just times, want some and one when we plug it in.
+1:08:22
+This was the one plus tea plus one times the derivative, which is zero, which is equal to one.
+1:08:33
+So this is some input polynomial that is a scaled version of that same input.
+1:08:40
+So just by way of terminology, again, if you take physics 140 three, you'll see a lot of this.
+1:08:47
+This is what's called an eigen function. I can function is just fancy for eigenvectors in a function space.
+1:08:53
+Let's do do I have time for another one? OK. Yes.
+1:09:04
+Let's see. Oh yes, the second the second eigenvalues actually better illustrates the point.
+1:09:08
+So let me do one more. Let me do one more, and then I'm probably going to run out of time.
+1:09:15
+So if I take a land is equal to two, so then I'm looking at a minus two times the three by three identity matrix.
+1:09:23
+So again, remember there is my A. So you get minus one one zero zero zero two and we get zero zero one.
+1:09:32
+So now the eigen the null space of this matrix is a little bit more interesting.
+1:09:41
+So now it's the span of the vector one one zero.
+1:09:47
+That's not the eigen space, because remember, eigenvectors need to live in the domain of your operator in the domain of your function.
+1:09:53
+So what's the corresponding polynomial to this thing? Jonathan?
+1:10:00
+One plus t, so that means the Eigen space correspondent. But.
+1:10:06
+So now let's check that let's go over here and see if that actually comes out to be what we hope and I can function should be.
+1:10:14
+So now if I compute T of one plus T, this will be equal to.
+1:10:22
+Well, this function again one plus T plus one plus T times the derivative of one plus T, which is just one.
+1:10:29
+So that becomes two times one plus T. So what does just?
+1:10:38
+We're only scaling your input so that it's an I can function again.
+1:10:52
+The third one, I'll just tell you. And the third.
+1:10:58
+You will end up with the eigen space corresponding to the span of one plus two T plus T square.
+1:11:06
+So now, just in my last little bit of time here, let's compute the The Matrix for your transformation relative to these basic factors.
+1:11:16
+So now let's call it the basis of one one plus T and one plus two T plus t squared.
+1:11:29
+So this is an eigen basis. They're linearly independent. We can find now T relative to C.
+1:11:39
+Would you expect this matrix to look like? What do you hope for?
+1:11:47
+You hope it's diagonal, right, because that was the whole point of getting an eigen basis. So by definition, this will be two of your first one.
+1:11:54
+One written relative to the sea coordinates T of one plus T written relative to your sea
+1:12:01
+coordinates and T of one plus two T plus T squared written relative to your C coordinates.
+1:12:07
+OK. Well, the first one just becomes one again, we checked that one.
+1:12:15
+So we want to write one as a linear combination of these. The second one we just computed over there T of one plus T was two times one plus T.
+1:12:21
+The third one, if we computed that one,
+1:12:31
+which I'm not going to do because of the running out of time will then just become three times one plus two T plus t squared.
+1:12:33
+So now, if I wanted to write, one is a linear combination of these three, it's one 00 phone, right?
+1:12:44
+Two times one plus two is a linear combination of these. I take zero times this one two times this one, zero times this one,
+1:12:50
+so I get one zero zero zero two zero and the third one is just three times the third basis vector, so it's zero zero one.
+1:12:57
+So indeed, it does give me a diagonal representation of this particular operator.
+1:13:07
+OK, so I think I'm out of time. I can.
+1:13:13
+In fact, when a minute over, I guess we're going a minute over the third.
+1:13:16
+The last one on there is, I think, another one that's nice to play around with just to make sure that you understand how to do those.
+1:13:20
+The solutions are already posted to canvas.
+1:13:27
+If you want to see my solution to these particular problems, but otherwise feel free to ask about them in office hours.
+1:13:29
+I'm happy to chat about them and I'll see everyone later this evening.
+1:13:35
+All right. So you sort going to.
+1:13:39

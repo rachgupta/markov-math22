@@ -1,0 +1,1160 @@
+﻿Hi, everyone, welcome back. I hope you all had a nice weekend, the hand out is there.
+0:02
+So if you need need or want a copy, it's also on the website.
+0:11
+So if you prefer the digital copy. Feel free just to quickly run through some announcements at seven is do on our normal schedule.
+0:15
+So on Wednesday we have lots of office hours today.
+0:25
+Got lots of great questions in my office hours before class today. So that was fun.
+0:31
+I think that Caleb can get some more fun questions later today at office hours.
+0:36
+So today we'll have a bunch through math night tonight, then also a bunch tomorrow as well, and including my Wednesday morning office hours.
+0:45
+So feel free to come by and ask questions. We have our fourth quiz on Friday, so keep that in mind on our usual schedule.
+0:53
+So every two weeks or so. So, again, kind of getting used to the questions that might show up on a midterm.
+1:05
+I'll also put my link up here again, I keep adding more times if you'd like to have individual meetings with me at this point,
+1:13
+I'm happy to open it up to anyone I've mentioned to students. Sometimes it's faster to resolve things.
+1:18
+And a quick one on one discussion, like a 10, 15 minute meeting,
+1:24
+we can often go through a number of your questions and faster than going to office hours.
+1:27
+So feel free if you can find a time. I just kind of tend to keep adding times a few weeks out as my schedule solidifies more.
+1:33
+In terms of the reading, we're nearly done with four point one, you've probably already finished your reading for that section.
+1:43
+We'll get into four point two and probably finish four point two today.
+1:49
+The I guess the only other thing that I'll announce today is I just wanted to take the
+1:54
+opportunity to thank all of you or many of you for filling out the early course feedback.
+1:59
+I think there are some really good ideas there. There are many great ideas that I wish we could implement, but unfortunately we can't.
+2:05
+To the student that suggested we just make all the classes longer and meet more often, I would be happy to.
+2:11
+I mean, nothing would make me happier than just having many more sessions.
+2:19
+But I suspect that there's other voices in the class that might disagree with that suggestion.
+2:22
+The other suggestion that was also interesting that we've discussed at length in the department that might change in math.
+2:31
+Twenty two in the future is whether there should be a mandatory section for this class, which a number of students suggested currently.
+2:36
+The I would say that that's not in the cards, certainly won't change for class this semester or next semester.
+2:43
+And the main way that I'm trying to provide the same resources that you would have with a mandatory section is to have a bunch of optional sections.
+2:50
+So the sections for this class are really the problem sessions. Caleb's problem session on Thursday, Kevans on Sunday, seeings on Thursday.
+3:00
+And I think those serve the purpose of just another place to see more problem solved.
+3:09
+Unfortunately, those are a number of suggestions that I can't implement.
+3:15
+There were a bunch of suggestions that I think we can implement and we will try to do so.
+3:18
+We'll do some amount of load balancing to do with office hours and problem sessions
+3:22
+to try to move them to times that it seems like people can make more use of.
+3:27
+And one additional thing that students asked for was just more problems.
+3:33
+So you might have noticed, I assume, that they did not mean more required problems.
+3:38
+But I'm certainly happy to provide many more problems that you can just use to get more practice.
+3:45
+So I've started adding recommended computational problems to the piece that's to kind of give you more practice with computational problems.
+3:53
+I've also started adding more proof problems to or problems that I would consider to be at level questions to the handouts,
+4:02
+which some days we'll get to in class. Other days I'm really just putting them on there for your own benefit.
+4:10
+So a number of suggestions, I think, are really great and we'll try to implement as many of them as we can,
+4:16
+and I do appreciate very much the the feedback. So thanks for doing that.
+4:23
+Are there any questions before we get started? Does anyone want to more emphatically ask for more homework problems?
+4:28
+So if you recall what we've been doing over the last few classes or last class, really is that we've done.
+4:42
+Oh yes, go ahead, Tommy. So quiz for we'll go back to the beginning of inverses,
+4:48
+so the last quiz really only went through the definition of what it meant to be a vertical matrix.
+4:56
+So like everything in Chapter two and Chapter three should be there. I believe that goes back to October 4th.
+5:01
+And in terms of the end of the material, probably Friday is class.
+5:07
+So I think that was, what, the 18th? So the 4th through the 18th.
+5:11
+So today's class won't be on the quiz.
+5:15
+The style of reasoning that we're doing here is certainly useful, but I don't think it needs to necessarily be on the quiz.
+5:18
+Oh, I guess. I mean, is today the 18th really mixed up then?
+5:25
+I'm sorry. So, I mean, not Friday is class, so the very beginning of vector spaces.
+5:28
+So you should know what a subspace is. You should really do some basic things with sub spaces.
+5:32
+You should tell me if something is a subspace. Not much more beyond that.
+5:36
+Sorry about that. I have small children at home, so I'm very sleep deprived, so memory formation, as all of you know,
+5:42
+from being sleep deprived, memory information gets harder when you don't get enough sleep. But let's dove into some math.
+5:53
+So if you think back to what's the big idea for what we're doing today and over the next week and a half or two weeks
+5:59
+or so is that we want to generalize all of the ideas from the first three chapters of this course to a wider context.
+6:05
+So the way that we're going to do that is we realized R.N. has these wonderful properties and we're going to say,
+6:14
+let's just study any object that has those wonderful properties.
+6:20
+So we give a name to objects that have those properties, namely when we started calling them vector spaces.
+6:25
+So we wanted to start understanding what we could say about vector spaces and
+6:31
+to be able to sort of drag along all of those ideas that we had from before.
+6:35
+So just to make sure that we're all. In agreement on what the goal is, the goal is that we want to extend our tools, our toolkit from our own.
+6:41
+Too abstract vector spaces.
+6:59
+So one thing that you might have noticed that mathematicians like to do is that when we have a good idea or someone has a good idea,
+7:08
+we like to make that thing the object of study. So here, instead of studying our end, we said, well, what made that a good idea?
+7:16
+Now let's just name every object that has those properties,
+7:25
+something we call them a vector space, and then we prove things about the vector space instead.
+7:29
+So we don't need to individually prove all these results for the space of and by and matrices or the space of polynomials or the space of functions.
+7:34
+You can just say, because they're like AURIN, many of our results will carry forward.
+7:44
+So that's what our goal is. That's what we're shooting for. That's our aim.
+7:51
+Uh. Well, if you then think back to the little bit we got to last time was we just started developing this library of examples of
+7:59
+vector spaces and the way that we wanted to understand those vector spaces was in terms of their constituent structure,
+8:09
+like what kind of sub spaces do you have within them? So when we think about R n, we had lots of really great sub spaces.
+8:15
+When we're thinking about lines and planes in our N, we had this nice geometric way of viewing that.
+8:22
+So we gave then also a precise notion of what we meant by then a subspace inside of a vector space.
+8:27
+Again, just trying to abstract away what we meant by a line going through the origin or plane going through the origin inside of our theory.
+8:34
+So maybe just as a bit of review at the beginning, let's just recall what we meant.
+8:42
+So a sub is. Of the age of a vector space V.
+8:48
+Is a subset. Such that the following properties hold.
+9:00
+The first property we want. H.
+9:11
+It to be closed under vector addition, so if you had two vectors inside of each and some of those two vectors.
+9:17
+We'll also be inside of age being careful that our sum is now defined by the operation
+9:25
+on we and then simply we would like to be closed under scalar multiplication.
+9:31
+So if C is one of our scalars. So in this case, a real number and use some vector in H, then C times, you should also be inside of H.
+9:37
+So that's just what we meant by a subspace. OK, but if you think back to the intuition we want to have is some spaces,
+9:51
+we're supposed to be like lines and planes going through the origin inside of our three.
+10:04
+So certainly in those cases we have the zero vector.
+10:10
+If you added two vectors on a line going through the origin and our three,
+10:14
+you would get another vector going through that same line on that same line in our three.
+10:17
+And if you scaled a vector on that line, you just get another vector on that line so you would get those properties.
+10:22
+So if we thought about how we actually described those sub spaces inside of our three or knw,
+10:32
+what was the most common way that we described a subspace, how did we think about it?
+10:39
+How did we describe it, subspace, what do we often try to do in order to say what the subspace is?
+10:52
+So if you're thinking about a plane. In our three, how what were the ways that we could think about a plane?
+11:00
+Savir. This a span of some number of vectors in the space, right, so we tried to get a spanning set for that particular collection in our end,
+11:09
+we would like to then do the same thing here because we have a vector addition and scalar multiplication.
+11:21
+It makes sense to define the span. So let's just do that.
+11:25
+So in this case. If you're given, say, some Vector's V one through VPE as elements in your vector space,
+11:30
+well, then we can now define the span of these vectors in the abstract vector space.
+11:41
+We're really to be essentially the same thing we had before,
+11:51
+it can be linear combinations of one through VPE, so see one v one plus dot, dot, dot plus c.p VPI where?
+11:53
+See, one up there are elements in your scalar field.
+12:05
+So it's the same definition we had before, but now the thing that's a little bit more complicated as our vectors could be like two by two matrices,
+12:13
+they could be functions, they could be a little bit more general objects.
+12:21
+Yes, there are. One of these.
+12:26
+So when we talk about what we want that to mean, well, we can prove that that will represent the additive inverse element.
+12:36
+So we can from the vector space axioms will say that that will perform the role of our additive inverse.
+12:44
+From the vector space axiom, so you and I have done a bunch of those together by email, so let's let's follow on by email.
+12:52
+So here, when we're thinking about this, this definition of the span is.
+13:00
+The first claim that we would want to do is to make sure that this thing was actually a subspace so the span of one.
+13:07
+It is a subspace. Yes.
+13:17
+Yes, so a subspace implies some additional properties, a subset just means that you're contained inside of the other thing.
+13:32
+So it's like a could be a subset of B and not necessarily be a subspace.
+13:39
+So one quick example. Maybe you're thinking about inside of R2. I could take, say, the unit circle and our two.
+13:44
+This is a subset, but not a subspace.
+13:52
+That would be one example for one, it doesn't contain the origin if you took any line in our two that doesn't go through the origin,
+14:00
+that would also be a subset, but not a subspace. So the subspace implies some additional structure beyond being a subset.
+14:07
+All right, so what we want to be able to do here is we want to be able to prove this from the definitions.
+14:16
+So we need to check these three axioms, so the first thing I would want to do is to show that the zero vector is in here.
+14:28
+How can I show that the zero vector is in here? Quen.
+14:35
+If I scale all the vectors by zero, so if I take zero vector inside of me, this will be equal to zero times the one that I thought to zero times VPI.
+14:43
+This is now a particular linear combination of those vectors. So now this is an element in the span of one through VPE.
+14:55
+OK, so we've checked the first axiom, we've shown how you can represent the zero vector inside if it works the same way as before.
+15:07
+So that's a good start. All right. So now to prove.
+15:14
+So this is a proof of one. Now, let's prove to. Take two arbitrary factors, you and the inside of the span.
+15:18
+Yes. With the operations that you've defined with the.
+15:32
+Yes, or scalars are always the real numbers, so that has to be defined for all real numbers.
+15:55
+So we have to define what the zero real number would be applied to a vector from the vector space axioms.
+15:59
+You can prove that zero applied to any vector will then have to give you your space.
+16:06
+So that's a great question. I mean, there are a lot of these like really great questions,
+16:13
+like Jonathan is bringing up that we can work through from the definitions of a vector space.
+16:17
+And those are good exercises to do.
+16:21
+Certainly they're great practice for like a quiz or an exam, but we certainly can't do all of them together in class.
+16:23
+OK, Quinn. We can limit.
+16:29
+For us are real numbers or their complex numbers, except for this one exception on your piece at.
+16:37
+Yeah, so now you're taking you're taking a very important field of two elements, zero and one.
+16:43
+So it's actually even a little bit nicer there because they're not an infinite number of scalars to check.
+16:50
+There's just exactly two scalars that you need to worry about.
+16:54
+So you only need to worry about scaling by the zero element there and the one element there,
+16:57
+you don't need to worry about scaling by any possible real number at all. So it means that proof by cases works a lot better there.
+17:01
+Early, Demidov. In fact, in computer science, that's one of the most common ones you might want to do to represent zero being off and one being on.
+17:08
+So, yeah, that's a very important vector space. So you can certainly change your scalars.
+17:19
+You just want them to be a scalar field. So good questions. So here now, what could I do if I wanted to then prove this?
+17:24
+It's a great quiz question. For maybe not this quiz, but maybe a following quiz, we.
+17:35
+Perfect right to use in here, so just use the definition of being in the span, so then, you know, there are some scalars see one through.
+17:54
+So this is true. Then you just need some other scalars.
+18:01
+So say these one for you, one plus DPE, VPE or scalars C one up there, S.P. Real's and D one up through DPE in the reals.
+18:04
+That's the definition of being in this set that we described. Then I think Zoe's next idea was now just add them.
+18:22
+Seems like a good, good idea. So then we have you, plus we will be equal to see one, the one plus do you one, the one that DPE.
+18:30
+All right, Vector Space Axium two I think was that I could commute vector addition so I could commute all of
+18:50
+these terms involving the one past all of these terms involving PvP to put them next to one another.
+18:58
+Similarly, I could do that with all the others,
+19:04
+another vector space axium so that I could factor out the vector from the two scalars and then write this as a sum.
+19:06
+So then just using those two vector space axioms I get C one plus D one times V one plus DataDot plus C.p plus DPE three.
+19:13
+And now what do you notice about the thing that I've just written here. So this will be by vector space axioms.
+19:26
+Yes, Tommy. And that's why I say to I wouldn't.
+19:38
+It's it's a good exercise for you to work through yourself to make sure that you understand which where you're using, which one at which place,
+19:46
+but I mean, like for me on an exam or a quiz or something, like, I don't want to penalize you because, like, you misremembered one of the axioms.
+19:53
+I mean, like you said three when you meant for something. I mean, that's just too much precision in your memory.
+20:01
+That seems unnecessary. And the numbering is sort of arbitrary anyway.
+20:06
+There's no, like, canonical ordering. They have to come in. So, no, I wouldn't need to see exactly which ones.
+20:11
+I mean, maybe it's a reasonable question on a quiz or an exam to say, like, here's the list of the ten axioms.
+20:18
+Show me where you use each one in this argument or something. I don't particularly like that question either.
+20:24
+It's probably not going to do it, but nevertheless, I could, but.
+20:29
+So then here at this stage, we've now just written this as a linear combination,
+20:38
+so then it is in the span of one through VPI, so hence it's closed under vector addition.
+20:42
+So, Hant. Two old.
+20:51
+Let's just do Prop. three really quickly. Same idea. So we take to be some scalar.
+20:58
+Well, then, if I take three times, you well, then just distribute the sea through the sum so that I never see time,
+21:04
+see one v one start at that time, S.P. VPE.
+21:13
+Well, again, now that is an element that's a linear combination of the one BP.
+21:18
+So that is a subspace. There are a few things to take away from this,
+21:26
+an important thing to take away from this is just how you prove something to subspace by using the axioms.
+21:40
+That's something that I think you're all getting comfortable doing alarming,
+21:46
+something you're all getting to it, you're comfortable doing through the problem set. And we'll do more examples of doing that style of reasoning.
+21:50
+The second take away from this as it gives us a second method for showing some things that you can now use,
+21:57
+either these three axioms or you could prove give a spanning set.
+22:05
+Once you've written it as a spanning set, then you can say, well, we've shown every spanning.
+22:11
+That is a subspace, so you're done. So that gives you two ways of approaching the proof of something being subspace.
+22:15
+So we're starting to build up a bit of theory. All right, so one of our fundamental.
+22:21
+Observations in. OK, I'll I'll do one of one of the comments that I think was quite good on the early course,
+22:34
+feedback was just asking for a little bit more computational examples, a little bit more that type questions or web work style questions in class.
+22:47
+So I don't want to quite skip this problem. So let me give you a concrete example of doing this.
+22:59
+So let me take some vectors here, let me take the Vector V and this is all going to be in the space of polynomials of degree two or less.
+23:10
+So V is equal to one plus two T plus T squared.
+23:19
+I'll take W to be the vector one or the polynomial or the vector one plus T squared, and I'll let you be the vector T plus T squared.
+23:23
+So this is different than the one that I wrote on the handout last time. It's not literally the same one.
+23:33
+I think this one is maybe better so but the same problem.
+23:38
+So now question a nice web work or quiz computational question.
+23:42
+I'd like to know whether say V is in the span of you and W.
+23:50
+Is there an element in the span of You N.W.?
+23:55
+OK, so we have to pass through the definitions here, it's not exactly the same as what we've done before,
+24:05
+so we really need to make sure that we're paying careful attention to what the definitions say.
+24:11
+Well, for you to be in this set, that would mean we want to find, if possible, to Scalars, C one and C two in the real's so that.
+24:16
+This Vector V is equal to see one Hymes you see two times.
+24:32
+Oh, OK. Well now let's just plug in what everything is.
+24:40
+That means you want one plus two t t squared to be equal to see one times T plus T squared plus C, two times one plus two squared.
+24:43
+Right. So we're now we're just asking whether two polynomials could be equal.
+25:00
+So we certainly a question we can do so one plus two T plus T squared.
+25:05
+Let's look at the coefficient of one here. So I have C two times one plus now C one times T plus one plus C,
+25:10
+two Times Square two polynomials are equal if and only if they're coefficients are equal.
+25:21
+So this then gives me a system of equations, namely it gives me the equation.
+25:27
+One needs to be able to see two. One needs to be equal to see one.
+25:31
+Thank you to and to be able to see one, two.
+25:41
+So what I've done is that I've read I've translated this problem into a statement about a linear system of equations,
+25:48
+so it's now n exactly the same sort of thing we've been doing from the beginning of the semester.
+25:57
+So you could form the augmented matrix and reduce and do our whole algorithm if you want, in elimination.
+26:02
+But can you just tell me immediately from this system of equations? It's no solution, right, so there's no solution to this, it's inconsistent.
+26:10
+If you formed the augmented matrix, you would get a row of zeros followed by something that's non-zero in rightmost augmented column.
+26:19
+So no solution. So and hence there is no coefficients.
+26:26
+See one and see two here that would make the linear combination of you and w so then you is not an element in the span.
+26:34
+Of these two polynomials. V, I'm sorry, V.
+26:43
+You. So the basic idea of doing all these sorts of problems, though, will be exactly the same.
+26:50
+We sort of work with our new definitions to translate the question into something we've done before to get a linear system of equations.
+26:59
+All right. So that's a computational level question.
+27:10
+So something that could be a nice question, too, on a quiz, for instance, to give more practice with a quiz or a piece at level questions.
+27:13
+Let's think about a little bit of a harder problem of how we can get new vectors
+27:24
+from old vector spaces or how we can get subspace from other sub spaces.
+27:30
+So the second question that I had for you in the last handout, James. That's a great question.
+27:35
+We haven't proven that yet, so that's open, but we'll we'll show how to get that.
+27:42
+So we we definitely that's not clear from what we've done so far, but that's that's a good question.
+27:48
+Certainly something for us to build towards. Yes. Yup, that's.
+27:55
+Have the first. Safak. By their own admission, in.
+28:11
+Yes, so that there's some spaces so that then we can actually use this to use the results we're developing off the top of your head,
+28:18
+like we just like maybe polynomial vectors, you know, we're going to at.
+28:26
+Well, we've given some examples of some spaces that don't happen to be vector spaces,
+28:32
+so like the simplest way to get things that don't work would be just take something that doesn't contain the origin,
+28:36
+like an R.N. and that would give you a problem. So certainly not everything.
+28:40
+Good questions. OK, so the second type of problem that I'd like to think about here is suppose we
+28:46
+have to subspace this w one and two are sub spaces of some fixed vector space V.
+28:53
+We thought we would just like to know what we can say about these vector spaces so we have their sets, there's subsets of.
+29:04
+And we then have set operations that we can apply on these to try to get new vector spaces or new sub spaces,
+29:15
+so in this case, the two questions to consider.
+29:22
+First, let's consider the intersection of the two. Would this thing be a subspace?
+29:26
+So why would this be a subspace? W w w e.
+29:35
+You know, Daniel. Right.
+29:43
+So in this case, it will work out. So if we have something that's in the intersection, it satisfies the conditions of both of them.
+29:46
+So if you take a sum of two things, it's in both.
+29:52
+Well, then by the closure under vector addition, for one, the sum would have to be in one by the closure of W to the someone else after two.
+29:55
+Therefore it's in the intersection. So you could go through the axioms and verify it.
+30:03
+So this is. It is a subspace.
+30:07
+Checking these three accidents in this case, I think would be a certainly not a quiz problem for a quiz on Friday,
+30:13
+but a quiz five problem would be totally reasonable. But the second.
+30:20
+Operation. What about this one, taking a union instead of an intersection?
+30:28
+Yeah, it seems like there might be something wrong here, so if you were doing this is like approve, give a counterexample on a quiz or an exam,
+30:42
+you might start writing, approve, and then you might get into exactly the problem that you're describing.
+30:52
+When you try to consider the sum, then that suggests to me that I should go back to the drawing board and consider a specific example.
+30:56
+So the easiest place to probably think about examples would be an or two.
+31:04
+So let's take two sub spaces in our two. So let's take, for instance, V to be R two.
+31:08
+I'm going to take W one to be the X axis. So it'll be the span of the single vector one zero.
+31:14
+So this is the x axis. And then let's make our life easy, so we'll take two to be the spane.
+31:21
+Of zero one, this is been the Y-axis. So geometrically, we can view these two faces in the following way again.
+31:31
+It's important for me to use the full range of my technological abilities here.
+31:43
+Orange toxo, that's the. I think it's especially amusing.
+31:51
+I mean, I was a programmer for three years in my life before going to grad school and now this is my technology, but.
+31:56
+Using more technology. So there's two.
+32:09
+And there is one. And now perhaps I'm making too much of a fuss about this, but then as Arjun pointed out,
+32:18
+if I take this vector one zero and this other vector here zero one and I add them together,
+32:27
+I get this vector here one one, which is most certainly not in the union.
+32:35
+So it's not closed under tradition. It's not closed.
+32:42
+All right, so I think those are nice practice problems.
+32:59
+So what I want to do now is to really get into how we can get at some sort of canonical spaces from what we've been doing before.
+33:07
+So we've seen already that inside of our end we can take the span of any collection of vectors and get a subspace.
+33:17
+But there are lots of other sub spaces that we've already been working with before.
+33:23
+So I'd like to give a moment to come back and appreciate those.
+33:27
+So. One of the first places where we thought about getting at a spanning set was the described solution sets.
+33:32
+So that suggests that we go back to the homogeneous system of equations and we
+33:41
+study that set and think about that collection that will again be a subspace.
+33:45
+So let's give a name to it that the null space of a given matrix.
+33:51
+So the null space. Ove and Ambi and Matrix A.
+33:56
+Is, I'll even say denoted by. Well, no, I'll just write it this way is given by.
+34:10
+So the two bits of notation we have for this is either end of your matrix or sometimes people like to spell out the word and U.
+34:21
+L l of a. For some reason, some authors will also write new L of A, which is one L.
+34:29
+You might see all these bits of notation I and the rest of the math.
+34:36
+Twenty two team won't be confused from seeing any of these different ways of expressing it.
+34:43
+So don't worry, if you want to use a different one, just make it clear what you're writing.
+34:46
+So what this is, is it's just a set of vectors x in our N such that a kind of X is equal to zero.
+34:52
+So it's just a set of solutions to the homogeneous system of equations. That's why we're calling them the null space of a given matrix.
+35:03
+So our first theorem that about null spaces will be in this new language.
+35:10
+It's the subspace. Again, a nice problem that could have been a peace question, so claim her theorem.
+35:15
+I think your book calls this a theorem, the null space of a matrix. And it is a subspace.
+35:30
+What did a subspace of. Perfect webspace of our end, so it's a collection of things inside of our end.
+35:36
+All right, so let's prove it just to kind of get some exercise, our perforating muscles here.
+35:48
+So the first thing to observe is that by definition, I'm taking this set of things in our N such that some condition is satisfied.
+35:58
+So therefore, just by what set builder notation means, this is a subset.
+36:05
+So note the null space is defined to be a subspace subset of our.
+36:10
+So all we need to do is check these three axioms, so condition one, we need to check the zero vector in here.
+36:18
+So since a time zero is equal to zero, that's something that we proved what matrix multiplication very early on.
+36:26
+And we know that zero is an element in the null space.
+36:38
+OK. Because we're just checking that condition to suppose.
+36:46
+You and we are elements in the space of a and we would like to know what happens to the sun.
+36:54
+Well, we check a times you plus we distribute the aid through.
+37:00
+So we have a times you plus eight times. Well, this is in the null space.
+37:05
+So this goes to zero. This is in the null space. So that goes to zero.
+37:10
+So then this just becomes equal to zero. Then the sum is in the null space as well.
+37:14
+Uh. So thus.
+37:21
+You plus me, there's an element in the null space that. Finally, the third one.
+37:29
+Let's do it just for completeness. So now suppose. See some skill or some real number and you is an element in the null space.
+37:36
+Very well then the computation.
+37:47
+If we take a Tienes see you. Well, matrix multiplication is linear, so I can certainly pull it through.
+37:52
+So that becomes three times a you, which then becomes C times the zero vector, which is then zero, Jonathan.
+38:00
+If you really want to emphasize the like, certainly we're working in our RN here, so you could put an arrow over it if you want to.
+38:17
+I mean, if you want to really emphasize which zero vector it is, you could even write zero sub or NP to note how many zeros it has,
+38:24
+especially where there's a lot of vector spaces lurking around.
+38:32
+It's really helpful to use this notation to indicate which zero vector are you talking about,
+38:35
+because there will be one for every vector space that you're studying, right?
+38:39
+So if you want to do this as well. I mean, oftentimes this notation is suppressed because it can become very cumbersome,
+38:48
+but if there are a lot of vector spaces lurking around and there is a possibility for confusion, then I would include it.
+38:58
+So remember, when we're writing a prove, there are sort of two fundamental goals in writing that prove.
+39:04
+One is we want to establish the true value of the statement that you're studying.
+39:09
+And second, you want to communicate that idea. OK, so you're not writing for a computer to check your proof?
+39:13
+We're not writing formal checkable proofs here. You're we're writing for humans to read to.
+39:20
+OK, so there is a little bit of room for including some indication of strategy for
+39:25
+what's going on for making your notation is nicely adapted for your readers.
+39:32
+This will be especially important as we start thinking about the final project for this class, because as I mentioned to many of you individually,
+39:37
+when you're writing your final project, you're not writing for me or any of the two sources you're writing for your fellow students in the class.
+39:45
+OK, so that's the audience that you should have in mind. So that's.
+39:53
+The null space today is a subspace.
+40:03
+OK, great. Are all solutions, that's.
+40:12
+Subspace is. Are all solutions at such places?
+40:24
+So if I study the set of vectors that solve the equation, X equals B, will that be a subspace?
+40:28
+Yes. Can you say a little louder?
+40:35
+That's right, so it would not if you're solving an equation of the form X equals B, where B is non-zero.
+40:42
+OK, so if you consider this is the second question on your hand. OK, so on the other hand.
+40:48
+If B is some non-zero vector, then the set of X in our ND such that A X equals B is not a subspace.
+40:59
+And the reason, of course, is that it doesn't contain zero. All right.
+41:20
+So that's one sort of fundamental subspace that we work with a lot here is the null space.
+41:36
+If we go back to a matrix, though, there's another subspace that we could certainly consider.
+41:42
+Oh, I think I did want to actually do a computation for you, so let's let's quickly actually computer null space.
+41:50
+So this is the next example on your hand out.
+41:57
+If we had a little bit more time and pause and let you do this computation, maybe you've already done it.
+42:00
+Yes. Or. Put it back up, you want to see it?
+42:04
+Yeah. No problem. I was probably too quick on that one.
+42:11
+OK, let me just quickly do an example of actually finding a null space, so this is a computation that you've actually done quite a lot before.
+42:31
+So let's just take a could be reasonably sized matrix, one minus four zero to zero.
+42:40
+Zero zero one minus five zero zero zero zero zero two.
+42:50
+So now the prompt is I want you to find the null space. So luckily, my matrix is very early and reduced to Echelon form.
+42:58
+So that makes it simple for us to read off what the solutions are. So we're trying to solve the Matrix equation X equals zero.
+43:08
+So let's just do that really quickly. So that means that X Factor X is an element in the null space, where does X live?
+43:16
+Our five. Great. So this is in the space of a if and only if.
+43:35
+I have some conditions on satisfied, so namely I have X one minus four, x two plus two, x one, two, three, four is equal to zero.
+43:40
+And then I have X three minus X four.
+43:57
+Is equal to zero, and then my last one, two x five is equal to zero.
+44:05
+So those are the conditions that you need to satisfy. Is it OK now if I lower it?
+44:13
+Yep, know from. So that means that X is an element in the null space of a.
+44:22
+If and only if your Vector X is equal to well, if I solve for X one to be four x two.
+44:32
+Minus two x four. Then X2 is free, then X three is five, X for, then X for an X five is equal to zero.
+44:43
+So then I could say this is true if and only if X is an element in the span of these two vectors, then what are they for one zero one zero zero zero?
+44:59
+And then my other vector is the coefficient of X for so minus two zero five one zero.
+45:15
+So that tells me exactly what the null space is, then the null space is just equal to this span because it's only a statement the entire way or.
+45:30
+The span is always a subspace yeah. That's a good point.
+45:49
+All right. So the other way that we talk about a Matrix equation or one of the other primary ways that
+45:56
+we thought about a Matrix equation was to to think about it as a matrix transformation.
+46:04
+So in the case of this matrix transformation, what do you get?
+46:13
+So what is this kind of transformation doing? Where does it live? What's the QUARTERMAIN?
+46:19
+What's the Kotomi in here? There are three, right, the domain is our five, the domain would be our three.
+46:25
+So we know that the range or the image of the corresponding matrix transformation will be some subset of our three.
+46:35
+How could you figure out exactly what it is? How would you figure out exactly what it is?
+46:45
+Well, I. That would certainly work, that's a great way of doing it.
+46:52
+How else might you do it? Mm hmm.
+47:02
+So that would be another way that we could certainly do it is we could think about just what this linear transformation does to like E one,
+47:11
+two and three, for instance, like our four and five.
+47:17
+So all of those domain variables or domain vectors, Xs.
+47:20
+What does it mean if I take a time to Vector X, what am I doing with these columns?
+47:27
+Arjun. So I'm performing a linear combination of those columns,
+47:32
+so then one way that I can read off from the beginning is that the image of that
+47:38
+transformation is then going to be the span of the columns it will give you.
+47:42
+The same answer is if you augmented by a general vector and actually solve for it, as we've been doing before.
+47:46
+But in this case, we can actually do this in a simpler way that subspace,
+47:52
+because it's the span, it will be a subspace we call the column space of a given matrix.
+47:56
+So note definition. The column space.
+48:01
+Animatrix. Uh, I should say a matrix.
+48:09
+Uh. Is the span of the columns.
+48:17
+So that's what we mean by the column space of a matrix, so in this case,
+48:30
+we can actually find the column space, your matrix with the Nope by C o l of A.
+48:35
+So this will be equal to the span of all of those columns. So I have one zero zero with my next column.
+48:43
+Is that a negative four. Negative four zero zero.
+48:53
+My third column is then zero one zero. My fourth column is too negative, five zero.
+48:59
+And then my fifth column, the last one zero zero two. OK, so it's the spane, can you tell me about all these columns that I've written down?
+49:11
+Zoe. They're literally dependent, right?
+49:26
+This is a very redundant list, I don't need all of these, for instance,
+49:29
+adding in this negative four zero zero once you already have one zero zero, really added nothing.
+49:32
+So I can certainly delete that one. Adding zero one zero does add something.
+49:37
+But then once I have one zero zero zero one zero to negative five zero can be obtained from those.
+49:41
+So I can certainly delete these two factors. So it's worth noting this thing does span all of our three.
+49:47
+So what do we usually call a matrix transmission of this kind?
+50:04
+What we usually call it KeySpan, the QUARTERMAIN, so it's subjective is this thing or interactive?
+50:10
+So someone said, no, why is it not? Why is it not interactive, really?
+50:26
+There's multiple solutions, they will zero right there.
+50:39
+There's more than one thing that goes to zero, so if the null space gets big, that's telling you about the failure of injectivity.
+50:41
+In some sense, the null space is measuring the failure of injectivity. So you want the null space to be very small in order to be injected.
+50:47
+So, again, these sub spaces are telling us about what we had before as well.
+50:56
+So they're very useful. So here I have this column space.
+51:01
+I should remark that it will it's defined in terms of being a span.
+51:06
+So we should note that the subspace. So maybe they should more properly be called the corollary, the column space of a matrix is also a subspace.
+51:10
+And what is this is subspace of. The subspace of our GNH or is it a subspace of our in the case of an MBA and Matrix?
+51:23
+What am I right? OK, so the picture that you should have in mind is we have our domain copy of our KNW, we multiply by our matrix,
+51:36
+our M by N Matrix will output things in the domain of our M somewhere inside of this, you have the zero vector.
+51:50
+Things that get map to the zero vector will be your null space.
+52:01
+Gets sent to zero. On the other hand, if I want to find what the column space is,
+52:06
+the column space will be taking a applied to the AMANE, which will, of course, contain zero.
+52:13
+So that is the column space of air.
+52:22
+So when you're thinking about the null space in the column space, they live in different places.
+52:27
+The null space is a subspace of the domain. The column space is a subspace of the domain.
+52:31
+OK, so this was our three over here and this was our five.
+52:38
+It's perhaps interesting when you have a square matrix, so they'll both be out in.
+52:45
+Great. Oh, good, good, good, good.
+52:54
+I'm used to looking up at the clock and being alarmed, and today it's a pleasant surprise.
+53:05
+Maybe it's the good luck that I've gotten from the student that suggested that I make the classes longer.
+53:10
+I appreciate the suggestion. All right.
+53:15
+So the key thing here, if you will call back, it's easy to get lost in the weeds when we're doing this.
+53:20
+So let's try to regain the overall thread. The overall thread of what we're doing is we're trying to generalize things to abstract vector spaces.
+53:23
+Right. In this case, we took a brief diversion back to our GNR and we studied matrix transformations
+53:31
+and we realized in that case there were some nice subspace is for us to study,
+53:39
+namely the ones coming from the range of your matrix transformation and the ones coming from the null space,
+53:44
+the ones that go to zero of your matrix transformation.
+53:50
+So it suggests that we try to generalize these sub spaces now to the case of an abstract vector space.
+53:54
+So what I need in order to do that is I need something like a that's going to be going between abstract vector spaces.
+54:01
+So the way I'm going to do that is I'm going to define what I mean to have a linear transformation from one vector space to another.
+54:08
+And then I can generalize these objects. So definition. So just like we had there, I now want to study a linear transformation between vector spaces.
+54:16
+We let V and W the vector spaces, not necessarily our M and our N.
+54:29
+So certainly their sets, so we could define a function going from one to the other,
+54:40
+but most functions won't have nice properties necessarily, they'll just be a random function.
+54:46
+So we want this function to respect the vector space structure.
+54:51
+So that means it should play nicely with both vector addition and scalar multiplication, as it did in the case of Orient.
+54:55
+So then we want this to be true such that, well, what does it mean to respect vector addition?
+55:03
+It means that if I took t applied to a vector V to W,
+55:08
+that it wouldn't matter if I first added the vectors and then applied T or if I
+55:14
+applied T to each vector and then added them in the corresponding output space.
+55:19
+What you'll notice was exactly our condition for linearity before we're abstracting
+55:29
+out this fundamental property of what a linear transformation was from our interim.
+55:33
+But now between vector spaces, the interesting thing to think about here is where is this addition coming taking place?
+55:37
+Where is this addition taking place? Nothing here is in our in.
+55:46
+It's envy, right? So let's be really, really careful, this is addition in V,
+55:52
+so you will actually see this notation sometimes if the operation that you're using, there are a lot of vector spaces lurking around.
+55:58
+You want to emphasize which operation it is. This is the addition in V.
+56:04
+What about this addition? Where is this taking place?
+56:08
+And W. So this is Ed. This is what I mean by respecting vector addition, I could first add the vectors and then apply it,
+56:13
+or I could apply T to each vector and then add them in the code domain.
+56:24
+Both will work and give you the same answer for linear transformation. We also want to respect scalar multiplication times.
+56:30
+You should be able to see times to give you. And that should be true for all to see scalars, and you can be in my domain vector space.
+56:38
+Yes, Xavier. Earlier. Spaces.
+57:00
+Any vector space, any vector space whatsoever, if I take the span of elements inside of that vector space, then I'll be getting a subspace.
+57:10
+They know they use the vector operations inside of us, so that's a really actually an interesting point.
+57:23
+I like that question, let me explore that a little bit more so what I'm thinking about the span of one VPI,
+57:30
+these things are inside of my vector space, right. So this will then be equal to see one V one.
+57:40
+So this scalar multiplication is occurring inside a V and then I'm adding A, B, C to be two plus the vector addition inside of C, P, VPI.
+57:48
+So all of these vector sums and scalar modifications are occurring inside of your vector space.
+58:00
+So they might be these nonstandard operations. They don't necessarily have to be the ones coming from our end.
+58:05
+So it's a great point. So let's here, if it's hopefully clear from context what the addition should be and we usually don't make a big fuss about it.
+58:15
+Yes. Oh, sorry.
+58:24
+That was thank you. Thank you. Good good catch. Good catch.
+58:30
+Yeah, that wouldn't make sense at all. There's no way for us to do that.
+58:35
+They have to be our base scalar field because there's no way to multiply two vectors together necessarily.
+58:39
+I mean, our vector space wasn't defined that way. You could a new kind of structure where you have a multiplication and that's a nice project idea.
+58:45
+I mean, certainly those structures show up and have nice applications, but it's not a vector space.
+58:54
+So the integers are an interesting idea here,
+59:04
+because the integers then we we don't have multiplicative inverse is there versus over the real numbers we do.
+59:07
+So we don't usually take the integers. Other questions, those are great questions.
+59:13
+All right, so thinking back to this setting, we had these two subspecies coming from a matrix transformation, we had the range or the image.
+59:26
+Well, that will work just the same way.
+59:37
+We now could take the range of an image of a linear transformation so we could take the range of T this will be a subspace.
+59:39
+Is this a subspace of V or W? What is it?
+59:50
+Where does it live? Derby, right?
+1:00:01
+It's in the domain, we also take the set of elements in the domain that get sent to zero.
+1:00:04
+This is usually called the kernel of transformation. So the colonel.
+1:00:12
+Of tea, sometimes written k e r of tea is then just by defined to be the set of all V in,
+1:00:20
+we use a different letter, the set of all X in V such that T of X is equal to zero.
+1:00:28
+So it's just like the null space, the case of the null space at exactly corresponds.
+1:00:37
+The difference is that we talk about the null space of A that's only applied to a matrix,
+1:00:43
+the kernel of T is now a notion that can apply in more generality. So it can apply I can compute the kernel for any linear transformation whatsoever.
+1:00:49
+Jonathan. Yes. Other questions.
+1:00:59
+Tommy. So, yes, we're trying to generalize what we did with the space to get out with the kernel of a linear transformation would be.
+1:01:09
+So if you had your tea to be equal to the linear transformation from our end to R.M., then the kernel would be the space of the associated matrix.
+1:01:20
+So, yeah. All right, so we have these two new sub spaces.
+1:01:32
+If you're a linear transformation t was injected, would you expect the kernel would be big or small?
+1:01:39
+Small, right,
+1:01:47
+it's measuring the amount of stuff it's sent to zero if a lot of stuff gets sent to zero and we're seeing the failure of injectivity again.
+1:01:48
+All right,
+1:01:56
+so what I want to do for my last little bit of class today is I want to just get through as many examples as I possibly can in the next 12 minutes.
+1:01:56
+So we've really accomplished all of the learning objectives that I've set out for you today.
+1:02:06
+This is just me trying to present problems that are like peace problems, that are computations that are fun to play with.
+1:02:09
+We'll see lots of these examples building over the next few classes in both sophistication and abstraction.
+1:02:16
+So it's nice to play with them early on.
+1:02:22
+So if you look at the handout, I think I have three or four more problems, they're all basically of the same variety.
+1:02:26
+They're good ones to practice on. So let's just try one now.
+1:02:31
+So let's take a transformation t going from some vector spaces that we're not used to working with,
+1:02:37
+so I'm going to take the space of polynomials of degree and or less than.
+1:02:43
+And I'm going to send this to the space of polynomials of degree and minus one or less and minus one.
+1:02:48
+So this is supposed to be a function that takes a function as an input and an output is another function.
+1:02:56
+So it takes a polynomial. It outputs a polynomial.
+1:03:01
+So where this is going to be given by T of the input polynomial T, we'll just go to the derivative of your polynomial.
+1:03:07
+OK, so what this does is often called a linear operator going from one space to another.
+1:03:22
+So the inputs are functions are polynomials, and I'm going to output something by differentiating it.
+1:03:28
+So this gives us perhaps a different perspective on an old friend, the derivative.
+1:03:36
+So the first thing we should think about is this, this function going to be linear or not, we have a precise definition of what linear means.
+1:03:44
+This is a vector space. This is a vector space. This is a function.
+1:03:52
+So we can ask whether it's going to be linear or not. So our definition of linear means we have to check two things.
+1:03:57
+Let's see if it works. So now KWEM.
+1:04:04
+To use linear. So now let's prove it.
+1:04:09
+So to prove it, we take some arbitrary vectors in our vector space. Let's take polynomials P and Q So to be polynomials of degree and or less.
+1:04:18
+Now, let's plug them into our function.
+1:04:29
+Be applied to the sum of these two polynomials, P and Q well, that says just differentiate these two polynomials, the some of them.
+1:04:34
+Well, going back to Calc one, we have some rule for differentiation, so this becomes the some of the derivatives.
+1:04:46
+So this is the same roll back from one. So then we've just verified.
+1:05:00
+Well, one more step, I suppose this is equal to T of P plus T of Q, so there we've checked that it respects tradition.
+1:05:07
+All right, let's check scalar multiplication. Scalar multiplication.
+1:05:20
+So now let's see if your real number. And he b, some polynomial.
+1:05:34
+Well, that if I take t applied to the polynomial scale by C.
+1:05:44
+Well, this just says take the derivative of the scalar multiple times, this polynomial sees a scalar.
+1:05:53
+So by the constant multiple rule from Calc one, this is C times the derivative of P.
+1:06:02
+Which is Sea Times T applied to P, so here we use the constant multiple rule.
+1:06:08
+From Callick Lanegan.
+1:06:17
+So then the derivative is a linear transformation between vector spaces where the vector spaces are now, the spaces of polynomials.
+1:06:23
+So this is giving us now a different perspective on calculus, which is a very powerful one.
+1:06:32
+Uh. OK, but for a linear transformation, we had these funny spaces that we attached to your transformation,
+1:06:41
+if you just thought about this function from one space to another. Do you expect that it's going to be injected?
+1:06:52
+Why not? So that would mean you'd have to give me two elements of the domain, the map to the same thing in the code domain,
+1:07:02
+what would be two polynomials that map to the same thing under this function, James?
+1:07:09
+Different constants, right?
+1:07:14
+If I take the polynomial constantly equal to one, the polynomial console equal to to differentiate both of them, they both become zero.
+1:07:16
+So this function definitely wouldn't be in a. But we can compute the colonel if you want and we can compute the image.
+1:07:23
+So let's actually do that. All right.
+1:07:37
+So we know that he is linear, let's find the colonel, let's find the, um, image.
+1:07:53
+All right, so let's suppose we have being some polynomial in the space of the pan,
+1:08:02
+so polynomial degree and or less so that means that P of T will be equal to ANot plus a one T was a two T squared plus that of two and T to the end.
+1:08:10
+All right, that's just what my general polynomial degree analyst looks like,
+1:08:28
+it's also a nice, true or false question that I've used on quizzes before.
+1:08:32
+If you add to polynomials a degree and together, do you necessarily get another polynomial degree?
+1:08:35
+And that's one to think through. So here degree and or less.
+1:08:39
+All right, so now let's think about what he does to this.
+1:08:49
+OK, well, if I differentiate this polynomial, I know it's linear now, so I can certainly just apply to the mills.
+1:08:59
+So when I differentiate the constant, that term drops out.
+1:09:06
+So I get a one from this term, but then I get plus two, a two from the power rule times T plus DataDot up to ten times A and T to the end minus one.
+1:09:09
+So we can right there see the element in our co domain. Because it's of degree and minus degree and minus one or less.
+1:09:24
+So now. So T of P is equal to zero if and only so now this is the zero in my Kotomi in space, so that's the zero polynomial.
+1:09:34
+So if you're the zero polynomial, what needs to be true about all your coefficients? They all have to be equal to zero.
+1:09:47
+So that means we get. One is equal to zero to a two is equal to zero down to 10 times A and is equal to zero.
+1:09:54
+So those are all my coefficients then have to be equal to zero. So what's left of all of those things have to be equal to zero.
+1:10:10
+What's left? Nothing is not an artist left, right, so an art is then free.
+1:10:17
+So all the other variables are basic or are determined, rather, and this variable and not is then a free variable.
+1:10:26
+That one we actually can plug in anything we want.
+1:10:36
+So then we can even say ust p e is an element in the kernel t if and only if p o t is equal to a not.
+1:10:41
+It's just equal to a real number, it's just a constant function. So that tells us that the kernel is just equal to.
+1:10:54
+All constant functions, so the kernel of tea is equal to the set of all polynomials.
+1:11:05
+I'll just read it this way. All right. This is equal to a not whether or not there's an element in the real's.
+1:11:14
+Well, this thing is just an at times one, so you could also rewrite that as the span of the single polynomial one.
+1:11:25
+So the colonel is just the span of the constant polynomial, one, every other constant polynomial would be a multiple of this one.
+1:11:36
+So this is then encoding that first observation,
+1:11:50
+I think that James made the failure of injectivity because our colonel is big, having multiple things in here, Colonel,
+1:11:53
+is observing the failure of injectivity for your transformation,
+1:12:00
+which tells us back again to something that we've known for a long time about differentiation,
+1:12:03
+that there are lots of functions that could share the same derivative. Any questions on that?
+1:12:08
+So, again, it's kind of a different way of thinking, Marco, when you say the.
+1:12:18
+Like the doctors there, like. Yes, I mean, nontrivial, and it is still big in the sense that there aren't really many things in it,
+1:12:24
+so it would still it would still fail to be objective.
+1:12:32
+That's right. All right, let's see, what about the image of this linear transformation or the range, what would you tell me about the image range?
+1:12:36
+Can I get any polynomial degree and minus one or less? Jonathan?
+1:12:53
+Yeah, how? The.
+1:12:57
+A. OK.
+1:13:05
+Sort of an awkward angle, Jonathan, can you see this? I like I know.
+1:13:18
+OK, yeah, kind of cut off at the angle there. Can you tell me what the input would be?
+1:13:27
+What input could I put into this to get that output? And.
+1:13:32
+This is a not yeah. One of the.
+1:13:42
+My guess is they it's not X plus one at.
+1:13:51
+Oh. Yet it's hard to see across the room, I really was trying to write it really big, but it's hard to see, especially with your angle there.
+1:13:59
+But so we want the power rule to come down to cancel all these terms out.
+1:14:13
+Right. So then when the power rule comes out, down with the two, it'll cancel with this, too.
+1:14:16
+And I can keep going all the way up just a. Differentiating so a nd minus one.
+1:14:20
+And then I want the end to cancel T to the end.
+1:14:26
+So now if I differentiate this thing, well then I get my energy. I wanted the 2s come down so I get a one t here.
+1:14:31
+If I keep going all the way up the end comes down councils with this n and then I'm left with A and minus one T to the end minus one.
+1:14:40
+So this shows me, given an arbitrary element in the code domain, I can find an element in the domain that maps to that.
+1:14:48
+So then T is subjective. Said another way that the range of T is equal to the span of not just one, but one T up to T to the end minus one.
+1:14:55
+So any polynomial of degree and minus one or less we can obtain as the output of the derivative here.
+1:15:15
+OK, so this thing will be actually subjective. Every possible polynomial degree and minus one the last is obtained.
+1:15:24
+All right. It looks like somehow I managed to go over time again. I apologize for that.
+1:15:31
+I'll make sure to give back that at some point this week. All right.
+1:15:35
+I'll see everyone on Wednesday. Mike, Mike, check.
+1:15:39

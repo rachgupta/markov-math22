@@ -1,0 +1,1151 @@
+﻿So let's let's go out and get started. So just a few quick comments before we get rolling here, I do want to take a moment to just thank the class.
+0:01
+I think many people picked up on the fact that I was not feeling particularly well, last class.
+0:12
+I have been a bit under the weather and I very much appreciate all the well-wishes that people were were sending my way.
+0:18
+So thank you very much for that. That does warm my heart quite a lot.
+0:25
+So thank you. We have a lot of announcements, I think that require a bit of discussion today.
+0:29
+Some of them are a little bit more difficult than others.
+0:38
+So in terms of our schedule, I just want to remind you that piece at 11:00 will be due on Friday sort of on our usual schedule.
+0:42
+A big portion of the remaining piece that should really be thinking about your projects.
+0:51
+I'll say a bit more about the projects in just a second. Then peace at 12:00, the last piece that will be due on the very last day of the semester.
+0:56
+So Wednesday, December 1st. Your project draft will also be due that day.
+1:04
+OK. So keep that in mind in terms of the reading for what we're doing right now.
+1:11
+We're in lay six point two and six point three. I think a few students pointed out one careless mistake on my part when I posted a piece at 11,
+1:16
+I didn't mean to imply that the book problems were suddenly required,
+1:28
+so I'll update the piece to make sure that it's clear that those are recommended problems like normal, not in any way different from normal.
+1:32
+So sorry about that. I hope that didn't cause any confusion,
+1:40
+but we still will have our normal web work problems to kind of get some computational practice and get some early feedback on those.
+1:45
+I feel like I also owe you some comments on the strike, the impending strike, which hopefully doesn't happen, but it seems extremely likely to happen.
+1:53
+I unfortunately don't have much more information than probably most of you have.
+2:06
+So I can tell you what my tentative plans are regarding the strike.
+2:12
+So from what I've heard,
+2:17
+many of the math classes in the science center are planning on moving online onto Zoom for the remainder of the semester as at least what I've heard.
+2:20
+I don't know that that's necessarily been decided yet.
+2:31
+My feeling towards that is that I've spent so much time of my life on Zoom, I'd rather not do that unless it's absolutely necessary.
+2:35
+Thanks to the people coming in, or just like they don't know what they're clapping for, but they'll just go with it.
+2:49
+So again, my feeling is that I don't want anyone. So if they happen to be picketing this building, which doesn't seem to be in the cards,
+2:54
+then I don't want people to feel like they have to come to class in this building and cross the picket line.
+3:04
+Certainly, I don't want to put anyone in the position where they need to choose between their education and their own principles.
+3:09
+So as long as this building is not being picketed, I plan on holding class in here.
+3:16
+Like normal, OK? If anything changes from that schedule, you'll get an email from me like we did the Friday of the last strike.
+3:21
+But I do want to say I am very supportive of our graduate students and our undergraduate case.
+3:31
+I mean, they do a tremendous amount and. I I understand the purpose of a strike is to be disruptive,
+3:39
+but I also recognize that faculty are in the position where we're sort of we need to
+3:50
+support undergraduates and continue the undergraduate mission of the university.
+3:58
+And we also want to support our graduate students. And so it's a tricky balance that we're trying to attain here.
+4:02
+And so we're going to kind of have to just figure it out as it goes.
+4:10
+So I'm I guess I'm saying that I'm mostly apologetic that you're also kind of caught in the middle of a lot of this.
+4:15
+But my tentative plan for this class is we're going to as much as possible continue on like normal.
+4:21
+To be fair, our current normal was also the piece that's we're taking forever to grade.
+4:29
+So maybe that's not changing too much. It's Caleb and I have been doing a lot of the grading anyway.
+4:33
+And so that will probably continue over the next few weeks.
+4:42
+It might mean, however, though, that the office hours that you're applying and might be up with both graduate students and undergraduates.
+4:49
+And unfortunately, I don't know that ahead of time.
+4:59
+So I apologize if that happens, but we're all going to have to kind of just figure this out together.
+5:02
+Are there any specific questions? Yes, Gwen.
+5:09
+Oh, no. I thought I posted it. Has anybody been able to access it on canvas?
+5:19
+A few people see it. Maybe you just need a refresher canvas page.
+5:26
+Oh good. Oh good. Good, good. I guess the last,
+5:32
+very last bit of announcements at the beginning is I spent quite a lot of time on Saturday going over and reading all of your project proposals.
+5:36
+I mean, I'm very excited to see how a number of these projects go and how they develop.
+5:47
+I think there are a lot of really exciting ideas that people are putting forward.
+5:52
+And I think, to be honest, I think this is one of the best parts of math. Twenty two,
+5:56
+where you really get to take a bit more ownership over your intellectual trajectory in this class
+6:00
+and kind of personalize it for what you would like to get out of it for the last few weeks.
+6:05
+So this project is definitely something that the more you put into it, the more you'll get out of it.
+6:10
+So I have gone through and created canvas groups for everyone that has submitted a project proposal.
+6:17
+So now you should be a member of some canvas group, which is where you will submit your project draft on December 1st.
+6:23
+It's also where you will submit your peer reviews, and it's where you'll submit the final version of your project.
+6:30
+So those three things won't happen on grade scope. They'll happen on canvas nearly every purse.
+6:36
+Every group has also been assigned a graduate student or me.
+6:43
+I guess I'm not a graduate student mentor for their projects, so you should expect to either get comments some of the graduate students.
+6:47
+We'll see how the next few days go, because that might impact how this plays out.
+6:57
+But if they're not on strike,
+7:02
+you should expect to see comments either through grade scope or they might reach out to you to have a meeting to discuss it.
+7:04
+So in many cases,
+7:10
+I'm meeting with students because I think it's easier to have a conversation than it is to write a bunch of comments on grade school.
+7:11
+But this person who will be your mentor for your project is definitely something you should regard as a resource going forward.
+7:18
+As you kind of keep working on your project, you should feel free to reach out with your questions, concerns that you have as you keep going.
+7:25
+OK. Tommy. So you should know you can either know by emailing me and I can tell you,
+7:31
+or you can wait until they post their feedback on great scope, or they reach out to you to schedule a time to talk.
+7:40
+Some of the TFS prefer to do all of this by written communication. They think less is it's more clear that way.
+7:47
+Some people prefer to actually meet and have a conversation. So it just depends on who who your tip is.
+7:54
+I think you're working with seeing if I remember, right? But so I would definitely think I mean, all of the tips are really excited about this.
+8:00
+This is like something that we all enjoy doing, and we want to steer these projects into both things that you're excited about.
+8:10
+You're passionate about that are accomplishing your goals. But there are also things that we can evaluate in a strong way, too.
+8:18
+So keep that in mind as we're sort of giving some hints and comments and feedback.
+8:26
+All right. So let's let's do some math here.
+8:32
+What I guess I'm trying to do today is I'm trying to set a bit of the stage for Math 20 to be in some sense or multivariable calculus class.
+8:38
+And one of the things that you need in that context is you need not just the vector structure on our end,
+8:48
+the vector space structure, but you also need to have a bit more geometry.
+8:54
+So you need to be able to do things like measure angles and measure length and be able to understand distances.
+8:58
+So that's what you want to be going for.
+9:04
+Like, if you want to talk about convergence for a limit, I mean, that's the underlying idea when you're thinking about multivariable calculus.
+9:07
+In order to discuss what a limit is, you need to know how far away it is.
+9:14
+So to have a notion of distance so orthogonal and the dot product will be the language in which we express those ideas.
+9:18
+So the very big idea from last time is kind of connecting it back to linear algebra.
+9:27
+And a lot of the ideas today are very relevant to the project proposals that I read last time.
+9:35
+So I read over the weekend. So just to kind of build some continuity with what we were doing last time,
+9:42
+the very first thing we did working are one of the very last things we did last time as we defined an orthogonal basis.
+9:49
+For a vector space or subspace? W r nn.
+10:02
+So we defined this last time, but let's just recall what it is.
+10:14
+So it's really just combining together these two ideas. It's a basis that's also an orthogonal set.
+10:18
+So this is just a basis.
+10:23
+But. Is also an orthogonal set.
+10:29
+So after Chapter four, one of our big themes of this class was the idea that a nice basis was something that we needed and we thought about
+10:42
+getting the idea of a nice basis in terms of trying to reflect the geometry of the operator that you were studying.
+10:50
+And so that led us to the notion of eigenvalues and eigenvectors. So now we're thinking about a different notion of what a nice basis could be.
+10:58
+One where all of your bases factored orthogonal to one another.
+11:06
+And this is then encapsulating some of the nice properties of the standard basis because the standard basis has those properties.
+11:10
+So the question is why is this useful? I can.
+11:18
+Who cares? Well, one reason why this was useful and important.
+11:25
+And one reason why we introduce a lot of the linear algebra that we study is to try to facilitate computation.
+11:31
+So the theorem that we had from last time. Was that if we had some set you one up, threw up some set of vectors inside of our end?
+11:38
+This is a basis for some subspace w.
+11:53
+Subspace W so w is equal to the span of these factors, and for each factor, say X inside of W, there is a unique way of writing.
+12:01
+X is a linear combination of these vectors. That's just because it's a basis we proved that before.
+12:14
+Let's c p you p where these are scalar c one three CP.
+12:21
+And typically the way that you would do that from earlier in the semester is you'd form
+12:28
+the corresponding augmented matrix in utero reduce to find those corresponding elements.
+12:32
+Now, last time we have formulas for what these coefficients are,
+12:37
+namely that c k is just equal to X dotted with the K spaces factor over UK dotted with UK, and this is for K between one and P.
+12:43
+So we don't have to do that operation anymore, though, to find the augmented matrix and Robredo's.
+13:02
+Now we have explicit formulas for what the solutions are. Marco Do they have to be an orthogonal basis or can they be a.
+13:07
+They have to be an orthogonal basis, which you point out correctly, that I should actually include that in the statement to the theorem.
+13:17
+So that's an important typo that you've noticed here. So maybe I'll even highlight that in yellow.
+13:23
+So they have to be an orthogonal basis, you're exactly right, Marco.
+13:31
+And with the way that we proved this theorem, the proof would break down if you didn't have an orthogonal basis because the what our
+13:36
+strategy of proof was is they take the dot product of both sides with one of these vectors.
+13:43
+And observed that most of them will cancel out, they'll they'll just drop out from orthogonal ality for general basis, that won't happen.
+13:48
+It's a good question. All right.
+13:56
+So that's where I think I ended things last time.
+14:05
+Let's do an example, so a quick numerical example to check this.
+14:12
+So this is the one that I gave you on the handout. So let's take an orthogonal basis for our two.
+14:18
+So you one will be the basis vector two minus three.
+14:23
+You two will be the basis vector six four. So we can quickly check that those two vectors are orthogonal just by taking the dot product of the two.
+14:28
+So it does come out to be. So maybe note you one dotted with you two as equal to zero.
+14:40
+So. We can the basis you won you two is an orthogonal basis for the span of these two vectors.
+14:48
+There are two vectors in our two, they're linearly independent. So they then span all of our two.
+15:02
+So this is an orthogonal basis for our two.
+15:09
+So the subspace W in this particular problem is all of our two itself.
+15:15
+So now we take a sort of arbitrarily chosen Vector X.
+15:21
+Is the vector nine minus seven? And I'd like to do this sort of canonical question we've been asking about when you get a
+15:29
+vector and some basis as how do you express that vector is a linear combination of those two?
+15:41
+So. We want. Scalar C one and C two in R, so that X is equal to see one, you one.
+15:49
+Or C two, you two. So we can just do this like normal, like if it were a chapter one problem, but on the first quiz,
+16:04
+so we'd form the augmented matrix two minus three six four augment by your new vector nine minus three Robredo's.
+16:16
+So there are basis vectors. You actually know that this row reduces to the identity matrix and then this becomes three and one half.
+16:27
+So namely, that tells me that X is equal to three times you one plus one half times you two.
+16:36
+And you could, of course, check the computation to verify that that actually works.
+16:42
+So that's how you would do it in terms of chapter one. We could also do this with the new theorem.
+16:49
+So the new theorem would tell us that these coefficients are obtained just from some dot products.
+16:54
+So let's just check that really quickly. So if I look at X dotted with you one over you, one dotted with you one.
+17:00
+Well, if I take the vector x nine negative seven dotted with you one.
+17:10
+So then that's going to give me, what is that going to give me?
+17:15
+Thirty nine? And then if I look at you one dotted with itself, then that's going to give me 13.
+17:19
+So if thirty nine, over 13, so indeed that does become three. So that's good.
+17:28
+X started with you two over you. Two dotted with you two.
+17:33
+Well, X dotted with you to see that I'm getting.
+17:39
+What am I getting here? Fifty four minus twenty eight.
+17:44
+So twenty six and then you two dotted with you two.
+17:48
+So thirty six plus sixteen, so fifty two, which then is one half.
+17:53
+So we do indeed get the exact same answer.
+17:59
+This also tells us that this is the coordinate mapping so x written relative to the B coordinates is three one half.
+18:03
+So one thing that's kind of cool about this theorem is that if you have an orthogonal basis,
+18:14
+it gives you an explicit formula for the coordinate mapping.
+18:18
+So namely the coordinate mapping then in general for a general X would just be x dotted with you one over you,
+18:22
+one dotted with you one and then X dotted with you two over you, two dotted with you two.
+18:32
+So a relatively simple formula, you don't need to invert any matrices. You don't need to solve any corresponding systems of equations.
+18:41
+All you need to do is you just need to compute some dot products.
+18:47
+You could also, even if you were trying to pre process things to minimize the number of computations that you would need to do.
+18:52
+You could scale your vector as you want and you two to both have length one.
+18:59
+So then the denominator would just have one that only be computing two dot products.
+19:03
+So it gives you an easy way to compute the coordinate mapping.
+19:11
+Why? We can do that just because we can.
+19:20
+You wait, you're not clear that. The.
+19:29
+Oh, well, that's because if you go back to what they coordinate, mapping says this is the same thing as saying X is equal to some coefficient times
+19:37
+your first basis factor some some other coefficient times your second basis factor.
+19:46
+So this notation you'll recall means is that it's written relative to the B coordinate system is C one, C two.
+19:51
+So maybe I'll write C if and only if right here. So the the our notion of what did these coefficients represent when you're talking about coordinates,
+20:00
+they represent how much do you need to use of your first base vector?
+20:10
+How much do you need to use of your second base factor if they're not orthogonal?
+20:13
+So if one has some amount of you two in it,
+20:18
+then they're sort of mixing together those directions and sort of your kind of when we were getting at
+20:22
+the idea of having a basis we were thinking of linear independence is giving us some kind of minimal A.
+20:27
+Well, then this gives us some kind of further M. malady where we take those directions do not have any amount of the other in it.
+20:32
+That's one reason why the standard basis factors are so useful is because when we're thinking about
+20:38
+one zero and zero one one zero over here and zero one or if we're doing this in our three say,
+20:43
+then they don't have no. None of this vector is in the direction of this vector because they meet at right angles.
+20:49
+That. Other questions. All right.
+20:57
+So the key idea behind having these orthogonal vectors to begin with is that
+21:05
+we wanted to have the there was no movement in the direction of the other.
+21:09
+So that lends itself to the question of like, well, one, how do we actually get these things?
+21:14
+How could you find an orthogonal basis? And two, how could you then modify the vectors to then not have any movement in the direction of the others?
+21:19
+So this is the idea of orthogonal projection. So we've seen this a little bit already when we thought about orthogonal projection on to say,
+21:30
+the x axis of a given vector in R two when we're thinking about geometric transformations.
+21:36
+But now we want to think about this just arbitrarily in space.
+21:44
+How much does one vector have? So how much?
+21:47
+So if I'm given a vector y how much?
+21:52
+Of a given vector Y and say R PN is in the direction.
+21:58
+Of another vector. You know, so when we talk about a vector having a direction, we usually think about that, that's a question.
+22:09
+We usually think about that as being a non-zero vector because it doesn't really
+22:23
+make sense to ask how much does something move in the direction of the zero vector?
+22:28
+So maybe I'll maybe I should say that explicitly with the notation.
+22:33
+So I don't really care about how much you move in the direction of the zero vector.
+22:41
+So, well, let's think about this, and I mean, I want to go a little bit deliberately through this so we can see where this idea is coming from.
+22:46
+So if we just take this factor in space. We have this factor say.
+22:54
+Why and we have this other vector. You.
+23:02
+So I'd like to know how much of what is in the direction of you.
+23:08
+So if you just kind of like intuitively, think about this as things on the chalkboard,
+23:11
+what you'd probably tell me is while the amount is something like this.
+23:16
+This factor, some scalar multiple of you, so I need to scale you to say like how much of the amount that why goes in that direction.
+23:21
+So I'm going to call this alpha times the amount that I scale UBI.
+23:32
+So that exactly encodes how much of why went in that direction.
+23:37
+Well, now if you subtract off from why? So if I subtract off minus alpha, you hear.
+23:43
+What do you notice about this factor y minus for you?
+23:52
+If I get off all of the movement of.
+23:56
+Of why in the direction of you will be the relationship between this factor and the red factor.
+24:02
+So we. It would be orthogonal, right, that's what I'm trying to do, trying to subtract everything else off so they just don't a right angle.
+24:09
+So that that. So maybe.
+24:18
+Is that we want. To find the real number, Alpha, the amount we need to scale UBI so that.
+24:26
+Two vectors orthogonal, how can we measure Orthogonal City?
+24:38
+The dot product, right, so you can compute the DOT product of Y minus alpha you dotted with you, and I want that to be equal to zero.
+24:43
+So I'm trying to find and the value of alpha that makes that happen.
+24:54
+So if I want to do that, I can use the properties of DOT products,
+25:20
+so then I can distribute this and I would get y dotted with you minus alpha times you dotted with you is equal to zero.
+25:26
+So now if I try to solve for alpha, I then get alpha is equal to y got it with you over you started with you.
+25:38
+So this scalar quantity is exactly the amount that I need to subtract off from
+25:47
+Y in order to remove the amount of Y that moves in the direction of you.
+25:54
+So does. The orthogonal this is what we're going to call the orthogonal projection because it
+25:59
+meets in a right angle of why on to the direction you is given by the following formula.
+26:07
+So we use the notation, Praj.
+26:21
+People are so alpha times you will be equal to the projection of your vector y onto you, so that's the notation we use to express it.
+26:26
+And so we've just found that this quantity will then be why dotted with you over you, dotted with you.
+26:39
+Time's your vector, you. Yes, Jonathan.
+26:50
+I'm a little confused about what exactly. I mean, that's like I don't really know what that.
+26:54
+That's a good question. So what I mean by that is, I mean, sort of like when I draw this picture, I have these two vectors in space.
+27:03
+I didn't bring my vectors today. I should have. When I draw these two vectors in space, two vectors in space are going to determine a plane.
+27:11
+So the inside of that plane, it looks just like my chalkboard.
+27:20
+So then when I say how much of why moves in the direction of you, I would like to know if I projected down onto why.
+27:23
+How much do I get? So it's like if you're thinking about, like if I'm pulling an object, like with this angle,
+27:31
+how much of a contribution will I make to that object if I'm very steep and I'm pulling it?
+27:38
+It doesn't make much of a of a force in the direction of you.
+27:44
+If it's very shallow, like it's nearly exactly in the direction of you,
+27:49
+that's useful for me to know because then I'm translating a lot of my force into pulling in that particular direction.
+27:52
+So what I'm trying to figure out is how much if I look at the shadow onto you, how much do I get that shadow very long or is it very short?
+27:59
+So the projection here, this red bit is how much of y is in the direction of you.
+28:07
+So when I say that freezing, that's what I'm trying to evoke is that mental imagery of how much of your vector is in that particular direction.
+28:13
+So if I have my arm and I'm going out like this, well, it's kind of going a fair amount in that direction.
+28:20
+If I go straight up, it's not going much in that direction at all. When you say projected onto.
+28:25
+I don't really know what that. So I'm trying to give a notion of what that is like, you can think about it as like a shadow projecting downwards.
+28:35
+So I'm just saying like, I go down and I meet in a right angle so that that has to be a right.
+28:43
+Robbie, your question to you. OK, other questions.
+28:53
+Yes. That expression.
+28:58
+It's the same formula. Yeah.
+29:11
+So I think that's a really nice observation.
+29:20
+So you could rephrase the previous theorem, so the previous theorem, your your observation is a really good one, the previous theorem.
+29:23
+Is it still up there? No, I raised it. It's unfortunate and be expressed.
+29:32
+As well, each of those directions you're just projecting on to that particular basis factor.
+29:43
+So then your Vector X will be equal to the projection onto the first base, its vector you won.
+29:49
+Up to the projection onto U P of X.
+29:59
+So this was what that first theorem says now in the language of orthogonal projections that
+30:07
+if I wanted to know what if I take any vector inside of my subspace like on the stock board,
+30:12
+well, then if I have an orthogonal basis for it, I can then write it as well.
+30:17
+Project under the first base vector project on to the last basis vector.
+30:22
+There is no like interference between these because they're they form you one through up form an orthogonal basis.
+30:26
+So that's one reason why they form a really convenient basis to work with for computation sake is because if I worked
+30:34
+with like this vector and another one like one zero and one one because one one also goes in the direction of one zero,
+30:41
+they don't move, they don't meet at a right angle,
+30:50
+then that means that when I am writing some vectors in terms of the other, I have to keep track of that interaction.
+30:53
+So it's often convenient to then express things in terms of an orthogonal basis.
+31:00
+All right. So this is what we mean when we talk about an orthogonal basis,
+31:08
+so you can also think about this vector you as determining a line by taking the span of that single vector you.
+31:16
+So we're really thinking about this, as you could say, or projecting. This is a definition now of what I mean by the projection onto the span of you.
+31:24
+Of all of why, rather because we'll often want to project into some subspace w are.
+31:36
+OK, so we'll see that in a bit, but that's when you have just a line.
+31:44
+All right. So now I owe you a computation, so let's do one of these. Let's compute on orthogonal projection.
+31:48
+So here's a quick example. Let you be my direction to to.
+31:57
+And why will be the vector one for then?
+32:07
+I just want to find the orthogonal projection of why onto you.
+32:14
+So there are two really separate problems here that you might think about two perspectives that you can take.
+32:22
+You can literally take. Well, I've defined this quantity. I just compute it using the definition.
+32:27
+There's also a geometric notion and you want to make sure that you can merge those two ideas in your head.
+32:33
+So I would you want to make sure that we have those two things available to us?
+32:38
+Let's take these sort of definition approach first and then we'll computer and then we'll just see if that seems reasonable.
+32:43
+So by definition, this is why dotted with you over you started with you.
+32:51
+Times you. That's strictly speaking what the definition of what orthogonal projection is.
+33:00
+Then when I compute the DOT product of Y with you,
+33:08
+so I'm computing the DOT product of these two vectors, so then I'm going to get two plus eight is 10.
+33:12
+And then I have you dotted with itself. So then I've got four plus four.
+33:19
+So eight and 10 times the vector to two.
+33:24
+So then I'm scaling five fourths times two. So I get.
+33:29
+Five. House. So let's draw a picture of what it represents.
+33:37
+So we got some numerical answer. Let's make sure that we can see what it's actually tempting us to.
+33:48
+So we have. One, two, one two, three four.
+33:59
+So we have a vector. This was my vector y one for.
+34:06
+And then I have my vector you two to.
+34:13
+So now, intuitively, what we're trying to do is we're trying to say, like, what would this look like if I projected down to meet in a right angle?
+34:20
+So if I'm just drawing this in, I'll get that right angle.
+34:27
+And then this factor from the origin along you, that is the orthogonal projection of Vector Y onto Vector you,
+34:33
+which we computed was equal to five halves by halves.
+34:46
+Which seems roughly to match with the picture that I've drawn, maybe not quite, but roughly.
+34:52
+I started putting that cheap chalk in here again. All right.
+35:01
+So there's an example.
+35:08
+So one thing that I hinted at is, again, here, there, some amount of pre-processing that you could do here to make your basis even better.
+35:10
+So namely, you could scale your basis factors to all have a length one.
+35:18
+We also give a name to those kinds of sets. We call them worth a normal.
+35:22
+So not necessarily just orthogonal. They're worth a normal.
+35:28
+So that just means you have an orthogonal set that's length one oops.
+35:32
+Where all the bases vectors or length one. So forth the normal sets.
+35:37
+Or though normal. So it's.
+35:45
+So a definition. He said.
+35:52
+You won three up. Is Earth normal?
+35:59
+Again, sometimes although formal.
+36:09
+Sometimes we'll just abbreviate this again for the normal if.
+36:15
+It is orthogonal. Is the fog.
+36:23
+And the length of UK is equal to one.
+36:31
+One of the P. And again, this is strictly because orthogonal sets are nice.
+36:42
+But then if you scale all the vectors that have length one, they can be even better.
+36:52
+And your projection formulas then get a little bit easier. For instance, the denominator becomes what?
+37:02
+So there are a number of nice geometric results that come out of this, so let's explore some of them.
+37:11
+So Theorem six point six in your book from the Reading.
+37:17
+So an m by and matrix. Hey.
+37:22
+Has all the normal columns. If and only if a transpose times A is equal to the identity matrix, the end by an identity matrix.
+37:31
+So this gives us actually a computationally a computational way to kind of encode this idea of having more than normal columns.
+37:52
+It's just by computing a transpose that. Oh, did I change it?
+38:02
+Sorry. That's fine. You. You transpose you.
+38:10
+So let's go through a proof of this to check it. There's a there's a good chunk.
+38:20
+All right. So let's prove this there. So we're using you, you, you.
+38:41
+So we have you won how many columns that I am by and so any columns you.
+38:52
+And. So those are just naming things, so a bit of notation.
+38:59
+And you transpose you well, the transpose is going to turn all the columns into rows, so this becomes the matrix.
+39:08
+You one transpose down to you and transpose times you one through you at.
+39:17
+So now we can just use the definition of matrix multiplications, we always do row by column.
+39:28
+So the first row will be you one transpose. Times the first column you want and then we go across you one transpose.
+39:33
+Time's Up. Then we go down. So you and transpose times you won.
+39:44
+You go across you and transpose times you end.
+39:50
+So what are all of these? There are all the DOT product.
+39:57
+There are all the corresponding DOT products. So hence.
+40:04
+That means that you transpose you is then equal to you, one dotted with you, one up through you,
+40:10
+one dotted with you and down to you, MN dotted with you, one down to you and dotted with other.
+40:19
+All right. This is an orthogonal set. What can you tell me about the entries below the diagonal and above the diagonal?
+40:31
+There are all zero, right, that's the definition of being orthogonal.
+40:39
+If they're worth the normal, what can you tell me about the entries along the diagonal? They're all equal to one great.
+40:42
+So I think an early question in this class is, does every if and only if proof have to have first left implies right, right implies left?
+40:51
+No, that's not necessarily the case here.
+41:00
+We don't have to do that because at every stage we're saying two things are equal and the left hand side is equal to the right hand side.
+41:03
+So we have an if and only if statement throughout.
+41:11
+So that gives you a computational way to quickly tell if the columns or the normal you could just compute, you transpose, you know.
+41:17
+So here I am saying there, if and only if, right, so we could say if the columns or at the normal, then this would be true.
+41:32
+If this is true, then that implies all the orthogonal city or the normal relation.
+41:38
+So then you get the other way. So, yeah, good, good point.
+41:42
+All right. So. Yep.
+41:48
+Our. Would that change?
+41:57
+So change the orthogonal projection. It just changes the projection formula that you would use.
+42:12
+So the answer should still come out to be the same thing, but the computations you used to get there would be different.
+42:18
+So like changing your basis, vectors shouldn't won't change the end result of the projection.
+42:25
+Just like if I change that vector you that I'm that I'm projecting onto if I make it like a million times longer.
+42:31
+Well, I'm still just projecting and trying to form a right angle with that line.
+42:37
+It shouldn't change how much of a shadow I make onto that line.
+42:41
+So, so you're right, it won't change the actual result that you get from the orthogonal projection formula,
+42:45
+but it can change the computations that you'd use to get there. What about the.
+42:53
+The coordinates, the coordinate mapping, the coordinate mapping would change if you scale your base vectors.
+42:59
+That's right, because they're in terms of how much do you need to use of those?
+43:04
+And if you scale them to be longer or shorter, then you're scaling those coordinate entries as well.
+43:07
+That's a good question. Yeah. David. Oh, I'm sorry up.
+43:12
+I should move over here anyway.
+43:22
+My wife bought me this heart rate monitor, and then then she took me with my kids to a trampoline park this weekend to see if it worked.
+43:43
+So, um, so yeah, that was a fun, fun activity.
+43:53
+So here are the next theorem that we want to think about, then are some properties of matrices that have these or the normal columns.
+44:07
+So suppose we still have this matrix you then let's this be an m by n matrix.
+44:14
+It's not necessarily square. It's important to keep in mind here that I'm not restricted this to be square.
+44:21
+It's an mbye and matrix with all the normal columns.
+44:27
+So again, in the context of this, the last theorem. So that does mean you transpose use equal to the identity matrix.
+44:34
+Now I just want to prove some things about matrices that have this property,
+44:40
+hopefully with the eye towards proving you that this is a useful notion to have.
+44:44
+So if I take out some factors X and Y in our DN, then the following statements are true.
+44:50
+So one thing, and perhaps the most interesting thing geometrically is that if I take a Vector X and I multiply by you.
+45:06
+So I compare X with the output of X, they're going to have the same length.
+45:17
+So what this means is that multiplying by this matrix you is going to preserve the length of the given vector.
+45:22
+So one thing you might think about is like, where have we seen operations that do that kind of thing before?
+45:29
+Can you think of any geometric transformation that would preserve the length of a vector?
+45:35
+Yeah, if I'm rotating around, then I would be preserving the length of that given vector.
+45:41
+And that's a really common operation. In fact,
+45:46
+I read a number of the project proposals around doing rotation with computer graphics and like how you actually implement some of those operations,
+45:49
+which is a cool project idea. So here this is a particularly important one.
+45:57
+The mathematical term, when you're thinking about operations or functions that preserve length, these are called I symmetries.
+46:03
+So that means that this particular transformation is not only linear because it's coming from multiplying by a matrix, but it preserves length.
+46:10
+So it's a nice symmetry. So it's a linear asymmetry. So the length of U Times X is equal to the length of X.
+46:18
+So that's one nice property that matrices with all the normal columns have so that it preserves the length of your input.
+46:31
+So it also in some it preserves DOT products. So if I take you times x dotted with u times y that so this is in some sense measuring like the
+46:40
+angle or how much a vector is in the direction of another in terms of projection formulas.
+46:51
+This is equal to X dotted with Y.
+46:57
+So it plays nicely with dot products. It plays nicely with the norm, with the length.
+47:03
+So this back to even the idea of linearity at the beginning when we started talking about
+47:09
+vector spaces is you want to know what functions would preserve the vector space structure.
+47:12
+This is hinting at some additional structure on our end that you're preserving with these functions.
+47:18
+So that's one reason why they're important.
+47:23
+The third one sort of follows immediately from the other two is that it preserves orthogonal city relations,
+47:26
+so namely a few times X and U times Y are orthogonal.
+47:34
+This is true if and only if it started with Y is equal to zero.
+47:38
+So you might think about how these three statements are related.
+47:44
+So how are BNC related? How are BNC related?
+47:50
+Our John. Yeah, so that was one of our first properties we observed about products, was thinking about the orthogonal relationships.
+47:58
+So if we could prove this relationship, then we would get this relationship for free.
+48:14
+What about being a how are these related? Xavier.
+48:19
+Right. When you actually.
+48:31
+Perfect, right. So again, if you're using,
+48:38
+you can use B to prove a and the definition of the norm of the length of a given vector as the square root of the dot product with itself.
+48:40
+So in some sense, that means B is the most fundamental one here.
+48:48
+B is the most important one for us to consider, even kind of hints at some of the ideas of your problems that the perfect problem on the problem set.
+48:51
+So. Let's prove it.
+49:00
+So proof of. So note.
+49:13
+Well, I'll just start by computing it so you x dotted with you.
+49:23
+Why? Well, if all else fails, just use the definition.
+49:31
+So the definition tells me that this would be equal to you.
+49:35
+X transpose times you y. All right, well, going back to Chapter two, we know what a trans pose does to matrix multiplication, so reverses the order.
+49:40
+So this becomes X transpose times, you transpose times, you times y matrix multiplication as associative.
+49:55
+So Jonathan, sorry, I don't. Why didn't you place?
+50:04
+You x with you? Oh, right here, here, here. Yeah.
+50:13
+So this part, that's a good question. So recall. The definition we took of the DOT product, like X started with Y is equal to X transpose times y.
+50:18
+That's how we turned this new dot product into a matrix multiplication.
+50:29
+So I'm applying that dot product with this thing being my X and Y Y.
+50:34
+Because I'm more comfortable, at least for me,
+50:41
+I'm more comfortable with matrix multiplication than I am with dot products because we've only defined products.
+50:44
+Last week, matrix multiplication, I've had a lot of time to get used to that.
+50:50
+But I want to turn it into matrix multiplication.
+50:54
+So now here I have you transpose you, so the previous theorem then tells me that this is the identity matrix.
+50:58
+So then I have the identity matrix showing up in the middle, which then turns this into X transpose y, which,
+51:06
+as we've just observed, is the same thing as X dotted with Y because of how we defined the Dot product.
+51:13
+Are there questions? So this is sort of a nice proof in terms of like following our new definitions.
+51:23
+Yes, Jonathan, I know how you got. The second thing to the third thing here to here.
+51:30
+Oh, that's a good question, too. So when we looked at a B transpose two matrices multiplied together, this is equal to B transpose a transpose.
+51:37
+Now, it wasn't just four square matrices that were over any matrices that you could multiply together.
+51:51
+So that's what I'm here to hear is this is the matrix. You times the vector x, a vector is still a matrix.
+51:55
+So this becomes X transpose you transpose. Other questions.
+52:03
+Tommy. Yes, that's a good question.
+52:09
+That's a really good question. So let me give a name to these things.
+52:15
+So the definition? So it's not going to be exactly the definition you're expecting,
+52:20
+because I'm going to I'm going to find something else and then we're going to see momentarily that it's equivalent.
+52:30
+So A. And I'm going to define it for an end by end matrix so I can work with square matrices here.
+52:35
+So an end by end matrix hey, is orthogonal annoyingly enough?
+52:44
+If. A inverse is equal to a transpose.
+52:53
+So it's an end by matrix that makes sense to talk about the inverse of that matrix.
+53:04
+And this is a particularly nice education because computing inverses is also kind of an annoying operation.
+53:08
+And so then here we're saying the inverse is just the transpose, and a transpose is really easy for us to compute.
+53:15
+So again, the guiding heuristic is mathematicians are lazy. We want simple computations.
+53:20
+So here we want that a very simple way to compute the inverse. That's true in this case for these orthogonal matrices.
+53:26
+So this is not probably quite what your question was. So you were talking about a matrix of all the normal columns.
+53:34
+Well, let's go back to this theorem. Now this is the context. It's an by matrix.
+53:42
+So suppose we have an NBN matrix? And then here, if I have you transpose you is equal to the identity matrix,
+53:48
+then I could take the transpose of this dissonance a few times you transpose is equal to the identity matrix, the end by an identity matrix.
+53:57
+So then that tells me that then you inverse is equal to you transpose because inverse is a unique.
+54:05
+So that means so maybe I can add that as a remark here, and this is really the definition that Tommy was thinking about.
+54:13
+So if you is in n by n matrix.
+54:20
+With all the normal columns. Then.
+54:27
+A is orthogonal. And orthogonal matrix.
+54:34
+So this terminology I agree with you, if you're probably all thinking is mildly confusing, why do you call it the North and matrix?
+54:42
+Frustratingly enough that this is the terminology that is stuck.
+54:51
+So I don't want you to be sort of using opposite terminology from everyone else.
+54:57
+So this is kind of what we have. OK. Well.
+55:02
+No. So, you know, it doesn't. Or the normal columns.
+55:15
+So that's kind of confusing, so orthogonal matrices have all the normal columns,
+55:22
+not just orthogonal columns, which is what you might expect, Tommy and then you.
+55:27
+There is no. No haven for a non square one, we don't really have a name for it.
+55:32
+Yup. I mean, you might just call it a linear asymmetry. It's probably the closest thing we would have.
+55:41
+Yeah. Mm-Hmm.
+55:48
+But that's not the. For which here now, it is true, like, I mean, both are true.
+55:56
+So if you transpose you is equal to the identity matrix, here is you transpose you if it's equal to the identity matrix.
+56:04
+Well, then all of these entries down here are equal to zero.
+56:12
+So that gives me orthogonal city. All of these entries along the diagonal, equal to one.
+56:16
+So then I get all the normality. Oh, get.
+56:22
+Mm-Hmm. You still don't get. But to say something.
+56:33
+Wait, so you're saying if I transpose this identity.
+56:47
+So if I transpose this identity, then I get oh, you transpose you as equal to the identity matrix,
+56:53
+you're saying because it's a symmetric matrix, then I get the same thing again, so I don't get the other side.
+56:58
+Oh, that's a good question. So how could we get around that problem, that's actually a good point.
+57:03
+This brings us back to Chapter two. How can we get around that problem? Quiz problem.
+57:10
+Could we get around it? We could use the incredible matrix there,
+57:18
+the vertical matrix theorem tells us that having just the right inverse or just a left inverse implies that it's a two sided inverse.
+57:23
+Yeah. So there's then two steps to the argument. This gives us that we have in this case, the left inverse.
+57:29
+Then the inevitable matrix theorem then tells us that then for a square matrix, it would be a two sided inverse.
+57:35
+Good. Good question. OK.
+57:40
+So the reason why orthogonal matrices are important and useful. The most common one that you think about is coming from rotation.
+57:50
+So the reason why they're useful is because they're preserving links. It's often the case,
+57:57
+especially for those of you that are thinking about computer graphics that you'd want to do an
+58:02
+operation on something that preserves the length of that object so you don't change them dramatically.
+58:05
+Marco Remar Is there a reason to go for today or.
+58:10
+Oh, I'm sorry. Yeah, yeah, that was me because I used you here and I used a over there.
+58:15
+So I guess maybe I should use a here to match with the square one that I defined over there.
+58:21
+Xavier. You know. That's an interesting idea.
+58:31
+So I think the idea that you're thinking about there, Xavier,
+58:41
+is you're want to generalize the notion of a thug finality means to apply to other vector spaces.
+58:43
+This is what's called an inner product space where you define a new idea for two.
+58:48
+Then you could define what it means to take the inner product of one matrix with another matrix or one function with another function.
+58:52
+And the cool idea there is. Then you can start saying, I want to measure the angle between sine and cosine.
+58:59
+I want to measure the length of these things and that comes up a lot.
+59:04
+And for a analysis, which again, I've seen many students in the class were thinking about doing their projects on four year analysis,
+59:07
+we will do a little tiny bit in the direction of inner product spaces,
+59:13
+mostly just a hint that there's some cool ideas there and hopefully set the stage for a lot of fun projects.
+59:18
+So I've told many of you this individually, but I'll tell the whole group now at the end of the semester,
+59:25
+one of my favorite parts is we're going to post all of the projects on the canvas page.
+59:32
+So then you can look at all the cool things that your classmates have done.
+59:37
+One, I think perfectly legitimate criticism of this course so far is that I haven't emphasized applications of the ideas that we're talking about.
+59:41
+There are really two reasons for that. One is because we don't have a shared background in other fields.
+59:51
+It makes it very difficult to give an application that's universally interesting to everyone in the room.
+59:57
+But then the other reason is that we want to emphasize proof writing and the
+1:00:04
+theory so that we can really get a deep understanding of how to write proof.
+1:00:08
+So that's sort of the trade off that we're making.
+1:00:13
+But then to address that criticism, I hope hoping that then you will get to see tons and tons of applications,
+1:00:16
+cool directions that you can take from all of the course topics with with the final projects when we post them at the end.
+1:00:22
+So. I always find that part really fun.
+1:00:29
+Last year, the students compiled them into one volume and it was like 800 pages long, it was really quite impressive.
+1:00:35
+I read all of them, too, so. OK.
+1:00:49
+I think what I want to do with my last bit of time today is I don't want to just rush in a bunch of content right here at the end.
+1:00:54
+So what I thought would be kind of interesting is to give you an opportunity to play around with some of these ideas.
+1:01:04
+So the basic thing that I've confronted you with is an orthogonal matrix.
+1:01:10
+So I think my last question on the handout is the asks you to synthesize this new object in orthogonal matrix with some old ideas.
+1:01:16
+So namely, when we think about square matrices, two of our most common things, we ask about them What are the determinant?
+1:01:27
+What is the determinant? What are the eigenvalues? So for an orthogonal matrix, I'd like to know what are the eigenvalues?
+1:01:34
+Are there any restrictions? Can they be anything? What are the what are the what is the determinant?
+1:01:43
+OK, so I just want to take a couple of minutes to give you a chance to play around with this question.
+1:01:49
+You're welcome to talk with anyone around you, but I think let's get back to I think the portion of the class that was the most
+1:01:53
+fun for me was when I see a lot more discussion and interaction with everyone.
+1:02:00
+So let's take a few minutes and then we'll come back together and discuss them as a group.
+1:02:05
+So I want to know what are the eigenvalues of an orthogonal matrix? What are the what is the determinant for orthogonal matrix?
+1:02:11
+And let's see. Both of them would make a nice quiz problems that I've given before, so let's try them out.
+1:02:21
+For a few of these two of these, in fact.
+1:08:08
+I really like to have these moments where we can try things out, but sometimes it's hard to find the time.
+1:08:14
+So let's do the first one first. Going back to Chapter three. So let's suppose we have an orthogonal matrix.
+1:08:21
+So suppose.
+1:08:28
+Hey, is orthogonal, so it's an NBN matrix, otherwise it wouldn't make sense to even talk about the determinant or the eigenvalues, for that matter.
+1:08:31
+So this is an orthogonal matrix. So we have this orthogonal matrix, and now I want to compute the determinant of it.
+1:08:40
+Well, if I have an orthogonal matrix, the main thing of definition tells me that the inverse is equal to the transpose.
+1:08:52
+So I know a Transpose A is equal to the identity matrix.
+1:08:59
+So I could use that. So I could say the determinant of a transpose A is equal to, on the one hand,
+1:09:04
+the determinant of the end by an identity matrix, which we know is just equal to one.
+1:09:14
+On the other hand, I could use the multiplicative ity of the determinant to say that this is equal to the determinant of a transpose
+1:09:20
+times the determinant of a how is the determinative transpose related to the term determinant of a they're equal.
+1:09:28
+We prove that right. So then this is equal to the determinant of a squared.
+1:09:37
+So let's just summarize that. So that means the determinant of a squared.
+1:09:44
+I mean, really emphasize where the squaring is. Is equal to one.
+1:09:53
+So then what can you tell me about the determinant? So then the determinant of a is equal to plus or minus one.
+1:09:59
+So that also gives you a characterization of orthogonal matrices.
+1:10:12
+If you knew your matrix had determinant to, it couldn't possibly be then an orthogonal matrix because we just proved that if you are orthogonal,
+1:10:17
+matrix, your determinant is one or minus one. So that gives you the country, the country positive, gives you a condition on being.
+1:10:27
+A and orthogonal matrix. Yeah.
+1:10:37
+Yeah, the opposite direction doesn't hold.
+1:10:44
+Oh, we would then want some matrix where the determinant is equal to one where it's not an orthogonal matrix.
+1:10:48
+So let's just do something I can also, I don't have to think too hard. Let's take something like two zero zero one half.
+1:10:56
+The determinant is then equal to the product of the diagonal entries.
+1:11:06
+So the determinant of a is equal to two times one half, which is equal to one.
+1:11:10
+Is this matrix an orthogonal matrix? Why not? The columns are orthogonal.
+1:11:19
+They're not all with the normal, they're not length one. So a is not orthogonal.
+1:11:28
+Since. The columns. Do not have length one.
+1:11:36
+So hence, the converse is false. And you all know us well enough to know that we like to ask questions like that
+1:11:47
+where we have you prove one direction and then show the other direction fails.
+1:12:00
+All right. So what about the I can tell you, I think I've just enough time to do the eigenvalues.
+1:12:15
+So let's just suppose we have an eigenvalue, so we have some eigenvectors. So suppose.
+1:12:23
+X is an eigenvectors. Maybe I should use V, because that's the notation I've been using.
+1:12:32
+Fee is an eigen vector. With Eigenvalue Lambda.
+1:12:38
+All right. Well, again, let's just kind of organize our thoughts here.
+1:12:48
+If we then have a times b, this will be equal to Lambda Times V.
+1:12:53
+So that's something that we can say, certainly.
+1:13:00
+Well, I could also then compute the the length of this thing, or I can compute the dot product of a V with itself.
+1:13:03
+So and we know V is non-zero. Ivan Victor.
+1:13:15
+So, well, note, if I look at the length of V, which is something it's non-zero.
+1:13:22
+Well, this is the same as the length of a V. So first of all, why is that true?
+1:13:30
+Is that true? Probably. I haven't used the eigenvalue part yet, though.
+1:13:38
+I will use that next. Jonathan. That's just. Right, so that's saying that multiplying by an orthogonal matrix will preserve the length.
+1:13:47
+Right now, I'm going to use Robbie's observation. I want to plug in that it's an eigenvalue.
+1:13:56
+So then this thing will be lambda we. OK.
+1:14:00
+Well, if I'm pulling out this length here of what's going to happen, remember how lengths are computed?
+1:14:06
+This is equal to the square root of lambda v dotted with lambda v.
+1:14:12
+So then we can pull out those two Lamb does. So then this is v times equal to the square root of lambda squared times the square root.
+1:14:21
+We thought it would be. So my accent when I say it, sorry.
+1:14:36
+It's a. Yeah, my Minnesotan accent as part of I can't get rid of the way that I say the word.
+1:14:44
+But as much as I try, I can't get it.
+1:14:52
+So then here we have the length of his, then equal to the square root of land.
+1:14:56
+Sorry. I actually try hard to avoid using the word rough, but sometimes you can't avoid it.
+1:15:01
+So then you think about what can happen here to this lambda lambda can be a complex number two.
+1:15:12
+But so this is then for real numbers, you'll be saying lambda could be one or minus one X.
+1:15:18
+This is equal to the absolute value, but then for complex numbers,
+1:15:22
+this is the length of lambda as a complex number or what's often called the complex modulus of the number.
+1:15:27
+So lambda squared square root is then equal to the length lamp as a complex number, which then again fits back to when we thought about rotation.
+1:15:33
+When I rotate around, I have my eigenvalues of I and my eigenvalues of I and minus II showing up,
+1:15:44
+which then give me my length of one from that rotation matrix.
+1:15:50
+OK, I've got a minute over time, so let me stop here today. Next time, we'll talk about projecting up to some spaces and or organizations.

@@ -1,0 +1,559 @@
+﻿So a few quick announcements, the. Unfortunately, the math is still having problems with our copy machine,
+so I copied as many as I could given the amount of time that I had this morning.
+It's very slow without a reasonable sized copy machine.
+So the the handout is on canvas now. So you can use that the digital copy if you need to.
+But hopefully over the next few days we will get our new copy machine and this drama will go away.
+Problems at five will be due on a normal schedule on Wednesday.
+So keep that in mind. Math night still happening at 10 p.m. tonight.
+Just remind you of that. Her usual office hours kind of getting back in the swing of things you should be reading to point to
+and two point three and they our linear algebra textbook to kind of keep pace with what we're doing.
+As I announced at the end of class last time, if you choose to, you can submit corrections along with the reflection for your midterm one.
+So that's on great scope that I put the deadline for that as Friday.
+So it should be plenty of time to look those over. There are any questions?
+Yes. Just the parts that you lost points on, I mean, you don't have to submit every question that you've done perfectly already again.
+So if you're thinking about what the point of this is, I mean,
+like the point of this is to promote learning and deeper understanding of those questions,
+to fill in any gaps that you might have uncovered from the problems that.
+So I'm trusting you to do this in the most useful way for you to promote that learning.
+So if you find that it's useful to go over the questions again, like maybe you're welcome to talk to anyone in the class about the problems now.
+So you're you might find it useful to see if anyone else had a more efficient way of approaching a given problem.
+Having graded two hundred of them, there were many clever solutions that went around.
+I mean, there wasn't just one way to solve any given problem.
+So it's sometimes useful to talk to people about them and see if there's a deeper way to understand that given question.
+There are other questions. We got.
+All right, so last class, we started thinking about Matrix operations, or I guess the last linear algebra day,
+we were thinking about Matrix operations and we finally introduced the idea of
+matrix multiplication as a way of representing composition of linear functions.
+And so we really want to run with that theme today.
+And so for a while, we've been thinking about functions and whether or not they could be convertible.
+So in particular, one thing that you've observed say in the reading and Hammack is that a function is convertible,
+has an inverse function if and only if it's bioactive.
+So we can think about that same problem in the context of linear algebra now
+and really tie together these two different perspectives on the same problem.
+So we are thinking about inverses.
+Just to remind you, we talked about the definition of what it meant for a function to be convertible, so and N by N Matrix A is convertible.
+If there exists. And and by N Matrix C such that.
+Both a time C should be the end by an identity matrix and C, a sequel to the by an identity matrix.
+So that's what we meant by our function being convertible. So there was some matrixes that did this job.
+So in principle, there could be lots of functions that do this, maybe not just the one.
+We've also seen that not all matrices are going to be convertible, for instance, the zero matrix is definitely not convertible.
+There's nothing I can multiply the zero matrix by in order to get the identity matrix.
+So leave some natural questions for us to consider going forward.
+The most fundamental question that I can think of is just when is your Matrix convertible?
+And this is actually one of the most fundamental questions in this entire class is determining when a matrix is convertible.
+So the second question maybe is in some sense, how many inverses does a matrix have?
+Our matrix? Our inverse is unique, assuming that there is one at all.
+Are inverses unique? Could there be lots of them?
+Suppose your Matrix A is convertible or there are lots of matrices C that would do this.
+And then the third question is of some kind of practical question, maybe for people interested more in computer science,
+not just the theoretical, there exists a matrix that does this, but once how would we actually find it?
+Could we compute it? So third question, how can we find inverses?
+Assuming that they exist. A further question on that would be a thinking about the computational efficiency of the algorithm that gives them.
+So let's consider the second question first, since that seems the most approachable one to me.
+So what's the most common way that we try to show that something's unique?
+What does that prove structure look like?
+Perfect, right, so let's do that here, let's suppose we have to inverses for a given matrix, we call them B and C, so suppose B and C are both.
+Inverses for a matrix a.
+And I would like to somehow conclude that they actually have to be the same thing and thus the unique and.
+OK, well, let's start with the Matrix. B Well, B is always equal to be times the identity matrix.
+So I could write rewrite this as B times the end by an identity matrix and then I now want to get A into the problem somehow.
+So then I could just replace the end by an identity matrix here with a time C for instance, because they're inverses.
+So this would only be a C because see as an inverse.
+Mayor. Right. But B is also an inverse.
+So then I could group them together, say, like this matrix multiplication is associative.
+So then multiplying on the left by B also gives me the identity matrix.
+So this becomes the end by an identity matrix. Times C again, the point of the identity matrix is multiplying by the identity matrix gives us back C.
+And so then hence we get B is equal to C, so that's.
+Inverses are unique. So assuming your matrix is convertible, there is exactly one inverse.
+So now we can give some notation to this inverse.
+So I'm going to name the inverse by just saying it's a with a superscript of negative one to sort of evoke fractions here.
+So our investors are unique. We denote now the inverse, not an inverse.
+You can use the here inverse of a by.
+So that's just some notation, Jonathan. I will be able to make.
+It's not we're not treating it as being commutative in this case,
+but we do know that inverses commute not all matrix multiplication commutes, but inverses definitely commute past each other.
+As you know that SEIA and AC, by the definition of being an inverse or what commute past each other, they both have to be the identity matrix.
+That's the definition, I'm assuming that C is a matrix that does this.
+So there have been many things that. More than that, when they find that they put up the.
+I mean, the information. The people of.
+So, yes, I mean, the definition is telling us that the inverse matrix or an inverse matrix will be some matrix,
+that when I multiply and either first or second degree multiply or post multiply gives me the identity matrix.
+So I need both. And this is very much like when you thought about inverse functions either in reading and hammock or in a precalculus class.
+When you want an inverse function, you need to both both be composed with G is the identity,
+is the identity function and G compose with F is the identity function.
+In order to be an inverse function, you need both. So that's showing up here.
+Xavier. I mean, that's a great question, I'll address that later today.
+Great question. So right now, if you're talking about the definition, you need to say both,
+but we will prove a theorem that then shows later to answer Xavier's question that having one is enough,
+having just a left inverse will then give you that. It's a two sided inverse.
+Other questions.
+OK, so there is one thing about linear algebra that you're probably noticing is that linear algebra is a field that's been developed by many people,
+not just mathematicians. It's been developed through a lot of its applications.
+So there are many different ways of phrasing the same ideas.
+There's many conflicting or not necessarily conflicting, but there are many terms that represent the same thing.
+So here, just like in many other instances, there are other terms that people will often use to describe in vertical matrices.
+So I just want to make sure that some of these are still in your vocabulary going forward.
+So one thing that we would say for a matrix that has no inverse is often called a singular matrix.
+A matrix that's a convertible is often called a non singular matrix.
+So I do want to make sure that this is terminology that you will want to make sure this is terminology
+that's familiar to you so that you're able to sort of use linear algebra on a wider range of contexts.
+So Matrix. With no universe is called singular.
+A matrix with an inverse is called Naans Angular. So inconvertible matrix is called nonsecular.
+So this is just a bit more terminology here.
+OK. Oh. So let's now move to say question three and question one will save for the end of the day.
+So we want to think about this question of how can we find inverses provided that they actually exist.
+And I guess I want to do this in a little bit of a long winded way for several reasons.
+One, I'd like to just sort of illustrate how you might approach it if you have no idea of how to approach a given question like this.
+Like how would the first mathematicians who ever encountered this problem probably study it.
+But also, it gives you a nice way to think about how you might approach big questions just
+on your own on problem sets where you don't necessarily have an immediate idea.
+This first question or this third question of how can we find inverses? So I would encourage you to just kind of be systematic about this,
+and let's just consider the smallest instance of this question first and then proceed through.
+So the essence of this problem, one in which we can solve it relatively quickly without much effort, is to consider a one by one matrix.
+So let's take. And is equal to what? So that means I have my matrix a well, it's just a matrix with one entry.
+How would I know if this one by one matrix is convertible? Can you give me a necessary and sufficient condition for this matrix to be convertible?
+All right. He is not equal to zero, right?
+So then we know A is convertible.
+If and only if necessary, condition, sufficient condition is that A is not equal to zero because it's just multiplying real numbers together.
+It's nothing terribly fancy. OK, so the next instance of this question, which then becomes a little bit trickier, is to consider a two by two matrix.
+And again, if you just had no idea, well, you just write down a general matrix and see what happens.
+So here, A, B, C, D, and generally, I think this is a good problem solving strategy.
+I mean, suppose I give you a really complicated looking problem on the problem set or on a quiz or on a midterm or something for and by and matrices.
+We'll start with two by two matrices. See what happens. Maybe you can prove it there.
+Maybe you'll immediately give a counterexample if it's a of a problem for two by two matrices,
+or maybe it will give you some idea of how the general proof should look.
+So let's start there and think about what that would actually mean in this case.
+So if we were actually the first mathematicians to encounter this problem, what would we do?
+Well, let's just think about what we want then.
+So then we want for real numbers, E, F, G and H in are so that.
+No period there, sorry. The Matrix, A, B, C, D times, the Matrix, e, f, g, h is supposed to be equal to one zero zero one.
+That's a condition for it to be convertible, after all, is that I need this to be true.
+So then we could just multiply this together, so then we would have a E plus B.G. and we have a F plus B,
+H, we have C, E plus the G, and we have C, F plus D, H.
+This has to be equal to one zero zero one. Well, that's sort of exciting because that gives me a system of equations.
+I'm always happy when I get something that's I've studied a lot already.
+And A, F plus B, H is equal to zero.
+I have C, E plus D, G is equal to zero and I have C, F plus the H is equal to one.
+So now A, B, C and D are given C, E, F, G, and H are what you're trying to solve for.
+So I have four linear equations and four variables.
+So, I mean, I can just sort of systematically go through and solve for the terms that I'm interested in.
+One way to sort of systematically start doing this is you could look for common terms,
+like if I multiply this equation by C and this equation by A, then I would have a common term.
+So if I subtracted one from the other, this term would drop out.
+So it'd give me something in common that I could work with. So maybe illustrating just one of these eliminations.
+I don't know if you need to see this at this point because you're all very experienced with solving systems of equations at this point.
+So if I just wrote a, C, E plus BCG is equal to C and then this one A, C, E plus A, D, G is equal to zero.
+So now if I subtracted one from the other, I would then get say, subtract this one from this one.
+So then have a d, g minus B, C, G some subtracting this one from this one.
+So I'm getting then this is equal to minus C, so I factor out the G and then assuming add minus B C is non-zero,
+I would then get G is equal to minus C divided by A D minus B.C. and again that's if.
+A, D minus B, C does not equal zero.
+So you could continue doing this then equations for the other entries as well,
+you ultimately will get out of this, that your entry will then be equal to.
+So your entry, the one here, will be equal to D. over A, D, minus B, C, your entry F,
+um, will then be equal to minus B over A, D, minus B, C, and then finally your entry H.
+Will then be equal to a bovver ad minus A.B.C.
+So then putting that together, we would then get our purported inverse and you can check that it actually works would be A,
+D minus B, C as a scalar out front times the matrix D minus B, minus C, A.
+So if you were able to just kind of cleverly guess this at the beginning,
+you could verify that your answer works just by multiplying the two equations
+together and seeing that everything cancels out to give you the identity matrix.
+So the nice thing about this is this gives us an explicit formula for the inverse of a two by two matrix.
+And it's one that you could just sort of use the ideas that we've already had and of course, in order to come up with.
+So the interesting thing there is that a two by two matrix, well, it requires this quantity.
+Add my A.B.C. to be non-zero in order to come up with this.
+You could verify again using these equations that your matrix wouldn't be convertible if at minus B, C equals zero.
+So this hearkens back to that one where you solved a similar equation.
+Similar system of equations. So maybe just to summarize, theorem.
+If. A equals A, B, C, D and.
+A, D minus B, C does not equal zero, then A is convertible and a inverse is equal to one over this quantity,
+add minus B, C, you flip the diagonal entries and indicate the diagonal entries.
+So we shouldn't need to do any work now in order to invert the two by two matrix like.
+Yeah, so you're right, once you've gotten this, so this is work not as a proof,
+but showing you how you would get this gas once you have this gas to prove that this is actually the inverse,
+all you need to do is take a multiply by Anvers, take a Anvers, multiply by a verify and both orders.
+You get the identity matrix in principle for the proof.
+You do not need to show how you came up with this answer.
+But oftentimes in the course of finding what to prove, we need to do this sort of scratch work to figure out what the answer should be.
+So it's kind of like when we do those induction problems.
+If I don't give you the statement to prove your first thing you need to do is to consider a few instances of the problem,
+to figure out what the general pattern might be. Then once you have that gas, then you could prove it by induction.
+Smart when you write out the individual variables in The Matrix,
+is it always just an invention like go across horizontally first like it is to be that way?
+You sometimes see it the other way. Like, we've got to look out for guys like the AC, the.
+There are probably some people that do that, that right?
+I don't think I've ever seen a book that has done that, but I have probably seen people in writing do that.
+It's sort of like some people might write functions as X as a function of F just to be really confusing it, just to go against conventions.
+I mean, some people are iconoclasts. They like to do that. There's nothing inherently wrong with doing that.
+But you'll probably, like, confuse some people, so.
+I don't know, it depends on what your goal is in writing. Hopefully it's not to confuse.
+But. So I think just because of the maybe because we're mostly.
+Because I'm a native English speaker, I suppose this feels really natural to me, but.
+It might not necessarily be the most natural thing for other people.
+But at the end of the day, it doesn't really matter as long as you're precise about what you mean.
+I find it really frustrating that these switches are reversed between these two boards.
+But. Seems like they ought to be the same.
+Other questions. The other part of this theorem, I suppose, Bill included, is that if 80 minus BC is equal to zero,
+I mean, you can verify it through the equations that I've written down there. But then the matrix is singular.
+It's not a convertible. So the upshot of this, yes.
+So I guess I would go back to the system of equations that you're writing down here and see what 80 minus BC being equal to zero would tell you.
+I mean, before you divide by zero, you have a perfectly fine equation.
+So then if 80 minus BC is equal to zero, it's telling you something about what C has to be, for instance, in this one.
+So you could go through all the others and give conditions on what the entries that have to be.
+It's a good question.
+So we've now given an exact condition, a numerical condition for one by one matrixes to be convertible and for two by two matrices to be convertible.
+And both of these cases, it's helpful to give a name to these numerical quantities that we've computed.
+So this quantity adds minus BC for two by two matrices and a four one by one matrices is what we'll call the determinant of that matrix.
+So we'll say more about that, of course, later. But for now, let's just record this fact.
+There's some terminology, so if. So A is equal to the one by one matrix when the determinant of A is equal to a.
+If A is equal to A, B, C, D, then we say the determinant of A is A, D minus B, C, so an open question then is what about for a larger and.
+Which will be our next section. And bigger than two, because this is pretty handy, it gives us an exact numerical symbol to compute expression,
+telling us about completely characterizing convertibility in these small cases.
+So it's a very useful thing to know, however.
+If I tried to do the same thing for a three by three matrix, it seems like it's starting to get kind of unpleasant.
+Maybe you say it's already unpleasant, but even more so if I multiply to three by three,
+general matrix by another three by three matrix to get the system of equations that I would need to solve in order for it to be the inverse.
+Things are getting a bit messy and a bit out of hand.
+And similarly, this expression A.B.C., then we'll probably get even more complicated and more cumbersome to work with.
+So this doesn't seem like the greatest approach.
+So I guess I would like to return back to the world of theory for a moment where things are nicer, or at least they claim they're nicer.
+So instead of pulling on that same thread of kind of brute forcing our way through this question, let's try to approach it in maybe a different way.
+So there are some nice things that we can already get at just from the idea that a matrix is convertible.
+So the most fundamental question in this class so far has been about solving systems of equations.
+So let's think about what convertibility means for us in that context. So this is a theorem five if you're reading along in Chapter two.
+So if A is inconvertible matrix, remember, we only talked about convertibility in the context of square matrices.
+So that means that A is definitely and by.
+So if A is an inverted matrix then for all B vectors in R in the Matrix equation X equals B is consistent and it has a unique solution.
+So this notion of inevitability is also bringing us back to something we fundamentally care about in the context of this class,
+whether we can solve systems of equations on day one of this class, I posed the sort of most important questions for us.
+We're going to be given a system of equations. Can we solve it?
+Is there any solution? How many solutions? How can we find them?
+So this is telling us something back again about those fundamental questions at the very beginning.
+Well. So we can prove this.
+Proof. So it's a nice exercise and proofreading again, I don't know, maybe let me see how much time do I have?
+Maybe this is actually a fair moment for me to just stop for, say, two minutes for you to pause again to think about how you would write this.
+If this were a quiz problem for Friday, how would you write this?
+How would you start it, exercise those muscles? We would start by groaning.
+All right, let's work together. I'm not giving you enough time to write a proof, but let's let the point of doing these moments,
+the pause is to make sure that we don't just kind of go on autopilot and watch me do things.
+You really need to be sort of actively thinking about what's going on here.
+It's this analogy that I keep going back to over and over again of like it's like you want to become stronger.
+You go to the gym. If you go to the gym eight hours a day and watch your friends lift weights, you will not get any stronger.
+You'll spend a lot of time in the gym, but it's not going to happen that you'll get a lot stronger.
+On the other hand, if you go to the gym and you start lifting appropriate sized weights.
+This is where I come in and Caleb and all of the other teachers and teaching
+staff to be sort of your coaches to help you find appropriately sized weights.
+That's sort of challenging to promote intellectual growth, but not so challenging that you just injure yourself,
+that you want to think about how you can approach these problems.
+So for the problem, what are the two things that I need to verify for a statement like this?
+James. That's exactly right.
+There's at least one solution and there's at most one solution, right? So there's sort of two things.
+There's existence and there's uniqueness.
+So the first step in writing a proof is to understand what the statement is saying, what it really we need to do in order to do this properly.
+So we want to show that there is some solution. We want to show that there's at most one solution.
+Right. OK, well, the way that I might start such a proof is by at least supposing the thing that I'm allowed to assume,
+presumably that will be helpful, right? Well, so let's do that since a is a convertible.
+And we know there exists.
+Matrix. A Anvers so that a times a inversed is equal to I and which is equal to a inversed times.
+It's just the definition of being convertible. That this matrix exists.
+OK, so I'm supposed to say that now if I take some B, I can solve this equation,
+so I'm probably going to need an arbitrary B. So why don't we name it? Let me be an arbitrary vector.
+And. So now, as James suggested, I want to find this a solution.
+And I want to show that there could be at most one. Could you think of what one might be, what might be one solution?
+The errors of eight times be that seems like a good guess, so let's define X to be that and verify that that's one solution.
+So take X to be equal to and. The claim is that this is a solution.
+How do I check that something's a solution? Plug it in, right, I just plug it in so I just do the computation,
+so then a times X is equal to A times A inversed B by definition of matrix multiplication associative.
+So eight times a inverse. I can do that first. Jonathan, I don't understand why the.
+Why another? So be is another matrix, though.
+I mean, it's just a particular sized matrix matrix multiplication is associative in any instance where it makes sense.
+So then in particular here, if I made a matrix multiplication being associative eight times A inversed times,
+Vector B will be equal to this by definition of inverse.
+This means that this is just the end by an identity matrix times vector B, the identity matrix times.
+Any vector will just be that same vector back so that this is equal to be.
+So we've just verified that X is the solution. So thus.
+ANP is a solution to this equation, X equals B, so that show that there's a there exists one solution.
+What's the other part I need to prove again? Jonathan.
+We already found that the inverse of a matrix is unique and is giving.
+Good, so you pinkness. The left.
+I believe this is an exercise exercise. So certainly think about that proposed solutions as we normally do, Xavier.
+I live within sight of the. That would be a way to prove it as well.
+Yeah, and that's sort of a nice way to to think about, like changing your viewpoint and using previously established results.
+So there's sort of two directions you can often go when you're proving something.
+You can just use fundamentally the definitions,
+which is often a nice way to see if you can just do it from first principles or you can try to think about can you prove this from existing results.
+So certainly there are often multiple ways to prove a given result, but you want to think about how you might organize it.
+So that's a good point. OK, so let's think about some properties of inverses.
+Just like we had properties of Matrix operations last time, so then we can use these things.
+So the first property that I want to record is that if A is convertible.
+Then we know this matrixx anniversary, this, and perhaps not surprisingly, the new matrix, Anvers is also convertible.
+What do you think the inverse of a inverse is? Hey, great, thank you.
+So then a inverse is also convertible.
+And the observation that you all just called out was the inverse of a inverse is equal to something you should be able to prove from the definitions.
+OK, so that's something we can use. Property B, if A and B are in vertical.
+So, again, this is assuming that they're owned by an inevitability only makes sense for square matrices.
+Then the product A times B will also be convertible.
+And we can also give a formula for the inverse.
+So it just makes sense the top switch should be for the front board, but I don't know why they switch it over here.
+So a formula, then, for Hoopes. The inverse, so the inverse of the product of A and B will be the inverse inverse.
+So note that it reverses the order of the two matrices in the way that they're listed there.
+Finally, the last one is basically just saying how inverses behave with transposes.
+So if a Matrix A is convertible, the transpose of that matrix is also convertible.
+Probably not surprising since it's just interchanging rows and columns.
+And if I take the inverse of a transpose, that's just the transpose of the inverse.
+So just some properties to think back of how this relates to the Matrix operations we've seen from last time.
+So the most important one of these properties is Property B, so let's maybe just think about that one and how we would prove it.
+So proof of being so I won't prove all of them.
+I think I have included proofs for all of them in the solutions.
+So let's suppose that we have the two matrices, A and B that are roadable.
+So these are convertible matrices. So no.
+I want to prove that the product of A times B is convertible from the definition.
+So from the definition, what would I need to find? What I need to find, if I wanted to show that the product of and B is inevitable.
+Yeah, I'd have to find the purported inverse, right, so I'd have to find the definition says find a matrix,
+see that if you multiply by the left, multiply on the right both ways would give you the identity matrix.
+So here, if I wanted to do that, what would I need to do? I need to give some Matrix C that would do that job.
+So let's try one. I know that A inverse exists and B inverse exists so I can then compute the product of a inverse and B inverse.
+Right. And let's see if it works. We'll just verify whether that happens to come together.
+So then in this case. Note that if I take A times B times, B, inverse and verse, so, you know,
+B inverse exists because B is in vertical you a inverse exists because A is convertible.
+You know, they're both in my hands. You can take the product of these two matrices. Now, when I consider this entire product,
+it's associative so I can grouped together the BS and get the identity matrix
+that will then just leave the A's and that will give me the identity matrix.
+So then I get this. So that verifies one part of being an inverse or being convertible.
+Now I would need to take B inverse, a inverse and multiply on the left.
+Again, use associativity a inverse time to then inverse times B, which is the identity matrix.
+So then this tells me the AB is convertible. So I've just verified the two properties that need to be true in order to satisfy the definition.
+We also know that inverses are unique, so there can't be some other matrix.
+That's the inverse. This is the only one. So that means also.
+That the inverse of a V is equal to be inverse Hamzeh inverse.
+There can't be some other ones since they're unique, this is it. So that also gives us a way of obtaining lots more convertible mattresses,
+we just can multiply some convertible mattresses together, we get more convertible mattresses, no problems.
+All right. The other properties are very similar proofs, but you should certainly try them to see.
+That you're comfortable with them? All right, so we have two learning objectives left for the day.
+So if you think back to what was the what we were doing as we were thinking to this question, actually compute inverses.
+So I want to do that now. We have the sort of theory in place to finally do it.
+So just to remind you, I'm interested in this question, how can we compute?
+And I want an algorithm for doing that. OK.
+Well, the first approach that we gave seemed like it was getting kind of unpleasant,
+so we want to be a little bit more careful or we're going to keep track of how we do operations on a given matrix.
+So we're going to introduce a perm for each of those operations so we can express them in terms of matrix multiplication in the following way.
+So an elementary matrix. Tawakkol E!
+Is a matrix obtained from the identity matrix.
+From the end, by an identity matrix, by a single elementary where operation.
+OK, so let me just give some quick examples of that to make sure that's super clear what I'm talking about.
+So remember, we had three types of elementary operations, so I'll give you three quick examples here.
+So, for instance, one of our elementary operations was to scale one of your rose by a non-zero number.
+So let's scale the second row of a three by three matrix by, say, two. So this would be an elementary matrix.
+Corresponding to that elementary cooperation is this convertible.
+This convertible. What can I multiply by to undo this operation or to get back to the identity Tommy?
+So then from this case, we can just kind of read off what the universe is, so it's then one zero zero zero one 1/2 zero zero zero one.
+So the first row and the third row just remain unchanged, but then multiply by this one half scale's the two to give me the identity matrix.
+OK, great. What's another element? Reparation. What else can I do for the other two?
+Yeah. We get interchange chance rows, let's interchange the first row in the second row.
+So we could interchange two rows, what's the inverse of this? Will be the inverse matrix to this one.
+Same thing again, right, interchange roads one and two, so if I interchange them again, I get back to what I had.
+If you didn't believe me, how would you check that?
+We can multiply them together, so if you are ever unsure whether you had an inverse, just multiply it out to see make sure you're right, OK?
+The third type is that we add a multiple of one row to another row.
+So let's take, say, five times the first row and add a third row.
+So we get one zero zero zero one zero five zero one.
+Question for. What would be the inverse of that, how do we get back to what we had?
+So we. Nice.
+How could we verify that it's always right? How can we verify again?
+Just multiply them, right? So if you're unsure, multiply these two matrices together, verify that you get the identity matrix.
+So there are some observations that we should notice here.
+So multiplying by this matrix, this elementary matrix, does that corresponding RO operation.
+OK, so that's sort of the point of these matrices that I can express,
+doing a particular elementary operation to a matrix by multiplying by an elementary matrix,
+because if you notice what's happening here, this row will then leave it unchanged.
+This row will leave it unchanged, but then this row will multiply the first row by five and add to the third row.
+So the result of multiplying by E three is performing a particular elementary operation on your matrix.
+So it gives us another perspective on that original problem. So the first observation multiplying.
+By an elementary matrix. Corresponds.
+To performing the elementary operation. All right.
+So you'll also notice that any of these elements were operations we wrote down there, they're all convertible, that observation persists.
+So another observation that you might notice, all elementary row, Operation Row elementary matrices, rather, I'm sorry, elementary matrices.
+Are convertible. So this, together with our properties of matrices, then means any product of elementary matrices will still be inverted.
+So this gives us a way to characterize. Inevitability.
+And in a way that will be computable, so the sort of upshot for us is that a Matrix A is convertible.
+If and only if A is equivalent to the identity matrix.
+So, again, kind of tying back together some ideas from the very beginning to the semester to our latest ideas,
+thinking about how these elementary matrices.
+Oh, convertibility, rather, I still have some decent chalk.
+How these are the question of inevitability relates back to elementary matrices and elementary operations from the very beginning of the semester.
+So, again, further intertwining the various threads of the class.
+The upshot of this theorem is that this procedure that takes us from a to the identity matrix will also transform the identity matrix to a inverse.
+So that will give us a way to compute the inverse matrix. So moreover.
+Any sequence of elementary operations.
+Taking. Hey, to the end by an identity matrix also takes.
+The identity matrix to a inverse.
+Now, that's probably not clear yet why that's the case, but the proof will hopefully enlighten what's going on.
+So let's prove it. Let's. Let me move over to these boards.
+So, again, it's an if and only if statement, so we have two directions we need to prove, plus this more overbid at the end.
+Well, let's start with the proof. The left implies right.
+Well. So what's if this were to be true, what would the reduced echelon form of a.
+They would have to be the identity matrix, right? So one thing we could do in order to prove this will be suppose a convertible
+show that the reduced row echelon form of A is the end by an identity matrix.
+What do we need to know in order to figure out the reduced echelon form of a given matrix?
+What are we finding when we do that? James.
+Yeah. The Pivot's exactly so we want to find where the Pivot's are, so when we're thinking about where the Pivot's are,
+the Pivot's are related to what matrixx equations we can actually solve.
+OK, so that's seeming really promising because if you go back to this theorem, a convertible is X equals B is solvable for any B.
+So it seems like, oh no, all the pieces are kind of coming together for how this argument might look.
+So first suppose. A is a convertible.
+OK, well, if A is convertible by theorem five, that means X equals B is always consistent, then by theorem five, X equals B is always consistent.
+Now, going back to the very beginning of the class, if you know the Matrix, equation X equals B is always consistent.
+What can you tell me about the Pivot's? Previous theorem.
+Is a pivot in every row. Since the Matrix's NBN, if you have a pivot in every row, then you have a pivot in a column since.
+A is in fire, and we know there's a pivot in every column as well.
+Privett. Every column.
+Thus, the reduced Raichlen form of A is the end by an identity matrix or A is equivalent to the NBN identity matrix.
+Questions of that. So it might start feeling like we're like playing with Legos or something, right?
+I mean, we get these theorems that are like building blocks, they're tools and kind of put them together to build other things out of them.
+So, I mean, like, it's kind of a fun thing to do to take these big theoretical building blocks and assemble them to build machines out of.
+I have small children, so I play with Legos a lot. So I think of my proofs that way to.
+The other way is a little bit harder because we don't have as many results to go in that direction.
+So we want to start by just saying, suppose that a roll call into the NBA identity matrix, so that goes back to the very beginning of the class.
+OK, can someone remind me what's the definition of royal equivalence again, what does this even mean?
+Perfect. That's exactly right. So here,
+the new thing that we can add to that from the beginning of the semester is we can express
+all of these elementary operations now through multiplying by elementary matrices.
+So this means there exists some number of elementary matrices.
+I'll call them PEIA them. He won up through IPE so that.
+I'll even order them so I have the Matrix A that will be equivalent to E one times day, which will be equivalent to E two times E one times a day,
+which will be equivalent to da da da down to Eppy, Eppy,
+minus one down to E to be one and a and this result of doing these elemental operations eventually is to give us the identity matrix.
+So this is just using the definition of equivalence,
+combined with this way of interpreting elementary operations in terms of multiplying by an elementary matrix.
+Oh. OK, what do you notice about the end of the story?
+Jonathan, I don't understand why. Hmm.
+Well, how do we get an elementary matrix, what's the definition of an elementary matrix?
+OK, so now if we do that, if we wanted to prove to multiplying by an elementary matrix, how would we prove that statement?
+There are only these three types, so I could choose any of these three types,
+do that one multiplied by that matrix and verify that it's doing the exact same thing as multiplying by the Matrix.
+So if you're not convinced, then I would just perform that calculation. What's that?
+I don't understand the calculation, you just. I don't know if.
+So I take it one is this Matrix zero one zero one zero zero zero zero one, I take the matrix a one one, a one to a one three, a three one.
+A three to a three three. I multiply.
+He won times A then I think about what happens to Rowby column,
+so that means the first row becomes the second row, the second row becomes the third row is unchanged.
+So if you want to turn this into a proof, all you would do is you would make it and buy n change two of the rows,
+make this and buy n multiply it out and verifies the same thing.
+Which part, though, is not making sense of it? I think this will make sense that this is an elementary matrix.
+Yes, OK, so we performed one elementary operation on the identity matrix,
+so now I'm going to multiply this thing one thing, so let's do it a, b, c, d, e, f, g, h, i.
+So there's my arbitrary matrix.
+Now, if I multiply these two things together, it's this time, is this so different or becomes d e f the second row to this and this.
+So A, B, C, the third row is zero zero one.
+And this. So it becomes G, H. So what have I done?
+I've done the operation on my original matrix where I multiply five interchange the first two rows.
+Does that make sense. I don't want to slow down.
+It doesn't feel better that we're. OK.
+So if you wanted to if you wanted to show this in more generality, I mean, you could even do it for a two by two.
+I mean, what's an elementary operation? Zero one one zero.
+There is an elementary operation on a two by two matrix.
+I want to multiply by A, B, C, D, so if I on the one hand, we do this operation on The Matrix,
+I would know that that would correspond to C, D, A, B that's doing the elementary operation.
+Well, now, on the other hand, compute what happens when you multiply these two things together.
+If I multiply by column, then I.
+See, row by D. Row by column A, B, and then you look, you say, hey, look,
+that's the same thing as if I just done the elemental operation of interchanging the two roads.
+The same thing is true if you did say this element of operation to zero zero one that's
+just doing the elementary operation and multiplying by two to the identity matrix,
+take a general matrix, A, B, C, D, multiply these two things together.
+So then I'm what's going to happen? I'm going to scale the first row by two.
+That would be the same thing as if I had multiplied the first row of my original matrix by two.
+It seems like there are some questions over here, look.
+How would you check that if you weren't sure? So that's a great question, but I mean, like these sorts of things will come up all the time,
+you're working on a piece that you're on an exam, you're in a quiz like, can I do this?
+Is this a valid move? How would you check?
+Is the same if multiplying on the left by an elementary matrix does the same thing as multiplying on the right by an elementary matrix?
+Just do it and see, try a particular instance, so like for instance, here, take two zero zero one, multiply by ABCDE that scales the first row by two.
+Then if I put ABCDE over here and I multiply by that, then.
+Same thing here, multiplied by zero one one zero multiplied by ABCDE that performs in an elementary operation on the Matrix.
+Move it to the other side, multiply on the right postma multiply instead of both multiply and then see if it corresponds to the same thing.
+Mike. All in matrices are only they can only be eaten by an.
+Yeah. So we're just trying to characterize in vertical matrices right now, so we're connecting it back with elementary operations.
+So in this case, are multiplying by elementary operations.
+If you want it to multiply, but do it to a non square matrix, we can still multiply on the left, but we can't multiply in the right.
+So then Luke's question wouldn't make sense in that case. Is that your question?
+Yeah. Other questions. OK, so going back to where we were in this proof, so multiplying, assuming you're willing to accept this,
+that multiplying by elementary matrices corresponds to performing the elementary operations, there's certainly something that requires thought.
+But if you're willing to accept that, where are we now in terms of this proof of invisibility?
+Gwen. Right, so we found a matrix that when you multiply by that matrix is giving me the identity matrix, right?
+So right here, it's telling me this could be a inverse.
+This thing is doing the job of multiplying some matrix by sea to give me the identity matrix.
+So then right there, that's giving us that the well, both things actually,
+that if I perform these elementary operations, I can peel them off one at a time on the left.
+Each elementary operation is convertible. Just undo that elementary operation so then we can multiply by epi inverse, move it over here,
+up minus one inverse, move it over here and so forth, to then get a formula for the inverse of a.
+Oh. OK.
+So the upshot of this is we've exhibited a product here that we can take then as a inverse,
+because it's something that you're multiplying by a to get the identity matrix.
+So then it's telling us that A is convertible. So the point is.
+We can find a inverse by performing the same elementary operations we perform on a day to get
+the identity matrix in order and perform the same elementary operations to the identity matrix,
+which will give us a inverse so we can find a inverse by reducing.
+The Matrix, a augmented by the elementary, the identity matrix, so when you do this,
+all we're doing is we're augmenting by the identity matrix so that we're going to perform the
+same row operations that we're performing on a as we're doing them on the identity matrix.
+So it's just a convenient formulation to do the same elementary operations at the same time.
+David. How do we know that we can move these over here?
+A. So you're asking about like eight times PE, eight times PE inverse and so forth, whether that gives you the identity matrix.
+Like a. So that's a great question.
+So I think David's question is asking about this one a times P down to you one, why is this still the identity matrix?
+Why it is having this left inverse mean that we're getting a right inverse out of that?
+So there's a much more convenient way to formulate that result and prove it.
+So let me just come back to that and maybe one second and prove it separately.
+OK, so you're exactly right that you want to verify this, but now I'm running a little bit behind on time.
+But the idea behind computing these inverses now is I want to take this matrix if I reduce it.
+A becomes the identity matrix.
+Because I've augmented by the identity matrix here, I'm performing the same elementary operations on this, so this will become a inverse.
+So this will be our primary way of actually computing. This.
+So. Five minutes, I think the most effective use of my time at the moment is probably to give you an example of actually doing this.
+And then we'll pick up with the main theorem to answer David's question next time.
+So my timing's a little bit off today. I'll check the peace out and to make sure.
+I think I probably need to make the peace I do on Friday, because I'm not going to get through everything you need to see, so.
+I'm less well. So I'll post an announcement to the canvas page after this that the old on the problems that I'm going to have to extend the
+deadline until Friday just just to make sure that you have a chance to see everything before the piece that's actually do.
+So I'll extend the the great scope deadline in the Web work deadline. Caleb, maybe if you could do that for me now, they'll be really helpful.
+So let me just finish up with a quick example of actually doing this, and then we'll come back to cleaning up the loose hanging threads here of both
+David's question and summarizing the key points on inevitability next class.
+So we're really only getting through Section two point two today and not two point three Kamei.
+I'll make the Web work. You do need a little bit of this for what, the next five minutes you would probably need for the Web work on on Wednesday.
+So I think it's probably fair to move it to Fridays class. So sorry about that.
+OK, so let's actually do a computation to finish off class,
+so this is certainly something that you'll need to know how to do if you're thinking about standard computations that you should be able to do for,
+say, mid-term to computing, the inverse of a matrix should be one of them.
+So the algorithm of this problem supposes for us,
+even though we haven't exactly been able to finish the proof here until we finish, David's remark would be the following.
+So I'm going to take the matrix one zero minus two, minus three one four two, minus three four.
+And I'm going to augment by the identity matrix. So now the point of what this theorem says to do is that if I reduce a to get the identity matrix,
+whatever happens to this part should then represent the inverse matrix.
+So let's actually do some elementary operations.
+So here, if I wanted to get rid of this century, I'd multiply the first row by three and add and so forth.
+So we have one zero minus two one zero zero. So that part stays unchanged.
+So we're doing these elementary operations. We're multiplying by the elementary matrices.
+Again, working through those calculations, I think will deepen your understanding of this.
+So we'll get zero one minus two five one zero zero minus three eight minus two zero one.
+So that's just getting rid of these two entries to try to get it to be the identity matrix.
+All right. So then if I keep going, I now want to get rid of this entry here, recognizing that I already have a pivot visible.
+So then I have one zero minus two one zero zero zero one minus two five one zero.
+And now multiply the second row by three and add. So I'll get zero zero two.
+Seven, three, one one.
+Where? Three, you're right, you're right.
+Three, the next one is the next one. Three as well.
+All right. So we're almost there.
+We just have to get rid of these two, so then we add to get rid of the two here and the two here, and then we scale this last entry.
+So then scaling this last entry, I get one zero zero zero one zero zero zero one.
+Then I have I should get eight three one ten four one seven haves, three haves, one have.
+So that means this will be my inverse matrix. How would I check that.
+It's actually right with this algorithm did its job and I haven't made any calculation errors.
+You multiply them together, we multiply this thing by the original matrix,
+a both on the left and the right, we get the identity matrix and then we will get the right answer.
+All right. What would have happened? One last question. What would have happened if this matrix were not investible?
+What would this algorithm have produced like? It would have given you something as sort of inconsistent right to this thing,
+wouldn't have become the identity matrix, you would have gotten in a row of zeros on this left hand bit here.
+So then you would be seeing it then the failure of inevitability showing up in that way as well.
+So you should be comfortable, both types of examples. All right.
+We'll finish up with invisibility on Wednesday. All right. Bye, everyone. My check.

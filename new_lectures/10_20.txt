@@ -1,0 +1,585 @@
+﻿Oh, perfect. OK. All right.
+So let's just quickly run through some announcements.
+I woke up today to a lot of emails from students that were still getting through midterms and things that were a bit behind.
+And so it seemed reasonable to try to give an extension to maybe make things a little bit easier this week.
+So I did extend the deadline for peace at seven.
+If you'd already turned in at 7:00, of course, feel free to just use another extension on a later piece that that might work well for you.
+So hopefully that helps make your week a little bit more manageable in terms of where we
+are right now with the material you should be reading for point three and the textbook.
+And then I just a quick reminder, our fourth quiz will be Friday covering the main topics that we've been doing since the last quiz.
+So inverses determinants and the beginning of vector spaces and sub spaces.
+So through Fridays class. So you won't be expected to know the material from Monday's class.
+The 18th where we were talking about like the kernel of linear transformation, linear transformations between vector spaces and things like that.
+That's certainly nice topics for the next quiz. So I think those are all the major announcements,
+the one other announcement that I would like to put on your radar and will I'll put in and sort of
+an informal way into that aid is this is a good moment to start thinking about your final projects.
+If you haven't already like what ideas you might consider as a part of your final project, what types of things you would like to see.
+So one of the things that came up on the early Courcey Vals that I think is a very astute and
+important observation was that we haven't really been focusing on applications of linear algebra.
+And that is, of course, intentional in this class, because our focus is to take a more theoretical perspective.
+We will have some applications later on in the class. But the point of the final project is to really give you an opportunity to take ownership
+over the course material and kind of pull it in the direction that's most useful for you.
+So for you going into organic chemistry, there are great applications of linear algebra to organic chemistry for you going into econometrics.
+Certainly there are nice applications there,
+but it's not true that I can choose one application that's going to be perfectly suited to every person in the room.
+So instead, for most of the class, except for towards the end,
+I will keep our discussion focused on building the theory that will be useful no matter what kind of applications you pursue.
+So the two things that I would encourage you to think about as a part of maybe a what are some topics
+that you might want to pursue because it won't be long before I ask you for a project proposal.
+And who might you want to work with, so the projects will be in groups of two or three,
+so thinking a bit ahead of time of who you might want to have in your group,
+people that you share interests with, share working styles with, that can make it a little bit easier.
+We are happy, like both Caleb and I, and the rest of the task is to try to facilitate finding groups.
+If you don't feel like you know people to ask, then you could certainly reach out to us.
+And we're happy to kind of connect people together that we know have somewhat similar interests.
+But it's a good idea. Maybe reach out in the group chat, talk to your set group, think about what projects people are thinking about pursuing.
+Any questions before we really get going here? Yes. For the.
+We have another class that has already produced one.
+You could certainly do a project that goes in both directions, they should not literally be the same project.
+OK, so like you could be doing a six hour project needs to be tailored for a math twenty two audience.
+So that'll be certainly one of the things that you'll be evaluated on is how closely it like fits the audience of students that you have in mind here.
+So you're writing for your classmates in your topics that you're choosing should be appropriate for the class.
+So there might be certainly some nice overlap, but they should not literally be the same project.
+Other questions, yes. Well, they'll be what?
+So I'm going to post some project guidelines probably in the next week or so to
+give you an idea that'll include the rubric for how I'm going to evaluate them,
+that that'll give some guidelines of things that have made good projects in the past and things that have not made some good projects in the past.
+That will also be several stages for you to get feedback. So this will be in the guidelines, but I might as well say it really quickly.
+Right now, you'll submit a project proposal, you'll get feedback on the project proposal.
+So that will give you some idea of like how we want to steer these projects to be the sorts of things we will give high grades to.
+Then when you submit your project draft, you will get peer reviews on those and you'll be required to do peer reviews.
+And that will be a part of your final project grade as well, the quality of your review. So you'll get feedback from several peer readers.
+You'll also get a meeting with your group and one of me or one of the TFS to sort of discuss particular points about your project.
+So then that will give you specific feedback where I say, like,
+these are the things I really need to see in order for this to address these rubric items.
+OK, so as long as you kind of engage with the process,
+there's lots of support to get feedback so that there shouldn't be a huge surprises in how they're actually graded.
+That being said, I mean, there are if you wait to start all these things until the last minute, that usually doesn't result in a very strong project.
+So just a fair warning. Yes, Tommy. The proposal, I say, is just like one or two pages, it's very light, I mean,
+the more work there are more thought you put into that, the better off you'll be. The same thing with the draft.
+I mean, you can turn in a really perfunctory draft just like you could in Zorba's,
+but it's kind of pointless to do so because then it probably just means that you're getting
+less feedback on the final project and how close the final project is to what we want it to be.
+So the closer the draft is to being pretty good and being done will mean that you
+get better feedback on whether it's actually close and being done in our eyes.
+Other questions, concerns, I'm also happy to answer yes.
+A project title, can I remember specific titles so I can give some topics?
+I suppose so. Like some good topics would be like students have done in the past, like an introduction to machine learning for math.
+Twenty two student cemeteries and chemical applications or something.
+Graph theory and computation. What are some other good titles people have done topics related to sports analytics,
+like building models for predicting various things about baseball games, if you're interested in that direction.
+People have done things related to econometrics and like the kinds of projects you
+might see in a class like 50 where you're using data sets to really analyze something.
+But there is like a mathematical component to the theory behind things. The.
+Oh, people have done facial recognition algorithms, facial detection algorithms,
+and so, yes, lots of topics in computer vision, image processing have been used.
+Caleb, can you think of any others that we've seen? OK, so, yeah, those are some general ones that we've seen before.
+But yeah, I mean, I think basically, like nearly any topic, you're interested in linear algebra, you show up in a prominent way.
+That's how central linear algebra is and applied mathematics and the sciences.
+I mean, it's one of the go to toolkits.
+And so it really isn't very difficult to find applications related to whatever you happen to be interested in.
+The best projects are the ones that are sort of personal to your own interests.
+It very much comes through if you're doing something that just seems expedient and easy for you to do and those don't generally score high.
+So I'd recommend to you to really, like, lean into this to try to find this is an opportunity for you to,
+like, connect this with what you want to do next. Like, is there a lab you want to join at Harvard and do some undergraduate research?
+Think about how this can launch you into that experience. So try to think about this as an opportunity rather than just kind of like a box to check.
+OK, but it'll help to kind of do a little bit of thinking ahead of time.
+Jonathan. If you confess to our being.
+So then I would either you need to broaden what math twenty two is or I need to broaden what your field of interests are.
+So, like, if you're only interested in, like, applications to like English literature or something,
+that might be challenging, but maybe not impossible. I mean,
+we might need to be sort of creative and be a bit more quantitative with how we're thinking about
+those things that might not literally be the thing you're most interested in in the entire world.
+But I guess I would encourage you to kind of try to broaden out a bit also, if you're, like, really dorky, like I definitely want to do this topic.
+I want to figure out a way to connect it back to math, 20 to like Caleb has great ideas.
+I'm happy to try to be a resource to help you find some ways of connecting that back to the course.
+You can certainly talk to Kevin or seeing or Lucy.
+We've all seen many, many projects in the past and like which topics have turned into really good projects.
+And so I would just try to use the resources of the course to like, let your project kind of evolve.
+Does that help? All right, do some math.
+So if you recall, the big idea of what we're doing in Chapter four is we're redoing the beginning of the course again.
+Right. So in that sense, what we're doing is we're just redoing all of linear algebra, everything that we've done for matrix algebra, for our NP.
+We're doing it for abstract vector spaces now. So this is really a lot of fun.
+It's a moment for you to kind of really make sure that those ideas that you've seen before, you can pin them down and you perfectly understand.
+So I think this is actually one of the best moments of the class.
+But let's be really explicit again, the goal as we want to extend the machinery, the theoretical tools of our end to abstract vector spaces.
+So we want to extend. The ideas.
+The tools, the machine that we built from our end to abstract vector spaces.
+So we've been doing that, and last time we thought or two times ago, I suppose,
+we thought about like what are the analogs of, like lines in planes in our three?
+Well, those are then like subspace is now. So that's like the big thing that we're thinking about are analogs of these flat objects in space.
+And now on the problems that you're then thinking about,
+what are the analogs of then shifting those sub spaces to then like a plane not going through the origin is then like the analog of a cassette.
+So then we're seeing how we can extend abstractly that notion to a more general setting.
+So last class, we then thought about how we could extend the notion of a linear transformation and almost the identical definition went through.
+We then went back to our N with my end matrices and we noticed that there were two fundamental sub spaces that we were working with before,
+namely the column space of a Matrix and the null space of a matrix.
+So then we said, well, how could we generalize those notions to abstract vector spaces?
+And that led us to the idea of the kernel of a linear transformation and the image of a linear transformation.
+Those, of course, both being subspecies of your vector spaces that you're studying.
+So we're making a lot of progress.
+And those ideas, we also thought about how we could describe some spaces using the span of some collection of vectors.
+And we thought about that back even in the context of column spaces,
+of thinking about how we could take the span of all of the columns to then use that to get a way of describing what the column space is.
+But when we did that, when we took just the span of all of the columns, if you had lots more columns, then you had rows.
+What did you notice or what might you notice?
+If you had lots more columns than you had rows and took the span of all those columns, what could you say?
+Tommy. The column vectors were redundant, so somehow we'd like to get rid of some how did we encode this Dundon?
+See, in our what was the notion?
+How do we describe that? Linear independence, right?
+So we'd like to have the same notion, an abstract vector space of talking about what we mean by linear independence.
+So that's our first goal for the day definition.
+We can now take some vectors and a vector space and talk about whether or not they're going to be linearly independent.
+So they set. So we one up through BP Vector's in some vector space, in the vector space, V is linearly independent.
+If well, exactly the same condition that we had before, we can talk about vector equations,
+we can talk about then whether or not this particular vector equation has a non-zero solution.
+Nontrivial solution. What a recipe BP is equal to the zero vector in your vector space has only the trivial solution.
+So normally only the solution when see one, see to see three of the CP, they're all equal to zero.
+So it's nearly identical definition. It's just a little bit of a different scope.
+OK, otherwise, if there's a non-trivial solution, we say the vectors are linearly dependent just as before.
+Police say the vector's. Are linearly dependent, so when you're thinking about this,
+all of the properties we talked about for linearly independent and linearly dependent vectors and problems that we pursued earlier in the semester,
+now they make very nice at this problems going forward. So when we're thinking about like, what if you want extra problems to try out,
+go back to the things we proved about vectors, linearly independent vectors and linearly dependent vectors before.
+Make sure that you could still write the same proof in the context of an abstract vector space.
+That's a great point. So when I talk about this edition here, where is this edition taking place?
+It's in right, it's in the vector space that I'm working, so if you want to be like maximally precise,
+this is addition in the the reason why that notation is usually suppressed is because there's only one vector space lurking around here.
+There's only V, so we assume that it's the same operation that would be has the same thing here when we do the scalar multiplication.
+This is the scalar multiplication coming from V. If you really want it to be maximally precise and maximally sort of pedantic,
+you could write dot sub V to specify that this is the scalar multiplication coming from V again when there's one vector space in your problem.
+Right. We do it, but if there are lots of vector spaces lurking around in your problem,
+it might be nice to clarify which operation is coming from which vector space question.
+OK, so many of the results that we had before will just go through the first thing that we proved.
+About linearly independent or linearly dependent factors was that there was another way of thinking about them,
+namely that some vectors are linearly dependent if one can be written as a linear combination of the others.
+That was a theorem that we proved that was not the definition, but we could now prove the same result again.
+We can also even make it more systematic then and which we literally we did before that statement of the theorem
+of just saying if you have some collection of vectors and you wanted to test whether there linearly independent,
+you can just march through the list and say, like, well, is this one linearly independent or not?
+So what do you check about a single vector to know whether it's linearly independent?
+If you just have a single vector, how do you know if it's linearly independent or not?
+What do you look for about that vector? Whether it's the zero vector, right, that's the only way it can be linearly dependent if it's a single vector,
+so that first vector is non-zero, then it's linearly independent. Then you go to V two.
+So you say, well, how could we want it to be linearly independent or linearly dependent?
+What's linearly dependent on V two is then a multiple of one. It's a linear combination of one.
+It's in the span of one. Then you could go to V three and say is V three in the span of one and two?
+And you could just march through the list to then check for dependent's relations one after another.
+So we proved that before. The exact same proof works in this setting, too.
+So here I'm not going to prove this. I'm just going to state it.
+So if we're just given some collection of actors, say V one through V, where P is bigger than or equal to two.
+So it's not just a single vector and the one is non-zero.
+That's the first one is not the zero vector and v v just to really emphasize, that's where that zero vector is then the vectors.
+One, let me write it this way, we won three VPE are linearly dependent if and only if there exists some J.
+Bigger than one. So that.
+The J factor in this list is a linear combination of the preceding ones.
+So if J is a linear combination, you can say also it is an element in the span near combination of the preceding vectors,
+the one up through the J minus one. So this is a more precise statement than just the one saying one vector is a linear combination of the others.
+Here you can say there's some point in the list where when you systematically go through from the first one to the last one,
+where it can be written as a linear combination of the preceding ones. Xavier.
+Yes. This is harder to check, so if you wanted to.
+So this is actually a nice condition to check because we're just talking about a vector equation.
+We have lots of tools for studying vector equations, whether or not they have solutions.
+So if you wanted to prove that no vector is a linear combination of the others, it's mildly annoying to think about.
+Like if you have a collection of 17 vectors. Well, then what are you supposed to do?
+You're going to then say, like take the first one, see if it's in the span of all the others.
+Take the second ones. If it's in the span of all the others, take the third one for the span of all the others, it's combinatorial and cumbersome.
+So it was the intuition behind what we're going for. But how you would actually check that combinatorial condition,
+this thing where there's a lot of possibilities to check, as you would rephrase it, as a vector equation.
+So either way, you'd be coming back to this, which is in some sense more fundamental.
+So that's why this is the definition. Yes. Definitely.
+Yes, we can use the exact same thing, which is kind of wild, we can't just immediately turn it into an X because that connection isn't there anymore.
+So we need to still develop a bit more of our theory,
+but at least in terms of having a vector equation that follows from just having the vector space properties.
+So that's a really great point, Tommy, considering. Vijay plus one through.
+Why are we not? Well, the thing is,
+is that it could be the case that Jay goes all the way out to pee and it's the last one that can be written as a linear combination.
+The preceding ones, this theorem is just saying there's some point in the list where you only need to use the preceding ones if
+you needed to use every vector in your list and Jay would have to go all the way to the end of your list.
+And you have VTP is a linear combination of one through VPE minus one, but it's actually more convenient in the way that you write your proofs.
+To not have to say vvc is a linear combination of all the others because then think about what that means.
+You're then saying vvc is equal to see one times v. one plus dot dot dot xxx
+minus one hummes V.K. minus one plus plus one times V.K. plus one then dot,
+dot, dot again. So it's notational, much more convenient to just phrase it as this theorem which will still be true.
+Yes, in fact, when we stated the theorem before, we stated them together. Yeah,
+but this is certainly more convenient than taking an arbitrary one in the list
+that we can just say there's one where you can just use the ones before it. And it's, practically speaking, an easier way to think about checking it.
+You start with the first one. Is it zero or not? You go to the next one. Is that one in terms of the first one, then you go to the third one.
+Is that a linear combination of the first two? You go to the fourth one. Is that a linear combination of the first three?
+So that's one way that you can approach your question.
+OK, so it's certainly a good exercise to make sure that you're comfortable working through how that proof would look up from what we did before.
+But I'll leave. That is something that you could either ask about an office hours if you're so interested or by email.
+But let's think about, practically speaking, how we actually do this.
+So let's consider some more vector spaces. So here's a really important vector space that we haven't yet encountered.
+So we did encounter the vector space of all functions with some fixed domain, but oftentimes,
+especially when you're doing calculus, you want functions that have some additional properties beyond just an arbitrary function.
+So, for instance, you might want your function to be continuous or your function to be differentiable or your function
+to be continuously differentiable or something where you have the derivatives have nice properties.
+So one nice vector space that we should name that will comes up a lot is the vector space V and we'll use this notation C of say,
+the interval on which your functions are defined. So I'm going to use this notation to represent the vector space.
+Of continuous, that's the C stands for continuous functions.
+Defined on the interval zero to two by.
+It's nothing particularly special about choosing 022 par here, you might have just chosen A to be, but that's what this notation means if you see it.
+So, for instance, then an element in V or C would be like sign of X. This will be an element in this particular vector space.
+Cosine of X is another element, another vector in this vector space.
+So we're digging a little bit more into a particular function space, not arbitrary functions, but our functions are continuous functions.
+So if we at functions together with another continuous function, if you scale,
+the continuous function would get another function before we have some subspace properties.
+What would the zero vector be in this vector space? With the zero vector B.
+James. Yeah, that's the constant function, F of X equals zero, right?
+Right. So one thing that we should think about is we have a notion of linear independence in this context.
+So let's think about whether sine X and cosine are linearly independent or not.
+Are sine X, cosine X.
+Linearly independent.
+So that's a little bit of a strange notion for us, because I don't think linear independence as expressing about tuples of numbers,
+elements in our NT and now our vectors are playing the role of function or functions.
+So we want to then make sure that we rely specifically on the definition to be very careful here.
+So the definition says to check whether something some vectors are linearly independent.
+You want to form a vector equation and study the solutions to that vector equation.
+OK, so in order to answer this, we would then consider. See, one times I don't know either one first sign.
+X plus C to cosine X is equal to zero.
+I want to be really careful here. This is not the scalar zero, this is the zero function, this is the zero in my vector space.
+So I'm going to write subsea zero to two pi here.
+I realize that's a little bit small and hard to read, but just note that this is saying the zero vector in my vector space,
+I'm really emphasizing that the left hand side is a function. The right hand side is a function.
+OK, so if two functions are equal, what must be true to show that two functions are equal?
+Yes, Jonathan. They're equal for any acts in the domain of this function.
+So then we could translate this into a statement now about honest, real numbers.
+This is then saying, see one cosine X plus C to sign X.
+Oh, boy, I flipped the order. Maybe I should be more we should.
+See, one sign doesn't really matter, but I don't want to be unnecessarily confusing.
+Is then equal to zero for all X in the interval, zero to two PI.
+So now we're just talking about the zero scalar, not zero, the function, the zero function.
+Yes, Laura. They're scalars, yeah, they're just real numbers, they're not functions, they're real numbers.
+Yeah, that's a great point. Good, good question.
+So whenever we're talking about back to our definition, see one through CP, these have to just be scalars and whatever scalar field we're working in.
+If we're working over the real numbers, we have a real vector space. Those can only be real's for working over a complex vector space.
+They have to be just be complex numbers. These most certainly cannot be vectors for whatever vector space you're working in.
+They have to be scalars. So C one and C two are real numbers.
+That that one is. Of that particular ex, so that's giving you real numbers.
+But now you'll note that this is an infinite number of equations, we get one equation here for every X between zero and two PI.
+So this needs to be true when X is zero, when X is one 1/2, when X is PI, when X is I mean three pi over to whatever you happen to plug in.
+So in particular we can plug in a few values. So this needs to be true for all X.
+So then in particular. We can use, say, X is equal to let's choose something simple, X is equal to zero.
+That's certainly an element in this interval. So then let's think about what we would get if I plug in X is equal to zero, what will I get?
+So then my equation say star. Star becomes.
+What I get. Someone help me with my trigonometry, Jonathan.
+Around. So then Hanse C two is equal to zero,
+so we found one of the coefficients has to equal to zero what might be another X value that would be convenient to try.
+However, to, for instance, so let's try now and X is equal to five or two.
+Well, then equation star has to hold for all values of X in particular.
+It will be true for PI over two. So if I plug in, however, to what becomes what happens to equation star up.
+One excellent point of feedback on the course was that I should try to write larger on the board,
+I'm doing my best to do that and remind me if I'm ever starting to write too small to read Laddy.
+And we, in fact, already knew was zero because it had to be zero from the other equation.
+So then now C one is also equal to zero. So thus our original vector equation here had only the solution or C one was zero and C to zero,
+that there is no single scalar that I could multiply signed by in order to turn it into cosine.
+That's what that's saying. So that's sine X and cosine X are now linearly independent.
+I suppose it's not that they're now linearly independent, it's that we've observed that they're linearly independent.
+OK. So the thing that's a little bit interesting about this is that now we're able to use the tools of linear algebra with functions as well.
+So it's a little bit different. Let me not only move to another board, yepp.
+Are there a lot of. Can you say your question again?
+Yeah, but these equations have to be some your seeds cannot depend on X, you have to choose scalars that are going to work for any choice of X.
+So this equation, when X equals zero, told you that C two would have to be zero.
+That's the only thing that could happen. But you're right, that C one we don't know. But then you say, well,
+how could I satisfy this equation when I see one also has to be equal to zero C two we've already determined had to be zero to satisfy this equation.
+So the only way that you could satisfy both is if they're both zero.
+The key point is that this is true for all X, so we have to have choices of scalars,
+see one and see two that are going to work no matter what X value plugged in for them to be equal functions.
+Good point. Yeah. Of continuous functions is the zero function, so it's the function that evaluates to zero for every input.
+For all X in the interval from zero to two. Yep, yep, good point.
+Yes. All so.
+And so the first case you can only hear.
+Joe. Right, right.
+So that's one. Right. We could have plugged in lots of other values here.
+I mean, it just these were easy to get signed and to simplify for us, there was nothing particularly special.
+And if you're working with different functions, you might choose to evaluate there's a different element in the domain.
+But each time you plug in a particular X value, it gives you another constraint on C, on the C, C one, C, two.
+They have to you only get to choose the C's one choice of C's.
+They need to work for all the access. So you have a lot of constraints on the those coefficients.
+Yes, severe. Yeah, because to show that then they're linearly dependent, I would then need to find non-zero solutions that would work for any number.
+I think this is going back to Tommy's point like here for this equation C one could have been something else.
+Right. But because the same C one would have had to work this equation, then I know that it has to also be zero.
+So the quantifiers are key here.
+This is one reason why we did so many exercises earlier in the semester about the order of quantifiers and why they matter.
+Other questions. I think this one is a really exciting one.
+This is good. It's a it's so cool. We can now establish the properties that we're using about linear independence now for sign and cosine.
+This is, I think, a really profound observation that a profound generalization for the context in which we can work.
+This is really important. Jonathan. I kind of think about it, we say, well, I know that sign of that thing.
+Yeah, you could think about geometrically in the case of two functions, what it means for one to be scalar multiple of the other.
+Right. So you could think certainly geometrically, if I just gave you the two graphs of the these vectors now,
+you could say, like, what would have to be true about those graphs that might give you a guess.
+Like maybe one is just two times the other, like, oh, look, I can just observe that identity now.
+So that's a good point. You definitely want to think about.
+A big goal of this class is to develop both a formal understanding of the material and an intuitive
+understanding of the material and to be able to fluently go back and forth between those two notions.
+OK, so it's really important that we think about this kind of observation that Jonathan is making.
+But what does this really mean geometrically when I'm talking about these functions?
+Not to a formal proof necessarily, but how might I come up with the argument?
+OK, I think maybe I've spent too long on this point, but let's go ahead and keep going.
+So why did we care about linear independence? Again, I've just gotten really excited and started running around the room.
+Why do we care? We have a tendency.
+Perfect, right? So then we want to give a name to the situation where we don't have redundancies.
+This is what I'm going to call a basis for my space, is when I don't have these redundancies.
+So key definition, if we're talking about our subspace,
+we want to then say we have a basis for a particular subspace or basis for a particular vector space
+if you don't have any redundancies or vectors or linearly independent and there are spanning set.
+OK, so that's what our definition will be. What age?
+The subspace of a vector space V.
+All right, then we'll say I'm going to take some collection, which I use script B for, this could be some collection of vectors V one up to say VPI.
+Inside of each subset of each. Then this collection bee is a basis.
+This is really important, a basis for H. If so, this is key point, you need to take notes here.
+These two conditions are satisfied there's no redundancy, so they're linearly independent and the span of these vectors will give you all of H.
+So there are these two conditions. So condition one is Collection B is linearly independent.
+Two, each is equal to the span.
+Of the one up through VPI. All right, so let's think about some context in where we've seen this before,
+I go back to our n the place where we have the most intuition, the most understanding, maybe even our two.
+What's the first basis you can think of for our two? So.
+One zero one zero. And this is, in fact, what we call the standard basis for our two,
+so we often use a script E so this will be E one and E two when this case in our two,
+it's the vector one zero and zero one is there linearly independent and it spans are two.
+So it's a basis and it's called the standard basis. For our two.
+Similarly, we can talk about the standard basis for our NPS, which will just be the corresponding statement, what about a nonstandard basis?
+Could you give me a nonstandard basis for our two? It would be a nonstandard basis for our two.
+Marco, if you had like two zero zero.
+That would definitely work, so I could just scale these two zero zero two, that would definitely span everything there linearly independent.
+What might be another one, Xabier? But would also work.
+So, for instance, we could take. One one negative, one one, for instance, is also a basis.
+Or are two what about if I had to linearly independent factors in order to could you tell me about it?
+I just took two linearly independent vectors in order to. That is the basis, right, by what?
+How do we conclude that, yes. The number of actors.
+Yes, we need to linearly independent vectors to span all of our two right from the inaudible matrix theorem,
+for instance, so there are lots of potential bases that we could work in.
+One fundamental point and a lot of applied math is choosing a good basis to work in or the problems that you're studying.
+So when you're thinking about the applications that you might be pursuing,
+you might want to think about what would be a good basis for what you want to do next.
+It might be this one. It might be that one. It depends. Let's do a few others.
+So now for some abstract vector spaces, but take the space of polynomials of degree and or less.
+What would be a simple basis to write down for this one? So what's the simplest spanning set that you could come up with?
+James. So this is the simplest collection, I think,
+of nanomoles or polynomials such that I can write any polynomial degree and or last is a linear combination of these.
+And so this again, this collection of plus one vectors is called the standard basis for this basic polynomial.
+So degree and or less again, there will be lots of potential bases that we could work with.
+And part of the skill involved is choosing the appropriate basis or a good basis for what you want to do next.
+What about one more space of two by two matrices? Do you think about a basis for this?
+I may be a basis for this. So I need to give two by two matrix, it might be a good one.
+So one in each of the four spots. So there we have the standard basis for the space of two by two matrices.
+There are certainly other bases for the space of two by two matrices, but this is a particularly simple one to write down.
+So we call it the standard basis. OK, so those are some important ones.
+So one question I think that for or maybe a question that's important to think about is how you would actually find a basis for a particular space.
+So the motivating question for the next theorem is how can we find a basis?
+You therefore say a vector space V or maybe a subspace, most of our sub spaces are given by spanning sets.
+So suppose I had a spanning set. So like what we've thought about before, we might have the span of the columns of a given matrix.
+Right. That would give me a spanning set for the column space. How could we turn that into a basis for the column space?
+What do you do? What do you do when?
+Exactly, we will eliminate the redundancies, right, so intuitively,
+all we're doing is we're looking for columns that can be expressed as linear combinations.
+The others we'll drop. Those who cares about those are not adding anything new.
+So the spanning set theorem says that we can do that abstractly. So the spanning set from.
+Says intuitively that if you start with a set that spans your subspace, well,
+then just eliminate factors that can be written as a linear combination of the others and keep doing that until you can't do it anymore.
+The result of that process or that algorithm is then a basis. Jonathan?
+And another, which one is which one is having a linear combination?
+So if it's a spanning set, it might have redundancies. If it's a basis, then we've eliminated all of those redundancies.
+So like a basis for the space of two by two matrices is this finite set of four vectors, the spanning set.
+This is also a spanning set for that set.
+If I take the span of these four vectors, that gives me the space of two by two matrices right here at the end.
+I think that each element to make it bigger, that would be.
+Each element and B can be written as a linear combination of any great.
+All right. So just to precisely state the theorem, we have some set s maybe this would have answered your question.
+I guess I could have just kept going. But hopefully this also pins down what we just mentioned.
+If we have some collection of vectors inside of some subspace H and then H is equal to the span of these vectors, the one through VPE.
+So in this case, I would say that s is a spanning set for each and every element in H can be written as a linear combination of the elements and s.
+So I think that's the question that Jonathan was just asking. Right.
+So the idea here is this is like if we had our column space, we just take the span of all the columns now,
+throw out everything that's redundant whenever there one can be written as a linear combination of the others.
+So a judge says that if. One of the vectors of us.
+US can be written.
+Let me name it, one of the vectors of us say vvc can be written as a linear combination of the others.
+Namely, that that collection is linearly dependent, then if I take the SAT as removing that particular vector vis ABQ.
+This also spans age. That's also.
+Span's. Each namely, every Vector H can be written as a linear combination of these vectors with VVC removed.
+So then the second part of the statement B is just that then if we keep doing this, we'll get a basis.
+So namely, if we started with the Spanish set and we kept removing vectors, we would eventually get to a basis.
+So some subset. S is a basis.
+For each so the upshot of this is it gives us a strategy for finding a basis you can first get a spanning set,
+so maybe there's some redundancies, then work to eliminate the redundancies.
+We'll see next class that we could do the opposite strategy as well.
+Or we could just pick a vector in there and keep adding them where we maintain linear independence until we span so that we have both strategies.
+We will have both strategies for starting small and getting bigger or starting big and getting smaller.
+That's a really great question. So, like what we would have to do in the case of function,
+we would then have to like form that vector equation and try to find solutions to those the vector equation.
+And so, like, what we would have to do is we would write down the vector equation and then usually that
+will form a system of equations for us that then we would study using the material,
+the ideas from before. Yeah, good question.
+All right. Yeah, I guess I can.
+I can take them to be inside of. Because I haven't actually defined age at that point, so it doesn't really make sense to say,
+but so I take some collection of actors inside my vector space,
+then I take the span of that collection and then I want to then just eliminate redundancies.
+Yeah, that's better. Other questions.
+So that makes sense. Are we good? The strategy makes sense how we're going to use this.
+All right, so let's see.
+I think what I'm going to do is I'm going to do an example first just to make sure that we're sort of comfortable with how the example looks.
+And then if we have time, I'll come back to approve.
+Because I think here this is a part of the course where it really helps to see lots of examples, so.
+Let me skip ahead a little bit. Unless someone particularly really wants to see the proof.
+Well, I think I can I will still get to at least discuss part of it.
+But let's let's go to an example first. So let's postpone the proof for a moment.
+Hopefully that doesn't upset too many people, some geering already.
+I know. I like the proofs, too,
+but let's consider let's make this concrete for the moment to just like go back to the style of matrix that we were considering before.
+And let's actually look at a column space. So this was like the example that we had last class.
+It's a mild modification of it. So suppose you had one zero zero two zero zero zero one zero, something like this one one zero zero zero one.
+So if I take the column space of this particular matrix. Well, that's going to be equal to.
+The span of, say, one zero zero two zero zero zero one zero.
+One one zero and zero zero one.
+OK, so that's just the definition of the column space.
+So now looking at this, we see lots of redundancies like the first vector, but the second factor, rather, is the scale of multiple first.
+So that one seems like we should eliminate this vector as a linear combination of the first vector and the third vector.
+So we should eliminate that one. And then the remaining vectors are linearly independent.
+Those vectors, what do they look like in terms of our original matrix?
+The. There, that is that's true.
+What else are they in the original matrix?
+The Pivot's, right, so we had a pivot column here, we had a pivot column here and we had a pivot column here.
+So these columns that remain are exactly our pivot columns.
+So this is actually a theorem that this observation persists in general,
+that the column space of A is expand or has a basis coming from the pivot columns.
+So theorem. The pivot columns.
+Of a. Form a basis for the column space.
+Basis. For the column space of.
+OK, well, let's prove this theory should prove something. OK, well, how do we identify the Pivot's are?
+Back to the beginning of the semester, if I just have the original matrix, it's not so obvious where they are, Luke.
+I feel like this is a wild success. Your question for the following reason,
+because I think one place where you're really becoming a mathematician is you're thinking about these extreme instances of statements.
+Right. So you're saying like, what about the zero vector? What's the basis of this?
+So I'm very proud to hear that question. What do people think?
+So it's this weird edge case that Luke and Luke brings up. What about the subspace just consisting of the zero vector?
+How could I give a basis for this, does this not have a basis?
+What might be a basis for this? So I would need some set or if I took the span of all the elements in that set, I would get then everything in there.
+Yep. Well, so what we choose. It does include the zero vector, but it seems too big, right?
+Doesn't it seem a little bit too big? Because if I had a non-zero vector and I take the span of that vector, then I get like a whole bunch of things.
+So then you might say, well, what if I just took the zero vector? What's the problem with just taking the zero vector?
+The part about being linearly independent, right, so then. What could we try to do then?
+I mean, what might be a reasonable choice in this situation? Gwen?
+Hmm hmm hmm hmm, seems like then we get too many things, though, we get more elements.
+Birju. But that's the only particular linear combination that give me zero, right, if I took other linear combinations, I could get lots more things.
+So it's like seems like it's no problem to find a set where the zero vector
+is going to take the span of these vectors is zero vector will be in there.
+That will be true for anything. So it seems like we're coming up on some some potential problems.
+Luke? Uh.
+Yeah. So we have to then think about so yeah, go ahead, Roy.
+We can say, well. Oh.
+Mm hmm. Right.
+Right. Right. So this is a convention that we could choose the most convenient thing to choose in the
+scenario would be to say the basis for the zero vector would just be the empty set.
+So you're both right. And I think many classmates of bringing up similar ideas and that we have to be
+careful then about what we mean by taking linear combinations in this setting. But that's often the convention that people choose.
+So it's nice. I think it's a great idea to think about what our edge cases in these scenarios.
+So nice. All right. Well, let's go back to this question about these pivot columns.
+Hopefully that's a little bit more concrete and less of an edge case, but we need to then establish what we mean in this context.
+The edge cases always generate the most discussion, so that's fun.
+I'm happy to talk more about it in office hours, but all right, let's think about what we mean by that.
+So if we're talking about the pivot columns, we want the reduced rational form.
+So if we're going to write the proof, let's give a name to the reduced echelon form so then we can actually read off with the pivot columns are.
+So let's take you be the reduced row echelon form of a.
+All right, so the pivot columns of you, those will all have to be literally independent because there have zeros above and below the leading entries,
+so then there won't be a linear combination of any of those entries. So that'll be our first from our first theme of the day.
+So the pivot columns.
+Of you will be linearly independent, since none can be a linear combination of the preceding ones and by the first theorem of the day,
+then they would have to be they couldn't be linearly dependent's that have to be linearly independent.
+So say by the first theorem today.
+All right. So and you the fundamental observation that we've used many times is that there is no equivalent,
+so and you are role equivalent matrices, so equivalent matrices have their solution sets in common.
+So the solutions to X equals zero and you X equals zero will be the same.
+So. We know that a X equals zero and.
+You X equals zero, have the same.
+Solutions. So thus.
+That means that you X equals zero had only the trivial solution or only the trivial solution coming from those columns right from the Pivot column,
+so the pivot columns of you would have to be linearly independent.
+So then those same columns of a would have to be linearly independent, because if they weren't,
+then we could give a linear combination of the pivot columns of you, which would then with using a non-zero vector X here.
+So that would be contradicting them being linearly independent. So thus the pivot columns, the same columns of a must be linearly independent.
+All right, so then there are literally independent, yes.
+It applies in any dimension, so in no matter how big our matrix would be, the pivot columns of A will be a basis for the column space of A.
+Yep. No, it won't necessarily be the standard basis it does, you're right, in this case, I could actually modify this example.
+I suppose maybe I just put a two here and then I could put it to here then.
+Now it's giving you a nonstandard basis. And it doesn't have to give you all of our three either.
+Yeah, those are great questions. So here we know the column space of a now so note.
+The column Space of A will be equal to the span of just all the columns, so everyone up through a and so we take the span of all the columns.
+Well, now, by the spanning set theorem, I can remove any one that happens to be a linear combination of the other.
+So now. Using the spanning set theorem.
+From. We can remove any non Hibbett column.
+So the only thing left will be the pivot columns. So that's a little bit of an abbreviated let's quickly do an example.
+So which example did I want to do?
+Oh, yes, so what I thought would be kind of fun to do now was thinking about some like true or false level questions,
+proving of a counterexamples type. So one common proving of a counterexample that I give, so true or false statement.
+So hopefully to I have time to let you think about it a little bit. I think so is the following.
+I suppose this is a really good, I think, quiz question or midterm question or something.
+Oops. Suppos. That you is equal to the reduced row echelon form of a.
+So they have the same use, the reduced echelon form, the royal equivalent matrices.
+And true or false, the column space of you will be equal to the column space of a.
+So thinking about it in the context of the theorems that we were just discussing doesn't have to be true.
+Robbie. Did you want to volunteer?
+What has got to be true? OK.
+Let's think about it. Let's think about an example, let's.
+So I almost always approach these sorts of pressure to prove or give a counterexample questions by just trying to write down some example,
+my examples are usually ones that I can write down the answer very quickly, so say a matrix with zeros and ones.
+So let's consider this matrix. Zero zero one zero.
+So there is a two by two matrix, what's the column space of a. It's a calm space away.
+So the span of the first column, because the second column I can definitely get rid of by the out there just zero.
+So geometrically then this is just representing, say, the y axis.
+Right, there it is, there is my column space. What's the reduced reliance on form?
+What's the reduced Rush Limbaugh? What's the column space view?
+So it's the calm space of you. So this is the X-axis.
+The x axis and the y axis are definitely different.
+So doing that elementary operation of interchanging the two rows changed with the column space looked like.
+So there's a key point that you should take away from this that defined the pivot columns.
+Usually you would find the reduced Russian form and see where all the leading entries are, and then that tells you where the pivot columns are.
+The really tempting thing to do that's incorrect is to take those columns from the reduced, rational and form as the basis for your column space.
+But having done those row operations changed the column space.
+So all it's telling you is that if you went back to the pivot columns of your original matrix, that gives you a basis for the column space.
+So you must take the pivot columns from the original Matrix A when you're talking about the basis for the column space,
+you cannot take that from after having done the elementary operations because doing elementary operations changes the column space.
+OK, so that's one true or false question that I wanted to highlight.
+Here's another one that I kind of like. And maybe this actually gets at another question that came up earlier.
+True or false? So another say quiz type question.
+Is it one of the true or false questions, which shouldn't be a question claim one plus T, one minus T and two is a basis.
+For the space of polynomials of degree, one or less.
+True or false? So let me maybe highlight over here, this thing is boss.
+Is this true or false? So it's a basis. It's false.
+OK, does it span? Span so few people nodding, so then the error must be in that it's not linearly independent, what's a dependent's relation?
+Uh. So this is false. So note.
+The vectors are not linearly independent. Not linearly independent, I can give an explicit dependance relation by saying one plus two,
+plus one minus T and then minus two, minus one times two gives me the zero polynomial.
+Because it exactly cancels out, so there's a non-trivial relation here, one one minus one that gives me dependent's relation, James.
+I would actually spend. We're using the spandex at own, right, so Hispanics get theorem says that we can remove any dependent column.
+So if you have a non pivot column, that means that in the reduced Rashwan form,
+you could write that non pivot column as a linear combination of the preceding columns.
+And so then you can use that to then say how that a linear combination of the preceding columns of A because they have the same solutions.
+So then you would be getting that that non pivot column by the Spanish theorem can be removed to get a basis.
+So the Spanish set theorem says that any non profit column can be removed, so remove them all.
+The only thing left will be non pivot columns. So the only thing sorry, the only thing left will be pivotal.
+Good. OK. So then here, this one is also false, we can give an explicit dependance relation here.
+What about if I took one first and one minus T is not a basis.
+Is that a basis for this base of polynomial degree, one or less? That is, how would you prove it if you actually needed to prove it?
+Arjun. That's right, so you could do it the same way you do the signing, an example, you take one times one plus T,
+you can take C two times one minus T, you can choose particular values of T to plug in here.
+You can also maybe do a little bit, maybe make it a little bit more concrete.
+So in this case, you're looking at the equation, see one hand, one plus T, C, two times one minus T is equal to the zero polynomial and P one.
+So then that means you have C one plus C two times one plus C one minus C, two times T,
+which then has to be the zero polynomial to polynomials are equal if and only if their coefficients are equal.
+So that means that C one plus two has to be equal to zero and C one minus two has to be equal to zero.
+So we have a linear system of two equations and two unknowns. He can form the augmented matrix if you want, but you can then observe.
+But then you see one is equal to zero and C two is equal to zero.
+So in this case, for the space of polynomials, it's then you can look at what the coefficients are and get a system of equations coming from that.
+OK. Other questions or comments?
+OK, so let me just go ahead. So I guess that's the case, but it it or.
+Spane. Paul. And so the pivot columns of you will span the column space of you, the pivot columns of A will span the column space of A,
+but the pivot columns of you will not necessarily span the column space of a.
+OK. So the tricky thing here is that then we have the situation in the first example of that band, all of our three.
+So in that case, those columns would have been fine anyway.
+But if it had spanned something smaller like our two, it wouldn't necessarily be the same subspace.
+All right. It sounds like I'm out of time. I appreciate all of your patients.
+Next class, we'll start thinking about how we can use a basis now to translate questions in an
+abstract vector spaces into our end so we can really get back to working on our end.
+All right. Sorry for going over time. Or maybe I didn't, but I want.

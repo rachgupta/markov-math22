@@ -1,0 +1,1117 @@
+﻿So the Web work, we didn't get through as much material on last Friday's class as I would have liked.
+0:05
+So the Web work seems to make sense to extend for those last two or three questions to Friday.
+0:12
+So if you're still working on those, that's totally fine.
+0:19
+I emailed everyone yesterday to fill out the early course feedback so you can give us some idea of how the course is working for you to this point.
+0:22
+So if there are some adjustments we can make, we're happy to make those.
+0:31
+We tend to take the course feedback extremely seriously and discuss it quite a lot as a team.
+0:35
+The department looks these over to for the various courses. So we very much appreciate your thoughtful feedback.
+0:41
+Also, I think I've had quite a lot of one on one meetings.
+0:49
+I've met many of you, but not all. So just a reminder, I keep adding more times to my you can book times and a lot of you have also
+0:53
+been taking advantage of this is another way to schedule meetings with me, even beyond the one on ones.
+1:03
+I mean, feel free to do that. So please take advantage.
+1:09
+If you're among the students that just joined the class in the last few weeks,
+1:14
+then you should know that I want to have an introductory meeting with everybody here.
+1:18
+So please take the time to do that. I very much appreciate it.
+1:23
+At seven, we'll be doing our normal schedule. Next week, the sets will start to get a little bit longer.
+1:28
+So keep that in mind as you're working on the sets. This will kind of go back into our second midterm over the next few weeks.
+1:37
+So just as you're allocating time to the course, make sure that you're starting those problems early.
+1:44
+All right, so if you think back to what we were doing last class,
+1:52
+the main thing that we accomplished was that we finally defined what the determinant of an end by N Matrix is.
+1:57
+The goal in doing that was to give another characterization of inevitability, to extend the inevitable matrix theorem to be even more powerful.
+2:04
+And so the way that we did this is we first to try to get motivation for what the formula should be.
+2:12
+We did a reduction on, say, an arbitrary three by three matrix, and it gave a numerical characterization of inevitability.
+2:20
+So then we said, well, why not try to use that as our determinant with playing around with the resulting formula?
+2:28
+Then we were able to then see that it seemed like there was an inductive a recursive formula for what the determinant was in that case.
+2:35
+So then we said, well, let's take that as our definition.
+2:44
+So that gave us this particular formula, cool factor expansion along the first row as our purported definition of the determinant.
+2:47
+It's still very much an open question in our class to care to prove that it actually has
+2:57
+the properties that we want so that we make sure that it characterizes convertibility.
+3:02
+That's not at all clear or obvious. OK, that's going to take some work to see.
+3:08
+So what we want to do today is we want to establish some properties of the determinant.
+3:14
+So you've already played around a bit with Determinates on your problem set, so that's, I think, really helpful intuition for today's class.
+3:21
+But I think several of you were asking last time is that this notion of the determinant doesn't seem particularly useful in some sense.
+3:29
+I mean, you think about the computational complexity involved,
+3:39
+it maybe doesn't seem like exactly the way that you would approach characterizing convertibility.
+3:42
+So it also suggests the question of are there other properties of the determinant that we would like to glean from this?
+3:46
+OK, so those are sort of two main motivating questions for the day.
+3:53
+One, does this definition of the determinant actually characterize convertibility?
+3:58
+So that's our major goal. And two, are there other interpretations of the determinant?
+4:03
+Are there other ways of thinking about what it does? OK, so those are motivating questions for the day.
+4:09
+One result that I mentioned last class,
+4:15
+but we didn't get very much time to talk about it was there was nothing particularly special about choosing to do this definition along the first row.
+4:19
+And in fact, it's a theorem, one that we're not actually going to prove,
+4:29
+but that if we'd done this expansion along any row or column, we would get the same answer.
+4:33
+We would just get still the same quantity, which we'll call the determinant.
+4:39
+So while we took the definition to be co factor expansion along the first row, it was an arbitrary choice.
+4:43
+You could have chosen it to be anything. So the theorem factor expansion.
+4:49
+Along any row or column yields the same result.
+4:59
+Namely, it gives the determinant. So that means that we can when we have a matrix in front of us,
+5:09
+that we want to compute the determinant of it, we can make a convenient choice through this theory.
+5:19
+We are not forced to always expand about the first row. Sometimes that's perhaps the least convenient way to do this.
+5:24
+So what does this exactly mean? I mean, you've done this for your problems yet, but maybe I'll give you one quick example.
+5:31
+If you take, say, The Matrix one two three zero zero zero four five six.
+5:39
+And I want to compute the determinant of this. Well, if we were going to do co factor expansion, we'd be forced to go through the first row.
+5:48
+If we're using the definition that seems a little inconvenient and in fact seems much more convenient to expand about the second row,
+5:56
+because then that immediately tells you that the determinant will be zero. So but you'll get the same result if you had expanded about the first row.
+6:02
+So, for instance, the definition, so by definition we would get the following.
+6:12
+We have one times the determinant of the one one minor.
+6:18
+So deleting row one, column one. So we had zero zero five six then remember, as an alternating sum.
+6:23
+So minus two times the determinant now of zero zero four six plus three times the determinant of zero zero four or five,
+6:30
+because each of these two by two determinants has a row of zeros.
+6:44
+These we can just compute immediately. So then we get the result will be equal to zero.
+6:49
+But you could have also expanded about the second row and gotten exactly the same result, Marco.
+6:55
+So why is that not like. Oh, I'm sorry.
+7:01
+You're right. You're right. You're right. Thank you. Thank you. Thank you. Thank you. That's really.
+7:04
+Thanks things good, good catch, Marco. Yeah, that is definitely not equal to that scaler.
+7:10
+The determinant is equal to that. OK, so similarly, if you expand about the second row, maybe I'll write it in just for kicks.
+7:16
+So here are zero times this one that's actually a negative zero doesn't really matter again.
+7:27
+So now I'm deleting the first row and the first column, so I have two, three, five, six, then plus zero times the two to minor.
+7:32
+So this is now deleting this row in this column. So I got one, three, four, six.
+7:43
+So now these smaller sub determinants are actually non-zero, but who cares because you're multiplying by zero.
+7:49
+So then minus zero times the determinant. Of deleting this and this one, two, four or five.
+7:56
+Which again, still comes out to be zero. So we get the same result, Jonathan.
+8:07
+Because the signs alternate so here, plus, minus, plus, so then they alternate in the column, too.
+8:14
+So this is going to be a plus minus plus. So the signs in your in your entire determinate expression, they alternate along rows and columns.
+8:20
+So if I'm expanding along this row, it will start minus, plus, minus.
+8:30
+So the the the sign is always determined by minus one to the I plus J.
+8:35
+So in this entry, this is the two one entry, so this is minus one to the third power, so it's minus.
+8:42
+Other questions.
+8:50
+OK, so we now we have this resolved, this fundamental property of determinants, you can expand along any row or column and get exactly the same thing.
+8:52
+Let's just make some quick observations here.
+9:02
+A nice I don't know, maybe this will be a nice quiz question, if I took the determinant of the identity matrix.
+9:07
+What would that be? So few people are answering with gestures.
+9:14
+Yes. It would be one how would what's one way that you could prove this?
+9:20
+So, Jonathan. And.
+9:28
+I'm not going to prove that no, no, you can I mean, certainly it's a result that you can work through if you want to.
+9:34
+It's a fair amount of just working through the definition to verify that it's going to be the same.
+9:41
+It's not completely short. That's why I don't want to do it.
+9:46
+Also, I'm running a little bit behind schedule, so that's why I don't want to do it. How would you actually prove this result?
+9:51
+How would you prove it? What's one strategy, Arjun? That I have.
+9:58
+Mm hmm. Perfect.
+10:17
+So I believe this is a nice induction exercise to practice on.
+10:23
+So it's a good problem to make sure that you're comfortable with,
+10:30
+to actually prove that result by induction, you've done, in fact, an even harder problem on the set.
+10:33
+So I think it's a good one to just make sure that you can do. Let's consider another case here,
+10:40
+a particular class of matrices that often show up that are nice to work with or what are called upper triangular matrices.
+10:46
+So that's where below the diagonal we have zero. So let's suppose we have a is equal to a matrix.
+10:51
+We have a one one down to a nd we have a bunch of stuff up there and we have zeros below.
+10:58
+So if you have a matrix of this form, you call it upper triangular because there are zeros below the diagonal.
+11:06
+So we call this upper. Triangular.
+11:12
+If you wanted to compute the matrix or the determinant of a matrix like this, where might you choose to do your cofactors expansion?
+11:20
+The bottom rung, so that seems like a good idea, you could do the bottom row, where else seems convenient?
+11:30
+Baras. First column also seems convenient, so if you did that along the first column, you'd get a one one time the sub matrix.
+11:37
+What would you notice about that sub matrix, the determinant to that sub matrix? What form would that sabermetrics have?
+11:44
+It's also upper triangular, so again, it lends itself very nicely to an inductive argument.
+11:52
+So then when you do that, you would end up with the determinant of an upper triangular matrix is then just a product of the diagonal entries.
+11:57
+So this is also a theorem that I will not prove, but appears in the notes and that I posted even from last class that if A is upper triangular,
+12:04
+it's again a nice induction proof, then the determinant of A we don't have to do much work.
+12:17
+It's just equal to a one one times A and the product of those diagonal entries, a shorthand for products is this Capital Pi symbol.
+12:24
+So it's equal to PI from, say, K from one to M.
+12:34
+OK, so this works just like sigma notation except for taking products instead of adding them up.
+12:40
+So proof, again, an exercise by induction. The solution is even in the solutions that I posted from Friday's class.
+12:46
+OK, so those are just some loose hanging threads from last time that I wanted to make sure that we've seen because we'll use them occasionally.
+13:04
+And so it's nice to have a formula that you can just use to compute determinants without needing to go through the co factor expansion.
+13:15
+Uh. So here, let's recall what the goal is, what is the big thing we're trying to do today?
+13:22
+What do we actually care about? Jonathan? Perfect, right, so let's just recall let's stay focused, so reminder to myself to make sure we stay focused,
+13:31
+we get through this the determinant we're trying to prove that the determinant of sane and by and matrix is non-zero if and only if A is convertible.
+13:46
+Or, as Jonathan said, if it is zero, then the Matrix should not be in.
+13:59
+So that's our big goal. That's what we're trying to do. So one of the nice ways that we've thought about inevitability,
+14:04
+the most powerful result we have so far about inevitability is to prove that the matrix is equivalent to the identity matrix.
+14:10
+We went to some effort to prove that. So it suggests that we try to go through that route here as well.
+14:16
+And that also suggests that then I need to be able to understand how elementary rule operations would change my determinant, if at all.
+14:22
+This is the source of a number of questions last time. So let's go through this.
+14:32
+So let's actually try to do this in an example, I think that this is hopefully a good use of time,
+14:39
+but I think it might tie together some threads from the last few classes.
+14:45
+So this is, I think, the first example on the handout for today. So I want to consider an explicit example.
+14:50
+So if you are trying to prove a theorem on your problem set or a quiz or an exam and you didn't know how to prove it,
+14:57
+I would start with the smallest example you can think of.
+15:02
+So here I want to know how elementary row operations impact my determinate, how multiplying by an elementary matrix is going to impact that.
+15:05
+So let's actually do it for some two by two matrices. So let's take A to B.
+15:12
+It doesn't really matter what matrix you pick here, but I can take one, two, three,
+15:19
+four, then I'll take three each of the three types of elementary operations.
+15:22
+So. The first type is then say. Adding a multiple of one row to another.
+15:27
+So suppose I wanted to multiply the first row by two and add to the second row, what would that matrix look like to represent that?
+15:34
+If you want to multiply the left by some matrix that's going to.
+15:42
+Replace the second row with two times the first row added to the second row, yes.
+15:46
+Ice. OK, so that'll be our ROE replacement elementary matrix.
+15:58
+We also have interchanging turow's which we can multiply by this matrix.
+16:04
+So multiplying by this matrix will pick out the second row multiplied by this row, will pick out the first row.
+16:10
+So it results in interchanging them. And then our third type is we need to scale a particular entry.
+16:16
+So that means we just take the identity matrix and scale it or scale it by, say, 10.
+16:21
+Doesn't really matter, again, what choice you pick. I just want to think about what's actually happening here.
+16:26
+So if we wanted to think about what happens, we can get a data point, but it's multiplying out what all these matrices give us and seeing.
+16:31
+So let's actually do it some explicit computation. So if I take it one times a so this is the matrix one zero to one times, one, two, three, four.
+16:40
+So in the early afternoon, some good arithmetic. So the multiplying by the row one zero preserves the first row.
+16:52
+So that's good one too. And I get two times one plus three is five.
+16:58
+Two times two is four plus four is eight.
+17:04
+So I get that particular matrix. Now I would just like to compute all the determinants involved and see how things change or.
+17:08
+How they potentially don't change.
+17:16
+So if I take the determinant of this matrix, this elementary matrix is one times a so, then this is just equal to eight minus 10.
+17:19
+So that's equal to negative two. OK, we want to know how the determinant changes if it does so if we go back to the determinant of E one.
+17:28
+What's the determinant of one? One great determinant of a what is that?
+17:40
+Negative, too great.
+17:55
+So in particular, it tells me in this specific instance, doing this elementary row operation did not change the determinant at all.
+17:58
+OK. Oh, I'm sorry. Negative to negative two did not change the determinant at all.
+18:07
+So we get the exact same thing. This is just four minus six, so we get negative four.
+18:12
+So in this case. We have the determinant of E one and A is the same thing as the determinant of E one times the determinant of.
+18:17
+So in one for one data point, for one computational experiment, we verified that the determinant is multiplicative.
+18:33
+Well, let's try some others. One data point is not that much, so let's try some others.
+18:42
+So in this particular case, let's do it to. Time's a.
+18:56
+So we have e two times a week, so this will then interchange the two rows, so I'm going to get three, four, one, two.
+19:03
+So that means the determinant of E two times a year is equal to six minus four, which is equal to two.
+19:12
+So this did, in fact change the determinant of a the determinant of A is still equal to negative two.
+19:20
+What's the determinant of E to. Negative one, great, so it changed it, so doing a row interchange changes the determinant to changes the sign.
+19:28
+So far, doing a row replacement didn't change the determinate at all during a row interchange change the sign of the determinant,
+19:43
+but we still have that. The determinant is multiplicative.
+19:51
+So that's actually kind of nice.
+19:59
+Let's see, there's one more to check, so let's try the last one, if I multiply it three times A, this will scale the first row by 10.
+20:04
+So I have 10 and 20 and then three and four.
+20:15
+So this looks to me like it becomes if I compute the determinant of E three and I think this is 40 minus 60, which is negative 20.
+20:19
+Right. Oops.
+20:34
+Oh, I see, so if we just do that, in this case, the determinant of E three itself.
+20:46
+Was equal to 10 because it was 10 zero zero one and then the determinant of a which is still negative two.
+20:53
+So then we notice in this case, we also have the determinant of E three times A is equal to the determinant of E three,
+21:06
+ten times the determinant of a. So we've done three examples where this multiplicative of the determinant seems to work out.
+21:15
+So that leads us to probably guess if this were true or false question on an exam like, oh, it worked in three cases.
+21:28
+Let's try to prove it.
+21:33
+It also tells us that Elementary Cooperation's operations definitely change the determinant, but they change the determinant in very predictable ways.
+21:35
+A type one rule operation where you do row replacement doesn't change the determinant.
+21:44
+It just multiplies the determinant by one interchanging rose.
+21:48
+A Type two elementary rule operation changes the sign of the determinant and then type three elementary rule
+21:51
+operation of scaling a particular entry just scales the particular row scales the determinant by that amount.
+21:57
+James. So if we put them on the right, they wouldn't be doing elementary operations when we multiply the matrices together,
+22:05
+so that's why we're putting them on the left. If you were doing Collum operations, for instance, you might prefer to work on the right.
+22:16
+So that's why we're putting them over there. Arjun.
+22:24
+So we could definitely have so type three will be just there'll be even diagonal, so type three, they'll just be diagonal.
+22:33
+Only one entry along the diagonal will be different from one type one.
+22:43
+We'll just have one along the diagonal and one entry off the diagonal.
+22:48
+And that could be either above or below the diagonal. So it will then either be up or triangular or lower triangular.
+22:52
+So this leads us to, I guess, a theorem, hopefully.
+23:05
+Again, I'm not going to prove the entire thing, but I'll prove a piece of it that I think illustrates how the argument will go.
+23:12
+So theorem properties of determinates. So the fundamental.
+23:21
+One fundamental property of determinants, so if A is an end by N Matrix,
+23:32
+remember, it doesn't make sense to take the determinant of a non square matrix. And E elementary matrixx.
+23:41
+Again, has to be in by an. Then the following is true, the determinant of the times A is equal to the determinant of E times the determinant.
+23:53
+So for left multiplication by an elementary matrix, you have this multiplicative of the determinant, which is quite nice.
+24:14
+Furthermore, we'll actually characterize what the the determinants of elementary matrices could be.
+24:22
+So furthermore. The determinant of this elementary matrix has three possibilities it's equal to one if E is row replacement.
+24:31
+So type one operation of multiplying a row by a scalar and adding to another row, that's equal to minus one if E is row interchange.
+24:49
+Interchange and it's equal to R if e scales by R remember to be an elementary rule operation are must be non-zero.
+25:01
+OK. If I asked you today, right now to prove, say, the determinant of an end by an elementary matrix corresponding to a replacement is equal to one,
+25:16
+what strategy do you think sort of jumps out at you as a strategy to use?
+25:30
+So what comes to mind to prove something like that? No, that's no.
+25:37
+All of that, that's. That be right, but also.
+25:52
+Yep. Nice. So at the heart of it, if you didn't remember that result from class, you could prove it again by induction.
+25:59
+But you're exactly right that I mean, it essentially is coming from that previous result that we've seen for upper or lower triangular matrices.
+26:06
+What about this one, the second one interchange, if I want you to directly prove that one.
+26:14
+What would be your approach here? Yes.
+26:21
+Pequod. About. I think proving all of these by induction seems like a great strategy, these are, again, good sources of induction arguments.
+26:26
+I'm going to focus on proving this part because this is really the thing that I think is most important.
+26:46
+But all of the comments you've given so far are exactly right,
+26:58
+that given the way that we've defined the determinant as inductively built out of the smaller determinants,
+27:01
+it suggests using proof by induction for a lot of these properties.
+27:10
+OK, so let's prove it. Let's prove it.
+27:20
+So proof. We prove the result by induction.
+27:25
+So we're proving it by induction on RN the size of a.
+27:34
+So we want to use the fact that if we knew it for N by N matrices, that we could prove this for and plus one by end plus one matrixes.
+27:41
+All right, what do we need to do first, if it's an induction proof? We needed a base case.
+27:52
+Well, how do you think we're going to approach base cases here? How do we think we're going to do that?
+28:00
+What might that look like, Arjun? Yeah, and the one by one case isn't super interesting, as you point out,
+28:09
+because we can't express that many elementary operations just on a single real number.
+28:28
+So I think it makes sense to start these with two by two matrices. So then we can just choose cases to represent all of the possible ways that we
+28:32
+could represent multiplying by an elementary matrix for two by two matrices. So we'll get five cases.
+28:40
+So here are base cases will be based on all of the different elementary matrices we could have.
+28:51
+So, for instance, I'll take a to be a two by two matrix A, B, C, D, then my first case will be case one.
+28:58
+Um, let's do the elementary rule, operation one R zero one.
+29:11
+OK, first of all, what type of elementary preparation is this type one, two or three.
+29:20
+Type one, what does this actually do? So I multiply it by a what does it do to a.
+29:26
+What does it do? Yeah, see, ah, did you ever hand up?
+29:36
+Yeah, right, so you're then Rotu will be exactly the same, but then no one gets replaced by one, plus our times roll too, right?
+29:47
+So if we just wanted to check this condition that the determinant of E.A. is equal to the determined to be times a determinant of a.
+29:59
+Well, it's going to be basically the calculation I just did. So let's just do it.
+30:06
+Let's just do it. So then here, this is a type one element operation, so let's actually compute it.
+30:11
+So then. Um. The Times A.
+30:23
+Well, it will be equal to I take a then I add R times the second row.
+30:29
+So then I have B plus our times D and then my second row is the same C and D.
+30:37
+So now I just want to compute the determinant of this thing so I get the determinant of E time.
+30:44
+They will then be equal to well it's D times A plus or C minus three times B plus R d.
+30:50
+OK, what do you notice about this? Is it easier to hear me today?
+31:02
+I'm trying both a different mask to improve audio quality and up the volume a lot more, it's well into the red zone now.
+31:07
+So hopefully it's is it good you can hear me in the back, OK? Is it too loud now?
+31:14
+Is it annoying to hear me, too? Well, it's like I liked it better and I couldn't hear you, Dusty.
+31:19
+OK, so what happens here? Yeah.
+31:28
+Right here, if I simplify, multiply this out, I get add for the first term, then I have our CD and then I have minus R CD.
+31:36
+So those two terms drop out and then I'm left with minus B C, which is indeed just the determinant of A right.
+31:44
+So this just is the determinant of which also because if you just checked, the determinant to be is one.
+31:54
+So this is still just equal to the determinant of the determinate.
+32:01
+So we've explicitly verified it for this base case, for an arbitrary two by two matrix.
+32:06
+If you did this type of elementary operation, we get the desired result.
+32:12
+All right. I'm just going to list the other cases because they're really the same calculations as we did with specific numbers before.
+32:18
+I'm, again, always happy to go through any of these details with people in office hours if they want to see them.
+32:25
+But if I write out all of them, I won't really get through anything. So case.
+32:30
+What cases are left, case two will take E is now one zero or one, so the other type one operation will have case three.
+32:37
+What else am I missing? So we could take zero one one zero, so type two operation, interchanging the two rows, what are the last two cases?
+32:49
+Someone just shut them out. Ah, zero zero one.
+33:05
+Zero zero one, and then the other one scaling in the.
+33:12
+Second row one zero zero R.
+33:18
+Checking them in each of these cases, we'll just boil down to doing exactly this sort of calculation and verifying that they work,
+33:23
+so I'm not going to show all of those. So the proof's. Are similar.
+33:28
+So now the more interesting part of the proof, in my opinion, is to go back to whoops, oh,
+33:36
+I guess at least this one is to go back to the inductive step or to go to the inductive step.
+33:43
+All right, Dr. Paystub. So now we let A, B and N plus one by and plus one matrix.
+33:54
+Some arbitrary matrix of that size, so we know that it will be at least three by three because we're taking this for friend at least to.
+34:16
+And similarly. We take E to be some elementary row operation.
+34:28
+Operation. If I apply an elementary rule operation to a given matrix, a how many rows could change with just a single elementary where operation?
+34:37
+What's the worst case scenario? How many rows could change?
+34:51
+And most to it doesn't have to be to could just be one, but it could be almost two could change.
+34:54
+So that means if I have a matrix that's three by three or larger, then I know that there's some row that's unchanged.
+35:00
+So I'm going to give a name to that. So suppose.
+35:07
+Row J is an unchanged row.
+35:15
+Just in parentheses. We know such a row exists.
+35:23
+Since elementary raw operations change at most tuberose.
+35:33
+Changes. Most.
+35:43
+Turow's. So since we have and is at least two and we know we can find some rule that's unchanged.
+35:48
+So now let's take that to be our row, that we expand our determinant along.
+35:57
+Now. Expand. The determinant.
+36:18
+Along. Ro Jack.
+36:28
+To get. So we'll have the determinant of E times A.
+36:34
+Well, by definition, what this is going to be do is I'm going to expand along this particular row,
+36:44
+so let's just write it out so I'll have minus one to the J plus one.
+36:50
+Times, whatever the particular entry is in that matrix, so how will the entry in Roj column one compare to the entry in a.
+36:59
+Of column roj column one. How will those two countries compare?
+37:11
+Jonathan. They'll be identical. That's why we chose this row, so in particular.
+37:19
+And we know this will be equal to a rogue column one.
+37:24
+So just to our cool factor expansion along there. So that's our first bet that it's unchanged there.
+37:29
+Then this will be times the determinant where I delete row J and column one from the so e a.
+37:34
+So this is row J. Column one.
+37:45
+So note this notation here. It must mean the end by N Matrix obtained by deleting Roj column one.
+37:50
+It's not the single scalar representing that entry of this matrix. So just because the notation requires interpretation in this case.
+37:58
+All right. So then we keep going. So we'll get in minus J two plus two times a day to the times the determinant of B a J two.
+38:07
+Plus, dot, dot, dot up to the last one, which will be minus one to the J plus N plus one,
+38:21
+since that's the size of my matrix A J and plus one times the determinant of E, a J and plus one.
+38:28
+So again, I'm just writing out the cool factor expansion. I'm not doing nothing else.
+38:41
+Fancy here. All right, so now let's focus in on this expression, this matrix is now an end.
+38:45
+Yes, go ahead. And plus two.
+38:53
+No. Yeah, because it's the entry and this is entry and plus one.
+39:02
+Other questions, typos.
+39:13
+OK, so let's focus in on these miners, so if I take this matrix and I delete a particular row and column, first of all, what size is this?
+39:16
+And by end, what we hope to do and we have an end by n matrix. What do we want to do with this?
+39:26
+Marco, we want to get back to. Indication that they want to find that.
+39:34
+The same. Yeah, right, we want to get back so we can use the inductive hypothesis, right, so here it's NBN that's already a good start.
+39:41
+How does this matrix where we delete the JW row in the first column relate to the the the original matrix,
+39:51
+eh, where you delete the throw in the first column? How would they be related?
+40:00
+It requires a little bit of thinking, but how would they be related? Roy.
+40:07
+Exactly, it'll be a with that exact same operation applied to it,
+40:19
+just a one in one size smaller, so then we can apply the inductive hypothesis to that.
+40:23
+So now I can apply the inductive hypothesis. So by the inductive hypothesis, I can apply that to each of these terms.
+40:29
+So on each of these, they're going to be multiplicative. Each of them are going to be multiplicative and they're doing the exact same
+40:38
+row operation to the smaller matrix as you were doing to the larger matrix.
+40:45
+So each of these are then going to have a determinant of E factor out.
+40:50
+So this will become the determinant of E because it'll be the same operation I factor out into from each of these terms.
+40:55
+So then the result is I get minus one to the J plus one a one.
+41:03
+And the determinant now of the age one minor plus start out to minus one to the J plus N plus one a J and plus one.
+41:09
+Determinant of the terms of a J and plus one.
+41:22
+Uh, a bracket so my compiler doesn't get mad.
+41:30
+So now what is this expression in brackets? It is just the determinate today, so this expression then becomes the determinant of E times,
+41:36
+the determinant of A, which is exactly what I was hoping to do.
+41:47
+So when we're going from this step to the step,
+41:52
+the key idea is we're applying the inductive hypothesis to this and by N Matrix to this and by and matrix to this and by and Matrix,
+41:54
+you're applying the inductive hypothesis.
+42:01
+And plus one times each of those times you're using the fact that this matrix is related to the a matrix by the exact same elementary row operation.
+42:04
+So we can apply the statement where you pull out that elementary matrix.
+42:14
+OK, so this then gives us the multiplicative eighty four elementary matrices.
+42:20
+However, it does not prove this moreover statement, which I think is a nice exercise in the problems we've been looking at.
+42:26
+So this tells us exactly how elementary matrices change under matrix multiplication.
+42:36
+Jonathan. Why didn't he come to.
+42:43
+The determinant of E minor J one isn't necessarily an elementary matrix anymore.
+42:55
+Right. I don't understand. Is enough. If you like.
+43:01
+A minor injury on. I don't that given that given that the the reason why I'm able to apply this is because
+43:08
+I'm applying an elementary rule operation of the same type to the smaller matrix.
+43:20
+So then this smaller elementary matrix ear e here will still have the same determinant, even though it's one size smaller.
+43:26
+You can't literally take the miners of the elementary matrix because that won't give you an elementary matrix again.
+43:34
+So instead, what you need to recognize is that e a when you delete a row and column of
+43:40
+this will be related to a J one by an elementary operation of the same type.
+43:45
+So it will have the same determinant, whether it's scaling by our scaling by one or minus one.
+43:52
+It will not literally be the E minor, though, because when you do the minor, it might not be an elementary matrix anymore.
+43:58
+So there is I mean, you're on to something important to think through here, but it's something that I think, again,
+44:07
+we can either talk about in office hours or you might work through with one
+44:13
+computation to just see exactly what how these two are related in one case.
+44:17
+But once you convince yourself that age one is related to age one by exactly the same elementary operation,
+44:23
+then we can apply the inductive hypothesis to that because the the inductive hypothesis tells me that
+44:31
+I can apply this for and by n matrices whenever I have an elementary matrix times that operation.
+44:38
+And that's exactly how they're related here. So it does require a little bit of thought there.
+44:43
+But again, I don't want to spend 10 minutes going through examples right here.
+44:48
+So it's a good question. But nevertheless, it's a good question to bring up in office hours.
+44:53
+OK. All right, so we've established the multiplicative city of the Yes.
+44:58
+Like. So this matrix here, if you will, have the same determinant, even if you took the same elementary matrix representing an end by an operation.
+45:14
+So if you just took, say,
+45:28
+an elementary matrix of size three by three and then you want to look at a two by two matrix that would apply the same elementary row operation,
+45:30
+it will have the same determinant.
+45:40
+So I can replace it by either because if you want to have like an E prime representing it on the end by in case the determinant of E prime,
+45:43
+the one smaller one would be the same as the determinant of E. So you can replace them in this case because of exactly this identity.
+45:51
+So I'm not claiming that there is no work to do there,
+45:59
+but there is a hopefully there's enough that you can kind of work through to convince yourself of these points.
+46:02
+But what I've written there is literally correct, so you can you might need to do a little bit of work to unpack the notation,
+46:11
+there might be some computations off to the side. Again, this is how I would encourage you to read the textbook, to read my notes.
+46:19
+You don't just passively read mathematics. You need to actually process it and go through it and try some examples to unpack what's going on.
+46:26
+So I think these are great questions. But let me try to resolve if there are more on this point, let me resolve them by office hours,
+46:33
+because I think one of these calculations will convince you of this.
+46:39
+But I don't want to go through that right this second so that we can get through the major learning objectives for the day.
+46:43
+OK. So the key point of this is that we have established the multiplicative ity of the determinant as an as a function for elementary matrices,
+46:49
+we would like that to be true for all matrices. So that's still a bit of work that we need to do.
+47:04
+So let's actually try to prove this. So suppose. A and B are in my own mattresses, so we have the set now,
+47:12
+so I can just say there are elements of that set and my claim is that the determinant of A times B will be equal to the determinant of A times,
+47:22
+the determinant of be. So this is a really nice property of determinants that we would like to have.
+47:33
+We know if A happens to be an elementary matrix that it's true. But how do you generalize?
+47:38
+So we're going to prove this by Casey's.
+47:52
+So we're going to consider two cases we're going to consider when A is convertible and when A is not inevitable.
+47:57
+So case one, let's suppose that A is convertible.
+48:03
+One of our fundamental properties that we've seen before is that when a is an inevitable matrix, that it's equivalent to the identity matrix.
+48:17
+Now, Roe equivalence that tells us that there's a sequence of elementary matrices that
+48:26
+we can use in order to left multiply in order to get to the identity matrix.
+48:30
+So this gives us a way of connecting this, which we know to previous results to hopefully get what we want.
+48:36
+So then that means that there exists some elementary matrices that e one through Eppy Elementary matrices.
+48:44
+So that. Well, we have a real equivalent to one day, which is equivalent to E to one day, which is eventually equivalent to Eppy and one day.
+48:57
+And the whole point of this is that eventually you could get this to be the identity matrix.
+49:17
+So similar to the last time we did this, using this theorem, we can now solve that equation,
+49:26
+that matrix equation for a all elementary matrices are convertible.
+49:33
+So in particular, this tells us that a.
+49:38
+We'll be equal to you. We'll just move them over to the other side, so Eppy inversed down to E one inverse,
+49:44
+if you recall, this is exactly the argument that we use to show that A was convertible.
+49:53
+But this is not what we're trying to do here, of course. OK, so now.
+49:59
+Let's try to commute some now. The determinant of a times, B. Well, we know what it is,
+50:07
+it's then the determinant of E one inverse to E p inverse times B and now what could I do with this expression?
+50:17
+What is the previous theorem, tell me? Kamran. Perfect, right?
+50:30
+So each of these elementary matrices is the inverse of an elementary matrix is another elementary matrix,
+50:44
+again, something to check if you're concerned about that. So then we could pull this out.
+50:49
+So this is the determinant of E one inverse times, the determinant of E to inverse that are times the determinant of B using the previous theorem.
+50:54
+So this is by previous theorem. Now, from this, how could I get to what I want?
+51:08
+This is not what I want. How could I get to what I want? Tommy.
+51:16
+Yeah, so I can combine these back together, if I can mind all of them,
+51:35
+I'm then left with the determinant of E one inverse times, the inverse times, the determinant of beat.
+51:39
+This thing is just a. So then I have the determinant of A times the determinant b.
+51:48
+So we verified it now in the case of your left multiplying by an inverted matrix,
+51:58
+so there's one possibility left that's kind of a bit of a thorn in our side and that we need to do this when.
+52:04
+It is not an. So face to.
+52:16
+Suppos. A is not a convertible.
+52:27
+So we'd like to think about when, a, is that not inevitable? So.
+52:39
+If he is non-convertible, what could you tell me about Abby?
+52:45
+So we. Yeah, how could we see that, how do we know that that's true?
+52:54
+Just exactly right. How do we know that, Anthony? We haven't prove that part of the information system yet, though.
+53:00
+Good point. That works, OK? Yeah.
+53:13
+So if a B happened to be inevitable, then they would exist some Matrix C,
+53:18
+so the ABC is equal to the identity matrix, then what could you tell me about a.
+53:23
+Marco, there exists a. The U.S. says a.
+53:32
+We have to get rid of all of the. Yeah, how do we get around that point that it's only a write in verse for a and not necessarily a left in verse?
+53:38
+Came up on one of the previous upsets, Jonathan.
+53:47
+Yes, so then going be using the inevitable Matrix Theorem, as Anthony was pointing out, using that big hammer then gives us a right inverses enough.
+53:54
+So great. So we know. So then note. A B is not convertible.
+54:02
+By the reasoning that Zoe, Jonathan and Anthony and Marco described, so that's that theorem is a mouthful.
+54:15
+I don't know if we'll name it after everyone will use everyone's first initials.
+54:24
+OK, so we want to prove that then this result. So what can you tell me?
+54:30
+If I start with a matrix that's not inevitable and I compute the reduced echelon form of that matrix, what could you tell me about it?
+54:35
+It's an end by an non-convertible matrix. What could you tell me?
+54:40
+But the reduced rationale form. Sailor.
+54:45
+It'll have a row of zeros, right,
+54:51
+so it won't be the identity matrix because it's not inevitable and it will definitely have a zero along the diagonal.
+54:52
+So those are good observations. So let's give a name to the reduced form.
+54:59
+So let you be equal to the reduced row echelon form of a this quantity will not be equal to the
+55:03
+end by an identity matrix because we've proven that that would have meant that it was inevitable.
+55:13
+If you is the reduced echelon form, that means there's a sequence of elementary operations taking a to you.
+55:20
+So then. There exists, again, say, E. one up through Eppy, so that.
+55:26
+A is equivalent to a one hand I want to eppy times man minus one down to E one times A.
+55:36
+And this will be equal to you. So we then get this equation similar to the one that we had in the convertible case.
+55:47
+So hence we have. That epi down to one times A is equal to you.
+56:01
+So in particular,
+56:11
+A is then equal to e p e one rather inverse down up to a P inverse times you just moving those all to the other side of the equation.
+56:12
+Again, know elementary matrices are in variable, so we can definitely move those over.
+56:26
+So we get then this relationship, these are all again then in vertical matrices.
+56:30
+So then we know that the determinant of A will be equal to by the previous theorem.
+56:36
+So by previous theorem again the determinant of e one inverse to the determinant of e p inverse times the determinant of you.
+56:42
+Can you tell me about this first determinant? It's not zero.
+57:00
+All of these will be non zero, so then here, this last one, what can you tell me about the last one, the determinant of you then?
+57:05
+This one does have to be equal to zero, because, as Taylor pointed out, it has to have a zero along the diagonal.
+57:12
+That's an upper triangular matrix. So by our first theorem, then the determinant will be equal to zero.
+57:18
+So there's a sense. The determinant of you is equal to zero if you're wondering how you could see that it could be
+57:24
+coming from the very first or second theorem of the day where the determinant of an upper triangle,
+57:32
+the matrix, will be equal to the equal to the product of the diagonal entries.
+57:37
+There's a diagonal entry that zero here. OK, so we found that the determinant of A is equal to zero.
+57:43
+Well, we also know B is not inevitable.
+57:50
+So you could do the exact same reasoning with Abe and then conclude that the determinant of AB itself has to be equal to zero.
+57:53
+Well, then we have that. The determinant of AB is equal to the determinant of a times to determine to be because both sides will be equal to zero.
+58:01
+So thus even in this last case.
+58:10
+We have. The determinant of A times B is not inevitable by exactly the same reasoning through here with A replaced by a B,
+58:16
+we then get this will be equal to zero.
+58:26
+This will then be equal to the determinant of a times the determinant of B because this one was also equal to zero.
+58:29
+B the determined to B might not be zero, but who cares? You're multiplying by zero, so you'll get zero.
+58:40
+So it's still multiplicative in this case. OK,
+58:45
+so we've established one really important theorem and that the determinant
+58:54
+of A times B is equal to the determinant of A times they determine it to be.
+58:59
+A corollary of that result is now what we set out for.
+59:04
+So a corollary is just a theorem that follows from a previous work. So A is convertible.
+59:08
+If and only if the determinant A is non-zero. So the big theorem that we were setting out for.
+59:17
+OK. All right.
+59:28
+Well, let's just prove both directions, suppose. A is convertible.
+59:38
+Well, then, a is equivalent to the identity matrix, Yanbian identity matrix by a previous theorem that we prove it in class.
+59:48
+And Hans. The determinant of A is equal to the determinant of a bunch of elementary matrices.
+59:59
+Times the identity matrix suggests those elementary matrices themselves, elementary,
+1:00:10
+we know determinants are multiplicative now, so this will be the determinant of epi down to the determinant of E one.
+1:00:14
+These matrices, we know exactly what they are. None of them can be zero because remember, R can't be zero here.
+1:00:24
+So then this quantity is not zero. So we just have the other implication to prove so now.
+1:00:31
+The argument is essentially follows from what we've done, but let's actually go through it, suppose.
+1:00:50
+The determinant of A is not equal to zero.
+1:00:57
+So now we would like to characterize the convertibility as.
+1:01:03
+The inverses are still elementary matrices, so I'm just thinking of them as a different name, elementary matrix than the ones in the previous problem,
+1:01:12
+if you want to, you can make them all inverses here if you want to use exactly the same setup we had before.
+1:01:20
+That we will preserve their invisibility properties, whether they're non-zero or not,
+1:01:29
+will be the same because they're still just they're still just elementary matrices.
+1:01:33
+If I take the inverse of an elementary matrix is another elementary matrix.
+1:01:36
+So I'm just renaming them as other elementary matrices because it's more convenient than writing all the inverses again.
+1:01:41
+But you could write it the other way, too. So you're still you're correct as well.
+1:01:49
+So I suppose this then we want to connect this back to what happens when we try to invert this matrix.
+1:01:54
+So we use the equivalence. So now suppose.
+1:02:00
+You is the reduced row echelon form of a.
+1:02:07
+Well,
+1:02:15
+if you is the reduced echelon form of a then we know that the determinant of A is going to be the determinant of a bunch of elementary matrices times,
+1:02:15
+the determinant of you. So then if the determinant of A is non-zero, what could you then tell me about the determinant of you?
+1:02:25
+So then the determinant of you would also have to be non-zero. So then by previous theorem, the determinant of you.
+1:02:34
+Does not equal zero, so if you have a matrix and an NBN matrix and reduced Rashwan form where the determinant is non-zero,
+1:02:44
+what can you tell me about that matrix? So here, what would you have to be?
+1:02:53
+So then you would have to be the identity matrix, because if you wasn't the identity matrix, you would then have a zero along the diagonal.
+1:03:02
+So the determinant would have to be zero. Jonathan? The.
+1:03:08
+Lacquerware. Yeah, I mean, the argument is exactly coming from this, it's the same argument.
+1:03:14
+So, um, so then, um, so that's.
+1:03:23
+You is equal to the identity matrix, so A is inevitable.
+1:03:29
+But as Jonathan points out, we used the same argument again in the proof of the previous theorem.
+1:03:40
+OK, so great, we have finally accomplished our main goal.
+1:03:46
+Gwen. Isn't this how we defined the determinant?
+1:03:51
+It's not really how it these properties are a consequence of the definition.
+1:04:04
+So, yes, we defined that. We made our definition with the hope of having this result.
+1:04:09
+But our definition was this complicated thing involving cofactors, like from that complicated thing involving cofactors.
+1:04:15
+There's no reason from that definition that's really obvious that you would think that this encoded inheritability.
+1:04:21
+So, like, there's certainly a lot of work to show that and make these connections.
+1:04:30
+But you're right in the sense that, like, that's why I chose my definition to be what I did was so that I could make this work out.
+1:04:33
+But then I had to actually check that my definition did do what I wanted it to do.
+1:04:40
+Other questions. Determinants are putting people to sleep.
+1:04:45
+Yes. Determined.
+1:04:49
+Yes, the determinant of any elementary matrix will be non-zero.
+1:04:57
+So I included it as a part of this theorem that the determinant of elementary matrix is either one negative one or are.
+1:05:03
+Yeah, so, I mean, is a perfectly reasonable thing to do, I mean, that would be a fine quiz question.
+1:05:09
+Prove by induction that the determinant of an elementary matrix is one negative one or are.
+1:05:14
+That would be totally a fine problem. Yes. Yes, in fact, that is on my hand out, I think, for the day.
+1:05:21
+Yeah, good questions. All right. So I have still another nine minutes and I would like to get through some more material.
+1:05:36
+So let's let's keep going.
+1:05:44
+So the second learning objective of the day, so there was there were two.
+1:05:48
+The first was to finally prove that this is now a statement that Anthony wanted to use in the inevitable matrix there.
+1:05:52
+Now you can use it in the Matrix Theorem that a determinate being non-zero completely characterizes the question of the inevitability of that matrix.
+1:05:59
+So we definitely have that along with this multiplicative property. The second learning objective of the day was to try to give some kind of a
+1:06:08
+geometric or other interpretation of what the determinant actually represents.
+1:06:19
+So that's what I'd like to do. So what is the determinant really got to get at for us?
+1:06:25
+What is it really useful for other than invert ability?
+1:06:30
+Because we had lots of ways of getting an inevitability from the Matrix Theorem.
+1:06:33
+OK, so geometry of determinates, one of my favorite topics, so this is really this will be fun.
+1:06:40
+So the geometry of determinates. So let's start with a simple example.
+1:06:47
+To try to figure out what the determinant is really telling us. So, again, this is my approach to doing mathematics.
+1:07:00
+Much of the time I get some new theoretical thing in front of me.
+1:07:06
+I want to figure out what it does. I try the smallest example I can think of.
+1:07:09
+OK, so here, let's take a linear transformation.
+1:07:14
+And this is actually one of the most important ways that determinants arise. So let's take the determinant.
+1:07:18
+So let's take a linear transformation of X is equal to a times X where A is a diagonal matrix two zero zero three.
+1:07:25
+So my question then is just what does this transformation do?
+1:07:36
+So normally when you're thinking about a function going from R to R, you think about the graph of that function for four linear transformations.
+1:07:39
+It's harder to do that because here we have two inputs and two outputs.
+1:07:47
+So if you're trying to think about the graph that would live in our four, which is harder to visualize.
+1:07:53
+So instead,
+1:07:57
+what we usually do is we think about what happens for regions in the domain and then when you apply to look at what that region becomes in the KOTOMI.
+1:07:58
+So the simplest region I can think of is the unit square and the domain.
+1:08:06
+So let's take the unit square in my domain copy of R2.
+1:08:10
+So I call this square s and then I'd like to apply T to S.
+1:08:22
+So if I apply this linear transformation, a geometric transformation, what is he going to do to this region?
+1:08:29
+What does it do to the unit square? What does it do?
+1:08:34
+Someone hasn't answered yet today. Yes.
+1:08:41
+Perfect, so we scale the X component by to scale the Y commanded by three, so then it takes it to this rectangle.
+1:08:50
+So this would then be two of us. So a perfectly reasonable question is how does the area of S relate?
+1:08:59
+To the area of Tomas. OK, so it seems like certainly got bigger.
+1:09:10
+Let's try one more example to really understand what's happening here. Let's try one more example.
+1:09:20
+So let's take a bigger square, one, two, one, two.
+1:09:32
+So I'll call this area as prime for the square now outside links to the area of crime is equal to for appli t.
+1:09:37
+Now, again, my linear transformation skills, the x axis by two.
+1:09:51
+So it's going to stretch this one out to go out to four, one, two, three, four.
+1:09:55
+And it'll stretch this one to go out then six.
+1:09:59
+One, two, three, four, five, six. So I get them this.
+1:10:04
+T o. S prime. So the area of this region, T of s prime is then just equal to four by six twenty four.
+1:10:12
+So in this case, to get the area to take the area of s to get to the area of TVs, I multiplied by six.
+1:10:24
+In this case, I took the area of S prime, I multiplied by six and I got the area of T of S prime.
+1:10:32
+In both cases we're scaling by six. You'll note that the determinant of the associated matrix here is also six.
+1:10:40
+So this observation in this case actually persists in general, which is quite remarkable if you take an arbitrary,
+1:10:52
+linear transformation from R to to R to the determinant is going to tell us how regions scale, how their vote, their areas or volumes will scale.
+1:10:59
+So. Let me.
+1:11:11
+I have like five more minutes of this, but I think rather than going over today to fit that in, why don't I end here?
+1:11:19
+We'll go five. Wait, let me summarize. Don't leave immediately.
+1:11:29
+We'll spend five minutes at the beginning of class on Friday and then we'll go into vector spaces, starting with Friday's class.
+1:11:32
+So we'll get out, I think, three or so minutes early today.
+1:11:41
+The major learning objectives coming out of today's class or having properties determinants now.
+1:11:45
+So, you know, the determinant is multiplicative, you know, the determinant of all types of elementary matrices and you should be able to prove that.
+1:11:51
+And finally, we've proven that the determinant is non-zero if and only if the Matrix is convertible.
+1:11:57
+So, you know, you can use that and add that to the convertible matrix theorem. The last little bit.
+1:12:03
+The fourth learning objective is just thinking about how determinants encode geometry.
+1:12:07
+So we'll pick up with that on Fridays class. All right, everybody, have a good Wednesday.
+1:12:12
+Good luck with midterms if you're still taking them. Leroy, OK, the print or the.

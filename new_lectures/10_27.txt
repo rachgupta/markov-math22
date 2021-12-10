@@ -1,0 +1,561 @@
+﻿All right, morning, morning or good afternoon, I suppose. Let's let's get started.
+So a few quick announcements. Well, we're starting to well, shortly we'll be getting into Chapter five in terms of the reading for the last few units,
+you should be thinking about reading four point seven in the textbook.
+And then I'm going to skip ahead a little bit to the five point four, because I think that's a more natural transition into Chapter five.
+So it might be helpful to skim that section lightly before we really get into it.
+I've also just posted piece at nine before class today, so that will be the last piece set before the midterm.
+And then I've also posted finally the promised project guidelines.
+So along with a sample project from last year that I quite liked to give you kind of an idea of what to expect.
+One thing that we're doing a little bit differently this year with the final projects is that you'll turn in a proposal with problems at 10.
+So coming up relatively soon, you'll get then feedback on your proposal, certainly.
+But at the draft stage, when you turn that in, we're going to have someone,
+some representative or maybe your entire group actually come and have a conversation with your mentor.
+So, like, each project group will have a tough one,
+me or one of the grad students attached to it to make sure that you're getting like really consistent feedback on what we expect for that.
+So we're requiring at least one check and meeting to get that feedback on your
+draft to make sure that that's going in a direction that we will be happy with.
+So last year, we did this all sort of in a written way,
+and there was no sort of official grad student attached to each project, I think this way it might be a little bit better.
+So hopefully that means that you feel like you're getting plenty of feedback on your projects.
+You'll also get peer reviews and part of your project grade will be giving thoughtful reviews of your classmates projects as well.
+So you should have quite a lot of feedback on your projects.
+But for the moment, I understand that that's not probably taking a huge amount of your energy,
+but it should at least be taking a little bit of your energy.
+So I think thinking about general topics you might be interested in pursuing so that you're not starting from zero when you think about that for 10.
+I also think it's a good time to start making to start solidifying who you might work with.
+If you're having trouble finding a project group, you can certainly reach out to me.
+And I'm happy to kind of play coordinator a little bit here as people email me.
+I'm happy to match you up with other people if you don't feel like you want to do that yourself.
+Yes. I'm sorry I couldn't hear you.
+Say it again. Am I going to post sample products in the past, I posted one project already,
+so the only reason why I haven't posted more is because you have to have permission from students to post their work.
+So the one that I posted, I really did like quite a lot. So I think that's a nice one for you to look at.
+I also think it's a there are certain topics that tend to be used a lot.
+And I don't particularly want to post an example of one of those projects being used,
+because then I feel like it kind of limits your creativity a bit.
+So certainly I think the one project is enough to kind of get you started.
+Also looking at the rubric that I posted gives you an idea of how I'm going to assess them.
+So in terms of the actual assessment for the projects, all of the projects will be read by two people.
+And you given the maximum of your two greater scores on the final project.
+I read all of them, so. Last.
+It so I'll read all of them and then also the graduate student to read them as well.
+And so they your your project grades will get to scores and then I give them the maximum of those two grades, according to the two readers.
+Are there other sort of logistical questions? All right, great.
+So let's get get started here. So last time we had just gotten to the rank naledi theorem,
+so this was a nice theorem and then it related back some fundamental subspace is that we'd been studying before.
+So it told us of fundamental relationship between the null space and the column space of a given matrix.
+And the idea behind it. It turns out, was not that complicated.
+So the idea even goes back to chapter one. The rank of a was in some sense, counting the number of pivot columns of your matrix.
+The nullity of A was counting then the three variables or the non pivot columns, and then NP was just the number of columns.
+So in some sense, when you phrase it like that, it's not a terribly surprising result.
+But given all the other things that we know about null spaces and column spaces,
+it actually does have some pretty surprising implications and some pretty surprising applications.
+So what I wanted to do, at least with the first few minutes of today's class,
+is to just go through some problems so you can see where these sorts of some applications of this theorem.
+So let's go through a few problems on the handout.
+I think I give three and maybe I'll do two of them. I'll start with my favorite one.
+I think this is a nice quiz or p p set level quiz or mid-term stay level question.
+So let's suppose I think I have used this one as a midterm question before I let a b a five by six
+matrix and then we suppose so this is the first problem on your hand out today that all solutions.
+Two X equals zero are multiples of some single non-zero vector multiples.
+Of some. Nonzero Vector V.
+Now, I'd like you to prove.
+That I think I phrase this as a question on the handout, but nevertheless, let's actually just prove it, that X equals V is always consistent.
+For any choice to be. So it's sort of a nice gruffy problem, combining together a lot of the different things that we've been seeing.
+So let's think about, well, maybe this is actually a fair moment to let you practice it.
+Let's try it. So why don't we take just say two minutes for you to think about how you would start a question like this?
+How would you just get started? I'm not going to give you enough time necessarily to finish it.
+But how would you start a question like this other than looking at the solutions that I posted from last class?
+It's not usually a strategy available to us on an exam. Let's just take two minutes to think about it for yourself, try to actually write an argument.
+But we have one big hint to this particular question and that it's right after the rank naledi theorem,
+so that gives us probably the idea that maybe we want to use the technology theorem.
+This is not usually a strategy, again, that's available to you on, say, an exam.
+But nevertheless, since it's right there, maybe we should try to use it.
+So I can try to get the null space into the problem by observing all solutions to this equation, the solution set is just the null space.
+So first of all, note.
+The solution set to this equation, so the set of vectors in this is a five by six matrix of the vectors in our six, such that a X equals zero.
+Well, this is the null space. That's the definition of the null space.
+Well, since.
+The null space, then, is equal to the span of a single vector, that's what it means, that all solutions are the multiples of a single non-zero vector.
+So then V is a spanning said it's non-zero, so it's linearly independent.
+So then we have a basis for the null space. And V is a basis.
+Then we know that the dimension of the null space, the analogy is just equal to one.
+OK, so we have now something that we could actually use on this,
+so now we can use the rank naledi theorem to say something about the rank by the rank naledi theorem.
+We can connect the information we know about the null space with the information we have about the rank.
+So then we know that the rank of this matrix.
+Is just equal to N, which in this case, the number of columns is six, so six minus the naledi.
+So zero to five. OK, so if we know the rank is five, what could we do?
+So the column space of a where does that live, what space?
+In this case, so it's in our five. So in order to say that this thing X equals B is always going to be consistent,
+one way that we can express that idea is by saying the column space is equal to R five.
+We know it's always a subset. So all we need to do is to prove that it's actually equal to this.
+Well, as as James just pointed out, we can then look at the rank of a.
+Since the rank of a. SO since. The rank of A is equal to five.
+We know the dimension of the column space. All is equal to five.
+So if we know the dimension of the column space is equal to five, that means that we have five basis factors here.
+So if you have then five basis factors inside of our five,
+the basis theorem then tells you you have a basis for our five by the basis theorem from the last class.
+We have. The column space of A will then be equal to all of our five and then hence the Matrix equation X equals V is consistent.
+For all, be an archive. So there are really two ideas in this proof, essentially the first idea is connecting the solution set with the null space,
+then with what's given, we know the null space has dimension one.
+The second idea is to use the technology theorem to connect that back with the column space.
+If the column space is five dimensional inside of R5, that means it has to be the entire thing.
+That's what the Basis Theorem told us. Questions about Tommy.
+So if what was our four, our two? If the column space was living in our two.
+Well, it has to be our five in this case because that's where the colonists based lives, because that's how many entries each column has.
+So the number of rows, it's a five by six matrix.
+So when we take the column space that some subset of our five so we know it's a column space is always a subspace.
+So the dimension is either zero one, two, three, four or five.
+If it's five dimensional, then it's all of our five. Does that answer your question?
+OK. Other questions. All right,
+so one of the most common ways that you would use the technology theorem is
+to get a connection between the column space and the null space of a matrix.
+So often times you might want to bound, say, the rank. So then if you can give information about the null space, there's a nice way to do that.
+So the problem is that nine I wrote a few questions on there that really get at using the right naledi theorem and trying
+to use information you have about either the column space or the null space to get information about the other one.
+So you'll get a bit more practice with that. So if you think back, though, to what we were doing, the broader theme of the last few weeks,
+it was to try to extend the machinery that we've developed in our NT to a more general vector space.
+So we'd like to do that here, too, with, say, the rank Naledi Thira.
+So when we were thinking about, say, the null space of a matrix, that's something we could have studied in Chapter one and in fact,
+we did in some ways when we were thinking about the solution to the homogeneous system of equations,
+we just didn't necessarily name it as the null space, but we were doing it before.
+If we want to extend that idea to abstract vector spaces, how did we extend the null space to abstract vector spaces?
+What object did we then get? Jonathan, the kernel.
+Right. So the null space of a matrix. And so this is sort of in your own world then led us to the notion of the kernel of some linear transformation.
+What about the column space of a given matrix? What did that lead us to?
+What are the column space letters to? How do we generalize that the range or the range or the image of your linear transformation?
+So, like here, we when we're talking about a matrix, we said, well,
+that's representing the number of dimensions of our domain that was our and the number of columns.
+And then the null space was then telling us about the number of free variables, the number of non profit columns.
+The column space was then telling us about the number of pivot columns. Well, we can go over here into the abstract world and say the same thing.
+The dimension of the kernel is then like the analog of the number of free variables.
+The dimension of the range is then like the analog of the number of pivot columns or basic variables.
+So what this means for us is that we can state a version of the rank nullity theorem in the more general context as well.
+So the general version of rank naledi. I want to at least state it so we can all use it.
+So now. Just like before we had our end was the number of columns.
+Well, then here I'm going to relate the dimensions involved here.
+I want V to be finite dimensional. Sorry, I'm in the picture.
+I assume people weren't trying to get pictures of me block the board, you're trying to get so here, if T goes from the W is linear,
+everything inside is linear and the dimension of B needs to be finite in order for us to even talk about the dimensions here.
+Then what do you think the analog of the rank naledi theorem would be?
+What would it be here? You just had to guess the statement. Don't just look.
+So before it was the dimension of the column space, plus the dimension of the null space was equal to and what's n it's the analog of ln.
+Dimension of V, so we have and is like the dimension of V.
+All right, then we had the thing that's supposed to be the analog of the rank, so that's the dimension of the column space, Jonathan.
+Why? So that's a good question.
+So here back in our original Melody Theorem and was the number of columns right?
+So if you're thinking about the analog of your matrix transformation, you want to think about where are you going?
+Well, the number of columns tells you about the dimension of your domain, right?
+That's the number of inputs because you're taking linear combinations of the columns you need to give a
+weight for every column and the domain that was then telling you about the dimension of your output space.
+R.M., the number of rows. So here, the analog of PN,
+the number of inputs will be the dimension of the analog of the dimension of
+the domain will be the number of outputs that would be like the analog of M.
+So here that cleared up. So here we have then the rank will be like the dimension of the image or the range.
+Of your transformation tea and then your colonel then plays the role of like your nullity, so the dimension of the colonel.
+Te. So if you took the context where your vector spaces V and W, we're just R, N and R m,
+well then the statement just becomes the usual version of the technology theory.
+OK, so it's just the version of it when we have. When we have the more abstract setting, so we have one little bit to this.
+That's a good question. So if you wanted to prove this statement,
+what you would want to do is then you'd want to translate the statement about your linear transformation to statements in R,
+N and R m so that you can then use the usual version of the technology theorem.
+I haven't quite given you the tools to do that yet, so I'm trying to present this as motivation for why we might want a result like that.
+But Jonathan is hinting at one of the big ideas that I've been trying to emphasize over the last few classes.
+So it's maybe worth me repeating it again.
+What we want to be able to do is to generalize everything that we did before in our NP to abstract vector spaces.
+One of the last remaining things that we haven't done yet, which hopefully we can do today,
+is we have not found how to associate a matrix to a linear transformation.
+So we have not figured out how to do that yet,
+which was one of the fundamental ways that we studied linear transformations between our NPS and our M was we found the standard matrix.
+And then you proved nice theorems, like if the columns of the associated matrix of the standard matrix,
+if they're linearly independent, then what could you tell me about the linear transformation?
+So if you knew that the columns of the standard matrix were linearly independent, what did we prove then about the associated linear transformation?
+Kind of function, is it? Well, let's see, what do we need for it to be convertible, what's a if and only if for being convertible?
+So we need it to be then buy DirecTV, right. So we need for bioactive. We need inductive and subjective.
+So one thing is that if we just had like one column,
+then we could have a linearly independent column if it's non-zero, but it wouldn't necessarily span my entire space.
+So it wouldn't quite be convertible. But what do we know if the columns are linearly independent?
+What? Let's think about it.
+Maybe that's a good moment to pause and think about this, so. Let's suppose I want linearly independent columns, right?
+So let's suppose if I have linearly independent columns, I want to know, does it necessarily have to be Serj Active?
+Could anyone give me an example? Going back to from I don't know.
+Or two, so I'll take two columns.
+Let's go into our three.
+So if I take T of X to be let's take to linearly independent vectors, so maybe one zero zero zero one zero times the vector X.
+Is this thing subjective, so it's not subjective. I always get a zero and the third component, the columns are linearly independent.
+So what can you say about T? It's not necessarily subjective, but what is it?
+It's injected, it's injected.
+How do we going back to that beginning of the semester of it's always good to review, this is an important point to tie things together.
+So if you go back to the beginning of the semester, what did we look for to identify whether the transformation is going to be subjective?
+We wanted to spend.
+OK, so we have then these ideas at the beginning of the semester, we could read off properties of our function from the associated matrix.
+So to Jonathan's point, it would be really nice if I could say prove generalizations of my theorem to abstract vector spaces
+by finding some matrix associated to this linear transformation and then studying the matrix,
+because that's something I know a lot about Xavier. Oh, I mean, I would say by a theorem in Chapter one, the columns are linearly independent.
+Therefore, we prove that, yeah, I don't think we named that after anyone in the class.
+So it's unfortunate.
+But I would just say we proved in class that I mean, that's probably a theorem at this point that you could reprove yourself if you really needed to.
+But I wouldn't recommend that and say I first test or quiz or an exam.
+Yes. Thierry.
+I forget he said, I don't remember doing that. Did we really, um, we.
+Right, and connecting the the the number of inspectors factors there, yeah, you can see it from that, I suppose that's true.
+So you're right. We did we did essentially prove it from the third question on this piece that I think, though, to back to Jonathan's point,
+though, it's you can prove it as well by turning it into a question for by finding an associated matrix.
+And that's the point that I was really trying to get at. But you're right, we did essentially prove it in problem three.
+Good point. Other questions.
+Other questions. Yes.
+Why? Well, because in applications, you might be encountering a vector space that's not just Aaryn on the face of it,
+and then like, you need to have a way of turning it into RNA in order to study that particular vector space.
+So, like, you might need to actually go through the work of doing that and showing how you can do that.
+The other thing you might care about is then you need to be able to identify whether you can turn it into something like RNA.
+So then by looking at the dimension, so we've seen some vector spaces already that are infinite dimensional,
+which then we can't just turn into some copy of RNA. So we can't necessarily always do that.
+But we'd like to show that for all of these finite dimensional ones, we can.
+So it's then saying, like, any time you encounter a finite dimensional vector space,
+whether it's the space polynomials or the space of envie and matrices, then you can analyze it using exactly the tools that we've had before.
+So it means that in context, where it's not necessarily clear that you're working with the same thing you've had before,
+you really can use those previous results. All right.
+So the last little bit, I suppose,
+on the handout that I'll just point out to you is that we can now extend the convertible matrix theorem to have a few additional properties.
+So I think I add now six statements, the convertible matrix theorem collecting again, results that we've established over the last few classes.
+So the columns of forming a basis.
+So one way, if you wanted to check whether something is a basis, you could use the inaudible matrix theorem to do that.
+So you have lots of ways of checking whether something is a basis,
+whether the column space is equal to R n, whether the dimension of the column space is equal to N,
+whether the rank of your matrix is equal to N, whether your null space is trivial, whether or not nullity the dimension of the null space is zero.
+So now you're in a vertical matrix theorem goes statements A through.
+I think we're up to R and we'll even add a few more over the course of the semester.
+All right, so are there any questions before we kind of shift gears a little bit?
+So the motivating question that I want to think about is the last thing in my mind that we have in terms
+of thinking about abstract vector spaces is to find a matrix associated to an abstract vector space.
+So if we're given. T is linear from V to W.
+And say the dimensions of the dimension of W are finite, they're finite dimensional.
+Then we want. A matrix.
+Associated. To.
+So this, for instance, could give you another way of studying the quality theorem.
+But in principle, it gives you a way of studying any questions about your linear transformation using.
+Using the associated matrix, so it really then does finish off Chapter one and extending all of the results that we've seen from before.
+So the basic idea behind how we're going to do this was that we could we use the idea of
+translating questions in your abstract vector space to our end through using coordinates.
+So that's what I want to do today, is I want to use coordinates in order to do that.
+So let's just start off by doing a problem to kind of review how coordinates work again.
+So let's suppose we have some basis V one and B two or A vector space V and let's take another basis.
+See one and see two. Suppose that these are basest factors.
+Our bases for some vector space, so it's relatively small,
+we've proven before that we would have to have the same cardinality for these sets to have to both be have two vectors.
+And now let's further suppose that I know how to express.
+Say these vectors in terms of these two.
+So, for instance, we know this C one and C two is a basis, so I know I can write B one as a linear combination of C one and C two.
+I can write B two as a linear combination of C one and C two.
+So let's suppose B one is equal to see one plus C two and B two is equal to see one minus two.
+So from what we've done before,
+what this means is that the coordinate mapping of the one written relative to the C coordinates is the vector one one vector and our two one one.
+Those are the coordinates of the one relative to the C coordinates.
+What about the two? What would be to be?
+So if I knew this, what does that mean in this notation? Yeah.
+But. One minus one, yep. Question.
+So from here to here. So the way that we defined the coordinates is that I said we proved the theorem that said if you have a basis,
+then any vector in that vector space can be written uniquely as a linear combination of those basis vectors.
+So they're unique scalars that I can choose here as coefficients of C one and C two,
+so that B one is written as a linear combination of C one and T to those unique scalars,
+or what I defined to be the coordinates of that vector relative to that basis.
+So if I'm telling you that this is how you express B one as a linear combination of C one and C two,
+then the notation, the quartet mapping of that vector means take that those two scalars as your coordinates.
+Same thing here as you take C one and minus one and minus one.
+The coefficients here are then telling you the unique real numbers that you can use to express B two as a linear combination of C1 and C2.
+So that's how we define what the coordinates are relative to a given base.
+So one question we might want to know the answer to is how do we change coordinates from, say, one coordinate system to another?
+So we did this a bit already in our NT, but let's say, how can we change?
+Coordinates. From.
+B coordinates to see sequence. Yes.
+Yeah, so we sort of put those next to each other, so let's actually do it.
+OK, so let's actually just sort of do it in a particular example. Let's take a X to be some factor in V written relative to the B coordinates.
+Let's take it to be two to. So that's being written in the B coordinates.
+I'd like to write X in the C coordinates. Well, then note this notation means X is equal to two times V one plus two times V two.
+That's what that notation means. OK, so if you wanted to then find X in the C coordinates.
+Well, you can just plug in what X is to the coordinate mapping.
+So we have to be one plus to be two, and you take the coordinate mapping of that thing, the coordinate mapping we proved as a linear transformation.
+So if it's a linear transformation,
+then I can turn this into two times the corner mapping of the one appli see applied to be one the map of B one plus two times the coordinate mapping.
+A, B, two, so that's linearity of the coordinate mapping. Well, now this thing right here is a vector in our to this is a vector in our two.
+So I think this is what Luke was suggesting now that I could take then.
+The Matrix. Times two to.
+Wow, what is that matrix, that's then the Matrix one one and then the other one was one minus one times the vector to two.
+So then that becomes four zero. So then see X written relative to the C coordinates.
+Is just four zero, but more to the point, it is just obtained by multiplying by this matrix,
+that matrix we're going to call the change of coordinates matrix. So.
+We call the Matrix one one, um.
+One minus one, the change. Of coordinates, Matrixx.
+Matrixx. So this is going from the coordinates to the coordinates.
+So in the notation that we use last time, we use this bit of awkward notation where we call this matrix P, so B to C.
+One one, one minus one. So that's what we mean by the change of coordinates matrix, so in general,
+multiplying by this matrix, we'll take the coordinates and output coordinates.
+Questions today. This is a great topic to have questions on, it's one of the often one of the more confusing topics, Diogo.
+That's right, and in fact, looking at this matrix and we see the columns are linearly independent,
+we have a pivot in each row, so it spans all of our two. So we see that that matrix as an inevitable matrix attached to it.
+So the change, of course, that matrix will in general be inverted. So that's a nice observation.
+All right. So maybe it's a good exercise and proof writing that we prove this in general.
+Again, this is probably the sort of proof that I think that you should be able to work through now.
+But let's do it as a practice problem. So the idea is that if we have some basis, be one up there, Ben.
+And another basis again, we proved before this also has to be C one through C CNN that we have to have the same number of basis factors in any basis.
+So these are bases. For Vector Space V.
+Then there exists a unique and bi and matrix.
+Matrixx. Which we call P, so B to C, such that we want this to be the change of Kurnitz matrix,
+so let's actually write down the equation that guarantees that it does change coordinates.
+So in order to change coordinates, that should mean that if I take X relative to C and I multiply by one side of
+the equation and on the other side of the equation and multiply by this matrix,
+this should be true for. All X in your vector space, so what this is saying is that if you took X relative to the B coordinates,
+you multiply by this magic matrix, it outputs X relative to the coordinates.
+That needs to be true for all elements in your vector space for it to be the change of coordinates matrix.
+Furthermore. We can find what this is.
+And the exact same way we did in the last problem,
+by just taking the basis factors B one up through B.N. and expressing each of them in the new coordinate system,
+because after all, what did you do here? You just took B one and you expressed it in the C coordinates.
+You took B two and expressed it in the C coordinates. This is very much like how you went about finding the standard matrix before.
+Remember, what we did before to find the standard matrix is we took each one through N and we plug them into our linear transformation.
+And that gave you the associated matrix, your linear transformation. So again, it's the same idea.
+All right. So let's prove this again.
+I think that this is mostly an exercise at this point, but we should work through it to make sure that we benefit from that exercise.
+So I want to prove that this thing is true, so let's just take an arbitrary X in your vector space.
+OK, well, thinking about what you have and these two boards here, what could you do with this ax?
+I mean, just from sort of a heuristic perspective, I mean, what could you do if you have this X?
+To be someone that hasn't answered yet. Gwen.
+Yeah, we have some bases sitting around, you might as well use them.
+So then we know that X is equal to say, I don't know, we've already used B and C. So maybe a D, for instance.
+The one big one was that at the and the end for some.
+Scalars unique scalars, in fact, we prove that they're unique. Do you want to be at.
+So that's just because it's expanding set, because it's a basis we know that we can do that.
+Well, that also means that now I can express what X is relative to the B coordinates, so that's somewhat useful.
+X relative coordinates. So what is that? What is that, Jonathan?
+Perfect, right? So that's just a vector D one down through the end now, so again, that's just kind of making sure we're clear on the notation.
+OK, so we're really setting up that. I want to now relate this to what X of C is.
+Well, if we're using this example that we've done above as a guide for what the theorem should be,
+and this is often how you might approach true or false problems on a quiz or an exam is by
+doing an explicit example and using the example to inform what the proof would look like.
+So if we're using this example to inform what the proof should look like, what would we do next?
+We're using this is the guide for my. What does it say to do next?
+Arjun. Perfect, right?
+So I want to take this thing X, plug it in now and express it relative to the C coordinates and compare with what it is and to be kwatinetz.
+All right, so this is how an example can inform what the proof should look like.
+And a good strategy for coming up with a proof.
+So now if I just plug in what I know X is in terms of the B coordinates, well, this is then D one B, one D and B and relative to the C coordinates.
+So that's just what we said. X was in terms of B one three B N now you can apply linearity again.
+So applying linearity. So by linearity of the coordinate mapping,
+then we know that this is D one quarter to be one relative to C plus that at the
+end of the and just see again using the guidepost of our theorem over there.
+How could I. What I do next. Using the example.
+So. Exactly, right now, this is a vector of things that are in so vector equations you can write in terms of a matrix equation.
+So then this would be this particular matrix.
+The Matrix will be D one through D n remind me, what is do you want to define the vector D one through the end.
+What is that. Let's just act relative to the kwatinetz.
+So what we just proved using linearity is that X relative to the coordinates is this Matrix times X relative to the B coordinates.
+So this is the thing that we claimed was going to be our change of coordinates matrix.
+And that works in general. So, again, I think it's really important when you're doing problems to think about not just what the result says,
+but what does the technique tell you? How could we take something away from this?
+And so here, I think one of the things that's most important is the strategy of how to use examples to inform what a proof might look like.
+So if I don't know how to write a proof,
+I usually try to work things out in a small example to see if that might inform what the overall strategy could be.
+Luke. Uh, so what do people think about uniqueness?
+Is there something left to do for you, Tommy? That's right.
+So because we've established already that the courts themselves are unique,
+then we know that there couldn't have been other choices for the columns of that matrix. So good, good questions.
+So let's make an observation here. So back to I think this was Arjun's point a few classes ago,
+one of the most common places where you're going to want to change coordinates will be in our N.
+So let's take the to be our end for the moment, our favorite basis in our in a standard basis, so this will just be one up through end.
+So this is the standard basis.
+So it's worth noting here that if I then take, say, an arbitrary basis, be one up through, say, B and as a basis for our N.
+Well, these vectors inside of our N in terms of the coordinates are relatively easy to read off.
+That's one reason why it's sort of nice because everything is kind of already usually written in the standard coordinates anyway.
+So the change of coordinates matrix from B to the standard coordinates from what we just proved would be one relative to the standard coordinates up
+through the NT relative to the standard coordinates will be one if you just write it as an element in our NT is expressed in the standard coordinates.
+So this is just equal to the Matrix B one up there.
+On the other hand, if I wanted to go from, say, the standard coordinates to the coordinates, how could I do that?
+What would that? Would that be.
+Tommy. The inverse matrix, so I could take that and say be one of their B.N. and then you just take the inverse of that particular matrix.
+So we can always figure out what the change of coordinates matrix would be from any coordinate system to any other coordinate system,
+just directly using the previous theorem of just taking your domain coordinates,
+expressing them in the code domain coordinates and then taking those as your columns.
+But we could also just put these two observations together.
+So that means that if I wanted the change of coordinates matrix from B to some arbitrary new coordinate system C, well,
+one thing that you could do is you could take B to the standard coordinates and then take the standard coordinates to see.
+So using the observations that we just had here, the standard the coordinates to that would be just be one three B NP.
+And then to go from the standard kwatinetz to see you would just take the C one through C and coordinates and invert them.
+So this then is one way that you could do it in sort of two steps and you can kind of
+read this off really quickly because you're just taking these vectors as your columns.
+All right, so now let's actually do this in a particular example to make sure that we make it concrete.
+So let's go back to our to the most important place that will change coordinates or our pgn.
+So this is the next example on your hand out. All right, so just kind of choose some random bases here.
+If I take, say, the vector one, minus three and minus two for.
+So that will be a basis for our two. And I could take C to be the vector minus seven nine.
+Minus five, seven. This is not a point where I'm expecting lots of questions or is there a question?
+Is there something I can clarify? It just seems like there's a.
+The comment question anything. We OK?
+There is an. Yep, there's an inverse up there, that's a good question.
+Maybe I should make that bigger. So as Tommy points out, this first one will be the inverse.
+Other questions, can I help clarify anything? Yes, it was that.
+We're basically be going. Directly to.
+All this important changes by. We also just find it.
+The standard. It is like that.
+Like, I don't know. It seems like those two. Senator.
+Does the weirdness that you're thinking about, let's all stay together,
+so I think Xavier's question was whether what's the value in this particular observation?
+OK, so in this particular observation that I could first go through the standard coordinates to get this,
+I think Xavier is pointing out correctly that instead of doing that, you could have also just done this.
+So be one relative to the coordinates up through the end relative to the sequence.
+OK, so this is a key observation that there are two ways in which you can solve this problem to find the change of cornets matrix,
+the previous theorem told you that you could do this. So if you wanted to do that,
+you would then find how do you express be one uniquely as a linear combination of see one through end up to how
+do you express B and uniquely as a linear combination of C one through can you take the coordinate mappings,
+the coefficients that you find from doing that? You get all the columns.
+This expression is perhaps a little bit faster because if I have if I'm just looking at this,
+I'm just writing down B one through B and I'm given the basis.
+So I just write down with those columns are I'm given the target basis C one through C,
+and so I just write down what they are and I take the inverse of that corresponding matrix.
+So until I actually multiply these things together, this was a lot faster for me to write down as a factored version of this.
+So this I could just sort of immediately write down without doing any work, any thinking.
+The thinking would come in when I have to then invert this matrix and multiply them together and it would then give you the same thing.
+Yes. Yeah, but that would mean that you didn't have a basis to begin with.
+Yeah, so that would be a good sanity check if you're doing the problem right,
+if you're going through the problem and you realize like at the end of the day, like, oh, wait a second, this thing wasn't convertible.
+There's no inverse here. That seems like a problem. So there's a computational error.
+So, like, I think having these moments when you can do this sensemaking on your problem,
+these checks to make sure like does this really go through is really important.
+Yes. Is this the reason why the.
+Yes. Look. Uh huh.
+Uh huh. Should I have square brackets around which ones are around these?
+Yeah, these if I was in an abstract vector space, I couldn't just have a column be a polynomial.
+So you're right. Yeah, so that's exactly right, if I wanted to do this in an abstract vector space, then I would need to attach to these coordinates.
+That's a good point. But here I'm working in Auret in that observation. All right.
+So, again, I think I do owe you an actual computation, so why don't we do one together?
+So you get a I think, a fair amount of practice doing this on the Web work problems.
+So let's do one together, so let's find the change of coordinates, matrix from the coordinates to the coordinates.
+So neither of these are the standard coordinates we have to nonstandard coordinates for our two.
+So if I want to do this, we can just recall from the previous theorem, the definition says that this is the one relative to C and B to relative to C.
+So if I'm just going to do this using the definition, I first need to take this basis vector and express it as a linear combination of these two.
+So we want to do that. So B one is equal to one minus three.
+So we want. To find.
+Some scalars, I guess, do you want Andy to be one, is equal to D one time, C one close D to see two.
+And maybe I'll actually even write out these vector's. So this is minus seven, nine, and the other one is minus five seven.
+We know what B one is here, it is just one minus three,
+so if you wanted to solve this particular vector equation, you'd form the augmented matrix and you would reduce.
+So we've been doing that for a while. So you could also rewrite this and this is the Matrix equation,
+one minus three times minus seven, nine minus five, seven times the vector D one D two.
+Do you want to is the coordinates relative to then the coordinate system that you're looking for?
+So you have essentially two choices you could do here.
+You could multiply by the inverse of a two by two matrix and do that to get it directly, which maybe we'll do for just sort of variety sake.
+Or you could just reduce. So this is the one.
+Relative to see so this is equal to. Minus seven, nine, minus five, seven inverse times one, negative three.
+So we have a formula that we have used many times for the inverse of a two by two matrix.
+If you then do this calculation, you end up with two minus three.
+So the coat, the. Coordinates of the first base is vector one, minus three relative to two, these two basis factors is just two units of C one.
+The first vector there and negative three units of the second base is vector there.
+So that would be then the first column. Similarly, if you compute B two and the C coordinates, we end up with minus three halves and five halves.
+So thus that tells us that the change of coordinates matrix from B coordinates the C coordinates is two minus three times minus three halves,
+five halves.
+So if I want to take a vector written relative to B coordinates and output something relative to C coordinates, I can just multiply by this matrix.
+It's probably instructive to go through the alternative way of just taking or verifying that this is equal to if I take minus seven nine minus five,
+seven inverse times the B vector one minus three, the B coordinates and minus two for.
+So it's worth making sure that if you multiply this out, you would get the same thing.
+So the other approach will agree. Yes, Sergeant.
+Finding the quartet mapping. It's the same as finding the coordinate mapping when you multiply them together.
+So it kind of just depends on which perspective you like better, do you like the perspective of computing an inverse matrix, that same thing here?
+I mean, if I want to solve this particular equation,
+I can form the augmented matrix and reduce or I could find the inverse matrix and multiply by the inverse matrix.
+Both are perfectly fine approaches, but you need to decide which one you want to do in the particular problem.
+OK, so that's in our two, so that's hopefully a setting that feels relatively concrete.
+I mean, maybe not to cover that just yet. I'll go over here.
+Let's do this in a little bit more of an abstract setting. Yes. Sure.
+In both cases, they're also the same. Yup.
+That's right, yeah, if you want to do it at the same time, yeah.
+OK, so the next example of my hand out is about working and then the space of polynomials.
+So let's take some complicated looking basis, if I'm looking at a space of polynomials of degree two or less,
+how many basis factors do you expect to see? Well, the three coefficients, so we should have three of them, right, so we could take, say,
+one minus two T plus T squared, you could take three minus five T plus four T squared.
+And the third one is to T plus three T squared.
+This is a basis for P two.
+You could also take the standard basis for P two, one, T and T squared.
+So these are bases. For the space of polynomials of degree two or less.
+So the first thing I guess I would like to do is to find the change of coordinates
+matrix from the new coordinate system to the standard coordinate system.
+So that means I want to take each of these three polynomials and express them relative to the standard coordinates.
+So what is that first vector written relative to the standard coordinates?
+One negative to one, so it's just the coefficients. So in this case, you can just read them off without doing much work.
+This one, then three minus five, four.
+And the third one zero two three.
+So this is the change of basis, change of coordinates, matrix from this complicated system, a complicated basis to the standard one.
+Uh. Well, let's find a particular factor in this vector space relative to the new quartz.
+So the second part of this question is I'd like to find. Um, I want to find minus one, plus two t so this polynomial relative to the B coordinates.
+So that means I would like to express this polynomial uniquely as a linear combination of those three.
+So there are a few ways that we could do this now. They will all essentially boil down to the same thing.
+But one observation that we can make to start is that we know that if I multiplied this vector, whatever it is by this matrix,
+I should get this relative to the standard coordinates,
+minus one to T and the standard coordinates is not so easy for me to determine, not so hard for me to determine.
+So I can then use that matrix equation.
+So here, if I have X written relative to the standard coordinates, this will just be equal to this change of coordinates matrix.
+Times X written relative to the B coordinates.
+So in this particular problem here, I can read off that one is just minus one to zero is supposed to be equal to this matrix, one minus to one.
+Three minus five, four and zero to three times this coordinate vector that I'm looking for.
+So if I now have a matrix equation that I want to solve, you have essentially two options.
+You could invert this three by three matrix and multiply by the inverse, or you could solve by row reduction.
+It's probably easier to solve by reduction. So now in this case, we can perform the augmented matrix,
+so we have one minus two one three minus five four zero two three augmented by minus one to zero zero, reduce again as a check on your work.
+Your reduction should give you the identity matrix over here, because this is a basis and you will end up with five minus to one.
+So what that tells you is that X or minus one,
+plus two T in the standard coordinates written relative to the B coordinates will be the vector five minus to one.
+In the back in the vector space world.
+That's telling you that the polynomial minus one, plus two T is equal to five times your first basis factor, which is one minus two T plus T squared,
+minus two times your second basis factor, which was three minus five T plus four T squared, plus one times your third base factor, which was two T.
+Plus T squared, so that is the unique way that I could write this vector minus one plus two T as a linear combination of those three.
+I see some people squinting at me, other questions. Was it just that I'm not writing large enough?
+Question.
+So I'm just trying to write this in a few different ways, so what this notation means is it corresponds literally to this statement about polynomials.
+So these two things are expressing the exact same idea.
+So this is telling you, how do I express this polynomial, this element in your vector space in terms of the polynomials in B?
+So I'm writing them right here as a linear combination of these three polynomials, Jonathan.
+So how do I know that this would go in the other direction? Yeah.
+Well, let's see. I think what you could do is you could think about what it means to multiply these two matrices together,
+so if you're taking A times B or applying a times each of these three vectors,
+and then for that product to be the identity matrix, then you're inverting each one of those.
+Yeah. Did I make a typo?
+Oh, three Ts squared, is it three squared, is that this one?
+Is there another one? OK, thanks.
+Was that the question that was going around? Thanks.
+All right. So what I want to do in my time and your question, you were just trying to help me get back on track.
+Thanks, Tommy. Ask questions to keep me going.
+Thank you. So let's return to the overall story.
+So what I want to do is I want to take a vector space be.
+And a vector space W and I have a linear transformation between.
+OK. So what I do, if he is finite dimensional, I can then put coordinates on this space.
+Save has a basis consisting of nine basis factors coming from basis B, so the coordinate function gives me a map down here to our NT.
+If W is M dimensional, there are some coordinates over here, the coordinate mapping relative to that C basis if there are any of them.
+This would give me a mapping to r m so what I would like now down here there should be a corresponding map from our NT to R m.
+So the map from our end to our M, this can be expressed by multiplying by some matrix if it's a linear map.
+So if you think about what I want to have happen in this story.
+Is in the corresponding picture, I start out with my Element X. Well, I put coordinates on it.
+So that would be X written relative to the B coordinates. On the other hand.
+Over here,
+I can plug that into my function so I could take T of X to then land over here and W and then I can express that output in the C coordinate system.
+So then I can map this down to T of X written relative to the C coordinates.
+So this matrix m, what it's supposed to do is be the matrix that I can multiply by,
+multiply X in the B coordinate and get T of X and the C coordinates.
+So what we want. So we want.
+Matrix. Um.
+So that.
+That if I look at M times, the X and the B coordinates, that that would be the same thing is if I took T of X and consider that in the C Kwatinetz.
+So then what this is doing is, is the thing that you multiply by so much of this would be equal to this.
+So then what we can do is we can take questions about our transformation t and instead of studying T,
+we study this matrix and what you'll notice looks very much like what we were doing before
+when this was an end and this was in R.M. If you took the standard coordinate mapping here,
+well, then that's what you got down here was just a copy of our N and a copy of our M and then
+your Matrix M was what does it do to the standard basis vectors e one through e n Jonathan.
+Yes. We're talking about elements then, so this is this is an element in your space instead of just the map between the spaces.
+So X is an element in the. I felt like using M for Matrix, if you want me to use a L, use a.
+That's fine. OK. Maybe it is better.
+Is there any others I need to change that has ruined everybody's picture, sorry?
+OK, so when we're thinking about what's going to come up next time,
+we now have an idea for how we can use coordinates to find this matrix a attached to a linear transformation.
+The Matrix A will depend on the bases that you're choosing for your domain and domain.
+So we'll go through some examples of doing that next time and then we'll think about
+how do we choose nice coordinates that reflect the problem that you're studying.
+OK, so we'll pick up on this next class. I'm sorry if we're going a minute over, have a good Wednesday.

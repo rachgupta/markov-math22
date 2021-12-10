@@ -1,0 +1,1732 @@
+﻿So I posted problems at six. Problems at six is again a little bit shorter.
+0:04
+Again, I was mentioning this period of the course is sort of deliberately a moment to catch your breath,
+0:09
+to consolidate your knowledge over the firsSo I posted problems at six. Problems at six is again a little bit shorter.
+0:04
+Again, I was mentioning this period of the course is sort of deliberately a moment to catch your breath,
+0:09
+to consolidate your knowledge over the first six weeks of the semester and to make sure that
+0:14
+you're feeling comfortable as we make sort of that push into the second half of the semester.
+0:18
+So problems at six will be a little bit shorter then.
+0:24
+So just to kind of as you're looking forward, problem sets seven, eight, nine and so forth will then get a little bit longer.
+0:28
+So just to keep that in mind, as your scheduling things going forward, don't too much get in the habit of starting things Tuesday night.
+0:36
+But I think this problem set is just to prove your problems are kind of fun problems.
+0:46
+I like them, but I don't want to give too many this week, especially when we don't have class on Monday.
+0:51
+So keep that in mind. Any questions about sort of logistics?
+0:58
+Yes. The plan is still office hours on Monday.
+1:05
+That's true, right? We have I mean, all the rooms are still booked.
+1:10
+I think this year we're all still planning on coming. So, yeah. Other questions, concerns.
+1:14
+Yes. I think so maybe Caleb could check for me.
+1:24
+They must be there because I know people have been asking me about them, so otherwise I don't know what they are.
+1:33
+But yeah. So they should be up there on the bottom.
+1:39
+Yeah. All right, so let's go ahead and dove into the math today, since we have a little bit of an abbreviated day with the quiz at the end.
+1:44
+So the goal and what we're doing is to connect back to this question of convertibility.
+1:57
+We would like to have other ways of thinking about inevitability.
+2:02
+OK, so when you're thinking about convertibility, our goal now is to develop a numerical test for convertibility.
+2:05
+So we would like to develop a numerical.
+2:14
+Test for convertibility. So let me be more precise about what I mean by that, so let's just think about what exactly I'm looking for here.
+2:22
+So I want to define the object that I'm studying will be the set of end by end matrices.
+2:39
+So I'm going to call to introduce some new notation for this ends up end by.
+2:45
+So this is the set. Oh, and by and matrices.
+2:51
+So we use this notation quite a lot, so we might as well introduce it now. So a notation, this is the set.
+3:03
+Where we have a one one, two, a one and down to a and one out to A and where these are all just real numbers.
+3:12
+OK, so that's what that said is it's a collection of and by and matrices, yes, we believe.
+3:26
+Sure, yeah, yeah, m sub m by.
+3:34
+Yep, that would be perfectly reasonable notation and could sometimes, of course be useful to.
+3:39
+And it sort of foreshadows what we're going to be doing next after determinants,
+3:46
+where we'll be thinking about making things a little bit more abstract. So really what I want here is the goal again is to define.
+3:51
+A function. So I'm going to call it dysfunction, debt for determinant such that it eats matrices,
+4:04
+so it's a function with domain, the space of and by and matrices, and then it's going to output a real number.
+4:15
+So at some function from this set to the real numbers where its output is telling me about the inevitability of its matrix.
+4:22
+So where I want the determinant of, say, a matrix, a to be non-zero if and only if.
+4:31
+A is convertible, so it's sort of an indicator of the inevitability of my matrix, so that's what I'm trying to do.
+4:43
+I'm trying to build this function. We already know how to do this in some small cases, so in some small cases,
+4:51
+like when and is equal to one, we were able to define a quantity, the determinant.
+5:01
+So it was an indicator on one by one matrices for whether that matrix was inevitable or not.
+5:06
+So we defined the determinant of this one by one matrix with a single entry to just be that single entry.
+5:11
+Then we know that this matrix is convertible. If and only if.
+5:19
+This quantity, the determinant, that single entry is not equal to zero.
+5:28
+We did this as well.
+5:34
+We proved this in the case of two by two matrices, that now if we define the determinant to be this function on two by two matrices A,
+5:35
+B, C, D to be A, D minus B, C, then we had this nice result that this matrix A, B, C, D is convertible.
+5:46
+If and only if the determinant is non-zero.
+6:03
+But that's where our knowledge sort of stopped, we didn't have a nice result when we had larger matrices,
+6:11
+so we know quite a bit about if and only if we know quite a bit about this side of the story.
+6:22
+We have the inaudible matrix there and we have lots of conditions there and we'd like to use that to develop this other side of the story.
+6:29
+OK, so the goal today is to give a definition for what we mean by the determinant and then to uncover what do we know about this function?
+6:37
+What can it tell us? So I'm going to do this.
+6:45
+And what I think is kind of a long winded way, but I think I argue that it's a nice way to see it.
+6:49
+So hopefully you'll give me the benefit of the doubt in this approach.
+6:56
+But I kind of like it. So if I were approaching this problem for the very first time that I wanted to define a function that does this,
+7:00
+what I would do is I would take a three by three matrix and I would see what numerical condition
+7:10
+had to be satisfied on the entries and then try to define the determinant to be that.
+7:16
+So that's what I'm going to do.
+7:22
+So that's what I'm going to do, I'm going to try to actually do this when N is equal to three and a little bit of a cumbersome way.
+7:25
+So rather than just kind of telling you what the answer is, hopefully then you can see where the answer is coming from.
+7:32
+So I'm going to do this rather explicitly. So let's take an arbitrary three by three matrix.
+7:38
+A, B, C, D, e, uh. G h i.
+7:45
+So I want to now use the main theorem that I have on reversibility is that this
+7:55
+matrix will be convertible if and only if this row reduces to the identity matrix.
+8:01
+So if this matrix is going to be convertible, that I have a column of zeros here.
+8:08
+I have a column of zeros here. Yes. Uh.
+8:15
+Perfect, right? The Matrix Theorem already tells us that we need linearly independent columns,
+8:23
+so we immediately know from that theorem none of the columns could be all zeroes that would already tell us that it's not convertible.
+8:28
+So we're trying to find a different condition so we can assume that one of the entries in that first column is
+8:35
+non-zero because we can always just reorder the entries there because we're just writing down an arbitrary matrix.
+8:41
+I'm going to assume the topmost entry is non-zero, so we assume A is non-zero.
+8:48
+So then if I wanted to get rid of this entry D here and G here, one thing that I could do is I could multiply those rows by a.
+8:56
+So then I would have a, b, c, d, e, f some scaling by an elementary row operation, some scaling by A.
+9:06
+Then I have a G a h a.
+9:18
+All right, so then we could keep going, our next step would then be to try to get rid of this entry.
+9:25
+So I multiply the first row by negative D and add to the second row to get rid of that
+9:30
+entry and multiply the first row by negative G and add to this row to get that entry.
+9:35
+The result of doing that. Well then give me a zero zero.
+9:40
+Then the second column will be B and then I'll get a E minus BBD.
+9:45
+The next entry will be a H minus BG and then the third column will be C and then followed by A F minus C, D, A minus.
+9:54
+So, again, I would like to reduce this to the identity somehow,
+10:15
+so my goal is to kind of get rid of maybe this entry below that one so I can keep accumulating more zeros here.
+10:19
+Could it be the case that both of these two entries here, here, this entry and this entry, could they both be zero?
+10:25
+Could they both be zero? A few people are shaking their head.
+10:34
+Can anyone say why, yes, what? And I definitely won't release the identity and again, going back to the previous observation,
+10:37
+then this first column would not be linearly independent with the second column, right.
+10:48
+We would have then a dependent's relation among those of those two entries had to both be zero.
+10:52
+So we can, again, assume that one of these two entries is non-zero because we sort of arbitrarily labeled the entries.
+10:56
+We could swap them to assume that this one is a non-zero one. OK, so just like how is able to assume that A was non-zero?
+11:02
+I can similarly assume that a E minus Bhd would be non-zero.
+11:09
+So we do the same thing here that I'm going to multiply this entry by a E minus BBD and then I will do a row operation to get it to drop out.
+11:14
+So part of the reason why I'm doing this is because I want to avoid scaling t work with fractions here, but this would be a way around that.
+11:26
+So I can assume that one of them would be non-zero. Well, suppose that they were both zero, then what could you tell me about those first two columns?
+11:39
+We have to assume based is nonzero, the entry up here.
+11:52
+If this bee were also zero, then we would potentially be getting the zero vector if all three were zero.
+11:57
+So. Yeah, it's good to be concerned about these things, though, so it's a good question.
+12:03
+OK, so I'm going to do the same trick to try to get rid of this entry.
+12:12
+So if I do that, I will then have the Matrix A, B, C, I still have my Xeros here, then I have the second row is the same A C minus speed and A,
+12:16
+F minus C, D, and then I'm just changing this entry to get ready to get rid of it.
+12:28
+So I have a H minus B times A minus B and then I have A I minus CEG, times A minus B B.G.
+12:35
+So I'm just scaling that last row to, again, avoid working with fractions here, so now I can do this elementary operation to get rid of this entry.
+12:58
+So I'm going to multiply this row by negative H minus BG and then add to get rid of this entry.
+13:09
+So then I'll have A, B, C, I have zero A, B minus BG.
+13:17
+These two entries of course don't change A, F minus C, D.
+13:24
+And then I have zero zero and then this entry, I'm just going to label as a capital D for the moment.
+13:31
+What be the to become a middle? BD B'Day.
+13:40
+Ed. I'm impressed with your vision that you can actually read those many matrix as well.
+13:49
+B.G. Very good now, Jonathan.
+13:59
+I don't understand a lot. Capital D is the entry that would result from doing that cooperation operation, which I will write in one minute.
+14:04
+It's a lot and I'm going to write it in one minute anyway, so I just don't want to write it in my entry right there.
+14:15
+So to Jonathan's question, I want to write out what this is.
+14:21
+So if we write out exactly what the D is, D will be this complicated expression D is then equal to.
+14:26
+Well, I have the original thing that I had before, so I have a I minus C.G. times A, C minus B, D.
+14:33
+I don't know why I keep trying to write, jeez, they're bad.
+14:44
+So that was the original thing that I had. Now I have the term that I subtract it off.
+14:49
+So this is then this row scaled. So this would be then minus A, F minus C, D times A H minus Biji.
+14:54
+So it's just a bunch of terms.
+15:07
+We can multiply this out, you get the following, I'm not going to make you do it A squared E I minus A, B, C, D, minus A, E, C, G, plus, B, DCG minus.
+15:11
+Again, the idea is the most important part here. A squared F H plus a F big plus a HCB, then finally minus B DCG.
+15:31
+So not much is canceling. There is a term that will cancel here.
+15:50
+There's only one term that will cancel just this one.
+15:54
+So you might have hoped for more, but that's all we get. So which one?
+15:58
+A CD know this, yeah, so I have this term.
+16:12
+Right here I have H minus B.G., right?
+16:24
+So this term, not a hold on, everybody, stay with me, stay with me, if there's too much discussion, no one's going to hear my response.
+16:35
+OK, so right here, I want to get rid of this entry. What am I multiplying the second row by?
+16:41
+I'm multiplying by exactly this quantity H minus BG.
+16:50
+That's what I'm scaling this rowby in order to get rid of this entry.
+16:54
+So I'm multiplying this entry by negative H minus BG and adding to this entry.
+16:58
+So that's where I get it. Over here. Over here. Yeah, good question.
+17:04
+So again, I the point here is not the exact calculation.
+17:10
+The point is the idea behind the calculation. This is not a calculation we're going to repeat.
+17:14
+I'm just trying to get across where this is coming from. So if you are going to do this in general, this would be the expression we would end up with.
+17:19
+So here we get this. OK, so you're probably all getting annoyed with me, so it's getting kind of complicated.
+17:29
+So we would like to try to make sense of this complicated expression. So here there is one thing that we can say.
+17:38
+Well, I don't want to say that yet. There's one thing D every term that shows up here has an A in it.
+17:45
+So we could factor out in it to make this a little bit better, but that doesn't really make things that much better.
+17:54
+So if we did that, we would then resulting expression would be a e i minus I b d minus E c g minus A f h.
+18:00
+Plus B. F g. Plus H, c.
+18:16
+So this expression, what do you know about this expression, Capital D. if the matrix is going to be convertible?
+18:23
+The Matrix is supposed to be convertible, yes, oh, sorry, you're both right there.
+18:30
+The one who wants to go OK. Do you won't be equal to zero?
+18:36
+Right, so what should be equal to if we want this thing to be convertible?
+18:41
+I mean, where we eventually want this thing to be reduced to the identity matrix, right, but we especially want it to be non-zero.
+18:46
+So you're exactly right there. So we know. What do you know about the first factor?
+18:52
+It's non-zero, that was the starting point in all of this and a non-zero so determining then whether this matrix is then going to
+18:58
+be convertible or not is completely characterized by this complicated expression and why whether that's non-zero.
+19:04
+So that does fit the goal of what we're trying to do here. Right.
+19:12
+We could define the determinant of a three by three matrix to be this expression.
+19:16
+And that's exactly what we're going to do, is I'm going to define the determinant by this.
+19:20
+So this is what I'm going to then call the determinant of that three by three matrix.
+19:25
+So it does the job for us. Now, who wants to do a four by four? Nobody, Luke.
+19:32
+It's all incorporated in the single big term, because I started with my matrix ab a through I is being arbitrary.
+19:56
+So if there was no term that could be non-zero in that first column, I know that the whole thing is hopeless to work anyway.
+20:05
+Right. In particular, if you had like that first column A D and G being all zero, if a zero then this term will drop out.
+20:13
+If what else do we have. B is zero. So this term drops out. G is zero.
+20:23
+So this term drops out a zero. So this term drops out, B is zero.
+20:27
+So this term drops out desirous of this term, drops out to the whole thing would be zero anyway.
+20:30
+So it's all incorporated in there.
+20:36
+So we do have one complicated expression that incorporates everything which in principle you could do for any size matrix,
+20:38
+especially if you're comfortable with something like Mathematica. However, we are not computers.
+20:44
+We want to have more intuitive idea of what this is representing. So let's play around with this a little bit more.
+20:51
+So if this is going to be my definition of a determinant, I'd like to somehow for a three by three.
+20:58
+I haven't even talked about four by four yet. I'd like to somehow understand what this expression says.
+21:03
+So our goal is not to just, like, derive complicated expressions even though they would work, but we want to understand where they're coming from.
+21:09
+So what that suggests to me is that we try to understand this a little bit more.
+21:17
+And you say, well, that's hopeless, Dusty. Look at it. Well, there is something else we can do here.
+21:24
+So, for instance, I noticed this term and this term both have an AI.
+21:31
+So let's think about that for a second.
+21:37
+So the determinant of my overall matrix, a well, then I could factor out I have a times e i minus these two terms.
+21:39
+So f h. Plus a bunch of other stuff.
+21:50
+So let me put a minus sign there for a moment and we'll we'll there will be more.
+21:55
+But let's just analyze this first term for the moment. What does this remind you of?
+22:01
+David. It looks like the determinant of a two by two matrix, so let's maybe make a note of that.
+22:09
+So this first term looks like eight times the determinant of well, Etai needs to be on my main diagonal of this two by two.
+22:16
+So I and then I have FH on my A. diagonal here.
+22:24
+So I get this two by two matrix. That looks like it's related to my original matrix and that it's the bottom right of my original matrix,
+22:29
+so it gives me the sub matrix Jonathan notation.
+22:38
+But you know that. Around the because it's the determinant of this thing, you could if you wanted to be really precise, I mean,
+22:43
+put a determined expression around this entire thing with just one matrix going in,
+22:54
+I think we can all would interpret it OK, but that would be totally fine.
+22:58
+I mean, we would interpret it a reasonably if you want to, you could put parentheses there.
+23:03
+It just looks a little unpleasant to my eye.
+23:08
+So if it's possible to not write it, then I would not write it.
+23:15
+If confusion could arise, if you're multiplying by a bunch of other things, then I would right it, to be very precise.
+23:19
+So then we need to worry about these other terms. Well, if I look at this next term, I have A B and this one and I have a B in this one.
+23:27
+So I could then factor out a term for a reason that will become clear in a little bit.
+23:35
+I'm going to factor out a negative B, so then if I take out a negative B, then this term would become a positive one.
+23:40
+So then I have I d then minus F G and then again, that has the same expression of looking kind of like a determinant of a smaller matrix.
+23:46
+So let's put that in. So this would then be minus B times the determinant of D i.
+23:57
+F g. How does this one relate to my original matrix, this smaller sub matrix?
+24:05
+How does it look compared to my original thing? Right.
+24:12
+If I take out the middle row middle column, if I take out the middle column, then it's like the bottom two entries.
+24:26
+So if I take out that first row and the middle column, it seems like that's what's left.
+24:34
+And the first one seems like if I took out the first row and the first column, that's what's left.
+24:40
+Let's think about what happened to my last bit now. Plus C plus C.
+24:46
+So here, if I look at what terms I have here, I have an HD minus EEG, which again has this expression that looks like a two by two determinate.
+24:51
+So we could express that as the determinant of the matrix.
+25:05
+D. H, then E. G and if you look back to your original matrix up there, that one exactly corresponds to deleting the first row and the third column.
+25:09
+This thing seems like something that I could kind of interpret. It doesn't seem like an expression that I need to memorize.
+25:24
+It seems like an expression that I could just understand where it's coming from, from the pattern that seems to be appearing here,
+25:32
+where it's the entry then times the determinant of the matrix obtained by deleting that row and column and then with an alternating
+25:38
+sine minus B times the determinant of the matrix obtained by deleting the first row in the second column and so forth.
+25:47
+So this suggests a way that I could iteratively construct determinants from smaller determinants to get at the determinant of an end by N Matrix.
+25:55
+So now, rather than trying to take a general four by four matrix and do all of this song and dance again, you will get the same answer.
+26:06
+But I could now guess a more general formula and then I will prove that that formula does what we want.
+26:14
+Tommy. The.
+26:21
+What did you do with the. No.
+26:27
+So if you're a equals zero, I mean, they can equals zero and your matrix could still be convertible.
+26:37
+So I mean, it's just that not all of your entries there about ADD and can't all be zero.
+26:42
+It's the first column. Can't all be zero. We can find a non-zero entry for that topmost entry.
+26:47
+That's Mike. So suppose that you had a matrix where your first column was all zeros,
+26:55
+then we've already observed that Matrix won't be convertible and this formula gives me the determinant to zero.
+27:06
+So they both agree. So we know some entry in that first column has to be non-zero.
+27:11
+We also know that the question of inevitability follows from getting to row
+27:16
+equivalent matrices so we can move that non-zero entry to the top position.
+27:21
+So this is not a problem where we're getting exactly what the inverse is, which will depend on exactly what the one one entry is.
+27:27
+But this is an algorithm that just tells us whether the Matrix is convertible or not.
+27:34
+And that's perfectly fine that the one one entry entry could be zero and your matrix might still be convertible.
+27:40
+Yes. Why is this big thing the determinative?
+27:48
+Because that's what I'm defining it the determinant way to be. It's a definition.
+27:56
+So go back to the goal, right? This is an unknown expression, there is no function yet called the determinant, right?
+28:03
+This has never been introduced before in our class. So I get to define it, to be whatever I want.
+28:10
+So what I want it to do is I want it to characterize convertibility.
+28:16
+So what I'm going to do is I'm going to define the determinant of a three by three matrix in order to encode invert ability.
+28:20
+So then I need to know how could I do that? I know for a two by two matrix, I just define it to be a D minus BC.
+28:27
+So what I'm doing here with this calculation is I'm deriving a numerical condition on the entries that would tell me whether or not it's convertible.
+28:34
+So then once I've done that, I define the determinant to be that expression.
+28:44
+The upshot of doing this is that it agrees with now this inductive description that I've described here,
+28:52
+which then we can use to define the deployment of a four by four and a five by five and a six by six and so forth.
+28:58
+Follow up question. What?
+29:05
+Uh huh. I'm sorry, I can't quite hear you.
+29:20
+Can you say it a little bit louder? But.
+29:28
+Yes, so we've defined the determinant of a two by two already. So then I can use that to define a three by three.
+29:36
+It's an iterative definition. So from the smaller determinants, I define bigger determinants.
+29:41
+And I'm just observing with this next line that it agrees with what I've already defined
+29:49
+for two by two determinants like this is the expression of a two by two determinate.
+29:55
+This is now the determinant of a three by three matrix. Then the question becomes, what's the determinant of a four by four matrix?
+30:00
+What's the determinant of a five by five matrix? What's the determinant of a six by six matrix?
+30:06
+You could do exactly the same thing again. It becomes increasingly unpleasant to do that.
+30:10
+But instead we could use the determinant of a three by three matrix to then define the determinant of a four by four.
+30:15
+Does that answer your question? OK, ask me again after class, I'm not sure exactly what you're asking about, I mean,
+30:22
+here I'm trying to motivate why we would define the definition to be what it is.
+30:30
+So now we're in a position where I'm actually going to give you the definition. So this is an explicit expression.
+30:35
+Some of you might have even seen this before,
+30:40
+like mnemonics in a high school algebra class for how you tell what the determinant is for a three by three.
+30:42
+Like sometimes you would just memorize this formula, but I don't want you to memorize the formula.
+30:48
+Arjun. Like a lot.
+30:55
+In the first place, we have this. And then a follow up question is.
+31:09
+Wouldn't. So the first question I'll answer the second question first will prove later that if I switch the rows of a matrix,
+31:27
+then the determinants will be equal. That's not something that's inherently clear from what we've done by any means.
+31:37
+For the second question, since I've labeled these entries arbitrarily,
+31:46
+I can choose the first entry A the one one entry, the entry to be non zero because I'm doing row reduction.
+31:52
+Right. So when you're doing rate reduction, you're doing elementary rule operations.
+32:00
+So your next step could be to interchange the rows in order to get that top entry to be zero.
+32:03
+So then I'm just trying to derive some condition on the entries. That then would be a plausible definition for the determinant.
+32:09
+I have not yet proven that this and this expression does everything we hope it would do.
+32:16
+I'm only trying to motivate why such an expression would exist and how we could get at it.
+32:22
+It's still work we need to do to prove that this expression or this expression actually does all the things that we want.
+32:28
+I'm simply trying to get at a way of defining what the determinant would be for larger matrices in terms of smaller matrices.
+32:36
+Other questions. Yes. My initial a what?
+32:44
+This one, because I don't need to, is the reason why, because A was already assumed to be non zero and this expression.
+32:53
+So if I were just if this was already assumed to be a non-zero entry, because I know not all the entries will be zero,
+32:59
+well, then why not just if it's not giving me any more information, then take the other piece.
+33:06
+I want to take the minimal amount that I need to. Yes. A.
+33:13
+Mm hmm. So if this thing were non-zero right then I know this entry, the capital D would be a non-zero entry.
+33:24
+So then my matrix has three pivots. So the Matrix Theorem then says the original matrix is convertible.
+33:34
+About. There are baby.
+33:42
+It should not be zero, if it were zero, what would we do?
+33:49
+If it were zero, what would we do? We change the rules, right?
+33:55
+These can't both be zero because then we would have to linearly dependent columns right here.
+34:01
+So that's why we know they both can't be zero,
+34:09
+and I was allowed to make that assumption that at least one of them would be nonzero, the same thing with the A's.
+34:10
+I can't have a column of zeros because then the Matrix can't be convertible. Because we know that, again,
+34:15
+the key underlying argument here that we're looking at is that this matrix is inevitable if and only if it's equivalent to the identity matrix.
+34:23
+So I'm just taking arbitrary matrix and I'm asking what conditions would have to
+34:30
+be true on the entries in order for it to be equivalent to the identity matrix.
+34:33
+If the call, the first column was all zeros. Well, then I know I'm already done because it can't be relevant to the identity matrix.
+34:38
+So then this whole problem, I don't need to proceed at all. So then I say, well, I assume one of those entries is non-zero.
+34:45
+If the top leftmost entry is non-zero, we can then we're going to do row operations anyway.
+34:52
+So then just do a row operation to make that one non-zero. The same thing is true when we get to this stage.
+34:57
+Both of these entries can't be zero because if they were zero, you would immediately know that you can't be equivalent to an identity matrix.
+35:04
+So then we assume one of them is non-zero if it's this one and not this one.
+35:11
+Well, then we interchange rows to make this one the one that's non-zero.
+35:15
+Because these labels at the beginning of which entries I called a through, I were arbitrary,
+35:20
+when you do those row interchanges, you could be switching those entries. So the overall expression that we're getting will still work.
+35:24
+Other questions, yes, Inoko. No.
+35:35
+Which entry, Gabrielle Xeros. D So that's interesting, but these entries could be non-zero so that my overall expression becomes non-zero.
+35:54
+Yeah, so it's not quite true, I could have like DNG both being zero and still have the overall thing be convertible.
+36:10
+It would depend on the other entries like. Yes.
+36:17
+Yeah, so if you if you did the same thing for two by two,
+36:28
+we could make this thing roll call once the identity matrix and then that would suggest the entry that we want to look for,
+36:32
+to characterize inheritability would be a A.B.C. That's one way of getting at that notion of A.B.C. being important.
+36:38
+So, again, the exact calculation here is not the thing to get hung up on.
+36:45
+The point is that we're trying to do a calculation to inform what the definition would need to be.
+36:49
+OK, so I have not yet given you a definition of the determinant. I'm trying to define what it should be in order to do what we want.
+36:55
+So for a three by three, we could use this formula. In fact, this is the formula that's often given in a previous algebra class.
+37:04
+And you just say this is what it is. There's no motivation given at all. So I'm just trying to see where that formula might be coming from.
+37:13
+So now we can use an iterative formula to define the determinant for any size matrix.
+37:21
+So I want to give a little bit of notation here. When you delete a particular row and column, this is called The Minor of a Matrix.
+37:28
+So when I delete the first row and first column, this is called the one one minor of your matrix.
+37:37
+When I delete the first row and second column, this is called the one to Minor.
+37:42
+And when you delete the first row and the third column, this is the one three minor of a matrix.
+37:46
+So in this expression, we could rewrite the determinant of my three by three matrix to be equal to a times the determinant of what I'll
+37:53
+call a one one minus B times the determinant of a one two plus C times the determinant of a one three where.
+38:03
+Ay ay, Jay is the eye, Jay.
+38:20
+Minor. Of a. Which is obtained by.
+38:28
+The leading. The I throw.
+38:42
+And I throw and jth column.
+38:50
+So that suggests a way of defining this overall function that I want.
+39:02
+Again, it's very much an open question to prove that this new function, this new definition does what you want,
+39:07
+but at least it's verified computationally for one by one, two by two and three by three matrices.
+39:14
+It does what we want. So now definition.
+39:20
+For and greater than or equal to to the determinant.
+39:31
+Of an by and Matrixx A. Which is entries are just called AJ is given by the following formula.
+39:41
+So we've defined a two by two matrix, so a three by three will be fine in terms of two by twos,
+39:58
+a four by four we define in terms of three by threes and so forth.
+40:03
+So the determinant of your overall matrix A will be iteratively constructed from smaller size determinants.
+40:07
+So this will be a one one times the determinant of the minor obtained from deleting the first row and column from your matrix.
+40:16
+Then I'm going to do an alternating sum, just like I did there.
+40:25
+So minus a one two times the determinant of the matrix obtained from deleting the first row and second column.
+40:28
+So note these determinants are then of one size smaller. So I'm just doing an iterative construction.
+40:38
+So I'm saying what the determinant of an end by N Matrix in terms of and minus one by N minus one.
+40:44
+So plus. Oops, I forgot my sign.
+40:51
+One plus an. One and.
+41:00
+So we just continue that formula, alternating sign all the way down, so if you want, you can certainly write this in Sigma notation.
+41:07
+A one J times the determinant and the minus sign again, minus one to the one plus J times the determinant of a one J.
+41:17
+So this is now how I'm defining the determinant. So if you're asked to define the determinant, this is what I mean.
+41:33
+Jonathan, we're not moving this, this, that is.
+41:40
+We outlined earlier.
+41:46
+You should verify computationally that if I do it for a three by three, that it's exactly this formula, but that's an offer to buy two for the others.
+41:48
+I haven't defined anything. And so this is the definition. So we're close to it.
+41:58
+Yes, we're defining it like these. Yes, so the peranich was two and three, we have an explicit formula in terms of the coefficients.
+42:05
+It's not a formula that I would ever commit to memory unless you feel like it. I mean, for a two by two, you need to know it.
+42:14
+But for this formula, you could have I mean, some people have mnemonics for remembering this and so forth.
+42:20
+But have you ever wanted a computer? You could just compute it using the definition, using this expression.
+42:25
+What I'm saying.
+42:30
+Yes, convertibility, yes, that's still open, that's a theory and we need to prove so I'm now giving a definition like one of our major objectives.
+42:33
+We're proving that this definition does what we want.
+42:46
+The reason why I suspect that it does is because I derived this formula from explicitly working out.
+42:49
+And the unequals two case in the end equals three case. So that was my attempt to get motivation for where this formula would come from.
+42:55
+Arjan. Other questions, yep.
+43:03
+Computing a determinant? So that's a good question.
+43:22
+So that's one reason why you might want multiple definitions of something.
+43:31
+So like certainly like coming up with a more efficient way of computing, a determinant,
+43:34
+it is an attractive thing to want to think about how you could get at that.
+43:38
+This is a computation, though, that we could definitely just do one thing.
+43:43
+You'll note like this was mildly unpleasant for us to do, but RO operations are very quick for a computer to do so.
+43:47
+One thing that you could do is you could use RO operations to compute your determinants and that's a computationally efficient way to do it.
+43:54
+But we just need to prove that that still does what we want, that it agrees with this definition.
+44:00
+So it kind of goes back to the philosophy of this course. This definition is useful from some perspectives.
+44:05
+It's not useful from other perspectives, just like when we were talking about linear algebra in general.
+44:13
+We want in many ways of thinking about the same object because maybe computationally one method is not very efficient,
+44:18
+but conceptually it does give us some efficiency. So here we'll do the same thing where this method, this definition will give us some mileage,
+44:23
+but then we'll get other ways of thinking about the determinant as well. Does that answer your question, other questions?
+44:31
+Yes. If yes, how to find the cool factor.
+44:39
+So a bit more terminology, I suppose we can also talk about the cool factor expansion.
+44:46
+So here's my determinant, perhaps before I define the cool factor, as Tommy wants me to it,
+45:00
+it does appear in your notes maybe it would help with some of the questions that
+45:07
+seem to be circulating around the room to do an example of actually doing this.
+45:12
+So let's compute it. So let's go back to my favorite matrix.
+45:15
+One, two, three, four, five, six, seven, eight, nine, please don't be shy in asking questions.
+45:22
+If there are questions, it's better to just ask them.
+45:28
+Well, rather than just having your own conversations, because that makes it hard for everyone to hear.
+45:34
+Yes. We only go across the first row, yeah, we're only going across the first row,
+45:39
+the other entries in your matrix will certainly show up in these smaller determinants,
+45:56
+though, because like this stone won't have any of the entries in the first row.
+46:00
+And I'll just add all the entries further below that in The Matrix. Yes.
+46:04
+How could a computer computer determine it by rote reduction, I'll prove some properties of doing how doing raw operations changes your determinant,
+46:16
+and then from that we will know how the determinant will change.
+46:26
+And then we can just read it off from the end of the day from doing those RO operations. So we haven't gotten there yet.
+46:29
+That's a good question. We'll get back to that, Tommy.
+46:35
+Yes, Debbie. That's a property I haven't proven yet. But yeah, I mean, you could iterate through the columns as well.
+46:46
+So your good questions are sort of jumping ahead of exactly where we are.
+46:52
+I think some people are still talking about the definition. Are there other questions?
+46:57
+People just talking about the quiz, what's going on with studying something else?
+47:05
+No one wants to listen to me. It's OK for Dusty.
+47:12
+At least you're all awake, that doesn't always happen.
+47:21
+It's funny, I'll tell you what, my only math joke, so.
+47:28
+So my actual title in many academics are title is a lecturer,
+47:37
+and so the funny thing about the job title of a lecturer is that some people talk in their sleep, but lecturers talk and other people sleep so well.
+47:41
+Hopefully that doesn't happen too often here. I understand sometimes you're coming off of an all nighter, but.
+47:54
+All right. So here, if I want to compute the determinant of this, I literally want to use this definition.
+48:02
+So what does that say to do? It says take the one one entry so one finds the determinant of the one one minor.
+48:13
+So that means you delete the first row and first column. So you get five, six, eight, nine, then minus the one two entry.
+48:20
+So two times the determinant of four, six, seven, nine, and then plus the one three entry,
+48:27
+three times the determinant of now the two by two matrix four or five seven eight.
+48:37
+So that's literally me just following the symbols around to compute this thing, first of all, like knowing what you know about this matrix,
+48:46
+what do you expect the determinant should come out to be if it's doing what we hope it does?
+48:54
+Why? Someone said, zero, why? They're linear.
+48:59
+Are they linearly independent or are they not linearly independent, they're what?
+49:05
+They're linearly dependent. So the environment matrix, they're able to tell me this matrix is not inevitable.
+49:09
+So if this if this expression that I've defined has any merit at all, this had better come out to be zero.
+49:14
+So let's make sure it does. I hear some skepticism.
+49:24
+I feel like the class doesn't believe me whether it will come out to be zero or not.
+49:35
+Yes. Well, that's a good question.
+49:39
+So who answered the question who I mean, why would you know that these columns would be linearly dependent?
+49:45
+How could you check if you didn't see that? Tommy. Accused of personal.
+49:50
+Uh huh. Mm hmm.
+49:57
+So there'll be a zero, so if you started doing the reduction here, you would get a row of zeros, so then you know that there's a free variable.
+50:01
+So the Matrix Equation X equals zero has infinitely many solutions.
+50:07
+So then, you know, the vector equation involving the three columns then has a non-trivial dependent's relation.
+50:11
+Good question. OK, so let's actually do this computation.
+50:16
+So what do we have one times then. Here I have forty five minus.
+50:20
+What do we have here. Forty eight.
+50:30
+Then my next entry will be minus two times thirty six, minus forty two, plus three times thirty two, minus thirty five.
+50:33
+So this looks like it's giving me negative nine. This looks like it's giving me negative three, so that's negative 12 already.
+50:48
+So then right here I get then negative six times, negative two.
+50:57
+So positive 12. So, hey, good. It does work out. So there's at least some evidence that this is doing what we want.
+51:02
+So again, this is not a proof by any means that this crazy definition of a determinant actually encodes the property that we want.
+51:10
+We only have some evidence and for some small matrices, I think Caleb's going to yell at me in a minute.
+51:18
+So. In my last little bit of time, I guess maybe I'll just try to clean up some low hanging fruit here in terms of some terminology.
+51:26
+So as Tommy pointed out in this expression, we have cofactors.
+51:36
+So that's this included with the sign. That's what we call the IJA ko factor.
+51:41
+So let me just make sure that terminology appears in your notes. So we have miners and cofactors, so the I j.
+51:46
+Cool factor, cool factor. Of The Matrix is just that expression, which I'll refer to as C, J,
+51:55
+minus one to the I plus J times the determinant of the minor obtained from deleting the I throw and jth column.
+52:09
+So in this case, we're doing then this cool factor, expansion of the first row,
+52:18
+so the determinant that in terms of cofactors is equal to this expression,
+52:25
+a one one one one plus a one to see one, two plus da da plus a one and see one.
+52:31
+And so it's incorporating the sign along with those smaller determinants.
+52:39
+But it's not taking the entries, Arjun. Because I can do this for any road, not just the first row, just like reminders,
+52:45
+I don't necessarily have to delete the first row in a matrix to give the minor,
+52:56
+but I can delete any row and get the minor according to deleting that row.
+53:01
+And which leads me to maybe the next theorem is that if you do this expansion along any row or column, you'll get the same thing.
+53:05
+So that's cool. Factor expansion along any row or column will give you the same thing. So that's where I guess I should pick up with things next time.
+53:12
+So again, for your piece that that's due on Wednesday, all you need is the definition of determinates.
+53:21
+So you need this expression and that should be all that you need to work with it.
+53:30
+Yes. Hold on.
+53:39
+I can't hear the question. Hold on. Hold on. Hold on.
+53:43
+Because that one is only across, Jay is one, it's across the first row in the cool factor, I can do any row.
+53:55
+Yeah. All right, please put away your notes.
+54:02
+Let's take this quiz. All right, please put away your cell phones, your notes, please don't turn away, turn over the quiz until it's time.
+54:06
+t six weeks of the semester and to make sure that
+0:14
+you're feeling comfortable as we make sort of that push into the second half of the semester.
+0:18
+So problems at six will be a little bit shorter then.
+0:24
+So just to kind of as you're looking forward, problem sets seven, eight, nine and so forth will then get a little bit longer.
+0:28
+So just to keep that in mind, as your scheduling things going forward, don't too much get in the habit of starting things Tuesday night.
+0:36
+But I think this problem set is just to prove your problems are kind of fun problems.
+0:46
+I like them, but I don't want to give too many this week, especially when we don't have class on Monday.
+0:51
+So keep that in mind. Any questions about sort of logistics?
+0:58
+Yes. The plan is still office hours on Monday.
+1:05
+That's true, right? We have I mean, all the rooms are still booked.
+1:10
+I think this year we're all still planning on coming. So, yeah. Other questions, concerns.
+1:14
+Yes. I think so maybe Caleb could check for me.
+1:24
+They must be there because I know people have been asking me about them, so otherwise I don't know what they are.
+1:33
+But yeah. So they should be up there on the bottom.
+1:39
+Yeah. All right, so let's go ahead and dove into the math today, since we have a little bit of an abbreviated day with the quiz at the end.
+1:44
+So the goal and what we're doing is to connect back to this question of convertibility.
+1:57
+We would like to have other ways of thinking about inevitability.
+2:02
+OK, so when you're thinking about convertibility, our goal now is to develop a numerical test for convertibility.
+2:05
+So we would like to develop a numerical.
+2:14
+Test for convertibility. So let me be more precise about what I mean by that, so let's just think about what exactly I'm looking for here.
+2:22
+So I want to define the object that I'm studying will be the set of end by end matrices.
+2:39
+So I'm going to call to introduce some new notation for this ends up end by.
+2:45
+So this is the set. Oh, and by and matrices.
+2:51
+So we use this notation quite a lot, so we might as well introduce it now. So a notation, this is the set.
+3:03
+Where we have a one one, two, a one and down to a and one out to A and where these are all just real numbers.
+3:12
+OK, so that's what that said is it's a collection of and by and matrices, yes, we believe.
+3:26
+Sure, yeah, yeah, m sub m by.
+3:34
+Yep, that would be perfectly reasonable notation and could sometimes, of course be useful to.
+3:39
+And it sort of foreshadows what we're going to be doing next after determinants,
+3:46
+where we'll be thinking about making things a little bit more abstract. So really what I want here is the goal again is to define.
+3:51
+A function. So I'm going to call it dysfunction, debt for determinant such that it eats matrices,
+4:04
+so it's a function with domain, the space of and by and matrices, and then it's going to output a real number.
+4:15
+So at some function from this set to the real numbers where its output is telling me about the inevitability of its matrix.
+4:22
+So where I want the determinant of, say, a matrix, a to be non-zero if and only if.
+4:31
+A is convertible, so it's sort of an indicator of the inevitability of my matrix, so that's what I'm trying to do.
+4:43
+I'm trying to build this function. We already know how to do this in some small cases, so in some small cases,
+4:51
+like when and is equal to one, we were able to define a quantity, the determinant.
+5:01
+So it was an indicator on one by one matrices for whether that matrix was inevitable or not.
+5:06
+So we defined the determinant of this one by one matrix with a single entry to just be that single entry.
+5:11
+Then we know that this matrix is convertible. If and only if.
+5:19
+This quantity, the determinant, that single entry is not equal to zero.
+5:28
+We did this as well.
+5:34
+We proved this in the case of two by two matrices, that now if we define the determinant to be this function on two by two matrices A,
+5:35
+B, C, D to be A, D minus B, C, then we had this nice result that this matrix A, B, C, D is convertible.
+5:46
+If and only if the determinant is non-zero.
+6:03
+But that's where our knowledge sort of stopped, we didn't have a nice result when we had larger matrices,
+6:11
+so we know quite a bit about if and only if we know quite a bit about this side of the story.
+6:22
+We have the inaudible matrix there and we have lots of conditions there and we'd like to use that to develop this other side of the story.
+6:29
+OK, so the goal today is to give a definition for what we mean by the determinant and then to uncover what do we know about this function?
+6:37
+What can it tell us? So I'm going to do this.
+6:45
+And what I think is kind of a long winded way, but I think I argue that it's a nice way to see it.
+6:49
+So hopefully you'll give me the benefit of the doubt in this approach.
+6:56
+But I kind of like it. So if I were approaching this problem for the very first time that I wanted to define a function that does this,
+7:00
+what I would do is I would take a three by three matrix and I would see what numerical condition
+7:10
+had to be satisfied on the entries and then try to define the determinant to be that.
+7:16
+So that's what I'm going to do.
+7:22
+So that's what I'm going to do, I'm going to try to actually do this when N is equal to three and a little bit of a cumbersome way.
+7:25
+So rather than just kind of telling you what the answer is, hopefully then you can see where the answer is coming from.
+7:32
+So I'm going to do this rather explicitly. So let's take an arbitrary three by three matrix.
+7:38
+A, B, C, D, e, uh. G h i.
+7:45
+So I want to now use the main theorem that I have on reversibility is that this
+7:55
+matrix will be convertible if and only if this row reduces to the identity matrix.
+8:01
+So if this matrix is going to be convertible, that I have a column of zeros here.
+8:08
+I have a column of zeros here. Yes. Uh.
+8:15
+Perfect, right? The Matrix Theorem already tells us that we need linearly independent columns,
+8:23
+so we immediately know from that theorem none of the columns could be all zeroes that would already tell us that it's not convertible.
+8:28
+So we're trying to find a different condition so we can assume that one of the entries in that first column is
+8:35
+non-zero because we can always just reorder the entries there because we're just writing down an arbitrary matrix.
+8:41
+I'm going to assume the topmost entry is non-zero, so we assume A is non-zero.
+8:48
+So then if I wanted to get rid of this entry D here and G here, one thing that I could do is I could multiply those rows by a.
+8:56
+So then I would have a, b, c, d, e, f some scaling by an elementary row operation, some scaling by A.
+9:06
+Then I have a G a h a.
+9:18
+All right, so then we could keep going, our next step would then be to try to get rid of this entry.
+9:25
+So I multiply the first row by negative D and add to the second row to get rid of that
+9:30
+entry and multiply the first row by negative G and add to this row to get that entry.
+9:35
+The result of doing that. Well then give me a zero zero.
+9:40
+Then the second column will be B and then I'll get a E minus BBD.
+9:45
+The next entry will be a H minus BG and then the third column will be C and then followed by A F minus C, D, A minus.
+9:54
+So, again, I would like to reduce this to the identity somehow,
+10:15
+so my goal is to kind of get rid of maybe this entry below that one so I can keep accumulating more zeros here.
+10:19
+Could it be the case that both of these two entries here, here, this entry and this entry, could they both be zero?
+10:25
+Could they both be zero? A few people are shaking their head.
+10:34
+Can anyone say why, yes, what? And I definitely won't release the identity and again, going back to the previous observation,
+10:37
+then this first column would not be linearly independent with the second column, right.
+10:48
+We would have then a dependent's relation among those of those two entries had to both be zero.
+10:52
+So we can, again, assume that one of these two entries is non-zero because we sort of arbitrarily labeled the entries.
+10:56
+We could swap them to assume that this one is a non-zero one. OK, so just like how is able to assume that A was non-zero?
+11:02
+I can similarly assume that a E minus Bhd would be non-zero.
+11:09
+So we do the same thing here that I'm going to multiply this entry by a E minus BBD and then I will do a row operation to get it to drop out.
+11:14
+So part of the reason why I'm doing this is because I want to avoid scaling t work with fractions here, but this would be a way around that.
+11:26
+So I can assume that one of them would be non-zero. Well, suppose that they were both zero, then what could you tell me about those first two columns?
+11:39
+We have to assume based is nonzero, the entry up here.
+11:52
+If this bee were also zero, then we would potentially be getting the zero vector if all three were zero.
+11:57
+So. Yeah, it's good to be concerned about these things, though, so it's a good question.
+12:03
+OK, so I'm going to do the same trick to try to get rid of this entry.
+12:12
+So if I do that, I will then have the Matrix A, B, C, I still have my Xeros here, then I have the second row is the same A C minus speed and A,
+12:16
+F minus C, D, and then I'm just changing this entry to get ready to get rid of it.
+12:28
+So I have a H minus B times A minus B and then I have A I minus CEG, times A minus B B.G.
+12:35
+So I'm just scaling that last row to, again, avoid working with fractions here, so now I can do this elementary operation to get rid of this entry.
+12:58
+So I'm going to multiply this row by negative H minus BG and then add to get rid of this entry.
+13:09
+So then I'll have A, B, C, I have zero A, B minus BG.
+13:17
+These two entries of course don't change A, F minus C, D.
+13:24
+And then I have zero zero and then this entry, I'm just going to label as a capital D for the moment.
+13:31
+What be the to become a middle? BD B'Day.
+13:40
+Ed. I'm impressed with your vision that you can actually read those many matrix as well.
+13:49
+B.G. Very good now, Jonathan.
+13:59
+I don't understand a lot. Capital D is the entry that would result from doing that cooperation operation, which I will write in one minute.
+14:04
+It's a lot and I'm going to write it in one minute anyway, so I just don't want to write it in my entry right there.
+14:15
+So to Jonathan's question, I want to write out what this is.
+14:21
+So if we write out exactly what the D is, D will be this complicated expression D is then equal to.
+14:26
+Well, I have the original thing that I had before, so I have a I minus C.G. times A, C minus B, D.
+14:33
+I don't know why I keep trying to write, jeez, they're bad.
+14:44
+So that was the original thing that I had. Now I have the term that I subtract it off.
+14:49
+So this is then this row scaled. So this would be then minus A, F minus C, D times A H minus Biji.
+14:54
+So it's just a bunch of terms.
+15:07
+We can multiply this out, you get the following, I'm not going to make you do it A squared E I minus A, B, C, D, minus A, E, C, G, plus, B, DCG minus.
+15:11
+Again, the idea is the most important part here. A squared F H plus a F big plus a HCB, then finally minus B DCG.
+15:31
+So not much is canceling. There is a term that will cancel here.
+15:50
+There's only one term that will cancel just this one.
+15:54
+So you might have hoped for more, but that's all we get. So which one?
+15:58
+A CD know this, yeah, so I have this term.
+16:12
+Right here I have H minus B.G., right?
+16:24
+So this term, not a hold on, everybody, stay with me, stay with me, if there's too much discussion, no one's going to hear my response.
+16:35
+OK, so right here, I want to get rid of this entry. What am I multiplying the second row by?
+16:41
+I'm multiplying by exactly this quantity H minus BG.
+16:50
+That's what I'm scaling this rowby in order to get rid of this entry.
+16:54
+So I'm multiplying this entry by negative H minus BG and adding to this entry.
+16:58
+So that's where I get it. Over here. Over here. Yeah, good question.
+17:04
+So again, I the point here is not the exact calculation.
+17:10
+The point is the idea behind the calculation. This is not a calculation we're going to repeat.
+17:14
+I'm just trying to get across where this is coming from. So if you are going to do this in general, this would be the expression we would end up with.
+17:19
+So here we get this. OK, so you're probably all getting annoyed with me, so it's getting kind of complicated.
+17:29
+So we would like to try to make sense of this complicated expression. So here there is one thing that we can say.
+17:38
+Well, I don't want to say that yet. There's one thing D every term that shows up here has an A in it.
+17:45
+So we could factor out in it to make this a little bit better, but that doesn't really make things that much better.
+17:54
+So if we did that, we would then resulting expression would be a e i minus I b d minus E c g minus A f h.
+18:00
+Plus B. F g. Plus H, c.
+18:16
+So this expression, what do you know about this expression, Capital D. if the matrix is going to be convertible?
+18:23
+The Matrix is supposed to be convertible, yes, oh, sorry, you're both right there.
+18:30
+The one who wants to go OK. Do you won't be equal to zero?
+18:36
+Right, so what should be equal to if we want this thing to be convertible?
+18:41
+I mean, where we eventually want this thing to be reduced to the identity matrix, right, but we especially want it to be non-zero.
+18:46
+So you're exactly right there. So we know. What do you know about the first factor?
+18:52
+It's non-zero, that was the starting point in all of this and a non-zero so determining then whether this matrix is then going to
+18:58
+be convertible or not is completely characterized by this complicated expression and why whether that's non-zero.
+19:04
+So that does fit the goal of what we're trying to do here. Right.
+19:12
+We could define the determinant of a three by three matrix to be this expression.
+19:16
+And that's exactly what we're going to do, is I'm going to define the determinant by this.
+19:20
+So this is what I'm going to then call the determinant of that three by three matrix.
+19:25
+So it does the job for us. Now, who wants to do a four by four? Nobody, Luke.
+19:32
+It's all incorporated in the single big term, because I started with my matrix ab a through I is being arbitrary.
+19:56
+So if there was no term that could be non-zero in that first column, I know that the whole thing is hopeless to work anyway.
+20:05
+Right. In particular, if you had like that first column A D and G being all zero, if a zero then this term will drop out.
+20:13
+If what else do we have. B is zero. So this term drops out. G is zero.
+20:23
+So this term drops out a zero. So this term drops out, B is zero.
+20:27
+So this term drops out desirous of this term, drops out to the whole thing would be zero anyway.
+20:30
+So it's all incorporated in there.
+20:36
+So we do have one complicated expression that incorporates everything which in principle you could do for any size matrix,
+20:38
+especially if you're comfortable with something like Mathematica. However, we are not computers.
+20:44
+We want to have more intuitive idea of what this is representing. So let's play around with this a little bit more.
+20:51
+So if this is going to be my definition of a determinant, I'd like to somehow for a three by three.
+20:58
+I haven't even talked about four by four yet. I'd like to somehow understand what this expression says.
+21:03
+So our goal is not to just, like, derive complicated expressions even though they would work, but we want to understand where they're coming from.
+21:09
+So what that suggests to me is that we try to understand this a little bit more.
+21:17
+And you say, well, that's hopeless, Dusty. Look at it. Well, there is something else we can do here.
+21:24
+So, for instance, I noticed this term and this term both have an AI.
+21:31
+So let's think about that for a second.
+21:37
+So the determinant of my overall matrix, a well, then I could factor out I have a times e i minus these two terms.
+21:39
+So f h. Plus a bunch of other stuff.
+21:50
+So let me put a minus sign there for a moment and we'll we'll there will be more.
+21:55
+But let's just analyze this first term for the moment. What does this remind you of?
+22:01
+David. It looks like the determinant of a two by two matrix, so let's maybe make a note of that.
+22:09
+So this first term looks like eight times the determinant of well, Etai needs to be on my main diagonal of this two by two.
+22:16
+So I and then I have FH on my A. diagonal here.
+22:24
+So I get this two by two matrix. That looks like it's related to my original matrix and that it's the bottom right of my original matrix,
+22:29
+so it gives me the sub matrix Jonathan notation.
+22:38
+But you know that. Around the because it's the determinant of this thing, you could if you wanted to be really precise, I mean,
+22:43
+put a determined expression around this entire thing with just one matrix going in,
+22:54
+I think we can all would interpret it OK, but that would be totally fine.
+22:58
+I mean, we would interpret it a reasonably if you want to, you could put parentheses there.
+23:03
+It just looks a little unpleasant to my eye.
+23:08
+So if it's possible to not write it, then I would not write it.
+23:15
+If confusion could arise, if you're multiplying by a bunch of other things, then I would right it, to be very precise.
+23:19
+So then we need to worry about these other terms. Well, if I look at this next term, I have A B and this one and I have a B in this one.
+23:27
+So I could then factor out a term for a reason that will become clear in a little bit.
+23:35
+I'm going to factor out a negative B, so then if I take out a negative B, then this term would become a positive one.
+23:40
+So then I have I d then minus F G and then again, that has the same expression of looking kind of like a determinant of a smaller matrix.
+23:46
+So let's put that in. So this would then be minus B times the determinant of D i.
+23:57
+F g. How does this one relate to my original matrix, this smaller sub matrix?
+24:05
+How does it look compared to my original thing? Right.
+24:12
+If I take out the middle row middle column, if I take out the middle column, then it's like the bottom two entries.
+24:26
+So if I take out that first row and the middle column, it seems like that's what's left.
+24:34
+And the first one seems like if I took out the first row and the first column, that's what's left.
+24:40
+Let's think about what happened to my last bit now. Plus C plus C.
+24:46
+So here, if I look at what terms I have here, I have an HD minus EEG, which again has this expression that looks like a two by two determinate.
+24:51
+So we could express that as the determinant of the matrix.
+25:05
+D. H, then E. G and if you look back to your original matrix up there, that one exactly corresponds to deleting the first row and the third column.
+25:09
+This thing seems like something that I could kind of interpret. It doesn't seem like an expression that I need to memorize.
+25:24
+It seems like an expression that I could just understand where it's coming from, from the pattern that seems to be appearing here,
+25:32
+where it's the entry then times the determinant of the matrix obtained by deleting that row and column and then with an alternating
+25:38
+sine minus B times the determinant of the matrix obtained by deleting the first row in the second column and so forth.
+25:47
+So this suggests a way that I could iteratively construct determinants from smaller determinants to get at the determinant of an end by N Matrix.
+25:55
+So now, rather than trying to take a general four by four matrix and do all of this song and dance again, you will get the same answer.
+26:06
+But I could now guess a more general formula and then I will prove that that formula does what we want.
+26:14
+Tommy. The.
+26:21
+What did you do with the. No.
+26:27
+So if you're a equals zero, I mean, they can equals zero and your matrix could still be convertible.
+26:37
+So I mean, it's just that not all of your entries there about ADD and can't all be zero.
+26:42
+It's the first column. Can't all be zero. We can find a non-zero entry for that topmost entry.
+26:47
+That's Mike. So suppose that you had a matrix where your first column was all zeros,
+26:55
+then we've already observed that Matrix won't be convertible and this formula gives me the determinant to zero.
+27:06
+So they both agree. So we know some entry in that first column has to be non-zero.
+27:11
+We also know that the question of inevitability follows from getting to row
+27:16
+equivalent matrices so we can move that non-zero entry to the top position.
+27:21
+So this is not a problem where we're getting exactly what the inverse is, which will depend on exactly what the one one entry is.
+27:27
+But this is an algorithm that just tells us whether the Matrix is convertible or not.
+27:34
+And that's perfectly fine that the one one entry entry could be zero and your matrix might still be convertible.
+27:40
+Yes. Why is this big thing the determinative?
+27:48
+Because that's what I'm defining it the determinant way to be. It's a definition.
+27:56
+So go back to the goal, right? This is an unknown expression, there is no function yet called the determinant, right?
+28:03
+This has never been introduced before in our class. So I get to define it, to be whatever I want.
+28:10
+So what I want it to do is I want it to characterize convertibility.
+28:16
+So what I'm going to do is I'm going to define the determinant of a three by three matrix in order to encode invert ability.
+28:20
+So then I need to know how could I do that? I know for a two by two matrix, I just define it to be a D minus BC.
+28:27
+So what I'm doing here with this calculation is I'm deriving a numerical condition on the entries that would tell me whether or not it's convertible.
+28:34
+So then once I've done that, I define the determinant to be that expression.
+28:44
+The upshot of doing this is that it agrees with now this inductive description that I've described here,
+28:52
+which then we can use to define the deployment of a four by four and a five by five and a six by six and so forth.
+28:58
+Follow up question. What?
+29:05
+Uh huh. I'm sorry, I can't quite hear you.
+29:20
+Can you say it a little bit louder? But.
+29:28
+Yes, so we've defined the determinant of a two by two already. So then I can use that to define a three by three.
+29:36
+It's an iterative definition. So from the smaller determinants, I define bigger determinants.
+29:41
+And I'm just observing with this next line that it agrees with what I've already defined
+29:49
+for two by two determinants like this is the expression of a two by two determinate.
+29:55
+This is now the determinant of a three by three matrix. Then the question becomes, what's the determinant of a four by four matrix?
+30:00
+What's the determinant of a five by five matrix? What's the determinant of a six by six matrix?
+30:06
+You could do exactly the same thing again. It becomes increasingly unpleasant to do that.
+30:10
+But instead we could use the determinant of a three by three matrix to then define the determinant of a four by four.
+30:15
+Does that answer your question? OK, ask me again after class, I'm not sure exactly what you're asking about, I mean,
+30:22
+here I'm trying to motivate why we would define the definition to be what it is.
+30:30
+So now we're in a position where I'm actually going to give you the definition. So this is an explicit expression.
+30:35
+Some of you might have even seen this before,
+30:40
+like mnemonics in a high school algebra class for how you tell what the determinant is for a three by three.
+30:42
+Like sometimes you would just memorize this formula, but I don't want you to memorize the formula.
+30:48
+Arjun. Like a lot.
+30:55
+In the first place, we have this. And then a follow up question is.
+31:09
+Wouldn't. So the first question I'll answer the second question first will prove later that if I switch the rows of a matrix,
+31:27
+then the determinants will be equal. That's not something that's inherently clear from what we've done by any means.
+31:37
+For the second question, since I've labeled these entries arbitrarily,
+31:46
+I can choose the first entry A the one one entry, the entry to be non zero because I'm doing row reduction.
+31:52
+Right. So when you're doing rate reduction, you're doing elementary rule operations.
+32:00
+So your next step could be to interchange the rows in order to get that top entry to be zero.
+32:03
+So then I'm just trying to derive some condition on the entries. That then would be a plausible definition for the determinant.
+32:09
+I have not yet proven that this and this expression does everything we hope it would do.
+32:16
+I'm only trying to motivate why such an expression would exist and how we could get at it.
+32:22
+It's still work we need to do to prove that this expression or this expression actually does all the things that we want.
+32:28
+I'm simply trying to get at a way of defining what the determinant would be for larger matrices in terms of smaller matrices.
+32:36
+Other questions. Yes. My initial a what?
+32:44
+This one, because I don't need to, is the reason why, because A was already assumed to be non zero and this expression.
+32:53
+So if I were just if this was already assumed to be a non-zero entry, because I know not all the entries will be zero,
+32:59
+well, then why not just if it's not giving me any more information, then take the other piece.
+33:06
+I want to take the minimal amount that I need to. Yes. A.
+33:13
+Mm hmm. So if this thing were non-zero right then I know this entry, the capital D would be a non-zero entry.
+33:24
+So then my matrix has three pivots. So the Matrix Theorem then says the original matrix is convertible.
+33:34
+About. There are baby.
+33:42
+It should not be zero, if it were zero, what would we do?
+33:49
+If it were zero, what would we do? We change the rules, right?
+33:55
+These can't both be zero because then we would have to linearly dependent columns right here.
+34:01
+So that's why we know they both can't be zero,
+34:09
+and I was allowed to make that assumption that at least one of them would be nonzero, the same thing with the A's.
+34:10
+I can't have a column of zeros because then the Matrix can't be convertible. Because we know that, again,
+34:15
+the key underlying argument here that we're looking at is that this matrix is inevitable if and only if it's equivalent to the identity matrix.
+34:23
+So I'm just taking arbitrary matrix and I'm asking what conditions would have to
+34:30
+be true on the entries in order for it to be equivalent to the identity matrix.
+34:33
+If the call, the first column was all zeros. Well, then I know I'm already done because it can't be relevant to the identity matrix.
+34:38
+So then this whole problem, I don't need to proceed at all. So then I say, well, I assume one of those entries is non-zero.
+34:45
+If the top leftmost entry is non-zero, we can then we're going to do row operations anyway.
+34:52
+So then just do a row operation to make that one non-zero. The same thing is true when we get to this stage.
+34:57
+Both of these entries can't be zero because if they were zero, you would immediately know that you can't be equivalent to an identity matrix.
+35:04
+So then we assume one of them is non-zero if it's this one and not this one.
+35:11
+Well, then we interchange rows to make this one the one that's non-zero.
+35:15
+Because these labels at the beginning of which entries I called a through, I were arbitrary,
+35:20
+when you do those row interchanges, you could be switching those entries. So the overall expression that we're getting will still work.
+35:24
+Other questions, yes, Inoko. No.
+35:35
+Which entry, Gabrielle Xeros. D So that's interesting, but these entries could be non-zero so that my overall expression becomes non-zero.
+35:54
+Yeah, so it's not quite true, I could have like DNG both being zero and still have the overall thing be convertible.
+36:10
+It would depend on the other entries like. Yes.
+36:17
+Yeah, so if you if you did the same thing for two by two,
+36:28
+we could make this thing roll call once the identity matrix and then that would suggest the entry that we want to look for,
+36:32
+to characterize inheritability would be a A.B.C. That's one way of getting at that notion of A.B.C. being important.
+36:38
+So, again, the exact calculation here is not the thing to get hung up on.
+36:45
+The point is that we're trying to do a calculation to inform what the definition would need to be.
+36:49
+OK, so I have not yet given you a definition of the determinant. I'm trying to define what it should be in order to do what we want.
+36:55
+So for a three by three, we could use this formula. In fact, this is the formula that's often given in a previous algebra class.
+37:04
+And you just say this is what it is. There's no motivation given at all. So I'm just trying to see where that formula might be coming from.
+37:13
+So now we can use an iterative formula to define the determinant for any size matrix.
+37:21
+So I want to give a little bit of notation here. When you delete a particular row and column, this is called The Minor of a Matrix.
+37:28
+So when I delete the first row and first column, this is called the one one minor of your matrix.
+37:37
+When I delete the first row and second column, this is called the one to Minor.
+37:42
+And when you delete the first row and the third column, this is the one three minor of a matrix.
+37:46
+So in this expression, we could rewrite the determinant of my three by three matrix to be equal to a times the determinant of what I'll
+37:53
+call a one one minus B times the determinant of a one two plus C times the determinant of a one three where.
+38:03
+Ay ay, Jay is the eye, Jay.
+38:20
+Minor. Of a. Which is obtained by.
+38:28
+The leading. The I throw.
+38:42
+And I throw and jth column.
+38:50
+So that suggests a way of defining this overall function that I want.
+39:02
+Again, it's very much an open question to prove that this new function, this new definition does what you want,
+39:07
+but at least it's verified computationally for one by one, two by two and three by three matrices.
+39:14
+It does what we want. So now definition.
+39:20
+For and greater than or equal to to the determinant.
+39:31
+Of an by and Matrixx A. Which is entries are just called AJ is given by the following formula.
+39:41
+So we've defined a two by two matrix, so a three by three will be fine in terms of two by twos,
+39:58
+a four by four we define in terms of three by threes and so forth.
+40:03
+So the determinant of your overall matrix A will be iteratively constructed from smaller size determinants.
+40:07
+So this will be a one one times the determinant of the minor obtained from deleting the first row and column from your matrix.
+40:16
+Then I'm going to do an alternating sum, just like I did there.
+40:25
+So minus a one two times the determinant of the matrix obtained from deleting the first row and second column.
+40:28
+So note these determinants are then of one size smaller. So I'm just doing an iterative construction.
+40:38
+So I'm saying what the determinant of an end by N Matrix in terms of and minus one by N minus one.
+40:44
+So plus. Oops, I forgot my sign.
+40:51
+One plus an. One and.
+41:00
+So we just continue that formula, alternating sign all the way down, so if you want, you can certainly write this in Sigma notation.
+41:07
+A one J times the determinant and the minus sign again, minus one to the one plus J times the determinant of a one J.
+41:17
+So this is now how I'm defining the determinant. So if you're asked to define the determinant, this is what I mean.
+41:33
+Jonathan, we're not moving this, this, that is.
+41:40
+We outlined earlier.
+41:46
+You should verify computationally that if I do it for a three by three, that it's exactly this formula, but that's an offer to buy two for the others.
+41:48
+I haven't defined anything. And so this is the definition. So we're close to it.
+41:58
+Yes, we're defining it like these. Yes, so the peranich was two and three, we have an explicit formula in terms of the coefficients.
+42:05
+It's not a formula that I would ever commit to memory unless you feel like it. I mean, for a two by two, you need to know it.
+42:14
+But for this formula, you could have I mean, some people have mnemonics for remembering this and so forth.
+42:20
+But have you ever wanted a computer? You could just compute it using the definition, using this expression.
+42:25
+What I'm saying.
+42:30
+Yes, convertibility, yes, that's still open, that's a theory and we need to prove so I'm now giving a definition like one of our major objectives.
+42:33
+We're proving that this definition does what we want.
+42:46
+The reason why I suspect that it does is because I derived this formula from explicitly working out.
+42:49
+And the unequals two case in the end equals three case. So that was my attempt to get motivation for where this formula would come from.
+42:55
+Arjan. Other questions, yep.
+43:03
+Computing a determinant? So that's a good question.
+43:22
+So that's one reason why you might want multiple definitions of something.
+43:31
+So like certainly like coming up with a more efficient way of computing, a determinant,
+43:34
+it is an attractive thing to want to think about how you could get at that.
+43:38
+This is a computation, though, that we could definitely just do one thing.
+43:43
+You'll note like this was mildly unpleasant for us to do, but RO operations are very quick for a computer to do so.
+43:47
+One thing that you could do is you could use RO operations to compute your determinants and that's a computationally efficient way to do it.
+43:54
+But we just need to prove that that still does what we want, that it agrees with this definition.
+44:00
+So it kind of goes back to the philosophy of this course. This definition is useful from some perspectives.
+44:05
+It's not useful from other perspectives, just like when we were talking about linear algebra in general.
+44:13
+We want in many ways of thinking about the same object because maybe computationally one method is not very efficient,
+44:18
+but conceptually it does give us some efficiency. So here we'll do the same thing where this method, this definition will give us some mileage,
+44:23
+but then we'll get other ways of thinking about the determinant as well. Does that answer your question, other questions?
+44:31
+Yes. If yes, how to find the cool factor.
+44:39
+So a bit more terminology, I suppose we can also talk about the cool factor expansion.
+44:46
+So here's my determinant, perhaps before I define the cool factor, as Tommy wants me to it,
+45:00
+it does appear in your notes maybe it would help with some of the questions that
+45:07
+seem to be circulating around the room to do an example of actually doing this.
+45:12
+So let's compute it. So let's go back to my favorite matrix.
+45:15
+One, two, three, four, five, six, seven, eight, nine, please don't be shy in asking questions.
+45:22
+If there are questions, it's better to just ask them.
+45:28
+Well, rather than just having your own conversations, because that makes it hard for everyone to hear.
+45:34
+Yes. We only go across the first row, yeah, we're only going across the first row,
+45:39
+the other entries in your matrix will certainly show up in these smaller determinants,
+45:56
+though, because like this stone won't have any of the entries in the first row.
+46:00
+And I'll just add all the entries further below that in The Matrix. Yes.
+46:04
+How could a computer computer determine it by rote reduction, I'll prove some properties of doing how doing raw operations changes your determinant,
+46:16
+and then from that we will know how the determinant will change.
+46:26
+And then we can just read it off from the end of the day from doing those RO operations. So we haven't gotten there yet.
+46:29
+That's a good question. We'll get back to that, Tommy.
+46:35
+Yes, Debbie. That's a property I haven't proven yet. But yeah, I mean, you could iterate through the columns as well.
+46:46
+So your good questions are sort of jumping ahead of exactly where we are.
+46:52
+I think some people are still talking about the definition. Are there other questions?
+46:57
+People just talking about the quiz, what's going on with studying something else?
+47:05
+No one wants to listen to me. It's OK for Dusty.
+47:12
+At least you're all awake, that doesn't always happen.
+47:21
+It's funny, I'll tell you what, my only math joke, so.
+47:28
+So my actual title in many academics are title is a lecturer,
+47:37
+and so the funny thing about the job title of a lecturer is that some people talk in their sleep, but lecturers talk and other people sleep so well.
+47:41
+Hopefully that doesn't happen too often here. I understand sometimes you're coming off of an all nighter, but.
+47:54
+All right. So here, if I want to compute the determinant of this, I literally want to use this definition.
+48:02
+So what does that say to do? It says take the one one entry so one finds the determinant of the one one minor.
+48:13
+So that means you delete the first row and first column. So you get five, six, eight, nine, then minus the one two entry.
+48:20
+So two times the determinant of four, six, seven, nine, and then plus the one three entry,
+48:27
+three times the determinant of now the two by two matrix four or five seven eight.
+48:37
+So that's literally me just following the symbols around to compute this thing, first of all, like knowing what you know about this matrix,
+48:46
+what do you expect the determinant should come out to be if it's doing what we hope it does?
+48:54
+Why? Someone said, zero, why? They're linear.
+48:59
+Are they linearly independent or are they not linearly independent, they're what?
+49:05
+They're linearly dependent. So the environment matrix, they're able to tell me this matrix is not inevitable.
+49:09
+So if this if this expression that I've defined has any merit at all, this had better come out to be zero.
+49:14
+So let's make sure it does. I hear some skepticism.
+49:24
+I feel like the class doesn't believe me whether it will come out to be zero or not.
+49:35
+Yes. Well, that's a good question.
+49:39
+So who answered the question who I mean, why would you know that these columns would be linearly dependent?
+49:45
+How could you check if you didn't see that? Tommy. Accused of personal.
+49:50
+Uh huh. Mm hmm.
+49:57
+So there'll be a zero, so if you started doing the reduction here, you would get a row of zeros, so then you know that there's a free variable.
+50:01
+So the Matrix Equation X equals zero has infinitely many solutions.
+50:07
+So then, you know, the vector equation involving the three columns then has a non-trivial dependent's relation.
+50:11
+Good question. OK, so let's actually do this computation.
+50:16
+So what do we have one times then. Here I have forty five minus.
+50:20
+What do we have here. Forty eight.
+50:30
+Then my next entry will be minus two times thirty six, minus forty two, plus three times thirty two, minus thirty five.
+50:33
+So this looks like it's giving me negative nine. This looks like it's giving me negative three, so that's negative 12 already.
+50:48
+So then right here I get then negative six times, negative two.
+50:57
+So positive 12. So, hey, good. It does work out. So there's at least some evidence that this is doing what we want.
+51:02
+So again, this is not a proof by any means that this crazy definition of a determinant actually encodes the property that we want.
+51:10
+We only have some evidence and for some small matrices, I think Caleb's going to yell at me in a minute.
+51:18
+So. In my last little bit of time, I guess maybe I'll just try to clean up some low hanging fruit here in terms of some terminology.
+51:26
+So as Tommy pointed out in this expression, we have cofactors.
+51:36
+So that's this included with the sign. That's what we call the IJA ko factor.
+51:41
+So let me just make sure that terminology appears in your notes. So we have miners and cofactors, so the I j.
+51:46
+Cool factor, cool factor. Of The Matrix is just that expression, which I'll refer to as C, J,
+51:55
+minus one to the I plus J times the determinant of the minor obtained from deleting the I throw and jth column.
+52:09
+So in this case, we're doing then this cool factor, expansion of the first row,
+52:18
+so the determinant that in terms of cofactors is equal to this expression,
+52:25
+a one one one one plus a one to see one, two plus da da plus a one and see one.
+52:31
+And so it's incorporating the sign along with those smaller determinants.
+52:39
+But it's not taking the entries, Arjun. Because I can do this for any road, not just the first row, just like reminders,
+52:45
+I don't necessarily have to delete the first row in a matrix to give the minor,
+52:56
+but I can delete any row and get the minor according to deleting that row.
+53:01
+And which leads me to maybe the next theorem is that if you do this expansion along any row or column, you'll get the same thing.
+53:05
+So that's cool. Factor expansion along any row or column will give you the same thing. So that's where I guess I should pick up with things next time.
+53:12
+So again, for your piece that that's due on Wednesday, all you need is the definition of determinates.
+53:21
+So you need this expression and that should be all that you need to work with it.
+53:30
+Yes. Hold on.
+53:39
+I can't hear the question. Hold on. Hold on. Hold on.
+53:43
+Because that one is only across, Jay is one, it's across the first row in the cool factor, I can do any row.
+53:55
+Yeah. All right, please put away your notes.
+54:02
+Let's take this quiz. All right, please put away your cell phones, your notes, please don't turn away, turn over the quiz until it's time.
+54:06

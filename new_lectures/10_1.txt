@@ -1,0 +1,641 @@
+﻿So apologies, the stapler and the math department is still broken.
+There's we're working on getting out an entirely new copy machine in the math department.
+So that's going to take a bit of time.
+In the meantime, we might have to just have individually given pages, but I'll keep posting it to the canvas page.
+So there's a digital copy if that works better for you, too, in terms of several announcements that five is, of course, now posted.
+It wasn't actually posted last class, but I fixed it Wednesday afternoon.
+So it's due on Wednesday for today's material.
+I someone pointed out to me that the reading assignment done on canvas is not quite correct.
+So it's actually Chapter 14 in Hammack, assuming you're using the latest edition of that book.
+But it should be the section on set theory, the chapter on set theory to make sure in the right place.
+In terms of the midterm grades, we have finished grading the midterm.
+I'll release the grades by about three p.m. today.
+So I don't know if there's much, much that I can say about that, but that's when you can expect to see them.
+If you want to see them, they will be posted. Then if you don't want to see them, then they will also be posted then.
+All right. So so let's let's come back together.
+We do have material I need to get through today. So this is the last of our directly prophy days.
+And so I think a lot of this material is a nice application of the previous days where we can kind of see a lot of the ideas coming together.
+And then going forward,
+we'll be seeing a lot of the proof techniques that we've discussed over these previous five Fridays showing up within linear algebra,
+nearly every class. So we'll get lots of practice writing proofs in the context of linear algebra for the rest of the semester.
+You'll also get practice writing proofs in other contexts based on your final projects.
+So then you can kind of pull things in the directions that are of most interest to you.
+I have a little bit of material left hanging from last Friday when we were talking about induction.
+You've already done a fair amount of induction at for now and five begins with some induction as well.
+And so I guess we should start by just kind of recalling what the basic idea of induction was.
+So let's just briefly recall the logical structure, the proof technique that we're using here,
+that regular induction or sometimes called weak induction or just mathematical induction.
+Is the technique. The proof technique.
+To prove some sequence of statements, say for all and in the natural numbers, some statement plan holds by.
+Proving to things. So we want to prove the following two things in order to establish this claim.
+So you want to prove something for a statement that's indexed for every natural numbers.
+And so the way that I'm going to do that is I'm going to prove the statement one copy of one holds.
+So the base case and statement two for all and in the natural numbers not event is true because that would be circular.
+That would be just what you want to prove.
+But instead, for all in this implication holds, namely that P of n the end term implies the first statement.
+So this inductive step alone says nothing about the statement being true by itself,
+it just says if a certain stage were true, then the next stage would follow.
+If you do not prove the base case, then it doesn't start the sequence at all of implications.
+And you've established nothing.
+So, like in the problem set where I ask you to think about this inductive proof where all buildings have the same height,
+you realize that this proof breaks down, the inductive step breaks down for some specific natural number.
+So the inductive step fails. That's one common way that approved by induction can go awry.
+Another common way that approved by induction can also fall apart is by not establishing the base case at all.
+And the base case sometimes just isn't true. And that could be the source of why your statement doesn't work.
+So what we then led to last time was that sometimes regular induction is not enough.
+So we need a stronger hypothesis in order to make the inductive step work.
+In order to do that, we assume a stronger statement that not just P of N holds,
+but rather P of one holds P of two holds P of three holds all the way up to N,
+and then all of those previous cases being true then establishes the next one.
+So let me just say one plus two.
+Implies the statement we're interested in, that's regular induction.
+And strong induction. We now assume.
+He had one year to get that up to plan.
+In order to. Through.
+That the worst case holds. So that's how it's different when you're doing strong induction versus regular induction,
+if you're doing strong induction, you should always indicate that as a part of your proof.
+So when you're writing a proof by induction, there is a very definite structure that needs to appear as a part of that proof.
+There needs to be a clear base case. There needs to be a clear inductive step within that inductive step.
+You need to include where exactly are you using the inductive hypothesis?
+OK, so those are pieces of an inductive proof that I'm induction, proof that I'm expecting to see.
+All right. So last time we were doing this particular example with the Fibonacci sequence where we wanted to prove the following result,
+so let often be the end Fibonacci number.
+So the number and the Fibonacci sequence where we start with one.
+Then the following somewhat surprising formula is true, so F7 is equal to five to the power minus side to the power over the square root of five.
+This is true for all. And in the natural numbers where I need to tell you what Finci are,
+these are the golden ratio is one plus the square to five over two and PSI is one minus the square to five over two.
+So the conjugate expression. Uh.
+So we had actually essentially written the entire proof last time, but I didn't quite get the time at the end of class to really make the point.
+So I thought it was worth coming back to and reviewing a little bit. So how would this proof actually look?
+So to be kind to my hypothetical reader here, I want to make sure I indicate my strategy of proof at the start of the proof,
+especially as your proofs get more complicated, some guidance on what the strategy is is really helpful.
+Think about if you are reading someone else's proof, what would you want to see as a part of that?
+So here I'm going to prove the result by strong induction.
+Strong induction, so already we know the structure that needs to be in place in order to write an argument like this,
+we need to prove some kind of a base case in order to get the whole thing started.
+We need to prove enough so that the books will all start falling down.
+And we need to prove then this inductive step where if we assume some number of previous cases, perhaps all of them, then the next case would follow.
+So let's just start we prove a base case.
+So we're indexing from the natural numbers, starting with one, you could start your inductive proof anywhere,
+like maybe your statement only starts for like four and beyond, positive, positive integers, bigger than four.
+So then you would start with your base case being five and then go from there.
+But here it starting with the natural numbers. So let's make my base case and equals one.
+So now this is just a computation, so you just do it. So here in the base case, we have five minus PSI over the square root of five.
+Well, just plug in what fires is what size do some algebra.
+We get the square root of five, the square root of five, which just becomes one which they look.
+That is the first Fibonacci number. So hence the first case holds.
+Worst case calls. Is the mic OK today?
+Is it dropping out or is it OK? It's OK. Tell me if it's starting to drop out.
+It's been having a lot of trouble. OK, so.
+Now, I'm going to leave this big blank space, as I did last time, as you might in your notes as well.
+And let's go to the inductive step.
+So we want to prove that if we knew, say, all previous cases of this statement, then could we conclude the next case would hold?
+So I find it particularly helpful to write down exactly what the inductive hypothesis is, what we're allowed to assume.
+So let's just note what it says here. So the inductive hypothesis, the thing we're allowed to assume then says AIFS, ABQ, the case,
+Fibonacci number is equal to five to the minus side to the K over the square root of five, where K ranges from one up to end.
+So we're assuming and instances of this hold the first end of the statement.
+So this is the thing I'm allowed to use as my that's an assumption and my inductive assumption,
+my inductive hypothesis, so I would like to be able to use that in order to conclude that are open.
+Right. This is not, strictly speaking, necessary, but sometimes helps organize the proof we want to prove.
+The F7 plus one is equal to fight to the end, plus one minus side the end, plus one over the square root of five.
+So that's what we want to do. So we want to prove this particular quality.
+So if you want to prove a particular equality, start with one side of that expression, that equation, and simplify it to the other side.
+That's what I'm going to do here. So now. We get.
+Seven plus one, Wolf, I'm just looking at this, and I know I'm working with the Fibonacci sequence.
+Use the definitions, right. So that's the definition. Why do I harp on them so much?
+They tell us how to write the proofs. They tell us what we need to do. If you do not know the definitions, you will not be able to prove anything.
+So we have to know exactly how the Fibonacci sequence is defined. It was stated as a part of this problem.
+So in particular, this problem is then equal to men of seven plus one is equal parts of LN plus and minus one.
+So it's equal to the sum of the previous two cases.
+Now I can use my strong inductive hypothesis, so a regular induction hypothesis would tell me how I could rewrite this term.
+But the regular inductive hypothesis would not allow me to use this term,
+because that's not a part of what you're allowed to assume in regular induction.
+So but since we've done strong induction, I can apply it to both of these previous two cases.
+So now by the strong inductor induction hypothesis,
+this will be equal to fight to the end side to the end over the square root of five plus five to the end,
+minus one plus side to the minus minus 10, minus one over the square root of five.
+And now this is the key point, again, where I keep harping on this point to make sure a good check to make sure induction proof is really
+correct is you should be able to clearly identify where you're using the induction hypothesis.
+Your reader should be able to clearly identify where you're using it as well. So right here is where I used it.
+So by strong. Induction hypothesis.
+I used it to instances of it, so you might even note, I didn't need the full strength of strong induction.
+I could have done something slightly weaker, but nevertheless, it was good enough for the job.
+So now it's the problem really comes down to algebra, so, oops, that's what happens when you don't bring the good chalk.
+So here we have a common denominator already, so to the end minus one Suay plus one minus side,
+the minus one PSI, plus one over the square root of five,
+one algebraic fact that you can verify for yourself, just given the golden ratio you can note or verify,
+just computationally squared is equal to five plus one. So squared is equal to PSI plus one.
+So we just plug in those two identities there just to save some time, I won't work out that algebra,
+but then this becomes five to the end, minus one times five squared, minus side and minus one side squared over the square root of five.
+One more step of algebra. Then yields by the end, plus one minus side the end, plus one over the square to five, which.
+Is the desired result. So now we've established the inductive step, so by the combination of the base case and the inductive step,
+were then able to conclude that this result holds for all natural numbers.
+So by the principle of induction, maybe just right by induction.
+We conclude. The desired result that namely for all and in the natural numbers we have F seven plus F seven is equal to fly to the end,
+minus to the end over the square to five. So this is just a summary sentence to end my proof.
+So this is where we got to last time. There is one subtle error in this proof is that what you want to do, you have a different question.
+What's your other question? That's a good question.
+So in principle, strong and action will work in any case, that regular production would work.
+So one reason why you shouldn't is because it.
+Forces you to undo have a deeper understanding of your argument to know what you actually need in order to prove the result.
+So from a learning perspective, I think it's worth at least asking the question of do we really need strong induction here?
+Is that really logically what's going on? Because I think that's a good exercise in mathematical logic.
+But you're right that you could always just say by strong induction.
+The other reason is that people will kind of look at you funny, be like, wait, what? Why are you doing that?
+You don't need strong induction here. I mean, it's like when you use a really big hammer to put a picture up on your wall, you can do it,
+but people will kind of give you some funny looks like want to use that smaller hammer?
+I mean, so. Sometimes you just might not have a smaller hammer available, so you use what you have, right?
+So I'm it's not like I would take off all the points and say, like, oh, this is not right anymore.
+I would mostly just say, like, hey, you could probably do this with regular induction.
+So it's not the biggest point in the world to obsess over, but nevertheless,
+the key point in my mind is more understanding the logic that's going on in both cases to really deeply understand what's happening.
+A key goal of mine is that you understand why mathematical induction, the strategy of mathematical induction is not circular reasoning.
+This is one of the most common concerns that students kind of work through when they first learn mathematical induction,
+like how are we not just assuming what we want to prove?
+So to make sure that you really understand what the difference is there, that's to me a bigger goal.
+Jonathan, stuff like what I think. We don't know the second case.
+Worked out then, but one relies on the two previous one. Uh.
+I would think. You're exactly right.
+So when you look here, if we were being really careful,
+we would note this identity had a condition on RN, namely that NDS was bigger than or equal to one.
+So we needed or actually bigger than one, right? So here, because we need to be able to plug in, because if someone is our first one,
+if I had plugged in and is equal to one, that I'd be taking the zeroth term, which wasn't defined.
+So here we need and to be bigger than or equal to two.
+For that to work, so then exactly as Jonathan points out,
+the result of that means that this argument right here does not work when and is equal to one to prove the identity for the second Fibonacci number.
+So in order to make this whole chain go forward, we now need to base cases.
+OK, we now need to prove this also with the base case of equals to.
+So there's another base case here, what I think is equal to two, and that's why I leave that space in my notes.
+So if we were being really careful with the inequalities, we're being really precise with our logic and mathematics,
+we would note, oh, look, we can only really do that one and is bigger than the two.
+So there is a gap in my proof and is equal to one.
+So here we need to handle the end is equal to two case on our own, which is again just a computation.
+So we just do it. So in this case, we can just verify it.
+So five squared, minus size squared over the square to five.
+Well, we've already noted the identity five squared is equal to five plus one size squared is equal to PSI plus one.
+So this really becomes Phi minus PSI over the square root of five and just plug them in,
+simplify the algebra then gives you this is equal to one, which is the second Fibonacci number.
+So it works so thus. The statement.
+Holds. When and is equal to two as well.
+So sometimes in strong induction, especially when you're working with recurrence relations, which come up a lot in computer science,
+when you have some sequence to find recursively, it's often the case that you might need to work with strong induction.
+An exception to that would be, say, the extra credit problem on the last piece, that piece it for where strong induction was not required there.
+So it is important to notice the subtle differences. Yes.
+So one way that you would notice that is so I mean, one thing that I hope that people are starting to internalize is that when you're writing proofs,
+you don't most people don't generally see from beginning to end in their mind exactly how the proof is going to go.
+So what usually happens is you start your proof using the hypotheses that you have and you
+kind of proceed from there and you might notice some things that you need along the way.
+So that's how I would notice exactly that identity.
+So like right here, I'd get to this stage and then I would get to this stage when I factored it out.
+And then I'd say, well, what do I want to have happen?
+Optimistically, what I want is five plus one to equal five squared and plus one equals size squared.
+The only way this statement would be true is if those two identities were true.
+So then off to the side, I would then go try to prove those two things.
+So part of your arguments will come from necessity.
+If you're being intellectually honest as you write your proofs, you'll notice things that you need.
+And so then you go back and you fill those things in.
+This is why when you write proofs, you can't you generally, unless it's maybe a proof that you've seen before,
+really done a lot, you can't generally just start writing and not do any kind of adjusting to that structure as you go.
+You might need to completely rewrite it because you get into a corner and it doesn't work.
+You might need to do something else so often times and you're doing a proofread problem on a piece or a problem on a quiz or an exam.
+You might do some calculations off to the side. You might try an example to kind of see how things are going to go.
+And then you start writing your formal. So it's not the case anymore with math, I mean,
+the problems for everyone get sufficiently hard to a point where you just don't see immediately how to do every problem anymore.
+That's part of the fun. So now when you are in that moment, you might need to do some scratch, work off to the side before you fully proceed.
+And so that would be my advice in this case.
+I would just keep track of what do you need in order for that to happen? And it leads you to exactly these algebraic identities.
+Or Joe. Why, that is.
+That's true. That's such a wonderful question.
+I really appreciate that. So that is, I think,
+a very astute point that we've been thinking about with proofs by induction is
+that there's sometimes dissatisfying and that they establish a statement is true,
+but they don't seem to really uncover why the statement is true.
+So in terms of like building your understanding, you now have a new tool because, you know, a statement is correct and you can use it.
+But on the other hand, you don't at least for me,
+you don't necessarily feel like that tool is something you understood why that was true, which is something we would like to get at.
+So sometimes when you give an inductive proof, it's often helpful to try to think about is there another way that we could see this result?
+So one fortunate thing, maybe slightly unfortunate, but will become fortunate,
+is that this statement will be something we'll prove using the methods of linear algebra later in the course.
+So I'll show you how you can prove that using matrices and then it becomes a very routine thing to derive exactly that identity.
+And then you could do it for any sequence.
+Like if you encounter a different recursive sequence in a computer science class and algorithms class, for instance,
+you could certainly still solve it for a closed form expression, for any sequence, any recursive sequence defined in that way.
+So something to look forward to. OK, so that's strong induction, there's a few problems like that to play around with on the set question.
+Sure, so. Yup.
+That's a great point.
+So, like right here, when I'm assuming my inductive hypothesis, we're assuming and only on the previous case, so that would apply here.
+But this is the second previous case. So that's assuming a little bit more that the statement didn't hold it just one stage.
+But you have two stages in a row where it holds. So the strong induction hypothesis tells us that all the previous ones hold.
+So I could definitely do this one. And this one. So that's a great question.
+And to me, the most important part about all these problems is not necessarily this identity,
+but the logic behind it, because that's, I think, what the point is. Do you think that and.
+That's exactly right. That's a good point. So like you could imagine then,
+different versions of induction that go between just presuming one previous case and assuming all the previous cases in this case,
+you didn't need the full strength of strong induction. I shouldn't digress too much, but I'm writing a textbook for this class right now.
+One of the points maybe you love the current textbook and say you're really.
+I was hoping that it would be ready for this class, but unfortunately the summer was busier than I was expecting.
+But one of the points in the book that I was thinking about was exactly the question you were asking.
+In my one of my friends,
+we had this long argument about whether that needed to be a point in there and whether this counted as strong induction or not.
+So there's a lot of good arguments to be had there.
+You're exactly right that this is not using the full strength of strong induction.
+There are other strong induction proofs that more genuinely need every single previous case in order for it to work.
+So. OK, other questions.
+All right, so that's a little bit of loose, loose material from last time.
+Now, what I want to do with the rest of class today is hopefully convince you that set theory
+is a little bit less dry than maybe it came across and what we were doing before.
+I'll be honest with you, I think some of the material that I'm talking about today will be some of the most conceptually difficult material,
+but this is not something that I'm really going to emphasize heavily.
+It's more of just kind of a capstone on the set theory material that I think it's nice for you to see,
+but not the material that you should obsess over. OK, so.
+I think this is some of the most fun material. We'll talk about all semester,
+but nevertheless it's more of a hopefully an attempt to get you excited rather than just say something to write exam questions about.
+So this is a bit more set theory. So the fundamental question that I want to consider today is how big is this set?
+So how big? There are actually a number of really great final projects that could build out of the material we talk about today,
+but it's also a great place to review some of the logic when we are thinking about bioactive functions, injector functions and subjective functions.
+So let's just be really precise about what we mean by how big is a set, so I'm mean a set, I want to count it in sort of a really concrete way.
+So if you think about what's happening, if I want to count, like the set of objects on this table,
+I assign the number one to this one, the number two to this one, the number three to this one.
+And number four, the number five. The number six, the number seven.
+So then that tells me that I'm giving a one to one assignment of the numbers, one through seven to the items on this table.
+So I'm forming a bijection from the set. One, two, three, four, five, six, seven to the set of elements on this table.
+So that tells me that then there are seven things on this table.
+So let's just kind of a funny way of thinking about counting, but being precise can really allow us to make a lot of progress.
+So let's actually be precise with these ideas. So for us, I'm going to say a non-empty set.
+I don't want to deal with the empty set. How big would you say the empty set is?
+How many elements do you think it has? Zero, right. It's not very big.
+It's as small as you can get. So we've already handled that case. So we have the non-empty set C I'm going to say it's finite.
+If there exists. So, again, being careful with the quantifiers here, if there exists a bijection.
+F going from this unknown set, C or this thing we're trying to study to the set, one, two, three, four, up to and for some and in the natural numbers.
+So we're being very precise with the notion we've been thinking about a lot.
+Yes. Oh, there could be, yeah, there could be many, even with this one thing about the thing on the table,
+I could have started with the phone and then did the masks or I could have started with the masks.
+So that's actually really an interesting question that brings up more ideas of math.
+That's like part of the subject of math.
+One twenty two, when you're thinking about all the different ways that you could assign these different permutations and studying those.
+So that's a really cool question. So this is what I mean by a finite set, if there's no such end, then I call it an infinite set.
+So I just want to be really clear about what I mean by an infinite set now.
+So there is no possible bijection to a set one, two, three, four up to N for any possible.
+And so otherwise. C is called infinite.
+And mathematicians get really excited when things become infinite. It's really fun, really neat.
+So that's part of what we want to explore today.
+So and also being a little bit precise with language, this no end will be actually a unique number nd so there's not a unique F,
+but there will be a unique N that number is what we're going to call the size of a set or the cardinality of that set.
+So the unique. No ND.
+For which? A bijection exists.
+Half from sea to one to three up to ND exists.
+Is called the cardinality. The cardinality or size of.
+So we'll denote this by. C, a, r, D of C,
+or sometimes people use this notation Melissy in it and say that 110 or some course like that felt like it looks like absolute values,
+but vertical lines around the set. So that means the cardinality of the set.
+And in particular and of course, that one 10 when the SAT when the sets are finite,
+you do all these clever methods of counting the number of elements in a set.
+It's a nice direction and a probability. But infinite sets are more fun.
+All right, so maybe a few quick observations just to make sure we're all on the same page, this was already called out.
+If we take the cardinality of the empty set, it should be zero.
+And it is if we take the cardinality of the set and this is equal to two,
+you should note that the cardinality of the set one, two is also equal to two.
+So there are many sets that could have cardinality to.
+A couple of other observations about finite sets, for instance, if you have this is a statement you could even to exercise your proof writing skills,
+think about how you might prove a statement like this if A and B are, say, finite.
+And disjoined. And I could look at the cardinality of the union, what do you think the cardinality of the union would be in this case?
+It's just the sum of this to cardinality, right, because we have the picture,
+here's a here's B. There's no overlap, so it's just the sum of the cardinality.
+More generally. So that'll be one you have the kind of thing that you do a lot in states, that one again.
+If we had two sets like this in general position A and B and I wanted to take the cardinality of the union,
+I could first of all write the cardinality of the first set and add the cardinality to the second set.
+But what's the problem with this? We have overcounted, right, everything in the intersection has been counted twice,
+so we subtract off how much was in the intersection to get the appropriate amount.
+So minus a B to this style of reasoning is often called the inclusion exclusion principle.
+It's a very powerful way of thinking. So, for instance, for three sets, if you have A, B and C are again finite sets.
+Not necessarily disjoined. Then.
+I have a picture A, B and C, A, B, and C if I take the union.
+Oh, boy, it looks like a lot of things have been overcounted. Now, how could I compensate for this?
+So if I first add up the cardinality of the individual sets?
+It seems like a bunch of things have been overcounted, what things do I need to subtract off in order to compensate for this?
+Yes. Pairwise, perfect, yes.
+So then minus the intersection of A and B, minus the intersection of A and C minus the intersection of B and C.
+Now, what what do you notice now?
+Yeah, now I've subtracted this off entirely, so it doesn't appear in my son anymore, so anything in all three sets now doesn't get counted.
+So how could I compensate for that? At the back in, so then we will get plus the cardinality of a Intersect,
+be interesting to see and probably know you're starting to see a pattern for how this could work.
+In general, if you have assets, you have sort of this alternating sum of thinking about different numbers of intersections.
+So that's a lot about five nights, that's really and these ideas can be really applied in very clever ways, some.
+That's a great point.
+That's a good point, but here I'm only subtracting off the part of A that's also in B, so I'm not taking off everything that's in A.
+Right. So right here.
+Let's think about it this way, suppose you were in this intersection like your ex is an element in the intersection of all three.
+Let's count how many times it appears in our son.
+So over here, it should appear one time on this side, it's counted once here, it's counted once here is counted once here.
+We undo one counting of it here. So now the net counting of it is twice.
+We undo it again here. So the net counting of it is now one time.
+But then we undo it again here because also inside of this. So then we get the net counting of zero.
+So then we add in one more to then say that we then counted exactly one time.
+Xavier. That's a good question.
+So we would want to go back to the definitions for what we mean by sets and cardinality and actually give some bijection between these various things.
+So I would start by trying to write an argument like that here and seeing what that looks like.
+That's a good question. OK, so that's a little bit about finite sets.
+If you're find this sort of thing really fun, you do it a lot. And that 110, you also do it a lot in combinatorics classes, in the math department.
+So definitely recommend those classes to you. If you don't find it fun, then you should come back to the infinite world with me.
+And hopefully you'll like it being infinite squint. That's exactly I think that's a wonderful idea.
+So let's pull on that thread, right.
+So what do you think the equivalence relation is sort of lurking around here is like, for instance, here A, B and one, too.
+They seem like those are not the same set. Right, because they literally have different things in them,
+but they seem to have something in common, namely that there's objective function between them.
+So we want to then say we're going to compare sets, we're going to group them together,
+we're going to make an equivalence relation, say, onsets by establishing a bijection between those two sets.
+The nice thing about this definition is exactly what you mentioned, that this definition extends beyond finite sets.
+So mathematician's like definitions that can be generalized. So I get really excited when I can make a more general instance of a problem.
+So here now for comparing sets. So definition.
+We're going to say the sets. A and B, not necessarily finite sets anymore, because we want to extend beyond finite sets.
+We're going to say they have the same cardinality if there's a bijection between them.
+So let's have the same cardinality.
+If there exists some function F going from A to B, where F is bijection.
+So remember a bijection the point was that it gave a one to one correspondence between all of the elements in A and all of the elements and B,
+so they have exactly the same number of elements. So now the question I think, becomes for finance,
+that's the question isn't so difficult because you just say what set one through end is the same or not.
+But now let's explore this for infinite sets, which sets could be the same or not.
+So one example of a function that I claimed was interesting, but maybe no one agreed with me was from that for.
+The first question on peace at four involve the following function,
+going from the integers to the natural numbers where G OK was defined to be two plus one when K was bigger than or
+equal to zero and minus two K when K was less than zero on the problems that you prove that this was a bijection.
+So you proved I didn't. You did it. G is by directive.
+So that was question one on set for this function G is a bijection and I labeled it like,
+this is an interesting function and you're all like, No, it's not.
+Revisiting that question a little bit, why might I be saying that this is an interesting function?
+What seems surprising if this is objective function in this context of.
+That's pretty mind bending, right? So if I can just summarize your observation, the natural numbers is a proper subset.
+Of the integers. So in some sense, there's lots more integers than there are natural numbers, however,
+I can give a one to one correspondence between all of the natural numbers and all of the integers.
+So in some sense, they still have the same size. So nevertheless.
+These two sets, the natural numbers and the integers have the same cardinality.
+Same cardinality, so in some sense, this is a little weird in some sense, this might make sense with how you previously thought about infinite sets.
+Jonathan. You might think that.
+That's known for some. It still holds for some purposes.
+Yes, it still holds for some purposes.
+But there will be many ways in which these sets behave very similarly, and that's actually an important thing to kind of think through,
+like underlying what's the really the underlying property that makes this thing work.
+Well, Xavier, I'm sorry, somebody else have a question.
+All you need to see the board, I should switch anyway, but on this one for a while.
+Maybe now that you make me look at the board again, I'll write one more thing here.
+So the natural numbers, the cardinality is equal to the cardinality of the integers.
+Quen. We could let's do that.
+You're writing my lecture for me today. So here, I'm going to give a name to the sets, as Gwen suggested.
+Where they have the same cardinality is the natural numbers,
+because the natural numbers seem like the most sort of clear set to think about first when you start thinking about infinite sets to me.
+So it seems reasonable to me to keep track of which sets have the same cardinality as the natural numbers.
+So we're going to call the sets that have the same cardinality as the natural numbers that have a bijection from the natural numbers to that set.
+We'll call them countable sets or accountably infinite sets. OK, so countable coming from will.
+Usually you think of the natural numbers as counting things. So an infinite set.
+A to Quinn's point, we can actually give a value to this expression to which again,
+goes in a slightly different direction that I will pull on for this class, but it would form a really nice project.
+If you're interested in philosophy, mathematical logic and set theory,
+which does seem to be a fair amount of a class or something to enjoy reading about on Wikipedia.
+So an entry and infinite set A is countable or sometimes called accountably infinite.
+Or comfortably. Infonet.
+If. There exists a bijection. Bijection.
+F going from A to and does it matter if I put and is the domain or code domain.
+Does that matter when I'm writing this year? Why not? By objective, right, you protective functions always have inverse function, so you can write.
+Here, here, it doesn't really matter. Both will be giving you the same idea.
+OK, so I think the natural question you should be considering now is what sets are accountable?
+So one way that it seems like we could get a really big set is to kind of increase the number of degrees of freedom.
+So instead of taking a single natural number, what if we took two and made them inside of our two and see what happens there?
+So seems like a good use of my technology here is technology to a mathematician.
+It was a joke, but we'll try we'll try harder next time. So here, if we took, say, pairs of natural numbers.
+So now they form this sort of Latisse. And the plane.
+See a couple more in. And so now I'd like to say, how do they compare to the natural numbers, what seems like I have a lot more of them, right,
+because now I have this up direction, have the entire natural numbers right here and another copy here and another copy here.
+So there are really tons of them. But let's see, what if I just started being systematic?
+I'm going to map one the first natural number two right here, the one one.
+Then I want to give a systematic procedure, an algorithm to cover the entire plane.
+So what I'm going to do is I'm going to describe it as a procedure. I first go this way and I'm going to call that number two one the second entry.
+So I'm giving a one to one correspondence, an assignment of every natural number to these lattice points.
+I'm going to go up along this diagonal. Call that one three.
+OK, well, then I'm going to go up. Call this one for go back down along the diagonal, call that one five,
+go back down along the diagonal, call this one six, go out, call that one seven.
+Go out along the diagonal again. Eight. Keep going.
+Nine. Keep going 10. Keep going up and so forth.
+And if I keep doing this sort of diagonal procedure going outwards, every element in here will be hit.
+So it's a subjective function. Every element will be hit exactly one time.
+So it's an injectivity assignment as well. So what I'm doing with a picture, geometrically, I'm describing a bijection between these two sets.
+So hence I claim that this is sort of a picture, bruv,
+showing the cardinality of the natural numbers is the same as the cardinality of pairs of natural numbers.
+So that's kind of wild because it seems like there's now really a lot more pairs of natural numbers than there are just natural numbers.
+OK, so we can definitely see those are the same, if you're uncomfortable with that, you can give an explicit function, which is also a nice exercise.
+If you're kind of looking for more poofy problems to work on, you can describe an explicit function is just doing the following.
+I'll take a pair of natural numbers and I'll send it to two to the minus first power times two and minus one.
+I claim that this is a bijection it's an algebraic formula,
+so it's something you should certainly be able to prove that it is a bijection it's a nice argument to there to show that it is a bijection.
+So if you're looking for more practice problems, that's a good one. OK, so we know those are the same, so that's countable.
+Let's think about collections of real numbers for the moment, we haven't thought about the real numbers at all, so let's consider some of those.
+So my next problem on the handout is to consider some collections of real numbers.
+So let's suppose we take the interval zero to infinity and the full realign itself.
+So this is two collections of real numbers. So here, if we have these two collections of real numbers, I'd like to know how they compare.
+Could you think of a bijection between these sets using the functions you've seen before, Jonathan?
+You draw a party line and you put a lot of.
+To be on the bottom. Goes on forever. What's the simplest function you can think of, it looks like that.
+That's a great that's a great picture. That's very much like what I'm doing here. A logarithm so perfect.
+But the picture is exactly how it started a problem like that, I just draw a picture and be like, oh, what function looks like that?
+So zero to infinity to R so you could take F of X is equal to the natural log of X is a bijection.
+So these are the same. What about this seems somewhat reasonable,
+perhaps because like it's like you're just taking this point zero and you're kind of stretching that to infinity, so then it really covers everything.
+But what if I took this point at infinity and kind of stretched it back? So I take a finite interval.
+So what about the second problem? I ask you about comparing the open interval zero one to the entire realign.
+I mean, surely this isn't possible. What about these sets?
+Jonathan, you have like a in.
+Horizontal. Yes. Oh, nice. Put an asymptote.
+Tangent seems like a function that does that like adjust the period, shift it and there you go, you've got your bijection.
+Good idea. If you want me to actually give you one, you could take off of X is equal to tangent of Pi times X minus one half,
+for instance, is an explicit bijection.
+So those sets of the same cardinality, well, I don't know, it might start to feel like every set is just countable,
+every infinite set is countable, but then why would we make this term right?
+I mean, why would we have a term to describe them if it just applied to everything?
+So the one bridge that sort of missing here is we've compared a bunch of sets of real numbers to each other.
+We've compared a bunch of sets involving the natural numbers, but we've never actually compared the natural numbers in the reels themselves.
+And this is one of the most amazing theorems in mathematics. So the question is, what about.
+The natural's and the real's so this is often called Canters Theorem, that there is no bijection between these two sets.
+So really an interesting result in mathematical logic and set theory.
+So the theorem says, and this is actually a really nice illustration of proof techniques that work we've seen so far in the class,
+there is no bijection. From.
+And. To our. There's no possible way to do it, no matter how clever you are.
+It is not possible. OK, so let's prove it.
+We're going to prove this by contradiction,
+so one of the most important contradiction proves suppose for a contradiction, that there is such a bijection.
+Hopefully at this point in the semester,
+you're starting to feel like contradiction seems like a reasonable approach because we're saying something cannot happen.
+So. Well, let's suppose it does. Let's tempt fate and try to see if what happens if we did have that happen.
+So suppose for a contradiction.
+That is some bijection F going from, and I'm going to restrict this a little bit from I'm going to write it this way and.
+Two zero one, the real number is between zero. One is a bijection how do I know that would be enough?
+How do I know that would be enough, because that's not literally the statement of the theorem, how do I know that would be enough, Roy?
+That's exactly right. So we already have a bijection from zero one to hour, so if there was this bijection,
+you could just compose them together to then give a bijection from the natural numbers to the entire realign.
+So it's enough to prove this step would fail. So suppose we have this.
+OK. Well, we have a bunch of numbers between zero and one, the most common way that we express numbers between zero and one.
+Well, one common way, I suppose, is through their decimal expansions. So let's do that again.
+So we express. AF of nd in decimal.
+So let's do that somewhere. Oh, God, I still have some time.
+So here I'm just giving names to these decimal expansion. OK, so EPS of one.
+So after the first element in the domain has to map to some decimal expansion between zero and one.
+So let's just give a name to all of those digits.
+So this will be zero point one, a one one, a one to a one three, DataDot out to a one and DataDot because it could be infinite.
+All right. Half of to. Well, then map to some decimal, so we'll call that a two one, a two to a two three,
+a two and DataDot and now it's just like this big infinite by infinite matrix.
+So we just keep going with this notation. So the end entry will be zero point A and one A and to A and three that are out to A and DataDot.
+And then this list keeps going forever. One for every natural number.
+And this is objective function purportedly, so every real number is supposed to appear somewhere in this list.
+So now what I'm going to do is I'm going to construct a real number that can't be in this list.
+So. So let's do that.
+So now we need to find if we're saying to give some contradiction to this being a bijection,
+I'm going to give an element in the QUARTERMAIN that does not appear on this list.
+So we're going to define me to be an element in the Ptomaine zero one such that or where let me name all the digits of B B is equal to zero B,
+one, two, three. DataDot So all the entries of B or named could be an infinite expansion again.
+But I need to say what all these digits are. I want this expression be to not appear on this list, so I want it to be different from all of these.
+So what I'm going to do is I'm going to look at, say, this one one entry.
+I'm going to say, what's that one one entry and then I'm going to make sure that B is different from that,
+then I'm going to look at this two to entry. I'm going I say make sure B is different from that in the second position.
+Then I'm going to go to the third entry.
+I'm going to say make sure B is different from that and the third position and so forth, out to the ninth position.
+So then I'm different in every one. So one way that I could do that is the following sort of tricky bit.
+I'll take B. So OK, to be equal to well, I just want it to be different from a so I'll define it to be one.
+If a sub cake is equal to two of the five to be two, if a cake is not equal to two.
+Because then what I'm just doing is I'm defining the sequence back to be sequence of
+ones and twos such that it will be different from every position along this diagonal.
+So then it can't be any one of these. So it's going to be different from all of those entries so that it will never appear in my list.
+So thus that means that F of M is not equal to be for any possible choice of M or any.
+Um, in the natural's, and this is because. F sub M and B necessarily differ in the position.
+So they're not the same, because no matter how far out you go,
+they always differ along this diagonal because that's the way that you've constructed these terms.
+So what that means, then, is I've given a specific element. All right.
+Did I mean to write? Oh, and B and B, thanks, yep, sorry, I got too excited.
+Thanks. Other questions.
+So what that means is that this function F isn't subjective.
+So hence. Life is not subjective because I've given an explicit element in the domain that is not obtained from any element in the domain,
+so then is not subjective. So this is a contradiction with F being bioactive.
+So this is one of the most interesting results, I think, in set theory.
+Maybe even in mathematical analysis. Let's think about some of the consequences of this, so.
+The first remark, I suppose, that I want to give. Is this is telling us that the real numbers are uncountable?
+And by uncountable, I mean, they're not accountable, there literally is no bijection between that set and the natural numbers themselves.
+This is probably a little bit mind bending as well, because previously you've thought of all infinite sets as basically being the same.
+But now we're realizing that there's a finer distinction among all of these
+infinite sets that reveals a bit more structure that we can study in particular.
+This is also telling us that the cardinality of the real line is strictly larger than the cardinality of the natural numbers.
+So this argument, this style of reasoning is often called canter diagonal causation.
+After the mathematician Cantor. If we had more time to go into set theory, this is really just the beginning of a nice story and in fact,
+you can go even larger magnitudes of infinity beyond the real numbers,
+and you can construct a chain of infinities that just get larger and larger and larger, which is really amazing.
+And set theory, really, then studies and uncovers lots of these different properties.
+So this is a bit more pushing in the theoretical math direction,
+but hopefully that gets you a little bit more aware of some of the extensions of set theory and where things can go from there.
+Also, for more on set theory, I'll refer you to some of the projects that I hope that come to exist from this class.
+Several students have expressed some interest in doing projects related to set theory.
+So I think that's as far as we're going to go in set theory in this class, it's nice for you to certainly know that the real numbers are uncountable.
+These are all great illustrations of proof techniques that we've been using in the class.
+So I think it helps maybe pull some things together.
+I'll ask you maybe some questions about comparing cardinality, because it's a question about can you give a bijection between these sets or not?
+But again, this is sort of a capstone of material. It's not.
+If you're thinking about what's the priority to focus on, I would focus back on the core linear algebra topics that we've been considering, Tommy.
+Yes, that the cardinality is different in this case and it applies in more settings than just this one,
+so that proof technique you can use in other situations as well. Yes, Quinn.
+Uh. Mm hmm.
+That's a great point when you're thinking about the real numbers, I mean, one thing that's happening here, you have like a next natural number,
+but between any two real numbers, you have lots of real numbers you can't talk about, like the next real number.
+So, like, even between any two real numbers you have, then still an uncountable infinite number of real numbers between those.
+So there's really a lot of complexity as you keep zooming in. So you.
+Mm hmm. That's a great point.
+So when you're talking about a limit going to infinity and calculus, you're talking about a very specific thing about the real number inputs getting
+arbitrarily large and what happens to your function in that kind of behavior.
+It's not about specifically measuring the size of that infinity. And even in calculus,
+you do notice that there are some subtleties when you're thinking about how quickly that function might be increasing towards infinity.
+So when you're talking about improper integrals, it actually does come up.
+When you're thinking about the infinity, the integral from minus infinity to infinity,
+whether you're considering that going out symmetrically, which is not the definition of an improper integral.
+So the limit is it goes to infinity of the interval from minus eight to a that can behave very differently because you're
+assuming you're approaching infinity at the same rate in both directions versus the actual definition of an improper integral,
+where you have two limits, one going to positive infinity at some rate that might be totally unrelated to the other and going to negative infinity.
+So it's getting at sort of a different notion. That's a great question for a project, and it gets like very interesting and subtle quickly.
+So I think that would be a nice question. I mean, it's a great idea, certainly, to think about like how high this tower can go.
+But maybe I won't go into that right this moment. But I'd be happy to chat more about that in office hours.
+That's a great question. All right.
+Let me let me talk for I have six minutes left, and I hope I don't use all of these six minutes and I can let you out a little bit early.
+Later this afternoon, we're going to release the midterm one scores.
+Before you see those scores, I want to give you a little bit of context on what those scores mean to us.
+So there really this is important and we don't have a lot of time, so please stay with me.
+So one thing is that I want to encourage everyone not to overreact to one data point, OK?
+Truly, truly. I know that this might feel like a large data point, but again, as I said last time, any outcome is possible.
+And given my I mean, 15 plus years teaching,
+I've seen both outcomes happen quite often where someone starts low and ends up
+with an A and someone that starts high and ends up not doing very well at all.
+So I would strongly encourage you to take this in context, to just think about reflecting on what you might change in your practice going forward.
+And these might not be big changes, like maybe you're basically happy with how things are going.
+Some small tweaks here and there might help, but nothing tremendously different needs to happen.
+It might be you want to make a lot of changes and maybe you want to talk to me or someone else in the teaching staff about those changes.
+I've been doing this a long time. I mean, I'm very happy to help students think about how to learn mathematics.
+This is especially when you start learning theoretical mathematics and also in the context where we have a very deep we expect very
+deep learning and very and being able to synthesize concepts in a very sort of new way can be a challenging transition to make.
+And so that might mean that you need to adjust how you've been studying, how you've been learning math before.
+Again, I don't expect that these necessarily need to be drastic changes,
+but I would I'm making the offer to anyone in the class that wants to have that conversation.
+I'm happy to meet with you and discuss how that might happen.
+OK, so in terms of a practicality, I will release the grades after I finish teaching my class.
+Just after this. I wanted to give some idea of what these letter grades mean.
+So I don't grade you or assign letter grades based on a relative distribution of scores in the class.
+I grade you based on what according to that exam is what I think a reflection of that level of students should be.
+So for instance, on this exam, we talk forever on this exam.
+The first fifty nine points of the exam out of ninety four were of questions that we regard
+as sort of core computational questions that are similar to problems you've seen before.
+So question one was the definitions I expect in a level students should be
+getting all of the points on the definitions or very close to all of the points. We all have little moments where maybe we forgot something,
+but basically all of the points on those and a level student should be giving
+me basically all of the points on the solve some system of equations question.
+OK, as we go through the exam, we start kind of asking a little bit more and parsing the language of the problems.
+So the question three was and asking about spanning sets, again, a 20 point problem that evokes both practice exam questions,
+midterm web work problems, computational problems, quiz problems that we've done before.
+So, again, I'm expecting that for most students, those will be pretty strong numbers.
+The separate question was identical to the practice exam just with the set changed.
+So again, I expect that question will be pretty good, very similar to questions on set theory.
+So that's fifty nine points right there at ninety four. That's quite a lot.
+I mean, you might not have been able to notice that as you're going through the exam, you're working furiously.
+You don't have time to think about that. But right there is already a pretty good base to build from.
+So and a student, I would expect to be getting about fifty five or so of those fifty nine points.
+I understand some things come up. That's why we don't expect it's going to be perfect.
+But that's roughly what I would be looking for, for a student going into the next question, the true or false question,
+I would expect an a level understanding to be giving me three of the four true or false questions.
+OK, so roughly speaking, you're expecting twelve of those sixteen points.
+The next problem is then the problem on the exam,
+so this problem then what I want to see from an A level student in the class is being able to give me the structure of a proof.
+It doesn't need to be entirely perfect.
+There might be some things that are missing from it, but I would be wanting to see that, like, you have something that structured like a proof.
+You introduce appropriate notation, you reference relevant facts from class, like Mike's Theorem Mike here today.
+That was a very useful theorem for that one. Every time I invoke his theorem, he's not here.
+But the so in that problem, I would expect any A level students beginning, say, at least five of those 10 points on that proof problem.
+The last question on the exam was a question where you're sort of undoing row reduction.
+So you have to think then about like how would you undo this algorithm? We've been doing a lot before.
+So this is a new type of problem you haven't thought a lot about before.
+So we're expecting that problem to be somewhat challenging. That's why it's the last question on the exam.
+You do not want to spend a lot of time into a question at the end of the exam.
+If you haven't yet thought about all of the others for that particular question, I would be expecting in a student to clearly identify a strategy,
+even if you weren't able to carry that out and at least be able to recover, say, one of the missing columns, that was five of the nine points.
+So thinking about that,
+that gives me an A level score on this exam would be thinking somewhere in the high 70s out of ninety four points if you add up all of those numbers.
+So that's roughly speaking, what I would consider to be the range is probably somewhere high seventies,
+around eighty out of ninety four going down to the B range.
+I expect that there will be somewhat more calculations that might be a little bit astray through the first part.
+So maybe you're getting fifty out of fifty nine instead of fifty five or fifty nine then
+going into maybe you're only getting two of the true or false questions instead of three.
+Maybe you're not making as much progress in the last two questions.
+So we're expecting that that range will go to say the mid 60s or so for the B range.
+Going down below that we're expecting to see range would be that you should be getting a fair amount of the computational questions
+and maybe not making much progress on the problems at all that maybe put your score at about forty seven out of ninety four points.
+So that's roughly speaking, where I would consider the various cutoffs in isolation of all of your other work for this class.
+You should keep in mind that your grade will be determined by a lot of things,
+including a second midterm or final project, many more problem sets, quizzes.
+There are lots of ways both that you could adjust your approach,
+bring a great up or blow off the class and let your grade tank don't do the second one, OK?
+Don't do the second one. So the last thing that I want to say this is you'll hopefully forgive me for going slightly over.
+So I'm going to offer. I'm going I'm going to offer a little bit of an incentive to reflect back on this exam,
+so what I'm going to do is that if you turn into me corrected solutions to the exam,
+along with a short reflection or written short reflection on how you might change your daily practice
+in this class to adjust based on this exam and how you might adjust preparing for the next exam.
+So how what changes you'd like to make going forward? This does not need to be a long essay, but it needs to be something.
+Then we'll give back up to the one third of the points lost. OK, so I've got over my time, so I'll see everybody on Monday.

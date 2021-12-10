@@ -1,0 +1,561 @@
+﻿Let's go ahead and get started. Sorry for being a little bit late here.
+I think it's it's not OK. And then are you able to post the handout?
+OK, so the handout is up canvas now. Sorry for forgetting to do that, but Thomas got it up for it.
+Be there. If you're looking for the digital copy, you might need to refresh the page so that it appears otherwise.
+They hand out a paper copy is over there,
+and given the number that people have been taking over the last few classes, we should have plenty of copies.
+So in terms of announcements, let me quickly run through some announcements.
+I was hoping that I would release the exam grades today.
+I realize this is taking us a long time, so I apologize for that.
+The we're at ninety eight percent completed with grading them, and we're kind of hoping that we'll be done very soon.
+But I think there's still a few more hours of work left to go there.
+So I'm sorry that that's taking us a while. In terms of the other things coming up for the class, the we have sort of really three major things left.
+We have problems at 12, so this is the one that does a little bit of data analysis is a part of the project,
+a little bit of a linear regression, which we'll talk about today and I'll post that later today.
+It'll be due Wednesday, December 1st, the last day of the semester.
+It's not like wildly longer than the other problem sets, but it's one that I think is really important.
+So make sure that you take the time to do that and you'll have all of the tools you need in order to do it after today's class.
+So you don't need to wait for like the Monday after Thanksgiving break in order to do that problem set.
+So it's certainly something you could finish this weekend if you're not busy with anything else.
+So quick fix, as I mentioned last time, is going to be a little bit of a different quiz than before.
+So I have the printouts that you can take with you again.
+I would encourage you to destroy it individually is kind of a check on your own understanding.
+Give yourself 15, 20 minutes and then you certainly have the rest of the weekend to talk with anyone else in the class about the quiz.
+Take as long as you want on it to think about it and approve those results. But then you need to turn in your final version on Monday on great scope.
+Or by Monday on great scope. The other big thing that we should be thinking about is the project draft.
+I am somewhat as much as possible. I tried to be accommodating with like extensions and things that come up in one's life in terms of deadlines.
+But we really do need the project drafts to all be in on Wednesday, December 1st.
+So that's a pretty hard firm deadline. So keep that in mind.
+The main reason why that needs to be a hard firm deadline is because the final version will be do not that long after that.
+And I want to make sure that you have time to get feedback on those drafts and also to do the peer reviews.
+So hopefully, even later that night, you will then get assigned to other projects to read and a part of your project grade.
+You'll notice on the rubric is giving thoughtful comments and feedback on other projects to other projects,
+and that'll all be managed through canvas, not through great scope.
+There are questions any logistics got a pretty good turnout today, I was worried everyone would be gone already.
+It's pretty good. Few students prepared me that no one would be here, so I'm like, OK?
+All right. So let's let's go ahead and talk about some math here.
+I think this is a really fun day, actually. So I'm also trying out this new giant talk that they gave me.
+So we'll have to let me know if you think that this is OK. If it's not, then I'll switch back to the talk that I normally use.
+So what I want to talk about today is really the last four classes of this class are mostly just kind of glimpses of deeper waters,
+like they're kind of like opening up some vistas of ex of a plot, applications that you might see.
+We're not going to pursue them in the same depth that we've pursued some of the earlier topics of this course.
+It's more about kind of being introduced to some exciting areas that the material goes towards.
+And I also think it nicely sets the stage for a lot of the projects that people are pursuing.
+So I know several people are doing projects related to linear regression and least
+squares analysis kind of building on the things that we'll talk about today.
+So then if this sort of excites you, if you're thinking more about going in the direction of data science and economics,
+then this could be that you might enjoy reading those projects, too.
+So let's go back to one of the most fundamental questions in this entire semester.
+So if you go back to almost day one. We talked about our goal with this huge talk, I write larger, so maybe that's already a positive.
+The goal is to have the switchboards, every two words, lots of movement today.
+So the goal is to solve this matrix equation X equals B, right?
+That was like one of our most fundamental questions.
+Almost on the very first day of the semester, we thought about having linear systems of equations and able to solve them.
+So we have a lot of ways of solving linear systems of equations.
+There's certainly a lot more that you could think about with this question,
+or especially around computational methods and efficient algorithms and even current research that's going on today.
+And those sorts of directions. But. The question that I wanted to pose today is the following.
+So what if, say, X equals B is inconsistent?
+This also makes a much more dramatic clacking noise, which is so far pretty satisfying.
+When I send my review back to the company after class, let them know my thoughts.
+So what if it's inconsistent? So there are two actually like extremely different directions here that can come up.
+You can have what's considered an overdetermined system of equations where you have a lot of equations.
+And so you probably don't have very many solutions, and in fact, you probably don't have any solutions like you have a tall and thin matrix.
+A lot of equations and few variables, the other extreme as you can have a wildly undetermined system of equations where
+you have sort of a short and wide matrix that that has lots and lots of solutions.
+This is called an under determined system of equations,
+and this is where the theory of sparse matrices comes up and even some of my own research on what the field is called compressed sensing.
+So then you want to think about there are lots of solutions.
+How could you identify what in some sense is the best one for the sort of appropriate uses of the word best?
+So here, though, we're thinking about this opposite situation where there's there's just no solution, so we just like pack up our bags and we go home.
+There's no solutions at all. Well, sometimes we need to do better than that.
+We want to have some answer to this question, even if we can't give an exact answer.
+So what I want to do today is I want to think about what could we do in this situation?
+So, you know that people often use in this scenario, if you can't solve it, you instead say, Well, how close could I get to a solution?
+Let's try to make that distance as small as possible, and we'll call that our solution.
+So namely, the idea is to find an X value so that a times x is as close to be as possible.
+As possible. So we can't get the distance to be zero, if we could, then it would actually be consistent.
+So namely what we're doing. Is.
+We're trying to solve a particular optimization problem. We're trying to minimize.
+We're trying to find the minimum for all ex inside of our DN.
+The minimum distance between B and eight times X, namely, we want to solve this optimization problem.
+To make this distance between be and axis small possible.
+So this is sort of the next best thing you could do in the Senate,
+in the situation where you're inconsistent is to try to make this distance as small as possible.
+So this is kind of a solution is called the least squares solution to our system.
+It's not an actual solution to your system because your system is inconsistent,
+but it's a solution that minimizes the distance in the sense of measuring them in terms of the squares of the distances between them.
+So a least squares solution. Solution.
+To X equals B is a Vector X.
+X, who got X hat in our RN so that.
+The distance between B and asshat hat is less than or equal to the distance between B and eight times X.
+For all acts in our end.
+So this is what I mean by a least squares solution. So it's the solution that minimizes the distance between B and eight times X.
+Yes, was. The least squares, why is it squares?
+It's because of the way the image is here.
+So if you think about the way we defined this distance formula, it's in terms of the squares of the distances of the individual components.
+So that's why it's least squares. And in fact, there are other ways that you could measure distances I've hinted at before.
+They're so called like lasso solutions, where you're minimizing just the distance between the components.
+And those are certainly useful as well. We've seen those even come up in some project proposals.
+So the distance that we can obtain, the smallest we can make, there's what we call the least squares error.
+That's how close you can get. So we call the distance B minus a X hat, the least squares error of our solution.
+No, I'm not crazy about the new Chuck. Now I want to switch back to the old joke.
+What do a quick comparison see if people want me to switch back, I can, but it isn't making larger letters, so maybe that's good.
+So let's think about geometrically what's going on, though.
+So if you think about geometrically what's going on when I solve this system, I'm trying to minimize the distance between these two quantities.
+But we can also think about what this is saying is that if this system is inconsistent,
+that means that B is not an element in the column space of a all right.
+That's one way of interpreting what the sentence says. So let's say you have some vector in r n that is not in a particular subspace.
+So we could draw a picture to represent that. So inside of our RN, I'll draw my column space.
+So this will be the subspace representing the column space of my Matrix A.
+Here's the zero vector subspace always has to contain zero the origin,
+and then I've got this element B that's in our NW that is not in the column space.
+That part of the picture is representing the inconsistency of this matrix equation.
+So that if I'm trying to minimize the distance between be in the column space, how do I do that?
+We use orthogonal protection. That's exactly right. So what we've been doing is then you would compute the orthogonal projection into the subspace,
+and we usually call that B hat where this is, then we have is the orthogonal projection of B onto the column space of A.
+So then what X hat is, is that x hat?
+So now we can think of the least squares solution x hat is.
+Is such that. Hey.
+Times is a solution, I should say. Well, maybe I'll just say such that a hat is equal to be had, so it's some solution to this equation.
+Why would you know that a X is equal to B hat has some solution at all?
+So. Yeah, so we know now that it's in the column space, right?
+So now we know that it's in the column space of A. So then it by definition has some solution.
+There's some X that has to give you that an x hat is one way that we can interpret that coefficient.
+So that gives us a way of then finding the least squares solution.
+So there are sort of now two ways that we could think about this problem.
+So let's just raise those two ideas and see how they connect with what we were doing before.
+Idea one. So idea one is to carry out this picture, so that says I need a projection of B onto the column space of A.
+So just practically speaking, if you have some random matrix in front of you, A.
+And you then want to compute the projection of some other random vector onto this column space.
+How do you do that? What do you need to have in order to do that?
+We have Jonathan. We need an orthogonal basis, so we need an orthogonal basis for the common space of.
+Otherwise, we don't know how to compute the orthogonal projection.
+So we have no way of computing without going to projections without an orthogonal basis,
+so how do we get an orthogonal basis for the column space, Tommy?
+So we apply. Graham Schmidt. So idea one is first apply.
+Graham Schmidt. To the columns of A.
+Columns of A to get.
+An orthogonal basis. For the column space.
+So now we have orthogonal basis for the castaways, Luke. That's a good point, so we need to first have a basis for the column space.
+So how could we find a spanning set for the column space? Yes, Daniel.
+So then we take the columns themselves, take a span of all the columns. And now what do we do to make sure we have a basis when?
+Then we take the linearly independent columns, right,
+so we throw away any column that's redundant in the sense of being linearly independent with the other columns,
+we can of course see that from the pivot columns.
+So looking at the throwing away all of the non pivot columns from the columns of air, then we can get a basis for the column space.
+So good point. So we can certainly get through this sort of theory we've developed.
+We can get a basis for the column space now through our new object, our new algorithm.
+Graham Schmidt. We can turn that basis into an orthogonal basis.
+Now, once we've had an orthogonal basis, we can compute.
+We had the orthogonal projection. So now next.
+We find. The orthogonal projection be had, which will be the orthogonal projection onto the column space of a V and then finally, the third step.
+We now solve.
+X equals B hat, so now we've turned our inconsistent system, a x equals B into a consistent system, one where we can solve it like normal.
+Questions. OK.
+So the nice thing about this approach, though, is we can still apply the theory and the geometry that we know about orthogonal projections as well.
+So we have one way to do this. Let's do another way.
+So one reason why you might not like this particular procedure is that first step of apply.
+Graham Schmidt. It's a lot more fun to write the phrase apply.
+Graham Schmidt, than it is to carry out the Graham Schmidt algorithm. It's not so bad to.
+It's not so bad to have a computer do it, but it's not something I particularly want to do many times by hand.
+So we might want to think a bit more about the geometry. And so let's consider a second approach idea to.
+Let's try to use some of the theory that we've developed to make things a little bit nicer.
+Just Tommy. What is?
+Here. Oh, yeah, this is A. C o l column space of.
+Quinn. Yeah, so if you have something that's already pretty close to orthogonal or even already orthogonal, then life will be a lot easier.
+So you can then it won't be necessarily as difficult. So you could try to use some of the geometry that you already know to then try to make things
+the computations a little bit nicer rather than just working them and random random matrix they.
+OK, so my second idea here is I want to try to characterize what the solutions look like.
+So I would again like to think about a picture. So maybe I'll draw my picture here for my idea to.
+So again, we have say the zero vector and here. And we have this vector B. That's most likely outside of our subspace.
+We have the column space of A. And we want to think about what X hat really is.
+Well, when I take any element in the column space, it's a times X.
+That's what it meant to be in the column space of air. So when we're thinking about these elements here, these vectors are all a times x.
+An X hat just happened to be the one that was that was the amount that you would need
+to subtract off from B so that the result was orthogonal to the column space of A.
+So that was the sort of geometric picture that we had in mind when we were thinking about what was happening last time,
+so x hat was the amount that we needed to subtract off from B so that the result was in the orthogonal complement of the column space of A.
+So that's what we were thinking of is done to say this B had kind of another perspective and what
+we had is for at least maybe just kind of internalizing what we were thinking about before.
+So now let's suppose that we have one of these solutions, X hat is a solution.
+To a X is equal to this B hat.
+Now, let's think about what that means. Well.
+Again, the point of what we've done there is trying to do an orthogonal decomposition theorem, so by the orthogonal decomposition theorem.
+The last time.
+And the point is that this is giving us an orthogonal decomposition of B, namely that B then B is equal to a times x hat plus b minus a X hat.
+Is the unique. Orthogonal decomposition.
+Of the. So namely, so.
+We know that a times x hat is an element in the column space of A and.
+B minus x hat is an element in the orthogonal complement of the common space of.
+That's the point of the orthogonal decomposition theorem. Well, just by the way that I've written this down.
+This is an. This is a decomposition and it's orthogonal tells me that this quantity here must be the orthogonal projection, for instance.
+Oops. But it also tells me something else.
+So if I'm thinking about this quantity b minus. We had here, so this will be equal to B minus B hot, since this is a unique decomposition.
+So if I think about B minus B hat, this is then orthogonal to all the columns of air.
+Because it's the columns of a former spanning set for the column space.
+So then you would have to be orthogonal to all of those columns. Thus, we know that B minus B hat is orthogonal.
+To all the columns. Very.
+That's again, because it's in the orthogonal complement of the column space.
+OK, well, let's just give a name to all those columns. So let's take Matrix A to be equal to a one up through a and.
+So then that means that if I take B minus B had the orthogonal component of your Vector B with
+respect to the column space of a it's DOT product with all these columns will be equal to zero.
+So that means a J dotted with B minus B had is equal to zero for all j and the set one up through N, so it's orthogonal to all of those columns.
+Right. OK, well, then by definition of the DOT product, that means that a J transpose times B minus B hat is equal to zero.
+And then be had was equal to a times x hat, so I could rewrite this as.
+And that's true for all these. These ages.
+Right. So if we have a bunch of things that when you multiply them together,
+some of these vectors, when they're equal to zero, I can encode this in a matrix.
+So A.J. transpose forms the rose of the matrix, a transpose.
+So all of these being equal to zero then tells me that if I take the matrix a transpose, I'm doing row by column.
+So a transpose times this vector will be equal to the zero vector.
+All right, because you're doing row by column, so this verifies the first the J throw times, this factor is equal to zero.
+All right. Well, then you can multiply this out, so then you would get, say, a transpose a times x hat is equal to a transpose B.
+So this would be then a necessary condition that X hat would have to satisfy.
+In order to be a least squares solution, x hat would have to satisfy this equation, which we'll call star.
+So we've just arrived star from this sort of properties of Orthogonal City.
+This might look familiar if you've taken, say, a statistics class before.
+So these are called the normal equations and statistics. So star.
+It's called the normal equations. If you take a sometimes when one takes a statistics class,
+you'll talk certainly about these square solutions and you'll talk about them as being solutions to the equations.
+Yes. So I just mean this, it'll be a system of equations.
+So that's why I call it normal equations, because it's a system one matrix equation if you want.
+But they often referred to it as the normal equations and statistics, but it is one matrix equation.
+So the unfortunate thing, though, I think at least the first time I encountered the normal liquid my life is that they were
+presented to me as just this matrix equation with no sort of geometric idea of what's going on.
+And really all you're doing when you're talking about the normal equations is you're projecting onto the column space of a matrix to say,
+how close can you get to the columns of that matrix? But this gives you a necessary condition, said.
+Or. Elise Square solution.
+Let me finish, let you finish your question, I'm sorry.
+So Arjuna makes an excellent point already, so I keep emphasizing this idea that to compute an orthogonal projection,
+the only way that you can do that is to have so far is to have an orthogonal basis.
+The only way that we really know to get an orthogonal basis from an arbitrary basis is to apply the Graham-Cumming algorithm.
+Arjuna is pointing out that these normal equations could give us a route around that, which is actually quite nice.
+So this will ultimately give us a projection formula that doesn't make use of having an orthogonal basis,
+which is quite, I think, a nice result to have. So that's a good point, Tommy, and it's what you're.
+To be. This equation, if there's a square solution, we'll have a we'll have a solution.
+Yes. So yeah, this thing, we will have a solution to it.
+Yeah. Then. Well, that's a good question, so there are certainly computational situations,
+and we'll even see an example later where I'll choose one method during versus another.
+It often usually depends on how the problem presents itself in the wild.
+So like sometimes given the way that the problem is presented to you, maybe from your experimental setup,
+it's sort of lends itself to maybe you already have an orthogonal basis just coming from the way things were set up.
+And so then you want to take advantage of that. There are other times when you get something that's not very close to being an orthogonal basis.
+So then maybe you want to use then this normal equations approach to get around having to go
+through the work of doing Graham Schmidt and constructing an orthogonal basis and all of that.
+So it really depends on the form of the problem in front of you. OK.
+But I think the question that you should be you might be wondering about is this was a necessary condition.
+Is it sufficient, namely are all of the least squares solutions given to you by solving the normal equations?
+So that's our major theorem for the day that that's true. So on the set of least squares solutions.
+Squares solutions. Is equal to the normal solution to the normal equations.
+So in order to prove the two sets are equal, we need to show that each subset of the other.
+All right. So.
+This one where we start with the least squares solution and then we want to prove that then it satisfies the normal equations, we just did that.
+So to see the network. See previous work.
+So we need to prove the other containment, namely that if you satisfy the normal equations,
+then you would be at least squares solution that you actually minimize the distance to your column space.
+So suppose the X hat is a solution.
+Through the normal equations to a transpose, a X equals a transpose B.
+Well, we need to get these orthogonal relationships into it so we can undo a bit of the work that we did before.
+So then just doing that work, we would know that a transpose times this quantity b minus eight times X hat is equal to zero.
+So then that means b minus X hat is then orthogonal to all the rows of a transpose and hence the columns of EC.
+So hence, you know, the B minus X hat is orthogonal.
+To all, Rose. Of transpose and hence.
+All the columns of a. OK, so that gives us something, at least.
+So now we have so. We can then use this to say that if I looked at B, this will be equal to a X hat plus B minus a X hat.
+Now, this quantity I've just observed is orthogonal to the column space of a so then B minus a X hat is an element in the column space.
+The orthogonal compliment to the column space of a.
+Again, then, because of the uniqueness from the orthogonal decomposition theorem, then this quantity a x hat needs to be the orthogonal projection.
+It can't be some random other thing. So then by the uniqueness from the orthogonal projection theorem, we know that.
+The hat will be equal to the projection onto the column space of a of the.
+So. We had is, of course, just eight times exact.
+So this quantity right here. Because this was the right amount to subtract off, to be in the orthogonal compliment,
+then that meant you must have had the orthogonal projection as the quantity that you were
+subtracting off because of the uniqueness and the orthogonal decomposition theorem.
+So then that tells you that X hat is the orthogonal projection of B onto the columns space of it.
+Well, now if you know you have the orthogonal projection, we can now apply the best approximation theorem from last class.
+So then the best approximation theorem tells us that that's as close to orthogonal projection is as close as you can get to be.
+So now by the best approximation theorem.
+Then we know that B minus B hat is always strictly less than any other quantity, so then it will be less than a B minus say.
+I guess we use V before for any V in the column space of A.
+So that's what the best approximation theorem is telling us that we're as close as possible to that quantity when we use the orthogonal projection.
+So now, but that was our definition of a least squares solution that if you had a least squares solution to your system,
+then it's going to be smaller than any other one or at least as small as any other one.
+So thus. It's had is at least squares solution.
+Solution. So the kind of thing that's the thing that's nice about this is SquarePants is telling you something about geometry,
+it's thinking about measuring distances, it's a geometric perspective on what you're doing and you're trying to minimize the distance to something.
+On the other hand, when you're thinking about the normal equations. It's purely a question in linear algebra.
+You have a system of equations that you want to solve, so it's purely an algebra question.
+So then you can turn a geometric problem into an algebra problem and vice versa.
+Jonathan, just. Or any of this once and for all?
+Yes. Yes.
+So that's a great. So Tommy's question is whether there are other less square solutions, so that's going to depend on your Matrix A.
+So in particular, if your Matrix a is inverted bowl, then you would get exactly one least squares solution.
+Because when you solve the equation, a X is equal to B hat. There's just one x hat that will do that if your columns were not linearly independent.
+This goes back to Luke's question.
+Before then, you could have potentially lots of inputs that get you an output that's as close as possible to your Vector B,
+so it is not unique unless the columns of your matrix are linearly independent.
+Yes. Variable. Would.
+So I think your question might have been about with a is convertible, would that be telling you anything about the consistency of your system, right?
+So. Right.
+So, so more than that, I guess, if we wanted to generalize to the situation to make it a little bit more general,
+we talk about the columns being linearly independent. So if the columns failed to be linearly independent,
+then you could have more potential solutions to X equals B had and then that is a situation where it would still apply.
+Yeah. But good point. So the upshot of this is that this gives us a nice way of translating a geometric
+optimization problem into something that's strictly speaking a an algebra problem.
+Yes, you're can about this stuff and.
+The second hints. And. People mean this.
+Yeah, so so what so what I'm trying to do here is I want to apply the orthogonal decomposition theorem.
+Right, right. So I want I want to do it do is apply the orthogonal decomposition theorem here to show that this
+quantity is actually the orthogonal projection because once I know it's the orthogonal projection,
+I can apply the best approximation theorem. So what I do here is I first show, well, it's a decomposition of B.
+Just through vector arithmetic. I see that the air cancels out.
+So that's a good sign because of the normal equations, then I know I have this orthogonal ality relation between all the columns.
+So then I know this part is an element in the orthogonal compliment.
+So then once I know this is in the orthogonal complement and this was in my subspace,
+that means that it is an orthogonal decomposition with respect to the column space of air.
+Because the orthogonal decomposition theorem says orthogonal decomposition compositions are unique.
+That means that this quantity here must be the orthogonal projection into your subspace.
+Once you know it's the orthogonal projection,
+you can then apply the best approximation theorem to say that is as close as you can possibly get inside of the column space to your Vector B,
+then that tells you that you have a least squares solution. Very good.
+All right, great.
+Arguing the point here that this gives us another way of computing, the whole projection is actually, I think, a really nice thing to note.
+So if you think about what Arjun pointed out to point.
+To this point. I think everybody's going to be really disappointed in 10 minutes when I keep
+talking so here and when when you're trying to compute this projection right,
+your only option that you have at this moment is that you would you as Graham Schmidt, on the other hand,
+now you know that this is also coming from the solutions to the normal equations, right?
+So once you come to the normal equations, you can then solve the normal equations to get your X hat.
+So for instance, if this quantity were inverted ball, if this quantity right here a transpose was inverted bowl, you could solve the equation.
+Strictly speaking, for X. So then you would have X hat is equal to a transpose a inverse as equal to a transpose B.
+Which then gives you a formula for your least squares solution under the assumption that a transpose a is inverted bowl, a nice side lemma,
+which would have been a good final exam question would be to prove that a transpose a convertible if and only if a is convertible.
+So then what that tells you is that then you orthogonal projection under the scenario where a is inevitable is given by a Times X hat,
+which is a times a transpose, a inverse times a transpose b.
+So this is when. It has linearly independent columns.
+There are questions on that. Look. Yeah.
+So you have some columns of a then that are not linearly independent. That's right.
+There will be multiple inputs X that yield the projection. So there's still a unique projection.
+But yeah, it's a times X gives you the projection. So a times x will be giving you the same answer for lots of different possible exits.
+Be it or accept, yeah. Tommy. Disney said it will need to transpose.
+So you could say if they have linearly independent columns, if you want.
+So a transpose is inevitable if and only if a has linearly independent columns, for instance.
+Yeah. Xavier. Mm-Hmm.
+I'm sorry, could you repeat the question? Relations between the number of these were some.
+Yes. So if you're thinking about whether you should, then that will depend on whether a transpose is convertible,
+which will be then telling you about whether you have. Lots of potential inputs X.
+That map to that, so that goes back to the incredible matrix theorem.
+Yeah, the not the very transpose eight and how that's related to the null space of a particular equal.
+All right. So now let's apply these. Oh, you do actually have to wear this.
+You do have a way around this. You do have a way around the issue of.
+You have a way around the issue of when your your basis, you when you don't have an orthogonal basis.
+So instead of necessarily having to use Graham Schmidt, you could use this more general projection formula if you wanted.
+That works in a wider context, even when you don't have orthogonal columns.
+All right. But let's do an example. So let's take the Matrix A, to B say, the Matrix four zero zero two one one.
+And you're Vector B to B to zero 11.
+Well, any questions? All right.
+All right, though, we want to find the least squares solution.
+So what do we do? We compute the normal equations, so you compute a transpose.
+So I'll save you the work of computing these two. You end up with 17 one one five.
+When you compute a transpose, you compute a transpose B, which comes out to be the vector 19 11.
+So now to solve the normal equations, I then just solve this two by two system.
+Two variables, two equations. You could also solve it using the inverse because this matrix is in.
+Maybe I'll do that. So X hat will be equal to a transpose a inverse times a transpose B.
+All right. Well, again, I'll save you the computations. One over eighty four and five.
+17 minus one minus one times the vector 19 11.
+You do a bunch of arithmetic and it comes out to be the vector one to.
+So, so that is at least a nice computation, so let's just interpret what that means for a second.
+So what does that tell you? So that is the input.
+So one two. Is the input to the matrix transformation to X goes to a times x such that?
+A Times X is as close to the given Vector E to zero 11.
+As possible. So that's as close as you can possibly get while staying within the span of the columns.
+Yes, Jason. Though that's a great point.
+So remember, my columns of air aren't orthogonal. They're not worth the normal.
+So a transpose a equals the identity matrix. That means that you had all the normal columns.
+So the whole point here is that they weren't worth the normal.
+I wasn't doing Graham Schmidt to do this work, so I could have used Graham Schmidt ahead of time to then get that term to drop out,
+and you'd get a simpler formula that actually appeared on the handout from last class.
+From the. Oh, yeah, you can definitely you can definitely use properties of inverses there.
+The only thing you have to be careful of is that a isn't a square matrix, so that only works here.
+You can only move the inverse inside and reverse the order if it was square. Which part of the whole point here is that a is not square?
+I mean, you often see this in many of the project areas some of you are pursuing where instead of studying your non square matrix,
+a you're studying is the matrix a transpose a instead.
+So you see then what information, what data is retained in a transpose, A or a transpose?
+All right. So I think I have one more of these I want to do.
+Rebecca, let me do one more of these. Let me do one more.
+And this might answer some of the other questions. Example.
+So let's take now The Matrix A is equal to one one one one minus six minus two one seven.
+And now you're Vector B will be equal to minus two two one six.
+And so last time the way I approached this was I saw that through using the normal equations,
+so I computed a transpose a computer to a transpose B and then I solved the resulting system of equations.
+Perfectly fine, but we had a second idea for doing this. You could also notice.
+But these two columns orthogonal at the beginning. You don't need to apply.
+Graham Schmidt, or anything that's already done for you. So note we're our information.
+Our data is presented in terms of an orthogonal basis.
+They're also linearly independent, so it's orthogonal but not worth the normal.
+So then we can use that to our advantage. So namely, instead of solving a Transpose X equals a transpose B,
+we can then instead compute the orthogonal projection and just solve a X equals B had.
+So. We now compute that.
+So then the orthogonal projection, we had the second idea in my two ideas, I project onto the column space of any of this given Vector B. Well,
+by definition, from last time, we've we have a formula for computing the projection in the case where it's an orthogonal basis.
+So this becomes b dotted with a one over a one dotted with a one and a one plus b dotted with a two, a two dotted with a two times eight.
+Again, I'll save you the computations to get a little bit of extra time here,
+if you compute all of this, you'll end up with the vector minus one one five halves, 11 halves.
+So that's be hat, that's the orthogonal projection into my column space, that's not only square solution,
+because remember the least squares solution is the input X that gets you as close to that output as possible.
+So now what you want to do is now you want to solve. A X equals B hat.
+And again, now that's a pretty quick problem. So then you would have one one one one minus six minus two one seven augment by this new vector,
+we just computed minus one one five halves, 11 halves.
+That row reduces to one zero zero one zero zero zero zero and then to one half zero zero.
+So how did I know that I'd get two rows of zeros without really thinking very hard?
+How did you know you'd have to get two rows of zeros at the end? When?
+That's right. So the columns and New Orleanian, the Independent,
+I knew the whole point of this was this was the projection into the column space, so then it has to be consistent.
+So the theory already told us that the columns being linearly independent told me right here I was going to get something to reproduce like this.
+And then over here, I knew I had to get two zeros down here because otherwise they would be inconsistent.
+And then I would know I've done something wrong.
+OK, so that tells us that then X had the inputs that give you the least squares solution will be to one half.
+So that is as close as you can get your output to be as possible.
+So it's a solution to an optimization problem. Yes, hear.
+Like going back to negative one one. Uh huh.
+Calculated stuff to day one plus one half eighty two.
+Oh, sure. Yeah, yeah. Just like, you're like, Well, oh, you're right, you're certainly right.
+I mean, like, you don't always need to go fully to the reduced on form like, especially depending on the question you might be asking.
+You might be thinking about. If there's a mass exodus, but you might be thinking about the what if they were just trying to determine, say,
+if something's linearly independent and once you can see the pivots you can stop, you don't need to be fully and reduced rear echelon form.
+All right. So hopefully, I want to put this in a bit of a broader context.
+So let's consider one more problem a little bit different.
+So now what I want to do is I want to find the line.
+In the plane. In order to say.
+Closest. To the point.
+Minus six, minus one, minus two to one one and seven six.
+So let's just draw a picture for a second. So I wanted to draw.
+I wanted to go through these particular points. So one, two three four five six one two three four five six seven.
+So I have minus six minus one. So right here I have minus two two.
+So like up here, I have one one right here and I have one two three four five six seven somewhere up here.
+So what I'd like to do is I'd like to make a line, so this equation of a line.
+So some line we'll call it Y is equal to beta not plus beta one times X.
+I want to find these two coefficients beta not in beta one, so that the distances to this line are as small as possible.
+It's yeah, so I'm just thinking about the distance from this line,
+so that's just the wide difference in the Y coordinates difference in the Y coordinates.
+Is it what is? Well, here.
+No, no, no, no. They could be different. I'm trying to.
+Yeah, I'm trying to think about the sum of all of those, the squares of all of those distances,
+and I want to make the sum of all those squares as small as possible, and I'm going to call that the closest I can do by varying or not in beta one.
+So if you think about what you're then trying to do,
+ideally what you'd want is you would plug in these data points to your equation and you'd like it to be true.
+I mean, your your best case scenarios, you just made a line that went through all of these points.
+So namely your first point minus six negative one, you'd have a negative six is equal to beta not plus beta one times negative six.
+Your second equation would then be negative two is equal to beta not plus beta one times two.
+Oh, I'm sorry, too negative, too. There we go. And then your next coefficient would then be one is equal to be it or not, plus beta one times one,
+your last one would then be six is equal to beta non plus beta one times seven.
+That would be my ideal scenario is if I could find two numbers two real numbers beta,
+not beta one that made these four linear equations simultaneously true.
+From the way the picture looks. It certainly doesn't seem like I can do that.
+But since I have four linear equations and two unknowns,
+I can go back to the very beginning of the semester and I can turn this into a matrix equation.
+So this is equivalent to the matrix equation one one one one the coefficient
+of beta not then the coefficient of beta one minus six minus two one seven.
+The X values times theta, not theta one is equal to the Y values, which are negative one negative to one and six.
+What's that the problem is that one positive, oh, you're right, that is positive to thank you.
+Thank you. That's positive to. So what this means is that the ideal thing is that you would find something that just goes
+through all of these points that would be correspond to having a consistent system here. But then when it's not consistent,
+then what I can do instead is I can find the least squares solution to this linear system of equations that will
+then be giving me the value beta and beta one that minimizes the least squares error to this system of equations,
+which will correspond to minimizing the sum of the squares of the distances to those points.
+So this idea that you've seen many times before, presumably in like a high school statistics class or in some data analysis,
+is really coming down to linear algebra and geometry where you're doing an orthogonal projection onto a column space,
+which is, I think, a much cleaner way of thinking about what linear regression is.
+It also makes a lot of things easier to prove when you take a geometric perspective, in my opinion.
+So if we just do that here, I'm then trying to find the least squares error,
+at least squares solution to this particular system, what do you notice about this particular system?
+It's the same one, right, is the one we did before, so we know the least squares solution from my previous example.
+They do not veto. One is then equal to two one half, I believe so, yeah.
+So then what that tells me is that the best fit line is equal to y is equal to two plus one half times X.
+So this is the best fit line. For this particular dataset.
+And so you can think about this is doing a linear regression you can think
+about then what the coefficients are telling you your regression coefficients,
+you can think about different ways of measuring uncertainty and measuring error. And what that tells you what's going on.
+You can think about the subtleties of what comes up when you have linearity coming up with your data.
+Suppose you had a bunch of your columns, your matrix a actually were pretty close together.
+They weren't linearly independent. What would that mean for you and how do you handle such issues?
+So I mean, this is like the beginning of first technique,
+and a machine learning course would be something where you learn linear regression and you go into econometrics.
+One of your fundamental techniques would be linear regression. This is the math that underlies that theory, those ideas.
+I was thinking about using just factor geometry. All right.
+The kind of cool thing here is that you didn't have to limit yourself to just a model of the form Y is equal to beta not plus one X.
+I could also try to find the best fit parabola and then make fit to that kind of a function.
+So for instance, instead, I could take the same data set and I could say I give a parabola look through those points as well.
+So let's see which I raise here. I guess I should bring the beer down, I suppose.
+So then I would be taking y is equal to better not. Plus Theta one x plus beta, two x squared.
+So now use a more sophisticated model, Take Y is equal to beta not plus beta one x plus B the two x squared.
+So the key thing here is that we're taking a linear combination of these three functions these three Minamino's, one X and X squared.
+So then when I plug in these data points, I'm going to get 10 equations again.
+We'll correspond to then solving the system of equations one one one one that corresponds to the core of the beta.
+Not then my coefficients of beta one will just be the X values that I plugged in.
+And what were those minus six, minus two, one seven?
+And then now, if I plug in to my x squared term, it's going to be the squares of all of those X values.
+So then I'll be getting thirty six for one and forty nine times better, not beta one beta,
+two times the vector or equal to the vector rather of y values which we had negative one two one six.
+So this gives me another least squares problem that I could solve. This would then be finding the parabola of best fit.
+And the kind of cool thing here is there is nothing particularly special about the function that you chose here,
+except that you would be probably trying to choose a function that best represents the context in which you're working.
+So here then maybe you actually want to choose something. Maybe you have reason to suspect the problem.
+The nature that sort of governing what's going on is that something that's more periodic, more sinusoidal.
+So then you could use a function that looks like y is equal to. They do not.
+Plus Beta one sine X, for instance. That's perfectly fine, too, because you're still taking a linear combination of these two functions.
+Yes. So it's a funny turn of phrase.
+Yes, that's different. Uh, different. One system that yes, in fact,
+that's one common source of design flaws and experiments is proving using a model that's wildly inappropriate for the problem that you're studying.
+So one problem that's often talked about is what's called overfitting,
+where you introduce a model that's too complicated to represent really to exactly how your data looks.
+For instance, with these data points that I've drawn here, I can't draw a linear function that goes through all of these data points.
+I can't draw a parabola that goes through all these data points. What if I took up a function of polynomial of degree 10000?
+I could. I could definitely give one that exactly goes through all those points.
+So that would be sort of an example of what's called overfitting, where you sort of introduce too much, too many degrees of freedom, right?
+Because the underlying behavior is certainly not governed by a degree 10000 polynomial?
+Yes. Let's say we are. Exactly.
+Yup. And the problem is where we get.
+You could pay to to to be very close to zero, yeah. Yeah, we did not.
+I don't think it's you know.
+We're going to get it this time. Why would you want to not just include lots of extra parameters?
+Hmm. So there is a technique that's often and in fact, a few of you are working on this problem of like,
+what's the right dimensionality to work with in your problem, to figure out like how what space does your problem sort of really work on or under?
+So this is often one technique for doing this to measure, like,
+does all of your data really lie on a plane in space or does it all line a line in space?
+And then would you rather use a line or a plane to model it?
+All right, so this is often you might use principal component analysis to do this, which a number of your projects,
+a number of people's projects are going into that to think about like what's the dimensionality
+of what you're really studying and then using a model that kind of reflects that.
+So if you if you did want to throw in a bunch of extra parameters into your model,
+you just want to be sort of careful in how that might impact what predictions come out of it.
+So like in this particular case, if you use a very large polynomial,
+you could certainly get an exact polynomial by making a very large degree approximation.
+But then, like the end behavior of that polynomial will be wildly different than if you took a linear function,
+which is perhaps more like what's actually happening.
+So even if you did, you could make your error go to zero by introducing lots of extra parameters by going sort of exactly through that data.
+But then you want to be sort of careful with that because suppose like your data was actually really all on a straight line,
+but then you introduce so many parameters that it like oscillates around that
+line instead of actually giving you something that's really straight line.
+So because then you could have actually error zero instead of something that's just very close to zero.
+But then it's not actually or zero, it's just a bad model.
+OK, so the last problem I have, and I have sort of a classical problem has thinking about modeling the number of hours of daylight in Cambridge.
+So we actually looked up the number of hours of daylight on different days in 2019.
+And so if you wanted to then model to reflect that.
+On that first, gas is probably some side.
+I think. Right.
+Well, your first problem with that. Or modify?
+Hundred and sixty five then great, but. Your time, but you're sort of assuming that time, zero, that's where you're at.
+Alan, I'm. The case given where we've chosen to zero to be.
+So then you say, Oh, right, and we are all but being a shift to then.
+This to then have you, Ali Cordingley, or the way in which function you're using.
+But then the problem becomes when you actually plug in your X values, then you're not taking a linear combination of functions anymore.
+One for your does inside of your sinusoidal function.
+So it's not a least squares problem anymore.
+So one way to get around that would be then to add in another term a cosine term using the trigonometric identity, the same formula to expand it.
+And then you can turn it into a least squares approximation problem. So it's just a problem that I wanted to leave on there for you to think through.
+But why don't I? And now, one minute early to pay down my debt from the last few classes?
+All right, I'll see all of you on Monday, hopefully.
+I have printouts of the quiz. I'll also post it online.
+It is due on Monday. So just keep that in mind. What did you still want to talk after class?

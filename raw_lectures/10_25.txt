@@ -1,0 +1,1053 @@
+﻿I'm sorry, I'm running a little bit behind, so just some quick, quick announcements.
+0:02
+So we have eight coming up. One of the main parts of at eight that I want you to be thinking about is what you might do for your final project.
+0:11
+My hope is that by tomorrow morning I'll post the project guidelines and a sample project from last year that I thought was quite good.
+0:21
+And so that might inform how you're thinking about possible project topics.
+0:32
+You should also certainly view both me and the other TFS and CRS as a resource for thinking about what possible final projects you might.
+0:37
+You might consider all of the kids that were in math.
+0:47
+Twenty two last year did excellent final project. So certainly asking them about what they did is a great place to start.
+0:50
+But yes, those are some things that I think will be helpful on peace. At 10:00, I'll actually ask to see a proposal.
+0:59
+OK, so as a part of the proposal, I want to see an outline of what the topic might look like.
+1:08
+How would the project actually come together?
+1:13
+And and this is the main place where we can provide feedback, whether it's going in a direction that's going to result in a score or not.
+1:15
+And I want to see who your project group will be, who will be in your project group.
+1:25
+So those will be, I think, useful things to be thinking about now.
+1:34
+All right, so if you think about what we're doing, the big idea over the last last class was the idea of introducing coordinates on a vector space.
+1:39
+So the idea there was that then it was often helpful to think about a basis as a
+1:50
+way of transferring questions from our vector space to just a copy of our end.
+1:56
+So the idea was given a vector space V with some basis, some finite basis.
+2:04
+You one up through Ben, then we defined the coordinate mapping.
+2:19
+As a function, I call this t subi going from my vector space V into our.
+2:30
+So one thing that we proved than last time was that then this was a linear bijection, so t so be is a linear.
+2:40
+Bijection. So the linear part is telling us that it preserves the vector space structure and the bijection part
+2:55
+tells us that there's exactly a one to one correspondence with elements in V and elements in our.
+3:07
+So the upshot of that was that we could replace problems in an abstract vector space with problems in our end,
+3:13
+which is a context in which we are much more comfortable. So the big idea or the big strategy coming from this is to use.
+3:20
+The coordinate mapping. To replace.
+3:33
+Problems. In your vector space in V.
+3:41
+At problem at. So the fact that we have a one to one correspondence between elements in this set and elements in this set,
+3:47
+that it's a bijection then tells us that there are natural corresponding objects to study over here.
+4:03
+And the linearity part just tells us that it's going to respect all of the questions that you have in linear algebra in one context, as in the other.
+4:11
+So what that really means for us is that we is essentially the same as.
+4:20
+And so there are literally different. So they're not exactly the same.
+4:28
+They're not the same set, but they behave in very similar ways.
+4:33
+So when you have something that's not exactly the same, but it behaves essentially the same.
+4:39
+We're going to give a name to objects that are related in that way, and we're going to call those vector spaces isomorphic.
+4:45
+OK, so they're not equal, they're different, but they're essentially the same.
+4:51
+So if we have a linear function going from a vector space to another vector space, the protective function, we call that an isomorphic.
+4:56
+So let me just. Our toolkit, if we have to, doesn't have to go into our end, 50 is a linear map of vector spaces, BMW.
+5:08
+Vector spaces. The W.
+5:25
+Then Ifti is also a bijection then we call it a isomorphic.
+5:36
+So if is Biju active?
+5:41
+Then. He is called a linear isomorphic or actually use the term of vector space, isomorphic vector space,
+5:49
+if you take other math classes, you have isomorphic isms that fit the context in which you're studying.
+6:04
+I just talked to several students thinking about their final project involving graph theory as it's related to computer science.
+6:09
+So in that context, your new object. And there you have breath isomorphic isms,
+6:15
+so isomorphic them show up whenever you have a mathematical sure as being able to relate to instances of that structure.
+6:20
+So it is called a vector space isomorphic.
+6:30
+There's also the graph, isomorphic, some problem in computer science, which is sort of a fun problem to think about.
+6:37
+So if there is such a linear function going between these, then we call the vector spaces themselves isomorphic.
+6:43
+So we call V and W isomorphic.
+6:50
+Vector spaces. And the symbol, so we don't want to say they're equal because they might be different,
+6:57
+but we use equal with until they're above it to denote an isomorphic.
+7:07
+So they're not equal, but this is an equivalence relation.
+7:14
+All right, so we can think about some of the isomorphic items that we've seen before, so, for instance, if I took, say,
+7:20
+the space of polynomials of degree three and I take a basis for this space, the simplest basis that we could write down would be one T and T squared.
+7:30
+So the standard basis will then note the coordinate mapping t be a coordinate mapping coming from the standard basis,
+7:40
+then gives me a function going from P three into or I'm sorry, two.
+7:50
+I want to quadratic P two into our three because we have three coefficients.
+7:56
+We have the coefficient of the constant term. Is this causing the audio to have problems.
+8:02
+It's OK for someone to wave at me if there are audio problems. Right.
+8:07
+You won't just suffer in silence, OK? So here this is then giving us a linear bijection.
+8:11
+So we've proven in general the coordinate mapping is giving us some more basem.
+8:18
+So then here in this instance, we have like a polynomial A plus B plus squared.
+8:23
+Well, since it's written as a linear combination of those basis factors, then what this is going to do is we send the AI to the first component,
+8:30
+we send the B to the second component, and we send the C to the third component and then we get an element in our three.
+8:41
+So really what that's telling us is that we have this intuitive notion that for
+8:48
+all of the linear algebra questions about polynomials of degree two or less,
+8:52
+we can replace the polynomial we're studying with instead just studying the vector of coefficients,
+8:57
+which is probably something that was has occurred to you before.
+9:04
+So instead of studying A plus B plus squared, you can note that what were the what was the variable really doing for you?
+9:09
+It was just kind of keeping track of different components of a vector.
+9:18
+So you just have the ACMS, the first component, the second component and that and we could have done this with any basis whatsoever.
+9:22
+It was nothing particularly special about using the standard basis here.
+9:30
+OK, so then t accordant mapping is and I said more basem, that was our theorem.
+9:34
+And had. The space polynomials to.
+9:46
+Our. So they're not literally the same thing, they're not equal, but they're saying they're isomorphic.
+9:55
+OK. So if you're thinking about like, what are the big idea, the big idea is that now using porn on an abstract space,
+10:05
+we can take our problems involving polynomials and turn them into questions in our three, where you have lots of tools at your disposal.
+10:19
+OK, one question that you might have when you're thinking about your vector's in your vector space is about this question of linear independence.
+10:31
+So in particular, suppose that I was just giving you a list of polynomials in P three or P two, rather, the space of polynomial degree, two or less.
+10:40
+How many polynomials can I give you so that they're linearly independent? Me polynomials could I get.
+10:52
+Could you have won linearly independent polynomial? Someone says, yes, OK, can we have two thumbs up good.
+11:00
+Yeah, we got up to can we have three? Could we have four?
+11:09
+No, we can't have four. Was this in our three?
+11:13
+We had a limit that we can only have at most three linearly independent factors in our three.
+11:18
+And we knew immediately if we had a list of four vectors that they must be linearly dependent.
+11:23
+Why did we know that? How did we know that when?
+11:28
+So. Perfect, right? The proof was that if we had more columns than rows, we would have a column that would correspond to a free variable.
+11:37
+Therefore, we have infinitely many solutions to the equation. X equals zero.
+11:46
+And so we would have a linear dependance relation among the columns.
+11:50
+Great. So the same idea is then in our abstract vector spaces, so dirham.
+11:54
+If there is some vector space, again, everything we're doing,
+12:04
+nearly everything we're doing in this class will be with finite dimensional, finite vector space, finite basis.
+12:10
+It's a nice project idea to think about what happens when you consider larger vector spaces.
+12:18
+So that would be a nice thing to explore, especially if you're interested in physics. So if you have a vector space with.
+12:24
+Basis. There may be one up through the end.
+12:31
+Then any set of more.
+12:41
+Then and factors.
+12:50
+Must be nearly dependent. Is that another way, if you have a collection of vectors that are linearly independent, then you can have most of them.
+12:55
+So would be the sort of theorem that we can prove at this point.
+13:15
+So I don't always get to all of the theorems that I want to in class, sometimes I deliberately don't get everything question.
+13:22
+Yeah, thank you. OK, thanks. Linearly dependent.
+13:33
+Because I have lots of them, I have lots of them. You're expecting them to be literally dependent.
+13:42
+Good question. Good catch. So.
+13:47
+I think a number of you are asking me for more problems related to practicing
+13:52
+movie problems whenever I don't get to a particular theorem on the handout.
+13:57
+Those are great problems to practice to make sure that we're comfortable writing those proofs.
+14:02
+OK, I think there are also good problems when you're reviewing to go back to and to practice for, say, a quip or an exam.
+14:07
+When you're doing that, I'll encourage you that it's not superlative to just read the solution.
+14:15
+It's also not super effective to. Try really hard to remember what we did instead.
+14:21
+You want to try to approach it as if it's a new problem that you've never seen
+14:29
+before and think about how you would solve this new problem in front of you,
+14:32
+because after all, on a quiz or an exam, I'm not going to ask you to solve a problem that you've solved before.
+14:36
+I'm not going to ask you just to remember something. I'm going to ask you to solve a new problem. So you want to simulate that experience.
+14:42
+So here we have a new theorem that I think is a great problem at exactly the appropriate level for where we are right now.
+14:49
+So we have a nice theorem that tells us this result in Aaryn.
+14:57
+We've proven that before, couldn't even outlined what the argument looked like for us.
+15:01
+So it seems like if I could connect this to R n, I would be done.
+15:07
+So let's just try to do that. So if we want to start writing this proof, let's just make a list of some vectors where we have,
+15:12
+say, more than any of them and let's prove that they must be linearly dependent.
+15:21
+Right. So let's suppose that we have a list A1 up through AP as elements.
+15:28
+And we then we want to have more than you more than anything rather more than.
+15:34
+So we're saying we have a bunch of them, so they should be linearly dependent.
+15:42
+Somehow that means that I want to find a non-trivial solution to a particular vector equation.
+15:47
+That's what the definition tells me to do. OK, all right.
+15:52
+Well, if we're just thinking about this problem from just a problem solving perspective, from a heuristic perspective.
+15:57
+What could we do? The problem is, though, I don't have entries like this is like an entry in a vector space,
+16:04
+so maybe this thing is like a three by three matrix itself, or maybe it's like sine X or something.
+16:15
+So I don't know how to talk about the entries of this. That's right.
+16:21
+So that seems like a way that I could try to translate this to a problem in our own right.
+16:36
+So let's think about how we might do that. Well, I could apply the coordinate mapping to each of these vectors.
+16:42
+Now, consider. Anyone apply the coordinate mapping relative to the coordinates, B, to this one, and you do that to Eppy?
+16:48
+Now, where do all these elements live? Where do they live?
+17:04
+They live in our end now. Now we have an honest question in our end to work with, so these are vectors in our N, I have P of them.
+17:14
+So now what can I say? Do I have to repeat this whole argument about forming an augmented matrix and reducing certainly make sure that we understand.
+17:25
+But do I have to do that again? Some people shake their heads, no.
+17:37
+What could I do instead? Could I do instead?
+17:43
+Why do we prove theorems? So we can use the.
+17:49
+Right, so now we can reuse exactly the theorem from Chapter one, so we proved this before, so I be corresponding.
+17:59
+Are. In Chapter one.
+18:12
+I think we actually give a name to this, I think we attribute this to Zoe and I.
+18:18
+So this theorem then told us that if I had any vector or key vectors in our NT, then they must be literally dependent.
+18:27
+We know. Vector's. A little bit long winded here, I suppose, in a N and R n are literally dependent.
+18:34
+So then by the definition of linear dependance, that means that there exists scalars see one up through S.P., not all zero.
+18:52
+Contributable, not all zero, so that. We have zero is equal to one times the first vector in coordinates up to the SEPI Times the vector.
+19:06
+In Corden's. OK, so it seems like we've made progress, we've solved the corresponding problem on our end, how do we get back to the question?
+19:25
+Yeah. The number of basis factors that I had, a number of basis.
+19:34
+So I had more than the number of basis factors. So I've answered the corresponding question or are in how do we get back?
+19:49
+How do we get back to V? James. That's right.
+19:57
+We had something like this is even relevant for the piece you're currently working on, if you have something that's an equation like that.
+20:10
+How does it what might you do when? The back.
+20:18
+Huh? So then we have zero is equal to now, this is linear, the coordinate mapping is linear, so we can move that inside.
+20:24
+So we get see one a one plus dot, dot, dot, c, p, a P is an element and B.
+20:33
+All right, so the coordinate mapping is linear, we also know it's more than just being linear,
+20:43
+it's a bijection so that means that this element in here must be zero.
+20:50
+So since. The coordinate function is by directive and linear.
+20:57
+It's a nice amorphous them then, you know, zero has to be equal to that input.
+21:07
+The only thing that could map to zero would be zero. So then see one a one plus at the c.p, a p.
+21:11
+But now you have the coefficients, they're the same ones that you got from before, they're not all zero.
+21:24
+So now we have an explicit dependance relation for a one through AP.
+21:28
+So therefore, they're linearly dependent. So now since.
+21:32
+See, one key elements that are that are not all zero and we have it pendants, relation.
+21:47
+OK. For every one eight.
+21:59
+So thus we have the analog of Zoe and Haleys theorem for now, vectors in a vector space with a finite number of basis vectors,
+22:09
+nearly all of the vector spaces we've studied the same observation from Aaryn persists Savir.
+22:21
+That inside. Important information.
+22:30
+That comes from the fact that Dr.
+22:37
+So here, the fact that it's 5:00 a.m. is telling me that the only thing that could map to zero would be zero because,
+22:42
+you know, zero has to map to zero because it's linear. So you're kind of I'm using both their innocence.
+22:51
+That's also a good sort.
+23:03
+Just to play around with linear functions, like if you have a collection of linearly independent factors and I apply transformation to them,
+23:05
+will the output collection be linearly independent or linearly dependent? I use those sorts of questions a lot.
+23:12
+So if you're looking for more practice problems, it's a good place to start.
+23:20
+OK, well, now this theorem tells us something nice about what can happen when you have a basis.
+23:25
+So one corollary of this result, if I have another collection of linearly independent factors here,
+23:32
+or that's a spanning set, I know they can have at most and vectors here.
+23:39
+OK, so it gives me an inequality on the number of vectors that a basis can have.
+23:46
+So if I had another basis, say see one through s.m, then I would know that M could be at most.
+23:52
+And but then if you're saying that that other collection as a basis as well,
+23:58
+you can apply the same theorem again to then conclude that and would have to be at most M.
+24:03
+So the upshot of that is that it gives you this corollary that any base,
+24:09
+any vector space with a finite basis has to have the same number of basis vectors.
+24:14
+So if you have a collection, say, be one up through the end is a basis.
+24:21
+For a vector space V. Then any other.
+24:32
+This also has an vector's. Any basis for the cause and effect, so there's nothing funny that can happen that, like,
+24:38
+you could be really clever and find a way to have two basis vectors when we already found three basis factors for a different change of court.
+24:52
+So any coordinate system that you're talking about for a fixed vector space with a finite number has to have the same finite number of basis factors.
+25:00
+So if you are changing from the standard coordinates on are three, you know that you would be looking for three coordinate vectors,
+25:09
+three basis vectors in any coordinate system you'd be working in.
+25:17
+This also turns out to be a fundamental property of a vector space or a subspace that we'd like to use to our advantage.
+25:22
+So we're going to give a name to this quantity, the number of basis vectors, and that's what we're going to call the dimension of that vector space.
+25:33
+So we've been kind of intuitively referring to dimensions before,
+25:40
+especially when we've been working in our NT to talk think about them as like degrees of freedom and your intuitive notion of what a dimension is.
+25:43
+But now we're giving a precise definition for what the dimension is.
+25:51
+So definition. So if a vector space, we expand by a finite set.
+25:56
+Then we say, fine, I. The is finite dimensional.
+26:11
+So those are particularly nice vector spaces.
+26:25
+On the other hand, and, well, if it is finally dimensional, then we know by the previous theorem every basis will have the same number of vectors.
+26:29
+So we use that number of actors to denote the dimension of that vector space.
+26:36
+So the dimension. Of a finite dimensional vector space of B is the number.
+26:41
+Of base factors, number of basis factors.
+26:53
+So that's what we mean by the dimension of the vector's tension.
+27:02
+We will be a number of factors.
+27:08
+So there's one edge case that we need to consider here.
+27:16
+What about the smallest vector space that we can have, which are the dimension of that small vector space?
+27:19
+So what is the smallest vector space that you can have? What is the small a vector space, just the zero vector, right?
+27:26
+So what should we call the dimension of that zero?
+27:39
+So we're going to take the convention that we'll call the dimension of just the zero vector will be zero.
+27:42
+Hopefully that seems a reasonable convention to choose.
+27:51
+On top of this, it's actually unavoidable to start considering infinite dimension of this as well.
+27:55
+So if V is not spend.
+28:04
+By any finite set, by any set by night set.
+28:12
+Then we is called infinite dimensional. These infinite dimensional vector spaces are actually quite important.
+28:23
+To really appreciate infinite dimensional vector spaces, you should be relatively comfortable with the theory of finite dimensional vector spaces.
+28:41
+First question. Like.
+28:47
+So that's a great point that I want to keep track of what space I'm working in, but I'm going to call all of them zero dimensional.
+29:01
+So, like, if I have, like, this vector. Oh.
+29:07
+To the two countries, I'm still gonna call that zero dimensional, yeah, it's, uh.
+29:15
+So that's a great question, I think there was a question someone else asked a similar question before.
+29:27
+So there are a notions of a fractional dimension or fractals that one might want to study.
+29:32
+And it's a cool area of math to consider.
+29:38
+Our definition here certainly wouldn't allow for fractional dimensions because we can't have a fractional number of factors.
+29:41
+So we would need a new notion of dimension that can be generalized to have a fractional engine.
+29:48
+Certainly that's an interesting thing to study. Even done that for math.
+29:55
+Twenty two projects in the past. It's a great area of active research in mathematics these days and it's a fun thing to play around with.
+29:58
+But you would have to take a different definition of dimension and you would want to make sure that your
+30:07
+definition of dimension agrees with our usual notion of dimension in the context where they both apply.
+30:14
+Does that answer your question? So certainly a fun thing to think about, like what would have to be like.
+30:20
+You can also have a fractional derivatives, which is a fun area of math to.
+30:30
+What's half a derivative? Yeah, Tommy.
+30:37
+In the case of a. Yup.
+30:43
+That's the point of what we might want to take to be a notion of dimension in the infinite dimensional setting.
+30:51
+A lot of subtleties come up in that context,
+31:01
+so it doesn't it we don't actually tend to take the cardinality of that set as a useful notion of dimension in that setting.
+31:03
+Certainly set theorists will care very much about going in that direction,
+31:10
+but it doesn't quite capture the linear algebra that you're hoping to capture in that setting.
+31:14
+So we don't necessarily take that definition.
+31:19
+So for us, the only time we can talk about the dimension is when we're talking about a finite dimensional space.
+31:22
+Other questions. All right, so I think I have on the handout something like A through F,
+31:32
+so this is a con some problems for you to try out, figuring out what the dimension is.
+31:41
+I think I'm not going to pause for very long here.
+31:48
+Let's just pause for like three minutes, pick your favorite of A through F and think about what the dimension would be like for that one.
+31:53
+And then we'll come back together and discuss them. I how are you?
+32:03
+How are you? Good. I thought probably.
+33:57
+Did you have your hand up? No, no. You're OK. All right.
+34:02
+All right. I got a little bit of.
+34:09
+Heather and I discussed a few of these, so just Aaryn, if I have Aaryn, how many basis factors do I have in our end?
+35:18
+And great, so the dimension of our end is equal to end.
+35:25
+What about the dimension of the space, a polynomial degree and or less and plus one.
+35:28
+Great. We have N plus one coefficients for polynomials, degree and or less.
+35:33
+What about this space of polynomials? If I just take the set of all polynomials without limiting the degree.
+35:38
+Infinite dimensional. So this would be an infinite dimensional space, because if I took the span of any finite collection of vectors,
+35:49
+they'll have a maximum degree and that finite list.
+35:56
+And therefore, I can think about polynomial with a larger degree than wouldn't be in that collection.
+35:58
+So this is maybe in some ways our first example of an infinite dimensional space.
+36:02
+This is also a subset of the space of continuous functions,
+36:11
+so then that gives you another infinite dimensional vector space to work with there as well.
+36:15
+So if you're thinking about applications to physical locations, the signals and signal analysis, application to music,
+36:19
+the idea that would be taking a basis for that space of continuous functions out of trigonometric functions.
+36:25
+So that's where you get to for a series and for analysis. Also, great topics for a final project.
+36:31
+So here, what about this one, it's just a set to start with. How would I figure out what this is, Matthew, to how do I see that it's to.
+36:39
+Perfect oops three.
+36:58
+So the first thing you might notice that this thing is just written as a set, so it's not immediately clear that it's a subspace at all.
+37:01
+So we can't talk about the dimension of a set that's not a subspace. So here.
+37:08
+We can first rewrite this to be the span of some collection of actors, as we've done many times,
+37:16
+so this will be the span of one one zero and minus two one three, just looking at the coefficients of those two free parameters to then rewrite this.
+37:21
+So then in this case, these are linearly independent. So that then tells us that the dimension of H is equal to two same thing.
+37:30
+And the next problem, I then just give it to you as a span linearly independent.
+37:39
+So then it's two again. OK, now let's move to a more abstract setting.
+37:43
+Let's think about the space of symmetric matrices. So this is maybe a little bit different.
+37:48
+You've already seen this Skewes symmetric matrices where a transposes is equal to negative a on problem sets.
+37:54
+Now, the symmetric matrices will be where a transpose is equal to a. So I'd like to know the dimension of this subspace.
+38:01
+So that means I need to find a basis for this thing. Question.
+38:08
+OK, so if I wanted to think about finding a basis for this, the way that I would probably approach it is I just write down a general element.
+38:13
+So let a let's do it.
+38:22
+In the case of two by two matrices, it's a nice kind of fun exercise to do it for and by end.
+38:25
+But I would certainly start with two by two. If I give you a true or false question that applies to end by end matrices, start with two by two.
+38:30
+We don't know what needs to be a hero. So here.
+38:39
+Then we know that A is an element in H if and only if e transpose is equal to a which means if and only F,
+38:47
+then I want a, b, c, d, e to be equal to the transpose of that matrix a, b, c, d.
+38:59
+So two matrices are equal if and only if there corresponding entries are equal.
+39:07
+So this tells me four equations is equal to a that's not so bad.
+39:11
+B is equal to see again not so bad.
+39:17
+C is equal to B and then D is equal to the first and third of those are the first and fourth are trivially satisfied all the time.
+39:20
+The second and third conditions are the same, so that tells you that A is an element in age if and only if A is of the form?
+39:32
+Well, I have a and can be whatever you want and then I have be here and be here.
+39:45
+The off Digable Terms have to be the same.
+39:51
+OK, well, now I can just do the same thing I did over here, I just rewrite this is a linear combination involving the free parameters.
+39:54
+So this is just equal to a time the vector ones or the matrix,
+40:03
+but the vector in the space of two by two polynomials is equal to be times zero one one zero, and then it's equal to D the vector zero zero zero.
+40:09
+So now I've shown how you can take an arbitrary element in this subspace and I can write it as a linear combination of these three,
+40:23
+two by two matrices. So that already tells me that I can write down a basis.
+40:30
+How do I know if these are linearly independent? Are they linearly independent y.
+40:37
+By. So we have three of them, yes.
+40:48
+Anthony. That's exactly right.
+41:00
+I mean, if you just formed the vector equation corresponding to this, you then be setting this equal to the two by two matrix with all zeros.
+41:09
+So then you can quickly read off. The only thing involving an A is right here on A as equal to zero.
+41:16
+The only place to be appears is right here and here. So then B has to be equal to zero and the D only appears here.
+41:21
+So then D has to equal to zero. So there's only the trivial solution and therefore there linearly independent.
+41:27
+Yes. And I would you no.
+41:32
+So if I wanted to generalize this to end by end,
+41:42
+the next thing I would do is I would probably take a three by three and I'd write down exactly the same condition.
+41:45
+And I would try to think about what happens here.
+41:51
+So if you're just thinking about that for yourself, what did you what do you think that means for all of the diagonal elements?
+41:54
+So like here, here, those can all move independently, right?
+42:00
+Because the if a transpose is equal to a that satisfied for any any matrix whatsoever.
+42:04
+So I can change the diagonal entry any way that I want. But what about the off diagonal elements if you're going to be a symmetric matrix?
+42:10
+It's like in this case. Highly. You need one for each pair.
+42:18
+So then you think about like for this one, the one above the diagonal had to change symmetrically, the one below the diagonal.
+42:24
+So now four, your end by N matrix.
+42:30
+Every element below or above the diagonal, whichever way you want to do the analysis, determines the one on the opposite side of the diagonal.
+42:33
+So then you can think about like, how many of those will you get?
+42:40
+Well, you'll get GNR along the diagonal you get and minus one along the next smaller diagonal and minus two along the most smaller diagonal,
+42:42
+down to just one in the corner.
+42:50
+So then the number of linearly independent terms you'd get would be one plus two plus three plus four plus DataDot plus and which we've seen before,
+42:54
+gives you a nice formula. Yes.
+43:03
+Mm hmm. Yep. Great.
+43:12
+Other questions, but if you're thinking about how I would come up with that answer, I most certainly wouldn't start thinking about NBN matrices.
+43:17
+OK, that's not the place to start. Try to make the problems easier by thinking about two by two matrices and see what.
+43:25
+OK, Mum. So the goal for the rest of today, really, and maybe a little bit of next class,
+43:33
+depending on how far I get, is to start understanding properties of dimension.
+43:43
+So. Suppose that you had a finite dimensional vector space and then I give you a subspace of that vector space,
+43:53
+what do you expect that you could tell me about the subspace? I have some vector space V v, the big space is finite dimensional.
+44:06
+What do you expect? You could say then about the subspace. Savir, it's also finite dimensional.
+44:15
+That's true, that's sort of fits with our intuition, the kind of weird if that didn't happen,
+44:23
+it would suggest that mathematicians have poorly named the terms that we're introducing and they don't quite capture your intuition.
+44:27
+So it's important to verify that the words do behave in the way that you think they do.
+44:35
+So let's take age to be a subspace of some vector space, be it's finite dimensional.
+44:41
+Dimensional because we. So there are two parts to this theorem.
+44:53
+One part says that if I take a linearly independent collection of vectors inside of H, I can extend that to be a basis.
+45:01
+The other part of the theorem will then be that the dimension then of H will be smaller than or equal to the dimension of it.
+45:09
+So any set of linearly independent vectors.
+45:17
+And age can be expended. To a basis.
+45:28
+Um, h. Furthermore.
+45:44
+The dimension of age is less than or equal to the dimension.
+45:52
+Bobby. So if I have a subspace, the dimensioned can't be bigger.
+45:59
+Well, let's deal with sort of an annoyance first. Suppose I take.
+46:15
+Each is equal to the smallest possible space I can have any.
+46:23
+What am I doing here? Suppose, suppose sorry. Suppose each is just equal to the trivial subspace, it's just a zero.
+46:29
+OK, well, then any set of linearly independent factors in age could be extended to be a basis.
+46:40
+I mean, this is now vacuously true statement because there is no linearly independent collection of actors inside of this.
+46:47
+I can't take any of these in order to remain linearly independent.
+46:53
+So if I just start with nothing, well, then that's just saying I can extend it to be a basis.
+46:57
+So that's not there is no content there. Furthermore, the dimension of age we just agreed by convention we take would be equal to zero.
+47:02
+Well, there is just some vector space. It can't have negative dimension.
+47:12
+So then we know the dimension of it is bigger than equal to zero.
+47:16
+So. The statement of the theorem is fine if H is just the trivial subspace.
+47:23
+So it's just kind of passing through what we're saying here. So now let's prove the interesting case where we have H is not trivial.
+47:30
+It's not just the zero element. So it's a little bit bigger than that. All right.
+47:42
+So now suppose we have some collection S.
+47:47
+S one to ask of vectors inside of each letter.
+47:52
+Linearly independent is. Independent.
+47:57
+So that are linearly Independent said. OK, well, let's consider some possible cases first case, suppose that age is equal to the span of.
+48:07
+Age is equal to the span of S, so the span of one through České.
+48:25
+Then that's his basis because we all assumed that it was linearly independent.
+48:37
+We took some literally independent collection of actors, so if it already spans, then we're done.
+48:41
+So then this is a basis. And hence, we're done.
+48:48
+There's an. Oh, sorry.
+49:20
+Thanks. I did ask you to wave, so thanks. I mean, can you can you hear me now?
+49:25
+OK. Hopefully the mic isn't just going in, but.
+49:31
+But now you can still hear me, OK? You're waving and if I stop it, go out.
+49:40
+OK, thanks. Xavier. The.
+49:44
+That's that's exactly right.
+49:59
+And because we knew that this movie was finite dimensional, then we knew that these elements as one through ask they are themselves elements.
+50:01
+And I think that's what you are pointing out. So they are elements in.
+50:11
+So then the previous theorem tells us that we can have at most and of them being linearly independent.
+50:14
+So that also gives me the inequality, the dimension of H, which is K is less than or equal to the dimension of.
+50:18
+OK, well, that was sort of the easy case in some sense. Now, what about the situation where the other case where it doesn't spend.
+50:32
+So now suppose. That the span of us is a subset, a proper subset of H.
+50:43
+So it's a proper subset of it, so it's not equal to the entire thing.
+50:55
+So sense and maybe I should know better terminology, but just say they're not equal, so not equal.
+51:01
+I know that the span of us is always a subset.
+51:09
+So then that means that then there exists some element, say s k plus one that will be an element in each take away the span of S.
+51:12
+So we can find some element. That's outside of the span of us, but still inside of H.
+51:27
+So that means age or rather sorry, that means that SMK plus one cannot be written as a linear combination of one through.
+51:36
+OK, so then what can you tell me about the collection as one through České plus one?
+51:43
+That's. Well, do they have does it have to necessarily be a basis, though?
+51:51
+Gwen, you're shaking your head. Right.
+52:01
+We might need to still add further vectors. You're exactly right.
+52:12
+We might not be done, but we do know that sense, Kate plus one is outside the span of all the preceding vectors.
+52:15
+We've proven before that that means that the full collection will be linearly independent.
+52:21
+So by theorem from last class.
+52:25
+First class. We know that us through České plus one now is linearly independent.
+52:32
+But now we can exactly just repeat Quinn's claim or Quinn's argument that if I keep going, if this does span age, then I'm done.
+52:47
+I found a basis I'm happy. If it doesn't span age, just do it again.
+52:57
+You can now find an element in here that then will be linearly independent and we can keep going.
+53:01
+So we repeat the same argument again until it does span.
+53:07
+So repeat. Until Hoopes.
+53:13
+The set as one. Up the up to us, uh, kay, as K plus one, and I don't know, we add maybe, uh, um.
+53:22
+So um, span's. C.H.
+53:35
+How do we know what this process will terminate?
+53:45
+So I've just described an algorithm, you do want to worry a little bit that your algorithm just doesn't go in an infinite loop.
+53:47
+It doesn't repeat forever. How do I know this would stop, Matthew?
+53:54
+Yeah, so exactly. So at some point we run out of room, we have no basis vectors for our final dimensional thing.
+54:01
+If we could keep doing this forever, that would contradict that. We would be we have a limit to how many linearly independent so we can have.
+54:11
+So this must terminate. Furthermore, by the previous theorem, the number of terms that we have here,
+54:17
+total s m then must be to remain linearly independent, must be less than or equal to and so by the previous theorem.
+54:25
+The total number of terms M is less than or equal to the total number of terms in your basis, and so then are more than one.
+54:38
+So. That tells us that the dimension of our subspace age is less than or equal to the dimension of the.
+55:00
+The other important thing to take away from this is the question of how do we find a basis?
+55:14
+So now there are two strategies for finding a basis. There is the one we start with expanding set and we use the spanning set the arm to
+55:20
+just keep throwing away vectors that are redundant until we end up with a basis.
+55:27
+So we start with a big thing and we reduce down to a basis.
+55:31
+The other thing that we can do to get a basis for a subspace is we can start small,
+55:35
+add a non-zero vector that will then definitely be linearly independent and then keep adding
+55:40
+linearly independent vectors until you run out of room to add linearly independent vectors.
+55:44
+OK, so you can start with a small, linearly independent set and keep building it until it's expanding set.
+55:50
+Or you can start with expanding set and shrink it to be linearly independent and have a basis.
+55:56
+So the basis theorem essentially encodes some of this for us and it's then a nice, nicely stated theorem so we can use it.
+56:02
+So if we have a vector space v that n dimensional.
+56:13
+There are sort of two things here. The first statement. Any linearly independent set of exactly.
+56:22
+And Vector's. And Vector's.
+56:37
+And there is a base. The.
+56:44
+Has any said? Exactly, and factors that spans.
+56:54
+We. Is the basis. So let's just think through this, I'm going to prove this one formula.
+57:08
+Let's just think through it for a second. So suppose we were just in our air and so we know that's n dimensional.
+57:17
+So now this theorem is saying if I have any linearly independent factors in our ND, then they must be a basis.
+57:24
+So why would that be true in r n. Why would that be true in our own?
+57:31
+Going back, yes, Tommy. Right, so if we have an linearly independent vectors in our end that's telling you something about,
+57:40
+then how many solutions you have to X equals zero where you take those end vectors as your columns.
+57:52
+So the convertible matrix theorem would then tell you that then those columns,
+57:58
+those columns will also span are nd so the convertible matrix theorem tells you this is then a basis.
+58:01
+We could also talk about the collection if we have exactly vectors that span our NT,
+58:07
+while the invertebrate matrix theorem again tells you that it would be a basis. So the same two observations from our ND then persist in general.
+58:13
+So here, if we have an early and instead of vectors in our NT that we'd like to say that's the basis you want to prove they span.
+58:22
+If they didn't span, well, then you could add another vector to that list and you would then increase the dimension.
+58:30
+But we've just observed that that can't be done in an n dimensional space, so that's why that would be true.
+58:36
+So from the previous theorem, this is a is essentially exactly the previous theorem.
+58:43
+And then B, you can you say the spanning set theorem if you want.
+58:48
+OK. There are any questions. Yes.
+58:54
+Yeah, this is the basis for V because V was assumed to have some finite basis, I'm calling a V, that will be the number of basis factors of V.
+59:21
+Tommy. So the spending set there was when we said that we could if we knew that one vector was a linear combination of the others,
+59:36
+then we could get rid of it in the span, would say stay the same for.
+59:51
+Right. What about just the body of those?
+59:59
+Because by the spending out there, I mean, this one is by the theorem we just proved to this one is by the spending that they're.
+1:00:04
+This is then the thing that we just did, I mean, which we use the Banning's Theorem in the proof of this.
+1:00:10
+So you could still argue that they're all very related.
+1:00:17
+But there's sort of the key takeaway here is that now we know how many vectors you need to be looking for.
+1:00:23
+We know an upper bound on how many vectors you could have for a subspace and dimensional space.
+1:00:29
+So we're seeing that a lot of the geometry that we had in our end coming through in this context as well.
+1:00:35
+So what I want to do with a bit of class that I have left is I want to return to R.N. for a little bit.
+1:00:41
+So let's return to the place where most comfortable.
+1:00:56
+So when we were thinking about things in Iran in the first three chapters of this course, we and this is the context we want to generalize from.
+1:01:03
+What we did is we thought about having a transformation from our end to our end and things like this,
+1:01:12
+we wanted to then study those objects and that led us to studying matrices.
+1:01:18
+So and that gave us in the last week or so then some fundamental subspace is that we get attached to a given matrix.
+1:01:23
+So if you recall, if we're given a is an M by N Matrix.
+1:01:31
+So this was then going from our end to our M. We attached some fundamental sub spaces to this matrix,
+1:01:45
+so we defined the column space and we defined the null space.
+1:01:52
+So the null space was then living inside of, say, are in the domain.
+1:01:59
+And the column space was then living inside of our in the output space, the Kotomi.
+1:02:03
+And the reason why we did this before was sort of it gave us another view of what the Matrix was encoding for you as a matrix transformation.
+1:02:13
+The column space was telling you about the image or the range of your corresponding matrix matrix transformation.
+1:02:23
+And the null space was then telling you about injectivity.
+1:02:31
+I was telling you about how many things get sent to zero under this particular transformation.
+1:02:33
+Uh. But it seemed odd, and I think even at the time, some people asked the question of what about defining the role space,
+1:02:40
+what we can do, that there is no reason why we can't.
+1:02:50
+So just like we had the column, space is the span of the columns, we now define the space of this matrix.
+1:02:54
+It's also a reasonable object to study. So if we take A to B and M by and Matrix.
+1:03:03
+Let me give names to the rose since I wanted to find the Rose Space with Rose.
+1:03:13
+Say a one up through a m, each of these will be elements in R and R and column, so each row will have N components.
+1:03:20
+So then we define. Rhetoric's.
+1:03:35
+Of as. Row is the span of all these rows.
+1:03:47
+So where will this subspace live? So it is a subspace that's something that you should be able to prove.
+1:04:05
+Where will this live? So inside a car, because you're taking a linear combination of a bunch of things with end components.
+1:04:13
+Uh. NULL space and the space are both living inside of our.
+1:04:23
+So one thing that was kind of tricky that I asked you before is actually a really good I think
+1:04:31
+true or false question is to think about the column space and elementary rule operations.
+1:04:35
+So in particular, we we have observed before that if you take the pivot columns of a they form a basis for the column space.
+1:04:43
+But if you took the pivot columns from the reduced row echelon form of A, they do not form a basis for the column space.
+1:04:52
+So we have to make sure that we're careful and choose the columns coming from the
+1:04:58
+original matrix because doing elementary row operations changes the column space.
+1:05:01
+What about doing elementary operations, aerospace, so if I did an elementary operation, I switched to rows with aerospace be different.
+1:05:10
+Now you're still taking the span of the same things, so that's not different.
+1:05:20
+What about if I scaled one of the rows? Will the space be different?
+1:05:24
+Now, again, the same thing, what if I replaced one row with a multiple of another row, will the row space be different?
+1:05:29
+No, you've just taken a linear combination of the road, so it's still the same thing.
+1:05:36
+So here, unlike for the column space, if you have two matrices A and B that are row equivalent, then they actually have the exact same row space.
+1:05:41
+So the row space of A is equal to the rows. Basically, you should contrast this statement with the column space where this is very much not true.
+1:05:52
+All right, let's even make a more of a statement here. What if I may be to be equal to the reduced row echelon form of a.
+1:06:05
+So what should I look for in the reduced form of A in order to find the basis for the ROE space?
+1:06:18
+What should I look for? So if you take this matrix, I do a bunch of operations, I put it into the reduced echelon form.
+1:06:25
+What Rose will be important? Perdu.
+1:06:34
+All nine zeros, right, because the ones that are not zero then will have pivot positions and then they'll
+1:06:40
+have a leading one in those rows and then they'll be linearly independent.
+1:06:47
+So the non zero. Rows of the reduced lower echelon form B form a basis.
+1:06:53
+For the space. So just like we could find those pivot columns to immediately identify what are the what is the basis for the column space,
+1:07:06
+we can also do the same thing for the space.
+1:07:23
+So it's worth noting that if the pivot columns are telling you then about the dimension of the column space.
+1:07:28
+What could you tell me, how could I figure out if I had, like some matrix in front of me?
+1:07:45
+How can I figure out what the dimension of the common space is? What do I look for?
+1:07:53
+Gwen. We want to look for the number of columns of Pivot's, right, so once you have the reduced Rashwan form,
+1:08:00
+you can immediately look for all the pivot's count them up. All those pivot's are telling me the dimension of the column space.
+1:08:07
+Those pits are also telling me the dimension of the space because those pivots are forming a basis for the Roe space.
+1:08:13
+So that's telling us a bit about these two dimensions.
+1:08:21
+So we give a name to the dimension of the column space, the dimension of the space is called the rank of a matrix.
+1:08:24
+So if we let A, B and M by and Matrix.
+1:08:32
+When the dimension of the column space of a.
+1:08:42
+Is the rank of a the rank of the matrix.
+1:08:50
+Rike. Uh. Which we do note.
+1:08:55
+By just writing out the word you that.
+1:09:05
+Similarly, we look at the dimension of the space, well,
+1:09:11
+that's going to be the same we've just observed they're both just counting the number of pivot's.
+1:09:15
+So but we'd also like to know about the dimension of the null space, we give a name to that, and that's called the nullity of the Matrix.
+1:09:21
+The dimension of the null space of a matrix is called the Nullity.
+1:09:29
+So we have the rank and the military.
+1:09:41
+So an important observation that we've just made is that the rank of the matrix is equal to the number of Pivot's.
+1:09:46
+OK, let's write that down. That's important. So the rank of your matrix.
+1:09:56
+So note. Rank of your matrix is equal to.
+1:10:08
+The number of Pivot's. No pivot calls.
+1:10:16
+Right. What about the, um, the dimension of aerospace, while we've observed that that thing is the same?
+1:10:23
+So that's also the number of pivots. OK, the third space that we want to consider the nullity, the dimension of the null space.
+1:10:34
+What's that counting? What's that counting so.
+1:10:45
+That's counting the number of free variables, right, because each non pivot column then corresponded to a free variable,
+1:10:53
+which was then giving us one of the parameters when you wrote down the solutions to X equals zero.
+1:10:58
+So then this is the number of free variables.
+1:11:04
+The number of free variables, another way of saying that is that's equal to the number of non pivot columns.
+1:11:10
+So that's sort of interesting. We have an M by N Matrix, how many columns do we have?
+1:11:23
+And OK, great. So we have GNR columns. The number of pivot columns is the rank.
+1:11:32
+The number of non columns is the dimension of the null space. Every column is either a pivot column or a non pivot column.
+1:11:41
+So then when I add them up, that means that the rank plus the nullity is equal to.
+1:11:49
+And so this is called the rank Nullity Thero. It's actually really useful, but most of the work and proving it, we've already done.
+1:11:53
+So if A is an, um, by and matrix.
+1:12:06
+Then. The dimensioned the rank of a.
+1:12:17
+Plus, the novelty of a. Is equal to the number of total columns at because the rank is counting the number of columns,
+1:12:24
+the Nullity is counting the number of non pivot columns. Every column is either a pivot column or a non pivot column.
+1:12:34
+So then it sums up the end. So I'm going to pick up next class with some applications of the technology theorem and how we use it in practice.
+1:12:40
+OK, all right. I'll see everyone on Wednesday.

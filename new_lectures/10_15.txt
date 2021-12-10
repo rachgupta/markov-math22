@@ -1,0 +1,541 @@
+﻿So just a few quick announcements, so the course team and I are starting to go through the early course feedback that you've all provided.
+If you haven't had a chance to fill out that form, please do so, especially next week about the CIA meeting and the TFW meeting.
+The agenda is to discuss the feedback from all of you. So I we very much appreciate that.
+We'll try to incorporate as many of the ideas as we can. Also, problems at seven is due Wednesday.
+So we're kind of, of course, back on our usual schedule. Problems at seven is one that I definitely think you should look over today.
+All of the problems are will be doable after today's class. That includes actually the Web work that's due for next week, too.
+So you should be well prepared for that.
+But I think it's a good idea to have these problems floating around in your mind over the
+weekend so you can have time to process them and get the full point of those questions.
+Again, I'll just remind you,
+I think I've met with about one hundred and eighty of the two hundred students or two hundred and ten students in this class.
+So if you are among the 20 or 30 students who haven't yet met with me yet, I'm still, of course, to meet with you and this earlier in the semester.
+But there's a limit to how many hours there are in the day. I'm also happy to open this up now if people just want to schedule other meetings with me.
+Of course, you've always been welcome to do that. But this is a convenient way.
+If you want to just know whether I'm available,
+you can schedule a time and you doesn't have to strictly be for the introductory meetings at this point.
+In terms of the reading you should be reading along with the material.
+As we go into Chapter four, I will sort of remind you or mention that Chapter four tends to be another big jump in abstraction.
+This course, which is a place where students tend to need a little bit more time to fully internalize those ideas.
+So just keep that in mind. I think doing the reading along with this material will be crucial as you go through it,
+especially if you've never seen it before, especially are there any questions about sort of logistics as we get going here?
+Questions. All right, so we have about five minutes from last class to finish up,
+what we were thinking about is trying to give some additional interpretations for what the determinant is.
+The primary thing that we've done with determinant so far is we've motivated the definition as trying to capture the notion of inevitability.
+And then we went through some effort to prove that it actually did what we hoped in general.
+So for an end by and matrix, that matrix will be inevitable if and only if the determinant is non-zero.
+So that sort of cofactors definition that we gave for the determinant actually does capture that notion and does what we want.
+As many people pointed out, even while we were doing that, it's also true that we had many other ways of capturing the inevitability of a matrix.
+It's not, strictly speaking, only the determinant that does that for us, but it does foreshadow some of the concepts coming up later.
+In addition to that, we also want to think about are there other ways of interpreting what the determinant does for us?
+And that's what we were getting at at the end of last class, is how else can we think about the determinant?
+What geometric properties is it also encoding for us?
+So that's what I want to do for the last few minutes of today's class or the last few minutes of that topic,
+rather, is think about what this is really telling us.
+So the starting point, if you'll recall from last time, was to take a linear transformation.
+T from R to to R to so we could easily visualize it and we did a specific instance of this last time, so we're sort of well motivated.
+We had the idea that T of the unit square would scale by the determinant the area of T of the unit square.
+So then giving a larger rectangle in that case last time.
+The determinant was telling us how the area changed by this linear transformation,
+so we would like to know that observation persists in more generality.
+So let's try it in a more general setting. So let's take a general two by two matrix.
+So I'll just give names to the entries, A, B, C, D times the vector X.
+So there's my linear transformation, so I want to think about what this thing actually does.
+So, again, we want to know what it does say to the unit square. So the way that we usually visualize linear transformations are linear functions
+as we think about what happens to regions in the domain when you apply them.
+Linear transformation. So we have one and one.
+Here is my unit square. There's the unit square.
+Now, I would like to apply t to this thing. Well, I'm just going to draw a generic picture.
+To represent what's happening here and so when I draw this generic picture,
+I'm just going to draw it in the first quadrant and things work out the same way if you're careful with signs in the other quadrants as well.
+So if all the entries and I happen to be positive, well, then this will map to a vector like this.
+The first vector one zero will map to the first column.
+The second column represents where we send zero one.
+So that will then map to say B b.
+And then the unit square sends linear combinations of all the points in here to linear combinations of these,
+which then results in us filling out this parallelogram. So this region is then T of.
+So in order to generalize the observation that we were thinking up about last time, as we would like to know how the area of this region compares,
+so namely how we could use the determinant to then tell me what this is going to be.
+So this has area one. So I would like to know the a way of thinking about the area of the shape.
+This parallelogram, well, one sort of nice thing that we could do here is we could cut up the shape.
+So. It's a little bit of surgery.
+And we cut this shape to then move a portion of this, so we take this triangle.
+And we move it down here, so then what it does is it fills in this region.
+There. So that gives us another parallelogram. It has the exact same area because I obtained it by just cutting and rearranging this point over here.
+What will that point be on the y axis? Given where I made this cut.
+D Right, it'll be the Y coordinate of this point, so that'll be D, so if I wanted to know the area then this region now,
+so this parallelogram which will have the same area as my original thing.
+It's the area of a parallelogram, so I just need to multiply the height of the parallelogram times, the length of the base.
+All right, so just going back to high school geometry, well, it's not immediately obvious what this length is, certainly.
+So one way that we could get at what that length is, is we could write down the equation of this line.
+So let's write down the equation of that line. We know, for instance, it goes to the point AC so this would be, say, the line.
+Why the line?
+Will be why minus C is equal to the slope times X, minus A, what's the slope of this line?
+Well, the slope of that line be. What is it?
+So it's parallel to this line, right, so you just want to know what the slope of this line is,
+so then you want to know what's the change in X or the change in Y over the change
+in X or the Y coordinate is D and the B coordinate the the Y coordinate is D,
+the X coordinate is B, so the change in Y over change in X is then driver B, right.
+So de. Over, so now what am I looking for from this line?
+What do I want? In order to find the length of this base, right, sorry, I thought you might have your hand up.
+Does anyone have a. I guess how would I find that point?
+That's. We want the X intercept, so, right, we just plug in Y zero and solve for X, so when Y equals zero and we get well plug in Y equals zero.
+So then I'm going to multiply both sides by B over D, so I get minus B, C over D is equal to X minus A.
+So then we get this length here. Will be the solving for X, so A minus B, E over D.
+So then that tells me the area. Of T applied to the unit square, the area of this quantity will be equal to, well, the height we've decided was D.
+The length of the base of this parallelogram was A minus B, C or D.
+So now if I just multiply through. A D minus C.
+Which is what? That is just the determinant of a general two by two matrix.
+There is one strong reaction that everyone else is like, yes, of course, that's what you told us, it would be OK.
+So then we get that this is actually the determinant showing up here.
+So we see then what the determinant is, just giving us the area of this particular parallelogram.
+So this gives a geometric interpretation of what the determinant is in terms of calculating some area.
+Let's make sure we really understand that. So what does it mean again, if say that it was equal to zero, what would that mean about your matrix a.
+It's not inevitable, right, so then the inevitable matrix theory would tell you what about the columns of that matrix?
+There, linearly dependent. Right. So then what would that how those columns would look geometrically?
+How could they look? They would then lie in the same line, for instance, or they could just be the origin in both of those cases.
+What is the volume that those columns generate for the area, rather, that those columns generate zero.
+So it makes sense. It connects back with the interpretation we had before.
+If they happen to be linearly dependent, columns are parallelogram would just be on the same line.
+There would be no area. OK, so this gives us at least another way of thinking about what the determinant does for us in terms of calculating the area.
+So let's record that as a theorem so we can use it.
+So if A is a two by two matrix.
+Then. The area of the parallelogram.
+Parallelogram. Generated.
+By the columns of a. Is the absolute value, the determinant?
+So that gives us a way of thinking about the determinant geometrically, visually,
+not just in terms of characterizing and readability, what we can do the same thing for three by three and higher.
+Savir. So the sign is going to tell you how it's arranged in terms of the columns in the in the quadrants, so it's going to tell you.
+How that looks, if you're only interested in the area, though, we do want to take the absolute value and not worry about Signoria.
+If we go to three by three, we can do the same thing.
+So if A is a three by three matrix. So then we'd like to think about what this would mean.
+So now we have three columns living in our three and we'd like to think about what happens if you now take,
+say, the image under the transformation of multiplying by this matrix.
+A. of the unit cube in our three. What do you think would happen to the unit KUB?
+What would this look like, Gwen? We'll be sort of like a parallel pipe.
+So the geometric picture that you should have in mind when you're thinking about this in our three will be the following.
+So if we're thinking about this in our three. So and is equal to three.
+So we have our Matrix A has the columns U, V and W.
+So then. It's going to look like a bunch of parallel sides.
+So now where am I parallelogram? It is coming from one side length or parallel pipe in one side length will be, say, you, the NWT.
+So I'm taking all linear combinations of those three vectors where the coefficients are allowed to range from zero to one.
+And I'm filling out that region in space.
+So the result then is that the determinant in that case is going to be telling you about the volume of that shape?
+So then the volume. Of the parallel prepared.
+Generated by the columns of the three columns of a.
+Is the absolute value of the determinant of a.
+So this interpretation of the derivative, of the derivative of the determinant as giving you a geometric notion still holds true.
+Let's go back to this picture for a second and try to do the same kind of analysis. What if W the vector W was a linear combination of you and V.
+Then what would the volume inclosed be? Zero, right?
+How what would the inevitability of your matrix be like?
+It would not be convertible, right, because you have one of the columns, namely W as a linear combination of you and V,
+therefore the convertible matrix theorem tells you the columns are linearly dependent. So your matrix is then not convertible.
+So again, we get that same idea of how geometrically we can see the determinate becoming zero is telling.
+We have zero volume, which is telling us something about the dependent's relations among those factors.
+So again, just trying to tie back that geometric interpretation to our theoretical interpretation.
+Dropped a letter. OK, so we can use this result now, I guess the third point I'll put here is that more generally we can do this.
+For any linear transformation, I'll just say for a linear transformation from our two to our two,
+but if you did a linear transformation going from Yes question.
+To talk about the sign of the determinate, yeah,
+there is a way of thinking about how that's going to look depending on like how the vectors are arranged.
+And you could even think about how like if you permuted the vectors, what's that going to do to the sign?
+Just like when we were thinking about permitting the rows of a matrix, we know that that changes the sign.
+So if you wrote the vectors in a different order, you'd be changing the design of the expression that you have.
+So, yeah, that's a good point.
+But the nice thing about this is most of what we've been doing has been in our end, so when we go into higher dimensions,
+we can also think about an n dimensional volume and use that the determinant to to capture that notion of an N dimensional volume as well,
+which is a very useful theoretical notion, especially as we move into 20 to be next semester.
+So more generally, if we have a linear transformation t say, going from one hour to an hour to.
+Subquestion. There are questions. Yes, Mike.
+So the department would still be zero because those three vectors together linearly dependent, so the determinant would still be zero.
+You could ask that about the two vectors that were generating the plane.
+Those two you could think about those is generating some kind of an area and trying to calculate that using a determinant as well.
+It's mildly it's a little tricky to do that because those vectors would be living in our three.
+But in principle, you could.
+So more generally, the determinant is telling us how your area or volume or interdimensional volume will scale under this linear transformation,
+so namely that it is linear. Um, maybe I'll just.
+No, I won't stay for, um.
+Then the area or volume of T applied to some finite region s will just be equal to the absolute value of the determinant of a times the area of S.
+So whatever finite region you had in the plane has some area. The amount it's going to change is multiplying by the determinant.
+So this tells us how things change and our linear transformation.
+This observation is actually wildly generalizable and one of the main results of math.
+Twenty to be that even if you have a nonlinear function here, so even if you're doing some kind of nonlinear optimization,
+which certainly comes up in lots of applications and economics and computer science,
+you're doing a nonlinear optimization problem here,
+then the area or volume will scale by approximately the determinant of what we'll call the derivative of that matrix of that transformation.
+OK, so then that gives us a nice result. One of the major theorems of vector calculus there is to generalize exactly this statement.
+So the determinants are very important for two reasons in our course.
+One reason is to connect back with invert ability and the fundamental question of solving systems of equations.
+The second place where they're extremely important is in thinking about what they mean geometrically and capturing that geometric notion.
+So this comes up a lot when you're doing, say, changes of coordinates in physics,
+thinking about how that change of coordinates is going to impact your calculations.
+So that's for now what I want to say about determinants and how they connect back to different topics.
+But they will certainly show up again in other courses that you take.
+Yes, Tommy. So the three by three is actually kind of a cool thing.
+Like if you want to prove the same, will you? Do you prove the same kind of geometric thing where I could slice parallel to one of the planes and move
+that region down to kind of assemble it into an object that's easier to read off the area of that thing?
+Through. You can use vectors, but I mean, at some stage you want to compute exactly what the lengths of various sides would be.
+But yeah, I mean, the way that you could do it is you could slice it up, rearrange it to blend, be an easier shape to work with.
+OK, so one of the big themes of math. Twenty two has been to abstract ideas.
+So when we see a particular idea showing up that seems useful, we want to find the essence of that idea and turn that into a new type of object.
+So one place that we saw this coming up a lot earlier in the course was, for instance, we are thinking about equivalence relations.
+There are lots of instances where that shows up the idea of equivalent matrices, the idea of equivalent system equations.
+I mean, those are not literally the same thing, but they were capturing the same essence.
+They were answering the same sort of question. And so then we abstract it out that that quality of being an equivalence relation.
+And then we're able to prove lots of things about general equivalence relations from that.
+What we want to do now is that the first half of this course has been about working in R and R and seems like a wonderful place to work.
+There are lots of great things about it. We can see things and visualize them very nicely and we can answer lots of questions in this context.
+We can represent lots of physical problems as problems, mathematical problems in our end itself.
+OK. So the goal is to generalize the structure that we're studying here.
+OK, so the goal.
+As we want to abstract. The essential qualities of our end to a more general structure, which we're going to call a linear space or a vector space,
+this structure then captures a wide range of places where our analysis in our end goes through nearly the same way.
+So it turns out that a lot of the techniques,
+a lot of the machinery that we've been developing over the last six weeks then can be used in a wider context.
+So we would like to be able to do that. So in order to do that,
+when we're going to do is we're going to take what are the properties that we
+really wanted about AURIN enabled in order to prove all these other things.
+All right. So definition. So the things about N that I liked were kind of the following.
+It was some set on which I had two operations. I could add those two factors together and I could scale a given vector.
+Those were fundamentally the things that I was using. So what I want to do is to find an abstract set that has two operations on it.
+So we're going to define a real vector space.
+Is A set B, along with two operations.
+So where to find that before we defined a structure on our equivalence or a structure on our set using equivalence relations?
+Along with two operations. So namely, we have addition.
+And scalar multiplication. All right, so we don't just want these operations to just exist, they are not just arbitrary,
+we want them to have the same sorts of properties they had in our ND.
+So we want them to satisfy the following 10 conditions. So we want them to satisfy the following axioms.
+All right. So in all my statements that I'm considering here, I'm going to have.
+These elements, you V and W as elements in this V on which I'm defining this structure, I do want to make sure the set is non-empty.
+Just to avoid that kind of. Possibility that will actually follow from some of our conditions anyway, but just to emphasize that,
+I want to say a non-empty set and then I'll take my Scalars, C and D to be in the real numbers.
+So this is the part where you're defining it to be a real vector space.
+If I wanted to say a complex vector space than my scalars could live in the complex numbers.
+If you wanted a different kind of vector space, you could take your scalars to live in a different set.
+But most of the time, we'll be working in R or C.
+Your problem is that gives you another example of a good field to work in for your scalars, too.
+So the first thing that I want to have happen is that if I took two vectors in my space,
+like if I took an element or two and I added it to another element in our two, I'd like to make sure that I'm still in order to be kind of weird.
+If I added two things with two components and I end up with something with 17 components.
+So this is what I'm going to call being closed under Ed. So you plus we should be an element in my vector space.
+This is called being closed under. Ed.
+All right. Second property that we want to have happen is in our too, if I added X plus Y, that's the same thing as adding Y plus X.
+This is common activity. So I want you plus V to be equal to V plus you.
+So just compatibility of addition. So just like before.
+So all of the properties we want here, we want them to be just like what happens in our N James.
+Well, the defining it matters to because I can't define the operation without knowing the objects that I'm defining it on,
+just like when I define a function, I need to see what the domain and QUARTERMAIN are.
+It's really a property of both. I'd also like associativity to hold,
+so you plus the plus W should be the same thing as V plus you plus V plus W and again these should be true for all vectors, UVA and W.
+In Oregon, one thing that we use a lot is that we have a zero vector, so inside of any vector space, I want there to be a zero vector.
+So what does it seem like is fundamental about the zero vector? How can I characterize what it does to another vector?
+Cameron. Exactly right at the additive identity element, so if I just add it to a given vector, we get back to the vector that we plugged in.
+So there should exist some element which I'm going to label the vector space that it's in.
+We'll call it zero. But sometimes we write at sub here.
+If there are a lot of vector spaces lurking around, it's sometimes nice to be able to distinguish which zero we're talking about.
+So there exists some element in V so that.
+The zero vector plus you is just equal to you for all, no matter what you you worked with by ad zero to it, I just get back to you again.
+The next thing that we use a lot in our end is the fact that we can take the negative of a given vector so we have an additive inverse.
+I want the same thing to be true in my abstract vector space. So given a vector, you then there should exist a vector negative you.
+So there exists a vector which we call negative you inside of, so that you plus negative you is equal to the zero vector.
+So there's all we can always add to a given vector, something to get to the zero vector.
+Now we want to do our properties for scalar multiplication. So four six.
+I want to also not be able to scale outside of my space. Yes.
+So that's a good point. So one thing that I'm doing here deliberately is I'm no longer writing the overline on these elements.
+And the reason for that is because now we're vector's can be more general types of objects rather than just tuples in our.
+So we want to then sort of think about them as more abstract objects.
+And so it'll get confusing if we continue to write the line over each element to distinguish them,
+we're going to have to now use from context whether something is a vector or a scalar.
+That's a great point to notice that doing that. So that's good. So here.
+We want to make sure that if I scaled my vector by any real number, we're still in the set.
+Tommy should have. I mean, many textbooks will use a bold for them.
+Again, I don't think that's the best notation because it.
+Sort of conflates two directly with what happens in our NT and now our vectors are going to
+be lots of different types of objects and so they won't necessarily just be tuples anymore.
+So I'm sort of I want to make this distinguishing point to kind of make it clear that we're now working in this more abstract setting.
+But it's also very difficult to write Bould on a chalkboard.
+So I work on your piece of paper like it's been forever shading and end to make sure it's really clearly bold.
+So the other properties we had in Orange is that scalar multiplication and vector addition sort of behave nicely.
+So namely if I take C times you plus V, well then the scalar would just distribute through.
+So this becomes C you perceive. So we have that distributed.
+Also, we could distribute the vector. If we had to see.
+You know, we can distribute the vector through to get see you plus the again properties that we've seen a lot in the case of the real numbers.
+We'd also like to make sure that if we took C.
+Times the vector did apply to you the same. No, those two scalars and then applied it to the actor, so it doesn't matter if you first multiply,
+see India's real numbers and then apply it to the scalar,
+or if you applied to the vector and then applied see to the output of that, you'd get the same result either way.
+Roy. Is there? A vector is an element in this set, it's just any element in a vector space.
+So a vector is any element in a vector space now. But the general definition, so if I talk about a scalar now,
+it'll be an element in the real numbers in this case, because I'm talking about a real vector space.
+Let's see. I'm sorry, you said.
+Yeah, then it's closed and rescaling application, that's exactly right. Good question. And then there was a question over here, where did the.
+So the defining factor as. Or RN.
+Yeah, it's just an element in some vector space. It could be in our end, but it could be on a different vector space.
+Currently our is our only vector space, but there could be others.
+It's not a very good notion if there are no others, Jonathan, that you can say something out of that.
+That's actually a really interesting question that where you start to study all of this particular
+mathematical structure together and study what kind of structure that space would have.
+I mean, I think your piece that kind of gets at that, where I talk about the power of a given set,
+which is the power of a given set, is the set of all subsets of a given fixed set.
+So it's kind of the same notion here.
+You might think about what are the set of all vector spaces and what structure does that have is that there's that thing, a vector space.
+So that's a really good question. So I should put it with the others, but there's one more axiom number 10.
+Last but not least. If I scale by the real number one, it should behave like multiplicative identity.
+So namely, I should just get back one, just get back to Victor.
+OK, so the first remark that I want to make here is one that I think people have already made,
+but just to make sure that it appears in your notes and then I'll answer your question. So the first remark.
+Is that elements? V.
+Are called vectors, so if you have any elements in a vector space, they're called vectors.
+So this is what we mean by vector space, so you sailor. When 10 would not be true, I mean,
+the only the the ways in which it won't be true will be kind of silly examples where we almost define it not to be true.
+So to give them a better example, I mean, maybe I should we could talk about it later.
+It's one thing that you'll notice about these axioms in general is that they're actually not asking for that much, even though there are ten of them.
+So and they're pretty natural, given the types of objects you've worked with before.
+So to make one of them fail, we're almost doing it sort of deliberately to make them fail.
+So it's like when we first talked about sets, there's there's no structure.
+It's just a set. But then we start putting a little bit more structure on it, a little bit more structure to then get additional properties.
+Let's see, Tommy. What if no one is going into the.
+It has to be because we're doing this is over the real numbers is our scalars, so the one is the scalar.
+So we don't have a notion of a vector space without a scalar field attached to it.
+So we always have to have a base thing that we're going to use to scale these numbers by.
+In our case, it's either the real numbers of the complex numbers.
+Or this one exception on our piece, which will be the field with two elements, zero and one and that one.
+Yeah, this one this one right here is not a vector, it's a scalar, it's the real number one.
+So one is an element in our. Yes.
+That's a great point. So, like, what do you want to consider art itself?
+So I would then be it would be a vector space. We later will use the word one dimensional vector space attached to it.
+But then if you replace real with complex here, then there's this notion of complex numbers.
+We usually think of that as two real dimensions of the real axis in the imaginary axis.
+So then there is a point where you need to be careful about whether you're talking
+about whether this is the scalars or complex numbers of the scalars are real numbers.
+Nearly the entire time in this class will be working over the real numbers,
+but the real numbers themselves are then a vector space, a real vector space.
+That's a great point. So what we need to do today for the rest of our time is we want to build a library of vector spaces.
+Any time you encounter a new mathematical object,
+you want to get enough examples of that type of mathematical object that you have an idea of how it works,
+how is it different from the thing you were trying to abstract away? So I think it's important to develop this library.
+So goal is we want to build some intuition through a library of examples.
+A vector spaces. So really, that's what I hope to do for the rest of class, basically,
+and then we want to start getting at how we understand the structure of a vector space itself.
+It's just like if you're in chemistry, you want to study the structure of a molecule or an atom or something,
+you want to understand what are the constituent pieces, how can you understand that big object?
+Well, our first example, the whole point of this is we were basically just writing down properties of our and that's how we got our list of axioms.
+So our first example. Is are I think, of calling this example a R in itself?
+So this thing is a real vector space for. But if that's the only instance of this, it's not as useful of a notion,
+we'd like to make sure that there are some other examples that we can work into.
+So one simple extension of this that we could take is we could say, think about the space of sequences or the set of sequences.
+So here I'm going to call this set X because it's the set of sequences.
+So this will be the set of tuples where you have an infinite number of components.
+So where the Y one by two by three got to where Weich is an element in order for all.
+OK, in the natural numbers. So that alone is not enough to decide what to say, what a vector space is.
+What do we now need to have these two operations as well? How could I combine together two sequences?
+What might I do with them in order to get another sequence? So I want to define addiction in this context.
+Yes. Fervent.
+So we could define the addition of these two sequences to just be component wise, as you were describing,
+so I'm going to describe the sum of these two things, Z, one, Z to that plus Y one, Y two.
+That is equal to by definition. This is how we're defining our operation in this case, Z one plus Y one, Z two plus Y to that.
+That and again, this defines another element in us. Or might we define scalar multiplication.
+What should the time, though, sequence be? Yeah.
+Robert. So I just take the scaler and I scale by every term in my sequence to then get another sequence,
+so I have to find it again to be the scaling operation that works component wise.
+You can go through each of these properties. So by the positivity of adding real numbers will have associativity here.
+What would the zero vector be in this vector space? Jonathan, instead of infinite zeros or the tuple of infinite zeros.
+So this would then be zero zero zero.
+So just like the zero vector in our end is a tuple of zeros, the zero sequence will now be an infinite number of zeros.
+And you can go through all of the properties here and verify that they work. So this gives us another vector space.
+Then our friend, we can work with the set of sequences sometimes people call this space are infinity, so sometimes people use the notation.
+Our affinity for this is this space. This is a vector space.
+All right, so what I want to do is I have see through I here on my hand out for today,
+what I thought would be fun to do is to take a moment with just maybe the person next to you go through as many as you can in just a few minutes.
+Pick the ones who seem most interesting to you and decide, is this a vector space or is this not a vector space?
+So let's just take a few minutes and try this. Peter.
+Let's come back together. Let's come back together. So it's great to hear so much discussion again, that's really warms my heart.
+So when we're thinking about, see, what is this set, what is the set work considered considering and see?
+When things like X Y.
+So what will that what does that look like? It's the circle right to the set we're considering is the set how are the operations defined?
+How are the operations defined for this case? What does it say?
+At the usual operations, right? So these are elements in order to there's just a subset of our too.
+And so we want to know, could we add them together in the usual way? So let's just pick some vectors and see what happens.
+So, for instance, here, the vector one zero is an element in this set.
+So let's suppose I add that vector to itself. Well, one zero plus one zero is equal to under the usual operations to zero.
+Well, that's not an element in our set. What letter did I use for the set?
+What does it what's the actual notation?
+Is it A, A, that's B, OK, so this is the not thank you, not an element in V, so if this is the set, so then it's not closed.
+So this is not a vector space. It is a subset of our two, it's a perfectly nice one.
+It's an important one, but it's definitely not a vector space with the usual operations.
+OK. All right, let's see, what about D this was done on the set of polynomials,
+so this was this set so p n where not plus a one T plus DataDot up to A and T to the
+end where all of these coefficients are allowed to be any real number whatsoever.
+What do you think about this one? Jonathan.
+It is a vector space, in fact, so let's just think about it for I get to convince ourselves of that.
+If I add a polynomial degree or less to another polynomial degree and are less high, then definitely get a polynomial degree and are less.
+What would the zero factor be in this vector space? So what would zero.
+Yeah. Maybe the zero polynomial, exactly. That's wonderful.
+So if you have the zero polynomial, you take all the coefficient to be zero zero times T plus zero times T squared plus dot,
+dot, dot Lazerow times T to the end. So this is then a function.
+Now it's a polynomial that's still a vector, which is a little bit weird.
+OK, this is then a little bit pulling beyond what we've thought of as vectors before.
+So this is the zero vector in the space of polynomials of degree.
+And unless it is the zero polynomial where all the the coefficients of that polynomial are zero for E,
+we have the space of N by N matrices, which featured prominently when we were thinking about the determinant,
+because in that case we were trying to define a function on this set that
+would characterize convertibility now asking about the structure of that set.
+So we add polynomial or we add and by n matrices in the usual way, and then we add their corresponding components.
+We scale matrices in the usual way that we scale every component.
+And then we've thought about a lot of properties of these operations.
+In particular, we've observed that the most of the vector space axioms hold already.
+So in this case, we'll get yet another vector space. So this is a vector space.
+What would the zero vector be in this vector space? Let's make it two by two to make it really concrete.
+What's the zero vector in the space of two by two matrices? S.
+What? Zero zero zero zero perfect, right, but it's arranged as a two by two matrix, right?
+So this is the zero vector in the space of two by two matrices.
+So you need to make sure that when we're talking about the zero vector in a particular vector space, it must be an element of that set.
+Like. You can have the zero vector.
+Oh, you're right, but that's a different part of the structure, right? So you're saying that there's actually more operations lurking around here.
+There's additional structure, which is a really great observation in the space of ENVI and matrices.
+We don't just have additions and scalar multiplication. We also have a way of multiplying and by and matrices to which wasn't true in our.
+I didn't have a way of multiplying a vector in our end with another vector in our end in order to get an output vector in our end.
+So you're noticing that some of these sets actually have additional structure, which could be really nice to know.
+That's a great point. So this is not the end of the structures that you could study, but it's just the starting point.
+If you take a class like math, one twenty two, it's the abstract algebra course,
+and that's where you then study additional structures that you could have on lots of different types of sets.
+Question. There we go. All right, so this one is a vector space.
+What about let's see, f what do people think about this one or.
+If it's not closed. So not a vector space.
+All right, what about G? Gee, was that a vacuum space?
+No one not. So, yeah, you want this to some and you know that the some of this factor for any vector,
+say, X Y, would then be equal to you in this case, a plus X zero.
+Right. That's the one I'm thinking of, the perfect example. Right.
+So then in order for this to become the zero vector, we would then we want this to come out to be the same thing as B, but a B were non-zero.
+There is no way we could make that happen. So then there's no zero vector.
+Great point. No zero vector.
+OK, what about H the people thing about H.
+Not not that, not. Right, not the vector space, for instance, noncommutative.
+OK, what about this last one, I mean, what do people think about I?
+That's Anthony. This one is so this is the space of functions.
+This one is actually extremely important. So this is. This is a vector space.
+So then what we're talking about the space of functions here, yeah.
+And almost all of these examples, the properties are sort of well known from previous courses that you've probably taken,
+like, for instance, working with functions, it's very clear from the properties of functions that you already know and maybe even
+approving as a part of this class or previous classes that the axioms would hold.
+But you'd want to go through them for yourself to make sure you're convinced that they do hold and work the way that you think they do.
+On the other hand,
+on your problems that I give you a vector space where I don't think it's super clear that that that object would actually be a vector space,
+so then you would need to go through and check all the 10 axioms and verify for yourself, like what really is the zero vector here?
+What's going on there? Not long arguments, but you need to go through and think about what's happening.
+So at least once in your life, you should check some things of vector space.
+You don't want to do it many times in your life because there are ten things to check. But at least once, at least once, you need to do it.
+Yes. What?
+Which one that is not a vector space.
+Yeah, OK, so if this were a vector space,
+there would need to be some element in my vector space that I could put here some X Y so that
+I would get the same vector that I plugged in so that this would have to be equal to AB.
+But the definition that I have for what this does says that this would take the ad,
+the first two components and just put a zero in the second component. Like you might have a very good reason for defining that operation,
+but there is then no vector that I could plug in here for X and Y that would result in give it back the same AB here,
+because B always gets sent to zero no matter what you chose for X and Y, so there's no zero vector with this operation.
+So that makes sense. Great. Yes.
+The. They're just sets for us, like those are it would depend on specific examples,
+what properties they might have and they might have reasonable properties for you to study for the application you might have in mind,
+but they don't fall under this big category of vector spaces. So the theory we're developing here won't apply.
+Great question. OK, so we are starting to get a library.
+Yes. So if one was in the set of all real numbers, but then when I add two of them together,
+then I get something that doesn't have a one in the second component. Right.
+So if I add to it, because this is what the usual operations, right, and that one, so if I add like a one plus B one,
+then I'm going to get A plus B two, which is not one of the same form because it's not a one in that second component.
+So it's not closed. Does it make sense? Great.
+Yes. Instead of what?
+Yes, certainly there is a way of doing a formal proof,
+so an example of an axiom failing is a formal proof that the thing you're studying is not a vector space because these are all for all quantifiers.
+So then showing that something doesn't work, you just need a single instance of it.
+Failing to show something is a vector space. Then you do need a formal proof of each of the 10 axioms.
+So I have certainly not written that out in these cases,
+but these properties are certainly properties that we've seen before in the case of say and by and matrices like that
+was one of the properties we observed in the properties of Matrix Edition and the properties of scalar multiplication.
+So we've certainly seen these. The follow up.
+Yeah, so for if you want to prove that the space of, say, the set of NBN matrices is a vector space, then you would need to go through each one.
+I'd show how if I take an NBN matrix A and an NBN matrix B, then when I add them together, I get a matrix A plus B that's still in and by NT Matrix.
+And that would check the first axiom. So you would write each of these out. So in that case, it would just be like, I mean, should we do one quickly?
+So, for instance, here will prove axiom one for me to buy two.
+So let a be equal to A, B, C, D, and B will be equal to E, f, g, h.
+Well then by definition A plus B is equal to A plus E, B plus F, C plus G and D plus H, which is again an element in the space of two.
+But you make the set of two by two matrices.
+So then I've just proven that's an explicit proof that for two by two matrices it's closed under that Matrix edition.
+But you do that, you could do that for all of them. Most cases it follows from properties we've already seen.
+So like you can also cite from the first day of Matrix operations, we observed this.
+Does that answer your question? All right. So the goal now is to keep building this library over the next few years.
+But we also want to understand the structure of a vector space. So it helps when you're studying the structure.
+Something to think about. What are the pieces that you could have? Right.
+So we want to understand the structure of a vector space. So one way that we could try to understand the structure of vector space is we
+could look for smaller pieces of that thing that behave like a vector space.
+These are things we're going to call subspace. So definition.
+A subspace. Of a vector space V.
+Is a subset. Question, is there a question?
+I'm happy to answer if there is one. I'll get a new piece of chalk while people can think their questions.
+Other anything. Have a nice dramatic pause.
+A subspace of a vector space V is a subset, first of all.
+H a v such that the following conditions hold one, I want the zero vector V to be an element in this space, this subset.
+So I want it to contain the zero vector.
+And two, I'd like to if I take some things inside my subset and I add them together, I want to still be in that subset so it behaves that it's closed.
+So if you and we are in age, then I want you plus me to be an age.
+So this is closed under Ed. Under addition.
+Similarly, I want to be scaled, closed under scalar multiplication three, so if.
+The. And. You is an element in my set age, then I want see times you to be an element in age.
+So this is what we're going to call closed under scalar multiplication. Yes.
+Oh, that's a great point from these two properties or these three properties, we then get that it will be a vector space.
+So that is indeed true. So some spaces are themselves vector spaces.
+So that's a great remark. So first thing to note, an observation or a mark.
+H subspace h is itself a vector space.
+It is also a vector space.
+OK, so what's what's the biggest subspace you could think of?
+The vector space itself solves a subset of V V definitely contains the zero vector, and V it's closed because it's a vector space.
+So the second two axioms hold. So the second remark is V is a subspace of the it's the largest possible subspace you can have.
+OK, on the other side of that coin, what do you think is the smallest subspace you could have, Markoe?
+You're right. Great. So if I just had this small set consisting of just the zero vector, this is also a subspace if the smallest possible subspace.
+So let's just think about this for a second. So if I have the zero vector in here, well, that means the zero vector is definitely in that set.
+If I took two elements in this set, well, they both would have to be the zero vector.
+If I add the zero vector to the zero vector, I just get the zero vector again.
+That was one of your vector space axioms. So then, you know, look, you're on that side again.
+The same thing is true here. If you scale the zero vector by any real number, you just get back to zero vector.
+And so then you would get that. It's closed under vector addition as well, Jonathan.
+Well, it's going to be in this vector space V so we can use the vector space axioms to actually verify that.
+So the vector space axioms actually give us quite a lot to work with, including things like distributive and additive inverses.
+So you can I mean, that would be something that we could certainly check by using those properties.
+But when we're working in a vector space, we have those 10 axioms that we can work with to in order to verify things.
+So we can certainly use those to our advantage.
+I have this one trick question on there on the handout, the next question on my handout is are to a subspace of our three.
+No, why not? Yeah, zero zero, for instance, is not an element in our three, so it's not even a subset.
+So I just want to be really emphatic about that. Are two is not a subspace of our three.
+You can certainly find things inside of our three that look like our two, like the XY plane in our three.
+But that is not the same thing as our two. Yes.
+From the definition of subspace does work follow. So you listed what you want to be there and what he belongs to doesn't want to be that.
+We we would have to assume it from being a vector space.
+No one says that has to be. Well, the problem is that if we don't have one, each could be empty and then we couldn't do it.
+So we need one to make sure that it's not empty and it's sort of a convenient thing to insist that it has.
+But you're right that if we had three and we knew it was not empty, then we could prove something about the zero vector.
+I was thinking, like with the. Right.
+Example what sorry, it sounds like you resolved your own question,
+so I think I was helpful and just being a sounding board for you, but I didn't quite understand what the question was.
+I'm sorry. Sometimes that's the the help that people need is just to have someone listen.
+So. Yes, I think that is also back up.
+I did find a three zero and the fact that you didn't feel that existed back then, you thing that you think of the.
+So you mean why how do we prove that we have an additive inverse, so, well, let's think about this.
+So how would we prove that we have additive inverses from this?
+So we know that if I add together anything, I'm going to result to be back in my space.
+Right. So could we use that somehow to get the existence of additive inverses?
+So we have that we have zero in here, so we can definitely play around with zero,
+but then you could try to think about how you might get the something that
+would add to zero coming out of that and then use that to define your inverse.
+OK. Yes.
+So that's a good point, too. So the idea is then you have you can scale by any real number here.
+So then you could, for instance, scale by negative one and think about what properties that would have to have.
+So scaling by negative one, that would also then you have the usual properties of being inside of that you could use to get out
+what that might be and then take one of those to be you or be here and prove what it would have to be.
+So there is a little bit of work to do there, but those are, I think, reasonable exercises to work through to try it out.
+I want to do one example of proving something is a subspace here.
+Let's see, do I have enough time to do it? I have three minutes or two minutes.
+I have two minutes. I'm sorry, I shouldn't exaggerate. So probably I think what makes the most sense for me to do is rush through this last example.
+You have nearly everything you need. Adam, set it last quick.
+It was sub spaces, so I think what I'll do is I'll end, what, like a minute earlier or something on a Friday.
+And so enjoy your extra minute. All right.
+Have a good weekend. Just treat it like a subspace to be infinite to zero.

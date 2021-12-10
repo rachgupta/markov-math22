@@ -1,0 +1,604 @@
+﻿Let's let's go ahead and get started. So in terms of some announcements, so we're getting close to the end of the semester.
+There's not that much more time left, so I just wanted to kind of outline what's remaining for us.
+So there's one more quiz. There's three more problem sets and there's the final project.
+So it's really we're getting close to the end here.
+The bulk of the time that you put towards this class, I would encourage you to put towards your final project from basically now until it's due.
+The problem sets are going to correspondingly get shorter to allow for you to have that time.
+OK, it's not that the course is going to suddenly have a lot more time allocated to it.
+In particular, I wanted to outline when the problem sets will be due.
+So problems at 10. The one with their project proposal is due this Friday problems that 11 will then be due a week
+from Friday and then the last problems that problems at 12 will be do the last day of class.
+December 1st. OK, so. Just to kind of keep in mind what's coming.
+There won't be quite as much proof of work to do on these problem sets, especially problems at 12.
+This is then our problems that that's more focused on data analysis for the quantitative reasoning with data requirement.
+So instead of poufy problems, there will be a few a handful of problems that require you to do some data analysis.
+Using the tools will develop over the next few weeks. So that's that's what's coming.
+OK. Just in terms of how to allocate your time and energy around this class,
+it'll be a much more pleasant experience if you put in sort of small amounts of consistent work into your project rather than trying to,
+like do everything the night before things or do. So the first big check in will be this Friday.
+When you turn in your proposal again, this not you shouldn't feel a tremendous amount of pressure there.
+We're just trying to encourage you to get started.
+And so I encourage you to write your proposal in a way to maximize the quality of the feedback that you're getting.
+So if there's something that you're worried about for your project, pose it as a question as a part of your project proposal,
+saying, like, we're not really sure what we would prove as a part of this project.
+We're having trouble finding a source that's written at a level we can really digest.
+It's better to be upfront with your concerns early in the process,
+rather than like coming to me on December 12th and being like, I can't really find a source to read.
+Like, that's not the time. The next major check in point will be when you submit a draft, and that will be the last day of the semester.
+So that will be December 1st. So when we the Wednesday, when we get back from Thanksgiving break, so that's when the more complete that draft is,
+the more likely that you will have a get good feedback on the draft to know that
+it's sort of going in the direction that we will evaluate highly with the proposal.
+You'll be matched with ATF that will be sort of the person mentoring your project,
+so the person you should feel free to reach out to with questions that will either be me or one of the four t.f grad students for the class.
+So once you turn in that project proposal, then it's going to generate a bunch of peer review requests.
+So you'll all do.
+I think two peer reviews, you'll read some other people's projects and get some idea of like some really cool ideas other people are doing,
+and that might give you ideas for your own project that is a part of your final project grade,
+as well as giving quality, high quality feedback to your classmates.
+OK. That'll happen on December 1st, then December 1st, the ones we're reading period starts December 2nd through about a week later.
+You'll be asked to meet with the t.f that's reading your project to get more feedback, more direct direction of how to finish this thing.
+OK, until it's do, the final project will be then be due December 13th.
+So if you're thinking about like what the weather, what you're doing is appropriate for your project.
+I mean, there are a lot of points to get feedback. Don't wait until the last minute for that to happen.
+The project scores tend to be pretty high because people put in a lot of work, but I'll just throw out the warning that is not uniformly the case, OK?
+The ones that usually score poorly are the ones that people start working on them the weekend before they're due.
+And that usually is a recipe for disaster. So don't do that.
+Consistent work regularly until the project comes will make this much less stressful.
+But you should know that I'm happy to be a resource with projects along with all the seniors are happy to be resources.
+I mean, go to office hours, ask questions. Even at this early stage, ask the seniors what they did.
+The ones that took about 20 to what they did for their projects that will give you, I think, a lot of great ideas.
+They've also seen a lot of the projects through the peer review process last year to.
+So I just want to make sure we're all clear on what's happening. Tommy. I was thinking that piece at 11 would probably be posted a little bit later,
+just because we still have piece that tend to on Friday and we switched to or be doing on due next Friday.
+So I don't know if it'll be posted today. Maybe tomorrow it'll be posted.
+Yeah, look. So you can every group member has to submit something on great scope.
+You don't have to submit different proposals. This is just because of a quirk on great scope.
+It's hard for us to group them together,
+and it creates an administrative headache for us to like click through to find like, who actually submitted this thing.
+So it's really very helpful for us if every group member just submits the proposal.
+And then when you're working together, you probably want to look at each other's grade scope submission to see,
+like what comments you actually got from your t.f reader.
+Yeah. Just the final, I mean, I think the earlier you start talking things, the better.
+But I mean, I'm not going to like. I want there will be no points taken off if the proposal is written in some other form.
+I mean, the proposal might be more of an outline form anyway, so it's not as important that it's tacked.
+Yeah. Oh, yeah, it's one of several people emailed me about that, I'm sorry, I'll do that.
+I teach right after this. As soon as I get back to my office, I'll do that. Yeah, sorry about that.
+Tommy, go. Yep, that's after all.
+So you won't do peer reviews on the proposals, you'll only do peer reviews on the drafts, so that will be December 1st.
+So after the last day of the semester, then you'll get a canvas invitation to read two of your classmates projects.
+It's on the syllabus, I don't remember off the top of my head, I think you have like four or five days to do that.
+And to be honest, like that should not take very long.
+I mean, it's really about like you reading and giving your thoughts like it's an important piece of feedback to say, I was super confused.
+That's good for your classmates to know because you are the intended audience, so they should be adapting what they're presenting to the math.
+Twenty two audience. OK, so I'm happy to.
+As more questions sort of occur to you with the projects, I mean, I'm sure as you dove more into it,
+you'll get more things you're curious about, but I'm happy to answer those questions as they come up.
+So really, what the last bit of this course is about?
+In some sense, we've covered the core of the material.
+What we're doing now is what I view as kind of the capstone of this course.
+We're going to kind of see some different directions. You can push the material in and also set the stage for a multivariable calculus course.
+So thinking about either 20 to be or maybe a different calculus course, but hopefully 20 to be so,
+but so thinking about building that geometric understanding of what we're doing so that we are prepared to do calculus.
+So today, what I wanted to do is present one application of the things we've been doing.
+So the starting point for this will be picking up with your second semester calculus class, either math one,
+be here at Harvard or BSC Calculus, if you took that in high school or whatever experience you had with integral calculus.
+So one of the main topics there is a little bit with differential equations.
+So I wanted to present one application of what we've been doing to that kind of problem.
+So let's just start with a classical problem in physics. So this is the situation of a simple harmonic oscillator.
+Someone gets up to leave. Last year, when I did this lesson, I said the word simple harmonic oscillator and there was an audible groan from the class.
+So it's already an improvement over last year. That's why I was pausing to wait to see if that was going to happen again.
+So we have this mass on a spring, and the idea is we're modeling this in a frictionless way, at least to start with.
+We'll consider this. Our displacement from this equilibrium position to be X equals zero.
+And then we measure sort of positive displacement and negative displacement away from that equilibrium.
+So if we just take the mass in the spring, it's placed at the equilibrium. Of course, it's not going to move.
+You pull your mass, you let it go. It's going to start oscillating around that equilibrium position.
+OK. You could also think about and then the way that you derive the equation governing this, you use Hooke's law in physics.
+So you think about the spring constant.
+I'm just going to choose my spring constant to be one in my mass, to be one to make things sort of clear or easy, rather.
+So what's going to happen then, is we get the differential equation of X double prime of T is then equal to well,
+you get pushed back to the equilibrium. So negative x of T.
+So if you have some positive displacement, then we're being pushed back towards that equilibrium position.
+Jonathan, I don't recall this and I don't recall what we haven't done anything yet.
+There's nothing to recall yet. No, I don't recall it.
+We're going forward in the course of how or will it be to recall things like this?
+Recall things like what the latest harmonic oscillators were also different from the way.
+Well, Jonathan, you have to give me a chance to say something before you object to everything.
+So I guess I'm asking that you believe me if you don't want to think about physics at all or you've never taken a physics class,
+I'm just asking that you believe me that the derivation of a simple harmonic oscillator will come from this particular differential equation.
+So I don't particularly need you to remind. Remember that the derivation of Hooke's law,
+it should feel somewhat intuitive that the idea that like my the acceleration I'm
+going to feel will be the negative of the displacement I have from the equilibrium.
+So, I mean, this is what I'm asking for your trust in the intuition behind how you would derive the behavior of a mass and a spring.
+Do I particularly care about the behavior of a mass on a spring? Of course not.
+The reason why you care about the behavior of a mass on a spring is because it's a representation of a lot of different types of problems,
+whether it's inside of thinking inside of an atom,
+or if you're thinking about something like that, a door like you want to close the door and have it not slam,
+you're then modeling then a mass on a spring inside of that door. So like in terms of engineering applications, this idea comes up.
+So I'm just presenting a place where this could appear.
+I'm not asking that you have a precise knowledge of everything that happens in a physics course.
+So the main point for us is this that you have as a starting point, a particular differential equation.
+If you've never seen a differential equation before, it's just an equation involving derivatives.
+OK. The main place that you've seen? Well, I claim everyone in here has seen differential equations before, even whether you've acknowledged that.
+I mean, think back to like even your first semester of calculus, you think about exponential functions.
+Well, that's just saying the rate of change is proportional to how much you have.
+And that seems reasonable to model lots of things where when you have lots of something that it might be growing at a more or faster rate.
+So we then use that x prime as equal to K times x to represent that kind of a situation.
+This is, of course, not a full class in mathematical modeling to go into that particular direction.
+And just trying to present a situation that might gather some nods of agreement from the class, but not necessarily always.
+So if you don't particularly remember how you derive this differential equation, I'm happy to go through a physical derivation in, say, office hours.
+If you don't care to see a physical derivation,
+then I would just say the starting point is I want to find some function whose second derivative is equal to negative of the original function.
+That's what it means to solve the differential equation. So you can certainly take it as a pure math problem.
+So what we want to do. Because we want to find some function that satisfies this equation.
+That's all we're doing when we solve a differential equation. OK.
+Now I have to regain my train of thought. What are we actually doing here?
+So if you think back to at least math one b at Harvard, the way that we approach solving a differential equation of this form is you make
+and the way you often approach just in a general differential equations class.
+Trying to solve a differential equation is you make an informed guess about what the solution might be and you try to find a solution of that form.
+So I'm computing some derivatives,
+so I would think that it might be convenient for me to work with some functions that are easy to compute the derivatives up.
+So what you often do, or one possible approach is you could guess a particular solution.
+So I'm going to guess an exponential solution to the RTI.
+So then what that would mean is I want to know, is there some constant ah, that would make this a solution to the differential equation?
+Well, to check that you would just plug it in. So I look at, well, what's acceptable prime.
+So then that's going to be r squared e to the R t x of T is, of course, e to the R T.
+So then that means X of T is a solution to x double prime plus X is equal to zero if and only if, if I when I plug this thing in, I would get zero.
+So I have our squared e to the R T plus e t r t is equal to zero.
+Now you factor, so I have our squared plus one b t r t is equal to zero.
+So I need the product of two things to be equal to zero.
+So either this is zero or this is zero, the exponential function is never zero.
+So then that tells me that I have our squared r squared plus one is equal to zero.
+So that tells me the zeros for this will be ours equal to plus or minus I.
+The imaginary unit. So furthermore, that tells me that, say, X of T.
+Well, maybe I'll call this x one being equal to any constant, say C one e to the I T plus c to D to the minus T.
+Will be a solution. We all worked this out on two steps.
+So in particular, that means the X1 of T is equal to e to the I t is a solution.
+And X two of T is equal to the minus T is a solution.
+So we found two solutions. The other thing you might notice is that if I scaled this solution by any real number, it's still a solution.
+It still satisfies that differential equation. If I scale this solution, I would then get another solution.
+If I add them, I get another solution. So in particular, if I take any linear combinations of these two, I get a solution.
+So then we call that the general solution of T is equal to see one e to the I t, I'll see to it the minus.
+I mean, this is the general solution. So in fact, all solutions to this differential equation will be of this form for some constant C one and C two.
+The thing that's a little bit disappointing about this form is that it involves a lot of complex numbers.
+And while I think complex numbers are fun to work with,
+it seems a little bit strange that it involves complex numbers because we're talking about a mass on a spring.
+So if you're thinking about what this is supposed to represent,
+especially given that I might model this without any sort of friction that you would expect that this should just oscillate back and forth forever.
+So I don't see anything there that really looks like oscillation. And what does it mean to be a complex number in that context?
+That seems kind of strange in particular, given the physical scenario that I'm trying to Model X of T should be modeled by a real number.
+So what that means is that C one and C two will then have to be complex numbers
+that will cancel out so that you end up with a real number at the end of the day.
+So you're working with a lot of complex numbers in order to model something that's real, which should feel kind of strange.
+It does often happen in physics, especially when you're thinking about oscillatory things,
+when you're doing waves, but it still should legitimately feel kind of strange.
+So this is the general form we often call this the complex form of the solution because it's involving lots of complex numbers.
+But we could also try to make this the real form of this expression.
+So another thing that you learn here, at least in math one B and presumably in B.C. calculus is the Oilers formula.
+So if you we we think about E to the city and we can express that as a point in the complex plane,
+and it's telling us just about rotation by an angle of T from the positive x axis.
+So you could then also express that as cosine in terms of cosine and sine so recall.
+Euler's formula. Boilers.
+Formula. So geometrically so we have a complex plane.
+We make an angle of T from one, and this point can be thought of in two ways it is e to the I t, but it's also cosine t plus i sign T.
+Which gives us this rather remarkable way of thinking about complex numbers to that when we think about multiplying by a complex number,
+that it's representing rotation. So it's sort of a nice interpretation to have.
+So if we use that in this form, we can plug in for E to the T here,
+cosine t plus I signed T and we can plug in for here cosine negative tea and plus
+I sign negative tea and then use our trig formulas to simplify those expressions.
+And we can group things together to get an expression that only involves signs and co signs,
+which hopefully also then feels more oscillatory than what we had before.
+So now plugging in. To the complex form.
+And we get the following, and we will spend more time driving this formula at the end of class using linear algebra.
+So if it's not entirely clear how to see it yet? Don't worry.
+So these will be different coefficients, a d one and D two, but now involving sine and cosine cosine de plus de to two.
+So this is called the real form of your solutions. So these are different coefficients D1 and D2.
+Again, I'll show how to go from this form to that form using linear algebra at the end.
+But you can also see it by just plugging in with formula. So this is this is what I would tell my one B students to recall.
+It's OK again, if you have not seen that before. It's just some context to think about.
+And I think it's more of a place for food, for thought in terms of for your question, Jonathan.
+I think a lot of the topics we think about towards the end of the semester are more
+like to try to think about what comes next rather than necessarily just to focus on.
+Exactly the details. OK, so we have this situation where remodeling a mass on a spring.
+Let's think about it from another approach. So this is what could have come from my one big lesson.
+Well, let's think about it from another point of view that's maybe more relevant to us.
+So again, our starting point is just this differential equation,
+so that can be totally entirely or context for this problem is it's just some differential equation you want to study.
+So double prime plus acts of T is supposed to be equal to zero.
+So you're saying you want some function x that satisfies this differential equations?
+Well, another approach could be and this is actually a common approach, if you took a class like, Hey,
+I'm one of five, a differential equations course is that you can introduce another variable here.
+So I'm going to give a name to the first derivative of this function, which you might think of then, is the velocity.
+So let's define V to be equal to x prime.
+So I'm just naming the velocity. Well, now we could re express my differential equation here.
+And a little bit of a different way. So I have V is equal to x prime.
+So and then if I plug that into here and I express that in terms of V.
+Well, this is then v prime plus x is equal to zero.
+So I have then say the prime is equal to minus X and I have X prime is equal to V.
+So instead of studying what we call a second order differential equation, it's called second order because it uses two derivatives.
+It's also called constant coefficient.
+These are the best kind of differential equations because they're nicely solvable, because all the coefficients are just constant numbers.
+They're not functions, which makes things a little bit harder.
+So here we've now turned this second order constant coefficient differential equation into two first order differential equations.
+We now have a system of differential equations, which is sort of exciting for us because we've been working with systems of equations all semester,
+so we can then transform this into a matrix equation. OK, so I'm going to express this idea as a matrix equation.
+To then try to use linear algebra in order to understand what's going on.
+So I'm going to write this as V and X, so I'm differentiating each of those two things.
+So it's the derivative of that vector. Those are both functions of T.
+Then on the other side of the equation. I want to multiply by some matrix.
+Times the Vector X and V. So what Matrix could I put there to express the right hand side of these two equations?
+Jonathan? What?
+Negative ones have been we're not negative one. Here, so then I'm getting oh, I switched them, I'm going to change your answer, I'm sorry,
+v and X, your answer was correct with what I'd written, but can now what I mean?
+So thank you. There, I want to be consistent.
+It's V and X and V and X over here. Otherwise, it's kind of a strange convention.
+So the nice thing that's showing up now is that we're getting the form derivative is equal to matrix times your vector.
+So this gives us a different way of expressing the exact same type of differential equation.
+So now we could then take say we interpret this as like why the vector prime is equal to a the two by two matrix times vector.
+Why? So now what we want to do is we want to solve differential equations of this form.
+So you want to solve systems of First Order differential equations. So the goal?
+To solve. Systems. First order equations.
+Differential equations. So, namely, equations of the form vector, why prime is equal to matrix times Vector Y.
+So we'll see two methods for solving differential equations of this form.
+Many, many, many applications come down to solving applications, solving rather differential equations of this form systems of differential equations.
+So if you're studying like environmental science, lots of your models will be coming up.
+By thinking about like modeling pollution spread or modeling like flow, and they'll be going from one puddle to another,
+where before you're thinking about biology, you want a model like an injection of something into your body.
+You then have like different components representing different regions of your body.
+There's like the bloodstream, there's the muscle inside the muscles and then the you measure the movement between those different regions.
+And these kinds of models show up from these differential equations. So that's what we want to do.
+We want to solve differential equations of this form. So what I want to do the way that I'm going to solve it,
+and this is actually a common approach to solve many types of differential equations, not just the ones here is.
+I'm going to go back to the way that we approached it in the first context.
+So the way that we did it here is we tried to guess a solution of a nice form where we could then just figure out what it would be.
+I'm going to try to guess a solution here, too. Why not?
+It's just the derivative is equal to some constant, some matrix times the vector.
+So it seems like it's kind of vaguely exponential.
+Like, in fact, this is often the point of what's called the matrix exponential, and we can form an exponential matrix to solve this as well.
+But so what we're going to do is we're going to try to guess a nice form for the solution.
+So just like we did above, where I guess the form e to the T, I'm now going to guess the form that at some vector v times an exponential.
+So let's guess that you have a solution of the form Y of T, so vector y is equal to some vector v times and exponential.
+So where? V, I'm just going to make everything in our to some vector and two and lambda is some real number.
+So this is a scalar and this is a vector. So just like I did before, if you're going to guess the form of a differential equation,
+you would now plug it into your differential equation and see what conditions that gives you.
+So I'm going to plug it into this thing and see what happens. So if I compute, why prime?
+Of T. Well, that means I'm differentiating this thing. Well, we use a vector.
+It's not a function. It doesn't depend on T at all. So it's just like a scalar.
+So the only part that involves a T is right here. So this is then going to be equal to v times.
+Lambda comes down e to the lambda T. So that's what the derivative of that particular gas is.
+The other side of the equation is a times we are eight times y rather a times y of T,
+so then that's just going to be equal to a times vector v times the scalar e to the lambda T.
+So that means that I have a solution if and only if those two things are equal.
+So let's think about what that means. So hence. Oops!
+Pants. Why of T is equal to the E to the lamb, the T is a solution to the equation.
+Y prime of T is equal to eight times y of T if and only if.
+When I plug it in, so I would get lambda v e to the lambda T is equal to a times v e lambda t.
+I need these two things to be equal. Yes, Tommy.
+Well. Oh, no, no, no, Vector V is just some vector, it's constant, it's a constant, it's just some Vector V here.
+I'm not saying that's like my velocity vector from before. That was a particular example for the example of the the, uh, the harmonic oscillator.
+Yes. Sure. What is this, what is called an.
+It's called what? Oh, yes, this is an onsite solution.
+This is called an onslaughts. And. So in general, all of them are very exhausting.
+So we can do this technique for reduction of order.
+That's what we were doing here to introduce an auxiliary value variable to turn it into a system of first order equations.
+There is a context in which we can do that. This won't always work.
+Not all equations can be turned into this form. I mean, many equations might have your coefficients depending on time as well.
+Like, for instance, a one way that you might be modeling a mass in a spring as like a car tire.
+Right? You want to design the suspension system for a car? Well, I mean,
+it's one way that you might try to mitigate the impact of the bouncing of the
+car is to introduce a force to compensate for the the ground impacting the car,
+so you can then try to cancel that out. So that would be then having some other thing coming in to balance it.
+But here we can. So if you can turn your differential equation into this particular form, then we can form this gas of a solution of this form.
+And we'd like to know what would have to be true for that to be a solution. Yeah.
+James. That's a good question.
+So because you might wonder, like, have we really found everything right?
+Well, the thing that it sort of happens like in the same way when we talk about when we're working inside of a vector space,
+like when we talk about finding a basis for a vector space, have we really found everything?
+So you can take the span of the solutions you've found so far and then say, Well, how much of I found in the case of a linear differential equation,
+one of this form the most number that you could find will correspond to the size of your matrix,
+so you could find out most too linearly independent solutions here.
+So once I've found to, I know to stop looking because it's a two by two matrix.
+If it were an end by end matrix, then I would know there could be end linearly independent things, so I would look for any of them.
+And that's that's specific to the situation where, because of the form of my differential equation,
+if I take any linear combination of solutions, I get another solution. So then we're saying we're working with some subspace of solutions.
+Senator, your question? Yes. There.
+Here I am plugging in, right? I'm plugging this thing in.
+So I just have a times that thing. Yep. So I'm just I'm I'm just doing what the Matrix tells me to do.
+We plug it in and see what happens. So I need them to be equal. So that's what I have over here.
+So now I can just move it over, say to the other side of the equation. So I have then zero is equal to a V,
+and then I just have this scalar e to the lambda T. And I've moved this thing over to the other side of the equation.
+So it becomes lambda b times e lambda T.
+So remember e to the lambda T is just outputting a real number, so I can certainly just factor that out.
+So then I have zero is equal to. A V minus lambda v.
+Times E slammed a tweet. So now you want the product of these things to be equal to zero.
+This is the zero vector, of course. So then this thing will never output zero.
+So I know this thing has to be equal to zero. So then I have zero is equal to a V minus lambda v.
+And then rearranging that equation then gives me a times v as equal to lambda times b.
+So if I wanted this to be a solution.
+What would you tell me about Lambda and V, what has to be true about these specific, the specific vector and the specific scalar?
+Xavier. Yeah, I.
+That's right. So then that means that we. Yes.
+And again, Vector. And.
+Lambda is an eigenvalue.
+So if it's a two by two matrix, we know we can find out most too linearly independent eigenvectors, so we'll call them V-1 and V-2.
+We have the corresponding eigenvalues lambda one and lambda two.
+And then we can write down. Then the corresponding general solution to my differential equation y of T will be equal to see one.
+Times v one e two. The Lambda one T plus c two v two times e the lambda two.
+So just like I did before, any linear combination of these will also be a solution.
+So I can describe the solution space by taking the span of those two solutions that I found because
+I've now shown that each of those solutions corresponds to an eigen vector for that matrix.
+I think this goes back to James question as well of how do we know that we found all of them?
+Well, there can't be more than two linearly independent eigenvectors for two by two matrix.
+Similarly, there can't be more than n linearly independent eigenvectors front end by end matrix.
+Yeah, look. Mm-Hmm.
+Well. How would we check that if we weren't convinced of it?
+So like it's the case oftentimes where you're just not going to be sure of something like, I don't see why that's true.
+How would you verify that it's true?
+You just yeah, you just plug it in and verify that a linear combination of two solutions will give you another solution.
+So like, you could compute the derivative twice and make sure that it does come out indeed to be negative of the original thing.
+Tommy, you have. We can definitely have complex eigenvalues, yep.
+I mean. Lambda, you're right, I should say lambda can be in C, too.
+You're right, you're right. You're right, you're right. I'll make.
+So they could be complex. Sure. Because, in fact, in the case of the harmonic oscillator, there will be complex.
+We don't do very much in this class with complex eigenvalues. So I'm just trying to hint at what can happen.
+Not we're not going to necessarily go through every last thing.
+Yeah. What if is zero?
+So certainly, you can't have your eigenvectors be equal to zero. What?
+So we want B not to be zero, is what you're saying. So, yeah, we want a non-zero solution to this.
+So because I mean, that's a fair point. So why do we what happens if B is equal to zero here?
+What will happen? Well, if we go back to our differential equation, the derivative of zero is zero eight zero zero.
+So sure, it's a solution. So it's sort of like saying whenever we look at a subspace, we always contain the zero vector.
+So yes, we will have the zero solution to this thing. We're looking for the non-zero solutions.
+So maybe non-zero. Savior.
+In the wind, a combination of I was. If not, you will not necessarily also be.
+But I'm not. Good question, I'm not asking for them to be an agent vector.
+I'm just asking them for them to satisfy this relationship. So because the derivative here is going to be linear.
+Operator Right. We know the derivative is a linear transformation.
+If I take a linear combination of two things that satisfies this equation, the result will still satisfy the equation.
+And again, to I think, Luke's question, we can literally plug in this expression for my general solution.
+That's always a way to check if you have a solution to a differential equation, right?
+Just like if you want to check whether you have an anti derivative, what do you do?
+Well, you just differentiate it and see if it's what you wanted. Yes.
+Do you mean the specific factors here? Read more.
+Right. Yeah, we can think about that as a vector space.
+So then you're taking an input function and you're out putting a function,
+so then you're thinking about solving working on a particular function space.
+You do often take that perspective and say quantum mechanics and physics when you're solving, when you have a differential operator in front of you.
+That you need to solve. So then you're thinking about solving that on a particular function space so that
+that context does come up and that what you do in that context as you compute a
+bunch of eigenvalues and eigen functions eigenvectors and then you use that basis to
+solve the differential equation in that context with respect to that nice basis. Yeah.
+This does work for constant coefficient differential equations of higher order using kind of a
+similar trick to the one I did there to turn it into a system of First Order differential equations.
+So that kind of a technique does come up a lot. I'll point out,
+there are a lot of different ways you would approach studying differential
+equations depending on the type of differential equation you have in front of you.
+Sort of the nicest ones you often encounter and the ones we work with the most in engineering and physics are the constant coefficient ones.
+And the reason for that is mostly because they're nice to solve.
+It's not necessarily because, like they encapsulate like the full difficulty of the problem we might be studying.
+So they make them sort of a nice approximation. I mean, this comes up throughout the engineering and physics literature.
+When you want to then study something, you're like, Well, turn it into a simple, simple harmonic oscillator and model it that way.
+But you might want a more sophisticated differential equation.
+The problem then becomes like it might be hard to solve when you have a situation like that,
+like we have difficult differential equations, you often then use numerical methods to solve those differential equations.
+So use a computer simulations. OK, so that's a little bit of a theory.
+Let's do an example. Well, the race.
+Race the earlier stuff. So again, in terms of a linear algebra problem,
+you can just take this to be your starting point is you want to find why such that y prime is equal to eight times y,
+so you want to find a solution to this differential equation. So let's consider a particular example.
+Let's take. The following differential equation.
+So let's take why Prime is equal to one to three to four times, why do you?
+So your derivatives will be this kind of linear combination of your.
+Function. And I'd like to know what functions do that.
+Well, our strategy now is you find eigenvalues and eigenvectors of your associated matrix.
+So here we have a two by two matrix so we can find the associated eigenvalues and eigenvectors.
+So the eigenvalues. Well, then you compute the zeros of the characteristic polynomial.
+So the characteristic polynomial in this case comes out to be lambda minus four times lambda plus one.
+So the two eigenvalues will be four and minus one.
+They're distinct. So you already know what's going to be diagonal sizable.
+Because you can just take an eigenvectors corresponding to four and eigenvectors
+corresponding to minus one and then find Um and then take the use that I analyzation theory.
+So we know how to compute eigen spaces so we can compute the EIGEN space corresponding to four.
+This comes out to be the span of the vector two three.
+And we know how to compute the iron space corresponding to the eigenvalue of negative one.
+This corresponds to negative one one. So then what the previous observation tells us is that the general solution to the system
+should then be why T is equal to some constant C one times this first basis factor to three.
+Eat the 40 plus see two times E to the minus 80 percent in my back door minus one one.
+So any solution to this particular differential equation will be of this form.
+So we can then write down all of them, C one and C two might be coming from some initial measurements that you've made for your system,
+like maybe, you know, the initial position or the initial velocity of what you're studying.
+So then you can use to that to solve for C one and C two. So if you think about what this does, though, like for a fixed C one and C two,
+this will trace out some region in the plane ride, some outputting for each time a vector and R two.
+So it's giving you some kind of a solution trajectory inside of the plane so we can think
+about a geometric perspective on this by plotting those points for a geometric perspective.
+This is to connect back to say one B, for instance, this is called the phase portrait.
+So what we're going to do is we're just going to plot some of these for particular values of C one and C two.
+So let's do that. So, you know what, I want to move to a different board.
+One of them, well, I guess I can do what I could do some work over here. I'll do this work over here.
+So let's let's start kind of slowly here.
+So let's take some simple values of C one and C two.
+So suppose I take C one is equal to, I don't know, one and C two is equal to zero, then the corresponding solution y of T.
+Well, it'll be two three times e to the 14.
+So if I plotted that in the plane, what would that look like?
+So I applaud that for different values of tea. So in T equals zero, it's the point to three.
+All right, so I go over a one to one to three, so it's up here.
+It's right there, if I plug in T is equal to two.
+What will that point look like? For plug in T is equal to three.
+He's equal to for what's going to happen when you plot all these points.
+Several people are just. Which is a correct gesture.
+So it's just this vector two three scale by something the T value is scaling by larger and larger real numbers,
+so it's going to continue in that direction and just keep going. So it's going to be in the eigen space corresponding to the eigenvalue of four.
+And it will just march off to infinity. So in this case.
+We have the eigen space here,
+here is the eigen space corresponding the eigenvalue for this particular solution then goes outwards as T goes to infinity.
+Well, you could think about what about if I took say, sea was equal to negative one?
+What would happen that? So what if I took C one with a negative one C to is equal to zero?
+Well, then I have a solution y of T is equal to negative two three d to the forty.
+What happens here? So again, I see some people answering with gestures.
+Now it's going the opposite way, but still in that same island space.
+So it's not going this way. So in one case, you're going off to infinity along the eigen space for two and sort of the first quadrant.
+The other case, you're going down. So all I'm doing here is I'm plugging in different values of tea and I'm plotting the outputs.
+So it gives me these trajectories in the face space. OK, well, now let's think about what would happen if instead I made sea one equal to zero.
+And I looked at coefficients of sea to. So where should I do that?
+We're here. Should use a different color.
+So now I'm going to take C one is you can you see this color?
+No, that's not. Use it then. I can barely see it right in front of my face.
+How about that you could see this one, right? It's an awkward angle for you, Jonathan, can you still see it?
+Yeah, you can. That said, the name for the past and for the past, how long?
+Trying to write a. Hmm.
+I'm not sure what to do with that. I could go back 15 minutes.
+Well. So.
+I think the shortest summary I can give of what we've been doing is that we want to find some functions that satisfy some properties.
+If you go back to the simplest thing that you've done back in calc one, when you've learned about exponential functions,
+you're looking for functions that, when you differentiate them, are equal to k times the original function.
+So then you know that you're looking for functions of the form. E is your function is equal to C e to the Katie, for instance.
+And that's the first situation where you think about differential equations.
+You might also think about the differential equations when you think about like you have a constant rate of change.
+So then you know, you're modeling a linear function in calc one, your solution will be of the form Y equals m x plus b.
+All we're doing here is we're doing the same thing for linear functions of in variables.
+So when we think about what's going on here, I'm saying why prime,
+the derivative of some vector of functions will be equal to a matrix times your original vector.
+So you should contrast that, I mean, when you're trying to make sense of a new mathematical context and you think about a new application,
+think about the simplest instance of this you can. The simplest instance of this question would be a one by one matrix.
+So if you go back to a one by one matrix,
+then you have one component function why you have one component function here and you have a one by one matrix.
+So you have the situation. Why prime of T is equal to this one by one matrix K and Y of T.
+So you want some function that when I differentiate, it is just k times the original function.
+So we know a function that does that from the differentiation rules we learned in calc one to say that this will be why of T.
+Well, that's equal to E to the Katich. Right.
+But there are more of those. There's not just this one. You could take like an initial amount of stuff,
+like the initial amount of money in your bank account to the initial number of cells if you're modeling exponential population growth or something.
+So you get then to here. So right there, you're taking a linear combination of a single vector.
+And because it's a one by one matrix, there was only one function that you needed to look for that would satisfy this condition.
+When we start going to larger matrices, all we're doing is we're considering then systems of differential equations where I'm taking now.
+I have one function where when I differentiate, it is k times some other function.
+Then I have another function that's equal to something. Times the derivatives of those original functions.
+So you have more conditions that are coming up. The simplest instance I can tell you where this comes up is where you just take an oscillator,
+where you're just going back and forth a mass on a spring already right there.
+We are led to a system of two linear equations.
+So. There are many other instances where you might study differential equations of this form, so you might want techniques for solving them.
+The main technique we have for solving them is to then look for eigenvalues and eigenvectors of your associated matrix.
+The reason for that is because it turns your differential equation into one where you can solve it more simply.
+OK. So there are two perspectives that you can kind of take on this problem.
+One is this kind of geometric perspective that I'm trying to describe where we look at a general solution.
+And you say, Well, what do these general solutions look like?
+Well, for any T along this line, for any function along this line, your populations will or your quantities will go off to infinity.
+That's interesting to know from a qualitative perspective,
+if you're studying like pollution spread and you know that under the current model, things are just going to keep blowing up.
+That might be something you might want to intervene in if, on the other hand,
+things were collapsing down to zero and that's modeling your population, that could also be bad.
+So you want to think about like,
+what are you representing in this qualitative behavior might give you an idea of what you want to do with that information.
+So here what we want to do is from these solutions we're getting, we want to know how do they work?
+When you take one of those particular solutions, like you do some experiment, you go to the pond,
+you measure this many fish in the pond and that allows you to solve for a
+specific constancy one here and a specific constancy to from the experiments,
+from the measurements you've done. Now that's going to determine some kind of a behavior as time goes on.
+Is it going to spiral around and just kind of was it going to just go in a circle?
+Is it going to oscillate? I mean, if you're modeling mosquitoes, I mean, when we do this in one B, we often do the example of spraying for mosquitoes.
+If you spray for mosquitoes in the wrong portion of their cycle of the population growth cycle,
+you can actually lead to a larger increase in the number of population of the mosquitoes.
+So the intervention that you do actually really matters in the timing of when you do it.
+So you want to have an understanding of what these solution trajectories look like in order to know when you might intervene.
+So here I want to know what these this solution looks like.
+I don't. In this context, it's not representing anything in particular other than a bunch of points in the plan.
+So I want to know what happens as T goes to infinity. Well, that's going to depend on what C one and C two are.
+So the next case we need to understand is if C one is equal to zero.
+So you don't have this part and you only have this part. Well, then that means it's going to be a vector.
+So C two and e to the minus T, all those do is scale a particular vector.
+So every output will then be along the line determined by the span of negative one one.
+So if I draw this vector negative one one, this is my eigen space corresponding to the eigenvalue of negative one.
+Now you want to know what happens as T gets larger in this case, because it's e to the minus T,
+I'm then going to be going towards the origin, so I'll be moving this way along this IGen space towards the origin.
+So that also tells you something interesting.
+If you happen to be near zero and maybe you perturb the solution a little bit, you might wonder what will happen.
+Well, if I happen to perturb it in the direction of the minus one I space, I just get pushed back to zero.
+If I pushed it a little bit in the direction of the E four again space, then I get pulled off to infinity.
+So at this point where the behavior is fundamentally different in two different directions, we then call a saddle point.
+It's like you're at a mountain pass or something and you want to know which direction will the ball rolling.
+We'll be perfectly push it up the sides of the mountain pass. It might come back to that point.
+But if you had any component down the other side of the mountain pass, it will just fall off.
+So now you might wonder, well, what if you had C one and C two, they're both non-zero?
+Well, how does the growth of E to the four T compare to eat the minus T?
+How do these functions compare? How do they compare?
+Matthew? It grows at a much faster rate.
+Right, so if T gets really large, this thing is basically zero and this thing is the only one that's dominating.
+So then it gets really large that tells you that you're going to be parallel to the E for IGen space.
+So when you have your solutions coming out, if you were on this IGen space and you perturbed your solution a little bit off,
+well, then that means you get pulled towards this IGen space E4 because that eigenvalue was bigger.
+Similarly, over here, I would get pulled towards the E eigen space if I got perturbed off this line a little
+bit like I added some mosquitoes or something and I get pushed this direction.
+If I got pushed down, then I get pushed to be parallel to the E for eigen space.
+And that's coming from these exponents just from our knowledge of pre-calculus.
+How do exponential functions grow? This grows much more quickly than this one does.
+So your funked your outputs are going to be then parallel to this space where essentially parallel because this one gets very small.
+So this picture gives us an idea of what's going to happen for the entire system, for wherever we are.
+We know, roughly speaking, what's going to happen. Depending on what your eigenvalues are, you can get different behavior.
+So, for instance, if both of my eigenvalues were, then so in this case, I have one that's negative and one that's positive.
+What do you think would happen if they were both positive?
+Then we're probably going to we're going to be pushed away from the origin in both directions.
+And in this case, you would call in both directions are going to be pushed away like E for so be going pushed away because the exponents are positive.
+And so then in that case, you would call the origin, then you would call it a source or a repeller.
+Everything is pushed away from the origin. You make a small change to your system.
+You get pushed off to infinity in any direction. If you had two negative eigenvalues, what do you think would happen?
+Our shooter. It's a sink, it's a sink or in a tractor, everything gets pushed towards the origin.
+And again, the way that they get pushed towards the origin is exactly according to the magnitudes of those eigenvalues and the direction eigen spaces.
+So there are a few different ways that you can think about that when you think about what I can fit in this last.
+Six minutes. What will be the most beneficial for you?
+I'm my mom. I guess I want to emphasize more the linear algebra.
+There are some other examples here, and certainly for some of you, depending on what courses you want to take next.
+There, you probably want to know a little bit more about the differential equations.
+It's also a great beginning point for a project idea to go further in this direction.
+Instead of this particular approach, what I'd like to do is to connect this back to not the geometric view, but this view of diagnosing.
+So let's try that for the last few minutes. So another perspective.
+If you are very interested in differential equations for maybe what the coursework you need to do next.
+There's certainly plenty you could do for a final project, but we'll also recommend the course and 105,
+which is a differential equations course in the applied math department for the math department.
+If you're interested in differential equations in support of physics, math one 10 is sort of the canonical course to take.
+Which picks up with some of these ideas. So if we have this picture.
+Uh. The differential equation y prime is equal to a times y.
+Well, recall, the whole point of what we've been doing was the diagonals so we could try to diagonals at.
+So if a is diagonal sizable.
+Going wise of all. Then. A is equal to P D P Inverse by the dog analyzation theorem.
+So the diagnostician theorem tells us this when the case where p is your event,
+you're a matrix of eigenvectors, you one through the end and D is your diagonal matrix with your eigenvalues.
+So we have that situation. And let's, in fact, specialized to end as equal to two, because we've mostly been working with two by two matrices anyway.
+So what I'm going to do is I'm going to change coordinates. I'm going to work in the basis of eigenvectors.
+So instead of working with why I'm going to work with X, so X will then be p inverse times y.
+So remember that change is coordinates from Y, the standard coordinates to the basis of eigenvectors.
+OK, well now we'd like to know what your what is your differential equation look like in this new coordinate system?
+Well, if I take y prime, it's supposed to be equal to eight times y and I just plug in well, here y is then equal to P times X.
+So we're just changing coordinates p times x prime will then be equal to a times b times x.
+So if I differentiate P times X, it's just a p is just a matrix with no variables in it.
+So it's just p times x prime. So A times, B, times X.
+Well, A. Is equal to P D, P Inverse, because it's diagnosable.
+Times X, times x. So the one thing we see is that the P, the P here and the P inverse, they cancel out.
+So I then have p times X is equal to p d times x.
+Now I have a pee here and a pea here, so I can multiply in the left by inverse.
+And this then gives me ex prime. Ex prime is equal to D times X.
+And let's just do that really quickly. My last two minutes for a two by two matrix.
+So that's saying we have a situation x one prime x two prime is equal to this diagonal matrix lambda one zero zero lambda two times x one x two.
+So if I multiply this out, I then get X one time X to prime is then equal to lambda one x one lambda two x two.
+So I get a system of two equations. So I got X one prime is equal to lambda one x one lambda, two prime is equal to lambda two x two.
+These two equations are really nice because this equation doesn't involve the other one at all.
+It's a totally a calc one problem. Now you're just looking for some function of one variable that when you differentiate,
+it is equal to lambda one times the original function so that you can tell, I can tell you exactly will be X.
+One of T is equal to see one. E to the lambda, one t same thing here.
+This is then X two of T is equal to C to Tanzi Lambda two T.
+So in this coordinate system, when we change to a basis of eigenvectors, it was to calc one problems to solve.
+It wasn't this complicated system of differential equations to solve.
+So then working in that diagonal coordinate system in the eigen basis, it made our system of differential equations much easier to study.
+So that's sort of the point of doing this is that when we change into this nicer coordinate system,
+we get a system of differential equations that don't involve any of the other variables and then are much easier to solve.
+So then when you want to know solutions back in the usual coordinate system, you just change coordinates back to get your answer.
+And you would get the exact same answer as before.
+So what I wanted to do today is just to give you a brief taste of what some applications to differential equations would look like.
+There are certainly many more directions you could take.
+We didn't get to do a systematic analysis of what all the different eigenvalues could tell you.
+You might also wonder what a geometric perspective in our three would look like.
+And now, instead of having the phase portrait in the plane,
+you have the face portrait in space and you've got your curves spiraling around and it can be much more interesting.
+This comes up a lot when you're doing sort of biological modeling as well, you're modeling the heart,
+beating very quickly or modeling people breathing in and out or neurons firing in the brain.
+You get these sorts of systems of differential equations showing up quite a lot.
+And you use linear methods to solve them as much as possible. All right.
+I apologize for going one minute over. I'll see all of you, hopefully on Friday.
