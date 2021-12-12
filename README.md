@@ -1,6 +1,11 @@
 # Predictive Text via Markov Chains
 #### Created as Final Project for Math22A at Harvard
 ## How to Use Our Project
+### Specifications
+###### Make sure python is installed and nltk is installed. If not, use these links:
+###### https://www.nltk.org/install.html
+###### https://www.python.org/downloads/
+
 ### Cleaning the Files
 First, you'll need all your transcripts of lectures off of Panopto in a directory within the directory of this repo. We have included some sample ones from Dr. Dusty Grundmeier's Fall 2021 Math22a class. 
 To clean these files run the following code snippet with DIR_NAME replaced by the directory name with all the .txt files of the raw lectures
