@@ -1,5 +1,6 @@
 from sys import argv
 import re
+#remember to pip install nltk!
 import nltk
 from nltk import tokenize
 from collections import Counter
@@ -111,7 +112,45 @@ def roulette(words):
     choice = random.choices(candidates, weights=weights, k=1)
     return choice[0]
 
+#generate random sentence using just the word before and the stochastic matrix
+def generate_random_sentence(matrix, first_word,max_words):
+    sentence = first_word.capitalize()
+    current_word = first_word
+    for i in range(max_words):
+        #generate next word in sentence
+        current_word = roulette(matrix[current_word])
+        #check if word is end of sentence punctuation
+        sentence = sentence + " " + current_word
+        # if so break loop
+        # if not continue
+        if(current_word=="."):
+            return sentence
+    return sentence
 
+
+#call on random_sentence function
+for i in range(num_sentences):
+    print(generate_random_sentence(matrix, list_of_first_words[i],max_words))
+    #print(markov_chain(matrix, list_of_first_words[i],max_words))
+    print("")
+
+#helper function to do matrix multiplication
+def matrix_mult(matrix, vector):
+    #matrix will be dictionary of dictionaries
+    #vector will be list
+    new_dict = {}
+    row_names = list(matrix.keys())
+    for i in range(len(row_names)):
+        num = 0
+        column_names = list(matrix[row_names[i]].keys())
+        for j in range(len(column_names)):
+            num = num + vector[j]*matrix[row_names[i]][column_names[j]]
+        new_dict[row_names[i]] = num
+    return new_dict
+
+#markov chain function that uses more than just the previous word to predict
+#completely implemented, but not as effective in this application as previous example
+#we included it as reference, because it uses Math22a concepts, but it is not necessary for our program to run
 def markov_chain(stochastic, first_word,max_words):
     sentence = first_word.capitalize()
     # get the probabilities for that first word (x1)
@@ -131,37 +170,3 @@ def markov_chain(stochastic, first_word,max_words):
         #update Xn using stochastic matrix and current X(n-1)
         running_vector = matrix_mult(stochastic, list(running_vector.values()))
     return sentence
-
-#generate random sentence using just the word before and the stochastic matrix
-def generate_random_sentence(matrix, first_word,max_words):
-    sentence = first_word.capitalize()
-    current_word = first_word
-    for i in range(max_words):
-        #generate next word in sentence
-        current_word = roulette(matrix[current_word])
-        #check if word is end of sentence punctuation
-        sentence = sentence + " " + current_word
-        # if so break loop
-        # if not continue
-        if(current_word=="."):
-            return sentence
-    return sentence
-
-for i in range(num_sentences):
-    print(generate_random_sentence(matrix, list_of_first_words[i],max_words))
-    #print(markov_chain(matrix, list_of_first_words[i],max_words))
-    print("")
-
-#helper function to do matrix multiplication
-def matrix_mult(matrix, vector):
-    #matrix will be dictionary of dictionaries
-    #vector will be list
-    new_dict = {}
-    row_names = list(matrix.keys())
-    for i in range(len(row_names)):
-        num = 0
-        column_names = list(matrix[row_names[i]].keys())
-        for j in range(len(column_names)):
-            num = num + vector[j]*matrix[row_names[i]][column_names[j]]
-        new_dict[row_names[i]] = num
-    return new_dict
